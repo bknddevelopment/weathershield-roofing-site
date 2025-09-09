@@ -21,8 +21,8 @@ const heroSlides = [
     stats: ["Free Inspections", "Insurance Approved", "Quick Response"]
   },
   {
-    title: "GAF Master Elite Contractor",
-    subtitle: "Top 2% Nationwide",
+    title: "Certified Roofing Contractor",
+    subtitle: "Premium Quality Service",
     description: "Exclusive access to the best warranties in the roofing industry",
     image: "/images/background/home-exterior-improvement-services.jpg",
     stats: ["50-Year Warranties", "Factory Certified", "Premium Materials"]
@@ -160,7 +160,7 @@ export default function HeroSection() {
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
                         <CheckCircle className="w-6 h-6 text-weather-teal mt-0.5 flex-shrink-0 group-hover:text-weather-blue transition-colors" />
-                        <span className="text-gray-100 group-hover:text-white transition-colors">GAF Master Elite Contractor - Top 2% Nationwide</span>
+                        <span className="text-gray-100 group-hover:text-white transition-colors">Certified Roofing Contractor - Premium Quality Service</span>
                       </li>
                       <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
                         <CheckCircle className="w-6 h-6 text-weather-teal mt-0.5 flex-shrink-0 group-hover:text-weather-blue transition-colors" />

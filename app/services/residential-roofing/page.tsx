@@ -10,14 +10,14 @@ export const metadata: Metadata = {
 
 const residentialRoofingData = {
   title: 'Residential Roofing Services',
-  description: 'Complete roofing solutions for your home with lifetime warranties and expert installation by GAF Master Elite certified professionals.',
+  description: 'Complete roofing solutions for your home with lifetime warranties and expert installation by certified roofing professionals.',
   longDescription: [
     'Your home is your most valuable investment, and at Weather Shield Roofing, we understand the importance of protecting it with a quality roof. As Myrtle Beach\'s premier residential roofing contractor, we specialize in providing comprehensive roofing solutions that combine durability, aesthetics, and energy efficiency.',
-    'With over 15 years of experience serving the Grand Strand area, our GAF Master Elite certified team has completed over 5,000 residential roofing projects. We pride ourselves on using only the highest quality materials from trusted manufacturers, backed by industry-leading warranties that give you peace of mind for decades to come.',
+    'With over 15 years of experience serving the Grand Strand area, our certified team has completed over 5,000 residential roofing projects. We pride ourselves on using only the highest quality materials from trusted manufacturers, backed by industry-leading warranties that give you peace of mind for decades to come.',
     'Whether you need a complete roof replacement, storm damage repair, or routine maintenance, our expert technicians deliver exceptional craftsmanship on every project. We work with all types of roofing materials including architectural shingles, metal roofing, tile, and slate, ensuring your home gets the perfect roofing solution for our coastal climate.'
   ],
   benefits: [
-    'GAF Master Elite Contractor - Top 2% Nationwide',
+    'Certified Roofing Contractor - Premium Quality Service',
     'Lifetime workmanship warranty available',
     'Free comprehensive roof inspections',
     'Insurance claim assistance and documentation',
@@ -40,7 +40,7 @@ const residentialRoofingData = {
     {
       number: 3,
       title: 'Material Selection',
-      description: 'Choose from premium brands like GAF, Owens Corning, and CertainTeed'
+      description: 'Choose from premium brands like Owens Corning, CertainTeed, and other trusted manufacturers'
     },
     {
       number: 4,

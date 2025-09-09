@@ -38,7 +38,7 @@ const values = [
   {
     icon: Award,
     title: 'Expert Team',
-    description: 'GAF Master Elite certified professionals with continuous training and development.'
+    description: 'Certified professionals with continuous training and development.'
   },
   {
     icon: Target,
@@ -89,8 +89,8 @@ export default function AboutSection() {
                   that exceed industry standards.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  As a GAF Master Elite Contractor—a designation earned by only 2% of roofing contractors 
-                  nationwide—we offer exclusive warranties and guarantees that give you complete peace of mind.
+                  As a certified contractor with years of expertise, we offer exclusive warranties 
+                  and guarantees that give you complete peace of mind.
                 </p>
               </div>
             </div>
@@ -161,8 +161,8 @@ export default function AboutSection() {
                   <Award className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-weather-dark">GAF</p>
-                  <p className="text-sm text-gray-600">Master Elite</p>
+                  <p className="text-2xl font-bold text-weather-dark">Certified</p>
+                  <p className="text-sm text-gray-600">Professional</p>
                 </div>
               </div>
             </div>

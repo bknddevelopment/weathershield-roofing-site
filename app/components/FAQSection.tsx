@@ -54,7 +54,7 @@ const faqCategories = [
       },
       {
         question: 'What warranties do you offer?',
-        answer: 'As a GAF Master Elite contractor, we offer the best warranties in the industry including 50-year material warranties and 25-year workmanship warranties. We also provide our own lifetime workmanship guarantee for added peace of mind.'
+        answer: 'As a certified contractor, we offer the best warranties in the industry including 50-year material warranties and 25-year workmanship warranties. We also provide our own lifetime workmanship guarantee for added peace of mind.'
       }
     ]
   },

@@ -47,10 +47,10 @@ const stats = [
 
 const certifications = [
   {
-    name: 'GAF Master Elite',
-    description: 'Top 2% of roofing contractors nationwide',
+    name: 'Certified Professional',
+    description: 'Premium quality service and certification',
     icon: Award,
-    badge: '/images/gaf-master-elite.png'
+    badge: '/images/certified-professional.png'
   },
   {
     name: 'BBB Accredited',

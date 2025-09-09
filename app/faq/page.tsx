@@ -38,7 +38,7 @@ const faqs: FAQ[] = [
   {
     id: '1',
     question: 'How often should I have my roof inspected?',
-    answer: 'We recommend having your roof professionally inspected at least twice a year - ideally in spring and fall. Additionally, you should schedule an inspection after any major storm event, especially here in Myrtle Beach where we experience hurricanes and severe weather. Regular inspections help identify small issues before they become costly repairs, potentially extending your roof\'s lifespan by years. Our GAF certified inspectors provide comprehensive evaluations that include checking for damaged shingles, proper ventilation, flashing integrity, and signs of water damage.',
+    answer: 'We recommend having your roof professionally inspected at least twice a year - ideally in spring and fall. Additionally, you should schedule an inspection after any major storm event, especially here in Myrtle Beach where we experience hurricanes and severe weather. Regular inspections help identify small issues before they become costly repairs, potentially extending your roof\'s lifespan by years. Our certified inspectors provide comprehensive evaluations that include checking for damaged shingles, proper ventilation, flashing integrity, and signs of water damage.',
     category: 'general'
   },
   {
@@ -57,7 +57,7 @@ const faqs: FAQ[] = [
   {
     id: '4',
     question: 'What roofing materials do you recommend for coastal areas?',
-    answer: 'For Myrtle Beach and coastal South Carolina, we recommend materials that withstand high winds, salt air, and intense UV exposure. Our top recommendations include: architectural asphalt shingles with high wind ratings (130+ mph), metal roofing for superior durability and wind resistance, and impact-resistant shingles for hail protection. GAF Timberline HDZ shingles are particularly popular, offering excellent wind resistance and algae protection. We also recommend proper ventilation systems and salt-resistant fasteners to maximize your roof\'s lifespan in our coastal environment.',
+    answer: 'For Myrtle Beach and coastal South Carolina, we recommend materials that withstand high winds, salt air, and intense UV exposure. Our top recommendations include: architectural asphalt shingles with high wind ratings (130+ mph), metal roofing for superior durability and wind resistance, and impact-resistant shingles for hail protection. Premium architectural shingles are particularly popular, offering excellent wind resistance and algae protection. We also recommend proper ventilation systems and salt-resistant fasteners to maximize your roof\'s lifespan in our coastal environment.',
     category: 'residential'
   },
   {
@@ -121,13 +121,13 @@ const faqs: FAQ[] = [
   {
     id: '14',
     question: 'What warranties do you provide?',
-    answer: 'We offer industry-leading warranty protection including: GAF warranty covering materials for up to 50 years and workmanship for 25 years, standard manufacturer warranties on all materials, our own 10-year workmanship warranty on all installations, and extended warranty options for additional coverage. Our warranties are fully transferable, adding value if you sell your home. As a GAF certified contractor, we can offer comprehensive warranties for your peace of mind.',
+    answer: 'We offer industry-leading warranty protection including: manufacturer warranties covering materials for up to 50 years and workmanship for 25 years, standard manufacturer warranties on all materials, our own 10-year workmanship warranty on all installations, and extended warranty options for additional coverage. Our warranties are fully transferable, adding value if you sell your home. As a certified contractor, we can offer comprehensive warranties for your peace of mind.',
     category: 'warranty'
   },
   {
     id: '15',
     question: 'Are you licensed and insured?',
-    answer: 'Absolutely. WeatherShield Roofing is fully licensed by the state of South Carolina (License #RRG.23657), bonded, and carries comprehensive insurance including general liability ($2 million coverage) and workers\' compensation for all employees. We\'re also BBB A+ rated, GAF certified, and members of the National Roofing Contractors Association. We gladly provide proof of insurance and licensing for every project. This protection ensures you\'re never liable for accidents or damage during your project - your peace of mind is our priority.',
+    answer: 'Absolutely. WeatherShield Roofing is fully licensed by the state of South Carolina (License #RRG.23657), bonded, and carries comprehensive insurance including general liability ($2 million coverage) and workers\' compensation for all employees. We\'re also BBB A+ rated, certified, and members of the National Roofing Contractors Association. We gladly provide proof of insurance and licensing for every project. This protection ensures you\'re never liable for accidents or damage during your project - your peace of mind is our priority.',
     category: 'warranty'
   }
 ];
@@ -266,7 +266,7 @@ export default function FAQPage() {
                 combined experience to every project, ensuring your roof stands strong against coastal weather.
               </p>
               <p className="text-weather-dark leading-relaxed">
-                As a GAF certified contractor with years of experience and expertise - 
+                As a certified contractor with years of experience and expertise - 
                 we offer unmatched warranties and proven expertise. Whether you need emergency storm repairs, 
                 routine maintenance, or a complete roof replacement, WeatherShield Roofing delivers exceptional 
                 results backed by our commitment to customer satisfaction.
@@ -395,7 +395,7 @@ export default function FAQPage() {
               <div className="bg-gradient-to-br from-weather-amber to-weather-amber-dark w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-10 h-10 text-white" />
               </div>
-              <h3 className="font-display text-2xl text-weather-navy mb-2">GAF Certified</h3>
+              <h3 className="font-display text-2xl text-weather-navy mb-2">Certified Professional</h3>
               <p className="text-weather-dark">Professional certification for quality roofing installations</p>
             </motion.div>
 

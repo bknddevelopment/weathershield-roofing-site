@@ -37,7 +37,7 @@ import {
 // Trust badges data
 const trustBadges = [
   {
-    name: 'GAF Certified',
+    name: 'Certified Professional',
     icon: <BadgeCheck className="w-10 h-10" />,
     description: 'Quality Assured',
     color: 'from-amber-500 to-amber-600',

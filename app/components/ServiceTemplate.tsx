@@ -346,13 +346,13 @@ export default function ServiceTemplate({
                     <div className="flex justify-center">
                       <div className="bg-white p-4 rounded-lg shadow-md">
                         <Shield className="w-16 h-16 text-weather-teal mx-auto mb-2" />
-                        <p className="text-xs text-center font-bold text-weather-dark">GAF Master Elite</p>
+                        <p className="text-xs text-center font-bold text-weather-dark">Certified Professional</p>
                       </div>
                     </div>
                     <ul className="space-y-3">
                       <li className="flex items-center gap-3">
                         <Award className="w-5 h-5 text-weather-teal" />
-                        <span className="text-sm text-gray-700">Top 2% Nationwide</span>
+                        <span className="text-sm text-gray-700">Premium Quality Service</span>
                       </li>
                       <li className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-weather-teal" />

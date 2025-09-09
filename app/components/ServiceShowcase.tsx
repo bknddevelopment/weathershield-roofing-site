@@ -36,11 +36,11 @@ interface Service {
 const services: Service[] = [
   {
     title: 'Roof Replacement',
-    description: 'Complete roof replacement with premium GAF materials and expert installation.',
+    description: 'Complete roof replacement with premium materials and expert installation.',
     icon: <Home className="w-8 h-8" />,
     href: '/services/roof-replacement',
     features: [
-      'GAF Premium shingles',
+      'Premium architectural shingles',
       'Complete tear-off & disposal',
       'Lifetime material warranty',
       '25-year workmanship guarantee'
@@ -180,7 +180,7 @@ export default function ServiceShowcase() {
             transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
           >
             <BadgeCheck className="w-4 h-4" />
-            <span className="text-sm font-bold">GAF MASTER ELITE SERVICES</span>
+            <span className="text-sm font-bold">CERTIFIED PROFESSIONAL SERVICES</span>
           </motion.div>
           
           <h2 className="text-4xl lg:text-6xl font-display font-bold text-weather-navy mb-4">

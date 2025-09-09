@@ -194,7 +194,7 @@ export default function ReviewSchema({
       }
     ],
     "award": [
-      "GAF Certified Contractor",
+      "Certified Roofing Contractor",
       "BBB A+ Rating",
       "Best of Myrtle Beach 2023"
     ]

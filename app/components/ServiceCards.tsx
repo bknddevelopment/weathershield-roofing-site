@@ -22,7 +22,7 @@ const services = [
     icon: Home,
     title: "Roof Replacement",
     description: "Complete roof replacement with premium materials and lifetime warranties",
-    features: ["GAF Materials", "50-Year Warranty", "Free Inspection"],
+    features: ["Premium Materials", "50-Year Warranty", "Free Inspection"],
     image: "/images/gallery/roof-installation-repair-services-1-400x300.jpg",
     href: "/services/roof-replacement",
     color: "bg-weather-teal"
@@ -195,7 +195,7 @@ export default function ServiceCards() {
         <div className="mt-12 flex flex-wrap justify-center gap-8">
           <div className="flex items-center gap-2 text-gray-600">
             <Award className="w-6 h-6 text-weather-teal" />
-            <span className="font-semibold">GAF Master Elite</span>
+            <span className="font-semibold">Certified Professional</span>
           </div>
           <div className="flex items-center gap-2 text-gray-600">
             <Shield className="w-6 h-6 text-weather-teal" />

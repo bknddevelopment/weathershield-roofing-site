@@ -37,7 +37,7 @@ const projects: Project[] = [
     title: 'Complete Roof Replacement',
     category: 'Residential Roofing',
     location: 'Myrtle Beach, SC',
-    description: 'Full roof replacement with GAF Timberline HDZ shingles, includes new underlayment and ventilation system',
+    description: 'Full roof replacement with premium architectural shingles, includes new underlayment and ventilation system',
     image: '/images/gallery/residential-roof-replacement-services-1-400x300.jpg',
     completionTime: '2 days'
   },
@@ -147,7 +147,7 @@ export default function GalleryPage() {
               className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md rounded-full px-4 py-2 mb-8"
             >
               <Award className="w-5 h-5 text-white" />
-              <span className="text-white font-semibold uppercase tracking-wider text-sm">GAF Master Elite Contractor</span>
+              <span className="text-white font-semibold uppercase tracking-wider text-sm">Certified Roofing Contractor</span>
             </motion.div>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">

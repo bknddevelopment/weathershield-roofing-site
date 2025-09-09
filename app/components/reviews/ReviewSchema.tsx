@@ -27,6 +27,7 @@ export default function ReviewSchema({
     "name": businessName,
     "url": businessUrl,
     "telephone": "+1-843-493-4963",
+    "email": "roofing@weathershieldroofers.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "123 Main Street",
@@ -156,6 +157,7 @@ export default function ReviewSchema({
     "alternateName": "Weather Shield",
     "url": businessUrl,
     "logo": "https://weathershieldroofing.com/logo.png",
+    "email": "roofing@weathershieldroofers.com",
     "description": "Weather Shield Roofing is Myrtle Beach's premier roofing contractor, specializing in residential and commercial roofing, siding, and gutter services. With over 15 years of experience and 500+ 5-star reviews.",
     "foundingDate": "2009",
     "founders": [

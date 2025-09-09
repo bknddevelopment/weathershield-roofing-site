@@ -95,7 +95,7 @@ npm start
 
 **Weather Shield Roofing**
 - Phone: (843) 493-4963
-- Email: info@weathershieldroofing.com
+- Email: roofing@weathershieldroofers.com
 - Address: 123 Business Park Dr, Myrtle Beach, SC 29577
 
 ## License

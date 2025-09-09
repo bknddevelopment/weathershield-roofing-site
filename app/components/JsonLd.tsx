@@ -3,6 +3,7 @@ interface LocalBusinessProps {
   description?: string;
   url?: string;
   telephone?: string;
+  email?: string;
   address?: {
     streetAddress?: string;
     addressLocality?: string;
@@ -61,6 +62,7 @@ export function LocalBusinessJsonLd({
   description = 'Professional roofing services in Myrtle Beach, SC. Specializing in roof replacement, repair, storm damage, and 24/7 emergency service.',
   url = 'https://weathershieldroofing.com',
   telephone = '843-493-4963',
+  email = 'roofing@weathershieldroofers.com',
   address = {
     streetAddress: '215 Ronnie Ct. Unit F',
     addressLocality: 'Myrtle Beach',
@@ -95,6 +97,7 @@ export function LocalBusinessJsonLd({
     description,
     url,
     telephone,
+    email,
     address: {
       '@type': 'PostalAddress',
       ...address
@@ -256,6 +259,7 @@ export function ReviewJsonLd({ reviews, aggregateRating }: ReviewProps) {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Weather Shield Roofing',
+    email: 'roofing@weathershieldroofers.com',
     aggregateRating: aggregateRating && {
       '@type': 'AggregateRating',
       ratingValue: aggregateRating.ratingValue,
@@ -293,6 +297,7 @@ export function OrganizationJsonLd() {
     name: 'Weather Shield Roofing',
     url: 'https://weathershieldroofing.com',
     logo: 'https://weathershieldroofing.com/images/logo.png',
+    email: 'roofing@weathershieldroofers.com',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '843-493-4963',

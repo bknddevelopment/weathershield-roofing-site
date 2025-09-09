@@ -25,7 +25,16 @@ export default function StaticImage({
   priority = false
 }: StaticImageProps) {
   // Handle base path for GitHub Pages deployment
+  // Check at build time AND runtime
   let imageSrc = src
+  
+  // Build-time path handling (for static export)
+  const isProd = process.env.NODE_ENV === 'production'
+  if (isProd && src.startsWith('/') && !src.startsWith('/weathershield-roofing-site')) {
+    imageSrc = `/weathershield-roofing-site${src}`
+  }
+  
+  // Runtime path handling (for client-side navigation)
   if (typeof window !== 'undefined' && window.location.hostname.includes('github.io')) {
     if (src.startsWith('/') && !src.startsWith('/weathershield-roofing-site')) {
       imageSrc = `/weathershield-roofing-site${src}`

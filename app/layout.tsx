@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Weather Shield Roofing',
     images: [
       {
-        url: '/images/logo/weather_shield_roofing_transparent.png',
+        url: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/images/logo/weather_shield_roofing_transparent.png' : '/images/logo/weather_shield_roofing_transparent.png',
         width: 1200,
         height: 630,
         alt: 'Weather Shield Roofing - Myrtle Beach, SC',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Weather Shield Roofing | Myrtle Beach, SC',
     description: 'Expert roofing services in Myrtle Beach. 24/7 emergency repair. Free inspections.',
-    images: ['/images/logo/weather_shield_roofing_transparent.png'],
+    images: [process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/images/logo/weather_shield_roofing_transparent.png' : '/images/logo/weather_shield_roofing_transparent.png'],
     creator: '@weathershield',
   },
   robots: {
@@ -63,11 +63,11 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/favicon-right.png',
-    shortcut: '/favicon-right.png',
-    apple: '/favicon-right.png',
+    icon: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/favicon-right.png' : '/favicon-right.png',
+    shortcut: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/favicon-right.png' : '/favicon-right.png',
+    apple: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/favicon-right.png' : '/favicon-right.png',
   },
-  manifest: '/manifest.json',
+  manifest: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/manifest.json' : '/manifest.json',
   verification: {
     google: 'google-verification-code',
   },

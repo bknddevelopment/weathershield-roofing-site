@@ -102,12 +102,7 @@ export default function LocationPageTemplate({
       />
 
       {/* Hero Section */}
-      <HeroSection
-        title={`Premier Roofing Services in ${city}, ${state}`}
-        subtitle={description}
-        backgroundImage={heroImage}
-        showEmergencyCTA={true}
-      />
+      <HeroSection />
 
       {/* Location Overview */}
       <section className="py-16 lg:py-24 bg-white">
@@ -413,12 +408,7 @@ export default function LocationPageTemplate({
       <ServiceShowcase />
 
       {/* CTA Section */}
-      <CTASection 
-        variant="primary"
-        title={`Ready to Protect Your ${city} Home?`}
-        description={`Get your free roofing inspection and quote today. Serving all of ${city} and surrounding areas.`}
-        showFeatures
-      />
+      <CTASection />
     </>
   );
 }

@@ -825,11 +825,7 @@ export default function AboutPage() {
         </motion.section>
 
         {/* Main CTA Section */}
-        <CTASection 
-          variant="primary"
-          title="Ready to Experience the Weather Shield Difference?"
-          description="Join thousands of satisfied homeowners who trust us with their most important investment."
-        />
+        <CTASection />
       </main>
       <Footer />
       <FloatingContact />

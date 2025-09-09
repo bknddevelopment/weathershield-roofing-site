@@ -382,11 +382,7 @@ export default function ReviewsPage() {
       <TrustIndicators />
       
       {/* Final CTA */}
-      <CTASection 
-        variant="primary"
-        title="Ready to Experience 5-Star Service?"
-        description="Join thousands of satisfied customers who trust Weather Shield for their roofing needs."
-      />
+      <CTASection />
       
       <Footer />
       <FloatingContact />

@@ -78,12 +78,7 @@ export default function ServicePageTemplate({
       />
 
       {/* Hero Section */}
-      <HeroSection
-        title={title}
-        subtitle={description}
-        backgroundImage={heroImage}
-        showEmergencyCTA={emergencyService}
-      />
+      <HeroSection />
 
       {/* Main Content */}
       <section className="py-16 lg:py-24 bg-white">
@@ -379,7 +374,7 @@ export default function ServicePageTemplate({
       <TestimonialsSection />
 
       {/* CTA Section */}
-      <CTASection variant="primary" showFeatures />
+      <CTASection />
     </>
   );
 }

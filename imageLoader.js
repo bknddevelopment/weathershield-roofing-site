@@ -10,7 +10,7 @@ export default function myImageLoader({ src, width, quality }) {
   // For production builds (static export), prepend the basePath
   const isProd = process.env.NODE_ENV === 'production';
   if (isProd) {
-    return `/WeatherShield-Website${src}`;
+    return `/weathershield-roofing-site${src}`;
   }
   
   // For development, return the src as is

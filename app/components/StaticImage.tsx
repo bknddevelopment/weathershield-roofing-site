@@ -1,3 +1,5 @@
+'use client'
+
 interface StaticImageProps {
   src: string
   alt: string
@@ -22,9 +24,13 @@ export default function StaticImage({
   fill = false,
   priority = false
 }: StaticImageProps) {
-  // Remove the base path logic as it's causing issues
-  // Use the src directly as provided
-  const imageSrc = src
+  // Handle base path for GitHub Pages deployment
+  let imageSrc = src
+  if (typeof window !== 'undefined' && window.location.hostname.includes('github.io')) {
+    if (src.startsWith('/') && !src.startsWith('/weathershield-roofing-site')) {
+      imageSrc = `/weathershield-roofing-site${src}`
+    }
+  }
   
   // If fill is true, create a positioned image container
   if (fill) {

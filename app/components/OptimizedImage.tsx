@@ -38,8 +38,8 @@ export default function OptimizedImage({
       
       if (isGitHubPages || isProduction) {
         // For GitHub Pages, prepend the base path if it's a local image
-        if (src.startsWith('/') && !src.startsWith('/WeatherShield-Website')) {
-          setImageSrc(`/WeatherShield-Website${src}`)
+        if (src.startsWith('/') && !src.startsWith('/weathershield-roofing-site')) {
+          setImageSrc(`/weathershield-roofing-site${src}`)
         }
       }
     }
@@ -48,7 +48,7 @@ export default function OptimizedImage({
   // For critical images like logos, use a regular img tag with proper path handling
   if (priority && (src.includes('logo') || src.includes('weather_shield'))) {
     const finalSrc = typeof window !== 'undefined' && window.location.hostname.includes('github.io') 
-      ? `/WeatherShield-Website${src}` 
+      ? `/weathershield-roofing-site${src}` 
       : src
       
     return (

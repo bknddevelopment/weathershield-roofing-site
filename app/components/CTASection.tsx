@@ -77,7 +77,7 @@ export default function CTASection() {
                 <div className="space-y-6">
                   {/* Phone */}
                   <a
-                    href="tel:843-877-5539"
+                    href="tel:843-493-4963"
                     className="block bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/20 transition-colors group"
                   >
                     <div className="flex items-center gap-4">
@@ -85,7 +85,7 @@ export default function CTASection() {
                         <Phone className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <p className="font-bold text-xl">(843) 877-5539</p>
+                        <p className="font-bold text-xl">(843) 493-4963</p>
                         <p className="text-gray-300 text-sm">Call for immediate assistance</p>
                       </div>
                     </div>
@@ -93,7 +93,7 @@ export default function CTASection() {
 
                   {/* Text */}
                   <a
-                    href="sms:843-877-5539"
+                    href="sms:843-493-4963"
                     className="block bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/20 transition-colors group"
                   >
                     <div className="flex items-center gap-4">

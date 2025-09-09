@@ -26,7 +26,7 @@ export default function ReviewSchema({
     "@type": "LocalBusiness",
     "name": businessName,
     "url": businessUrl,
-    "telephone": "+1-843-877-5539",
+    "telephone": "+1-843-493-4963",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "123 Main Street",
@@ -166,7 +166,7 @@ export default function ReviewSchema({
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-843-877-5539",
+      "telephone": "+1-843-493-4963",
       "contactType": "customer service",
       "areaServed": "US",
       "availableLanguage": "English"

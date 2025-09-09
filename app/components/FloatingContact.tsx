@@ -45,7 +45,7 @@ export default function FloatingContact() {
           >
             {/* Emergency Call Button */}
             <motion.a
-              href="tel:843-877-5539"
+              href="tel:843-493-4963"
               className="group relative"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
@@ -165,8 +165,8 @@ export default function FloatingContact() {
                 </div>
                 <p className="text-xs text-weather-dark mt-2 text-center">
                   Or call us directly at{' '}
-                  <a href="tel:843-877-5539" className="text-weather-teal font-semibold">
-                    (843) 877-5539
+                  <a href="tel:843-493-4963" className="text-weather-teal font-semibold">
+                    (843) 493-4963
                   </a>
                 </p>
               </form>

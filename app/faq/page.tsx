@@ -101,7 +101,7 @@ const faqs: FAQ[] = [
   {
     id: '11',
     question: 'What should I do if my roof is leaking during a storm?',
-    answer: 'First, ensure your safety - avoid areas where water is pooling on ceilings as they may collapse. Place buckets or containers under leaks, move valuables away from affected areas, and use towels to contain water spread. If safe, cover furniture with plastic sheets. Take photos for insurance documentation. Never attempt roof repairs during a storm. Call our 24/7 emergency line at (843) 877-5539 immediately - we can talk you through temporary measures and dispatch help as soon as conditions permit. Document all damage thoroughly for insurance claims.',
+    answer: 'First, ensure your safety - avoid areas where water is pooling on ceilings as they may collapse. Place buckets or containers under leaks, move valuables away from affected areas, and use towels to contain water spread. If safe, cover furniture with plastic sheets. Take photos for insurance documentation. Never attempt roof repairs during a storm. Call our 24/7 emergency line at (843) 493-4963 immediately - we can talk you through temporary measures and dispatch help as soon as conditions permit. Document all damage thoroughly for insurance claims.',
     category: 'emergency'
   },
   // Pricing FAQs
@@ -449,13 +449,13 @@ export default function FAQPage() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="tel:843-877-5539"
+                href="tel:843-493-4963"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-weather-danger to-weather-amber text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-3"
               >
                 <Phone className="w-6 h-6" />
-                <span>Call Now: (843) 877-5539</span>
+                <span>Call Now: (843) 493-4963</span>
               </motion.a>
               
               <motion.a

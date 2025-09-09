@@ -64,7 +64,7 @@ const faqCategories = [
     faqs: [
       {
         question: 'Do you provide emergency services?',
-        answer: 'Yes! We offer 24/7 emergency roofing services. If you have storm damage, a sudden leak, or any roofing emergency, call us immediately at (843) 877-5539. We typically respond within 1 hour for true emergencies.'
+        answer: 'Yes! We offer 24/7 emergency roofing services. If you have storm damage, a sudden leak, or any roofing emergency, call us immediately at (843) 493-4963. We typically respond within 1 hour for true emergencies.'
       },
       {
         question: 'How often should I have my roof inspected?',
@@ -172,11 +172,11 @@ export default function FAQSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:843-877-5539"
+                href="tel:843-493-4963"
                 className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
               >
                 <Clock className="w-5 h-5" />
-                Call (843) 877-5539
+                Call (843) 493-4963
               </a>
               <a
                 href="https://your-n8n-form-url.com"

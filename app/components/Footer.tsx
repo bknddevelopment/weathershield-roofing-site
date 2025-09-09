@@ -65,9 +65,9 @@ export default function Footer() {
               Licensed, insured, and committed to excellence.
             </p>
             <div className="space-y-2">
-              <a href="tel:843-877-5539" className="flex items-center gap-2 text-gray-400 hover:text-weather-teal transition-colors">
+              <a href="tel:843-493-4963" className="flex items-center gap-2 text-gray-400 hover:text-weather-teal transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>(843) 877-5539</span>
+                <span>(843) 493-4963</span>
               </a>
               <a href="mailto:roofing@weathershieldroofers.com" className="flex items-center gap-2 text-gray-400 hover:text-weather-teal transition-colors">
                 <Mail className="w-4 h-4" />
@@ -250,7 +250,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm font-semibold flex items-center justify-center gap-2">
             <Clock className="w-4 h-4" />
-            24/7 Emergency Service Available - Call Now: (843) 877-5539
+            24/7 Emergency Service Available - Call Now: (843) 493-4963
           </p>
         </div>
       </div>

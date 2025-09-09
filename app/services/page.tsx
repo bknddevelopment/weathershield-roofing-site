@@ -136,11 +136,11 @@ export default function ServicesPage() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
                 <a
-                  href="tel:707-555-ROOF"
+                  href="tel:843-493-4963"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-weather-blue font-semibold rounded-lg hover:bg-opacity-90 transition-all"
                 >
                   <Phone className="mr-2 h-5 w-5" />
-                  Call 707-555-ROOF
+                  Call (843) 493-4963
                 </a>
               </div>
             </div>
@@ -279,11 +279,11 @@ export default function ServicesPage() {
                 <div>
                   <Phone className="h-10 w-10 mx-auto mb-3 text-weather-teal" />
                   <h3 className="font-semibold text-lg mb-2">One Call Away</h3>
-                  <p className="opacity-80">707-555-ROOF for emergencies</p>
+                  <p className="opacity-80">(843) 493-4963 for emergencies</p>
                 </div>
               </div>
               <a
-                href="tel:707-555-ROOF"
+                href="tel:843-493-4963"
                 className="inline-flex items-center justify-center px-8 py-4 bg-weather-teal text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
               >
                 <Phone className="mr-2 h-5 w-5" />

@@ -238,13 +238,13 @@ export default function AboutPage() {
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </motion.a>
                 <motion.a
-                  href="tel:843-877-5539"
+                  href="tel:843-493-4963"
                   className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 text-lg font-bold rounded-lg shadow-xl hover:bg-white hover:text-[#0056b3] transition-all duration-300 flex items-center justify-center gap-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
                   <Phone className="w-5 h-5" />
-                  (843) 877-5539
+                  (843) 493-4963
                 </motion.a>
               </motion.div>
             </motion.div>
@@ -780,8 +780,8 @@ export default function AboutPage() {
                   </motion.a>
                   <p className="text-gray-600 mt-4">
                     Or call us directly at{" "}
-                    <a href="tel:843-877-5539" className="text-[#0056b3] font-bold hover:underline">
-                      (843) 877-5539
+                    <a href="tel:843-493-4963" className="text-[#0056b3] font-bold hover:underline">
+                      (843) 493-4963
                     </a>
                   </p>
                 </motion.div>
@@ -812,7 +812,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <motion.a
-                href="tel:843-877-5539"
+                href="tel:843-493-4963"
                 className="bg-white text-red-500 px-6 py-3 rounded-lg font-bold shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

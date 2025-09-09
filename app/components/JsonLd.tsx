@@ -60,7 +60,7 @@ export function LocalBusinessJsonLd({
   name = 'Weather Shield Roofing',
   description = 'Professional roofing services in Myrtle Beach, SC. Specializing in roof replacement, repair, storm damage, and 24/7 emergency service.',
   url = 'https://weathershieldroofing.com',
-  telephone = '843-877-5539',
+  telephone = '843-493-4963',
   address = {
     streetAddress: '215 Ronnie Ct. Unit F',
     addressLocality: 'Myrtle Beach',
@@ -295,7 +295,7 @@ export function OrganizationJsonLd() {
     logo: 'https://weathershieldroofing.com/images/logo.png',
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '843-877-5539',
+      telephone: '843-493-4963',
       contactType: 'Customer Service',
       areaServed: 'US',
       availableLanguage: 'English'

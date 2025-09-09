@@ -1,0 +1,39 @@
+{
+  "name": "Weather Shield Roofing",
+  "short_name": "Weather Shield",
+  "description": "Professional roofing services in Myrtle Beach, SC. Expert roof repair, replacement, and storm damage restoration.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2c3e50",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "1024x1536",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo/weather_shield_roofing_transparent.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "utilities"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Weather Shield Roofing | Professional Roofing Services in Myrtle Beach, SC',
-    description: 'Expert roof repair, replacement, and storm damage restoration in Myrtle Beach. 24/7 emergency service. Free inspections.',
+    description: 'Expert roof repair, replacement, and storm damage restoration in Myrtle Beach. 24/7 emergency service. Professional inspections.',
     url: 'https://weathershieldroofing.com',
     siteName: 'Weather Shield Roofing',
     images: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Weather Shield Roofing | Myrtle Beach, SC',
-    description: 'Expert roofing services in Myrtle Beach. 24/7 emergency repair. Free inspections.',
+    description: 'Expert roofing services in Myrtle Beach. 24/7 emergency repair. Professional inspections.',
     images: [process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/images/logo/weather_shield_roofing_transparent.png' : '/images/logo/weather_shield_roofing_transparent.png'],
     creator: '@weathershield',
   },

@@ -59,7 +59,7 @@ const services: ServiceLink[] = [
     href: '/services/roof-inspections',
     icon: <Shield className="w-5 h-5" />,
     description: 'Professional roof inspections',
-    badge: 'Free'
+    badge: ''
   },
   {
     title: 'Gutter Services',
@@ -265,7 +265,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-5 py-2.5 rounded-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group hover:-translate-y-0.5 whitespace-nowrap text-sm"
                 >
-                  Get Free Quote
+                  Request Quote
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </div>
@@ -392,7 +392,7 @@ export default function Header() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="block mt-4 bg-gradient-to-r from-weather-navy to-weather-navy-dark text-white px-6 py-3 rounded-lg font-bold text-center shadow-lg"
                 >
-                  Get Free Quote
+                  Request Quote
                 </a>
               </div>
             </motion.div>

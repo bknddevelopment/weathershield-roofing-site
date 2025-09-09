@@ -62,7 +62,7 @@ export default function ServiceTemplate({
   longDescription,
   benefits,
   process = [
-    { number: 1, title: 'Free Inspection', description: 'Comprehensive assessment of your roofing needs' },
+    { number: 1, title: 'Initial Inspection', description: 'Comprehensive assessment of your roofing needs' },
     { number: 2, title: 'Detailed Quote', description: 'Transparent pricing with no hidden fees' },
     { number: 3, title: 'Professional Installation', description: 'Expert craftsmanship by certified technicians' },
     { number: 4, title: 'Final Inspection', description: 'Quality assurance and customer satisfaction' }
@@ -105,7 +105,7 @@ export default function ServiceTemplate({
             )}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="https://your-n8n-form-url.com" className="inline-flex items-center justify-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 shadow-lg">
-                Get Free Quote
+                Request Quote
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <a href="tel:843-877-5539" className="inline-flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white hover:bg-white hover:text-weather-teal text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300">
@@ -225,7 +225,7 @@ export default function ServiceTemplate({
                 <div className="bg-white/10 p-3 rounded mb-4">
                   <p className="text-sm font-semibold mb-2">Special Offers:</p>
                   <ul className="text-xs sm:text-sm space-y-1">
-                    <li>• Free Roof Inspections</li>
+                    <li>• Professional Roof Inspections</li>
                     <li>• Insurance Claim Assistance</li>
                     <li>• Financing Options Available</li>
                     {emergencyService && <li>• 24/7 Emergency Service</li>}
@@ -251,7 +251,7 @@ export default function ServiceTemplate({
                       Call (843) 877-5539
                     </a>
                     <Link href="https://your-n8n-form-url.com" className="flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-weather-teal transition-all duration-300">
-                      Get Free Quote
+                      Request Quote
                       <ArrowRight className="w-5 h-5" />
                     </Link>
                   </div>
@@ -287,7 +287,7 @@ export default function ServiceTemplate({
                       Current condition
                     </li>
                   </ul>
-                  <p className="text-xs text-weather-teal font-semibold mt-3">Free inspection included</p>
+                  <p className="text-xs text-weather-teal font-semibold mt-3">Inspection available</p>
                 </div>
 
                 {/* Business Info */}
@@ -394,7 +394,7 @@ export default function ServiceTemplate({
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Protect Your Home?</h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Get your free inspection and quote today. Our experts are standing by to help.
+            Request your inspection and estimate today. Our experts are standing by to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:843-877-5539" className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">

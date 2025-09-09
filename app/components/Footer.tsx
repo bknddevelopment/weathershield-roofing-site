@@ -18,7 +18,7 @@ import {
 
 const quickLinks = [
   { title: 'Emergency Service', href: '/emergency' },
-  { title: 'Free Quote', href: '/quote' },
+  { title: 'Request Quote', href: '/quote' },
   { title: 'Warranty Info', href: '/warranty' },
   { title: 'Financing Options', href: '/financing' },
   { title: 'Careers', href: '/careers' },

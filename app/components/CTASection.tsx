@@ -26,7 +26,7 @@ export default function CTASection() {
                 </div>
                 
                 <h2 className="text-3xl md:text-4xl font-bold text-weather-dark mb-4">
-                  Get Your Free Roof Inspection Today
+                  Request Your Roof Inspection Today
                 </h2>
                 
                 <p className="text-lg text-gray-600 mb-6">
@@ -48,7 +48,7 @@ export default function CTASection() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-weather-teal mt-1 flex-shrink-0" />
-                    <span className="text-gray-700">No obligation - 100% free service</span>
+                    <span className="text-gray-700">Professional assessment with detailed report</span>
                   </li>
                 </ul>
 
@@ -57,7 +57,7 @@ export default function CTASection() {
                     href="https://your-n8n-form-url.com"
                     className="w-full inline-flex items-center justify-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105"
                   >
-                    Schedule Free Inspection
+                    Schedule Inspection
                     <ArrowRight className="w-5 h-5" />
                   </Link>
                   

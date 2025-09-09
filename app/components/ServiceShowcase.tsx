@@ -87,12 +87,12 @@ const services: Service[] = [
     icon: <Shield className="w-8 h-8" />,
     href: '/services/roof-inspections',
     features: [
-      'FREE initial inspection',
+      'Professional initial inspection',
       'Drone & thermal imaging',
       'Insurance documentation',
       'Preventive care plan'
     ],
-    priceRange: 'FREE - $500',
+    priceRange: 'Contact for pricing',
     timeframe: '1 hour',
     badge: 'sale',
     rating: 4.9
@@ -360,7 +360,7 @@ export default function ServiceShowcase() {
                   whileTap={{ scale: 0.95 }}
                 >
                   <DollarSign className="w-5 h-5" />
-                  Get Free Quote
+                  Request Quote
                 </motion.button>
               </Link>
             </div>

@@ -19,7 +19,7 @@ const stormDamageData = {
   benefits: [
     '24/7 emergency response team',
     'Insurance claim specialists on staff',
-    'Free emergency tarping service',
+    'Emergency tarping service',
     'Complete damage documentation',
     'Direct insurance billing available',
     'Restoration not just repair',

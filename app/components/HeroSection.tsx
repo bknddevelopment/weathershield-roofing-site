@@ -18,7 +18,7 @@ const heroSlides = [
     subtitle: "Insurance Claims Experts",
     description: "We handle your insurance claim from start to finish - No upfront costs",
     image: "/images/background/residential-roofing-gutter-siding-services.jpg",
-    stats: ["Free Inspections", "Insurance Approved", "Quick Response"]
+    stats: ["Professional Inspections", "Insurance Approved", "Quick Response"]
   },
   {
     title: "Certified Roofing Contractor",
@@ -107,7 +107,7 @@ export default function HeroSection() {
                 className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-teal to-weather-blue hover:from-weather-blue hover:to-weather-purple text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-teal/50 overflow-hidden"
               >
                 <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                <span className="relative">Get Free Inspection</span>
+                <span className="relative">Request Inspection</span>
                 <ChevronRight className="relative w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
               <a
@@ -172,7 +172,7 @@ export default function HeroSection() {
                       </li>
                       <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
                         <CheckCircle className="w-6 h-6 text-weather-teal mt-0.5 flex-shrink-0 group-hover:text-weather-blue transition-colors" />
-                        <span className="text-gray-100 group-hover:text-white transition-colors">Free Inspections & Estimates</span>
+                        <span className="text-gray-100 group-hover:text-white transition-colors">Professional Inspections & Estimates</span>
                       </li>
                     </ul>
                   </div>

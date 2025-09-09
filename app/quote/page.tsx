@@ -589,7 +589,7 @@ export default function QuotePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-weather-teal mt-1">✓</span>
-                    <span>Schedule a free on-site inspection if needed</span>
+                    <span>Schedule an on-site inspection if needed</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-weather-teal mt-1">✓</span>
@@ -708,7 +708,7 @@ export default function QuotePage() {
             {/* Progress Bar */}
             <div className="mb-8">
               <div className="flex justify-between items-center mb-2">
-                <h1 className="text-3xl font-bold text-gray-800">Get Your Free Quote</h1>
+                <h1 className="text-3xl font-bold text-gray-800">Request Your Quote</h1>
                 <span className="text-sm text-gray-600">
                   Step {currentStep} of {totalSteps}
                 </span>
@@ -796,7 +796,7 @@ export default function QuotePage() {
               <div className="mt-8 flex flex-wrap justify-center gap-6 text-sm text-gray-600">
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-green-600" />
-                  <span>Free Estimates</span>
+                  <span>Professional Estimates</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-green-600" />

@@ -22,7 +22,7 @@ const services = [
     icon: Home,
     title: "Roof Replacement",
     description: "Complete roof replacement with premium materials and lifetime warranties",
-    features: ["Premium Materials", "50-Year Warranty", "Free Inspection"],
+    features: ["Premium Materials", "50-Year Warranty", "Professional Inspection"],
     image: "/images/gallery/roof-installation-repair-services-1-400x300.jpg",
     href: "/services/roof-replacement",
     color: "bg-weather-teal"
@@ -49,7 +49,7 @@ const services = [
     icon: Search,
     title: "Roof Inspections",
     description: "Comprehensive inspections with detailed reports and recommendations",
-    features: ["Free Estimates", "Drone Technology", "Detailed Reports"],
+    features: ["Professional Estimates", "Drone Technology", "Detailed Reports"],
     image: "/images/gallery/residential-roof-installation-repair-services-1-225x300.jpg",
     href: "/services/roof-inspections",
     color: "bg-weather-teal"
@@ -183,7 +183,7 @@ export default function ServiceCards() {
                   href="https://your-n8n-form-url.com"
                   className="inline-flex items-center justify-center gap-2 bg-weather-dark text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-weather-dark/90 transition-colors"
                 >
-                  Schedule Free Inspection
+                  Schedule Inspection
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>

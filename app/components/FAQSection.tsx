@@ -10,15 +10,15 @@ const faqCategories = [
     faqs: [
       {
         question: 'How do I know if I need a new roof?',
-        answer: 'Signs you may need a new roof include: missing or damaged shingles, water stains on ceilings, daylight through roof boards, sagging roof deck, or if your roof is over 20 years old. We offer free inspections to assess your roof\'s condition and provide honest recommendations.'
+        answer: 'Signs you may need a new roof include: missing or damaged shingles, water stains on ceilings, daylight through roof boards, sagging roof deck, or if your roof is over 20 years old. We offer professional inspections to assess your roof\'s condition and provide honest recommendations.'
       },
       {
         question: 'How long does a roof replacement take?',
         answer: 'Most residential roof replacements take 1-3 days, depending on the size and complexity of your roof. We work efficiently while maintaining the highest quality standards, and we always clean up thoroughly at the end of each day.'
       },
       {
-        question: 'Do you offer free estimates?',
-        answer: 'Yes! We provide free, no-obligation estimates for all roofing services. Our expert inspectors will assess your roof, discuss your needs, and provide a detailed written estimate with transparent pricing.'
+        question: 'How do I get an estimate?',
+        answer: 'Contact us to request an estimate for all roofing services. Our expert inspectors will assess your roof, discuss your needs, and provide a detailed written estimate with transparent pricing.'
       }
     ]
   },
@@ -68,7 +68,7 @@ const faqCategories = [
       },
       {
         question: 'How often should I have my roof inspected?',
-        answer: 'We recommend annual roof inspections, especially after severe weather events. Regular inspections can identify minor issues before they become major problems, potentially saving thousands in repairs. Our inspection service is always free.'
+        answer: 'We recommend annual roof inspections, especially after severe weather events. Regular inspections can identify minor issues before they become major problems, potentially saving thousands in repairs. Contact us to schedule your inspection.'
       },
       {
         question: 'Do you repair all types of roofs?',
@@ -182,7 +182,7 @@ export default function FAQSection() {
                 href="https://your-n8n-form-url.com"
                 className="inline-flex items-center justify-center gap-2 bg-weather-dark text-white px-6 py-3 rounded-lg font-bold hover:bg-weather-dark/90 transition-colors"
               >
-                Get Free Quote
+                Request Quote
               </a>
             </div>
           </div>

@@ -24,7 +24,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'Roofing Services | WeatherShield Roofing - Rohnert Park, CA',
-  description: 'Professional roofing services in Rohnert Park. Residential, commercial, gutters, siding, storm damage repair, and emergency services. Free inspections and quotes.',
+  description: 'Professional roofing services in Rohnert Park. Residential, commercial, gutters, siding, storm damage repair, and emergency services. Request inspections and estimates.',
   keywords: 'roofing services, residential roofing, commercial roofing, gutter services, siding installation, storm damage repair, roof inspection, emergency repairs, roof maintenance, Rohnert Park',
   openGraph: {
     title: 'Roofing Services | WeatherShield Roofing',
@@ -93,7 +93,7 @@ const processSteps = [
   {
     icon: Search,
     title: 'Inspection',
-    description: 'Free, comprehensive roof inspection to assess your needs'
+    description: 'Comprehensive roof inspection to assess your needs'
   },
   {
     icon: FileText,
@@ -132,7 +132,7 @@ export default function ServicesPage() {
                   href="/contact"
                   className="inline-flex items-center justify-center px-8 py-4 bg-weather-teal text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
                 >
-                  Get Free Quote
+                  Request Estimate
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
                 <a

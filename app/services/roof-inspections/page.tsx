@@ -4,8 +4,8 @@ import { Search, Camera, FileText, CheckCircle, Shield, AlertTriangle } from 'lu
 
 export const metadata: Metadata = {
   title: 'Roof Inspection Services | Weather Shield Roofing',
-  description: 'Professional roof inspections in Myrtle Beach. Free inspections, detailed reports, insurance documentation, and drone technology for accurate assessment.',
-  keywords: 'roof inspection, free roof inspection, roof assessment, insurance inspection, drone inspection, Myrtle Beach',
+  description: 'Professional roof inspections in Myrtle Beach. Detailed reports, insurance documentation, and drone technology for accurate assessment.',
+  keywords: 'roof inspection, roof assessment, insurance inspection, drone inspection, Myrtle Beach',
 }
 
 const roofInspectionsData = {
@@ -14,10 +14,10 @@ const roofInspectionsData = {
   longDescription: [
     'Regular roof inspections are essential for maintaining your home\'s protection and value. Weather Shield Roofing provides thorough, professional roof inspections using the latest technology, including drone imaging, to give you a complete picture of your roof\'s condition.',
     'Our certified inspectors examine every aspect of your roofing system, from shingles and flashing to gutters and ventilation. We provide detailed reports with photos, identifying current issues and potential problems before they become costly repairs. Our inspections are particularly valuable for new home purchases, insurance claims, and regular maintenance.',
-    'Best of all, we offer FREE roof inspections for homeowners in Myrtle Beach and the Grand Strand area. Our comprehensive inspection includes interior and exterior evaluation, moisture detection, and a detailed written report you can use for insurance purposes or peace of mind.'
+    'We offer comprehensive roof inspections for homeowners in Myrtle Beach and the Grand Strand area. Our inspection includes interior and exterior evaluation, moisture detection, and a detailed written report you can use for insurance purposes or peace of mind.'
   ],
   benefits: [
-    'FREE comprehensive roof inspections',
+    'Comprehensive roof inspections',
     'Detailed photo documentation',
     'Insurance-approved reports',
     'Drone technology for safe access',
@@ -91,8 +91,8 @@ const roofInspectionsData = {
       answer: 'We recommend annual roof inspections, especially after severe weather events. Regular inspections help catch small problems before they become expensive repairs and are often required to maintain warranty coverage.'
     },
     {
-      question: 'Is the roof inspection really free?',
-      answer: 'Yes! We offer completely free roof inspections for homeowners in our service area. There\'s no obligation to purchase any services. We believe in educating homeowners about their roof\'s condition.'
+      question: 'How much does a roof inspection cost?',
+      answer: 'Contact us for inspection pricing. We provide detailed assessments for homeowners in our service area with no obligation to purchase additional services. We believe in educating homeowners about their roof\'s condition.'
     },
     {
       question: 'What does the inspection include?',
@@ -107,7 +107,7 @@ const roofInspectionsData = {
       answer: 'Absolutely! Our detailed reports are formatted specifically for insurance purposes, including all necessary documentation, photos, and professional assessment that insurance companies require.'
     }
   ],
-  priceRange: 'FREE',
+  priceRange: 'Contact for pricing',
   image: '/images/background/roof-replacement-services.jpg',
   relatedServices: [
     { name: 'Roof Repair', href: '/services/roof-repair' },

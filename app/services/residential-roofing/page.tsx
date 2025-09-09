@@ -19,7 +19,7 @@ const residentialRoofingData = {
   benefits: [
     'Certified Roofing Contractor - Premium Quality Service',
     'Lifetime workmanship warranty available',
-    'Free comprehensive roof inspections',
+    'Comprehensive roof inspections',
     'Insurance claim assistance and documentation',
     'Energy-efficient roofing options to reduce cooling costs',
     '24/7 emergency storm damage response',
@@ -29,7 +29,7 @@ const residentialRoofingData = {
   process: [
     {
       number: 1,
-      title: 'Free Roof Inspection',
+      title: 'Roof Inspection',
       description: 'Comprehensive 21-point inspection with detailed photo documentation'
     },
     {
@@ -92,7 +92,7 @@ const residentialRoofingData = {
     },
     {
       question: 'What are signs I need a new roof?',
-      answer: 'Common signs include missing or curled shingles, granules in gutters, daylight through roof boards, sagging areas, water stains on ceilings, and roofs over 20 years old. Our free inspection can determine if repair or replacement is needed.'
+      answer: 'Common signs include missing or curled shingles, granules in gutters, daylight through roof boards, sagging areas, water stains on ceilings, and roofs over 20 years old. Our inspection can determine if repair or replacement is needed.'
     },
     {
       question: 'How long does residential roof installation take?',

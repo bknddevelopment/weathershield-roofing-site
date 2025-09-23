@@ -2,8 +2,6 @@
 
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import CTASection from '../components/CTASection';
 import { 
   ChevronDown, 
@@ -212,7 +210,6 @@ export default function FAQPage() {
 
   return (
     <>
-      <Header />
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-weather-navy via-weather-navy-dark to-weather-navy-dark py-20 overflow-hidden">
@@ -482,7 +479,6 @@ export default function FAQPage() {
       </section>
 
       <CTASection />
-      <Footer />
     </>
   );
 }

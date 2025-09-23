@@ -1,8 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import { 
   Calculator, 
   CreditCard, 
@@ -199,7 +197,6 @@ export default function FinancingPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
       
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-weather-teal to-weather-blue text-white py-20">
@@ -608,7 +605,6 @@ export default function FinancingPage() {
         </div>
       </section>
 
-      <Footer />
       
       <style jsx>{`
         .slider::-webkit-slider-thumb {

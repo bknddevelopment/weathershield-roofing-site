@@ -178,6 +178,14 @@ const config: Config = {
         'wider': '0.05em',
         'widest': '0.1em',
       },
+      spacing: {
+        '18': '4.5rem',  // 72px
+        '22': '5.5rem',  // 88px
+        '26': '6.5rem',  // 104px
+        '28': '7rem',    // 112px
+        '30': '7.5rem',  // 120px
+        '32': '8rem',    // 128px
+      },
       boxShadow: {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
         'glow': '0 0 20px rgba(0, 86, 179, 0.3)',

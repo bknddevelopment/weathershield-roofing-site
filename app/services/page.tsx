@@ -1,6 +1,4 @@
 import { Metadata } from 'next';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import CTASection from '../components/CTASection';
 import { 
   Home, 
@@ -114,7 +112,6 @@ const processSteps = [
 export default function ServicesPage() {
   return (
     <>
-      <Header />
       <main className="min-h-screen">
         {/* Hero Section */}
         <section className="relative bg-weather-blue text-white py-24">
@@ -333,7 +330,6 @@ export default function ServicesPage() {
         {/* CTA Section */}
         <CTASection />
       </main>
-      <Footer />
     </>
   );
 }

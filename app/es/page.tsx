@@ -1,8 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import StaticImage from '../components/StaticImage';
 import {
   Phone, Shield, Clock, CheckCircle, Home, Wrench,
@@ -126,7 +124,6 @@ export default function SpanishLandingPage() {
 
   return (
     <>
-      <Header />
       <main className="min-h-screen">
         {/* Hero Section Mejorada */}
         <section className="relative min-h-[700px] flex items-center py-20 overflow-hidden">
@@ -747,7 +744,6 @@ export default function SpanishLandingPage() {
           }}
         />
       </main>
-      <Footer />
     </>
   );
 }

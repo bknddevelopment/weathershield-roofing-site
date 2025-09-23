@@ -95,26 +95,27 @@ export default function Header() {
           : 'bg-white shadow-sm'
       }`}>
         {/* Main Navigation */}
-        <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-1.5' : 'py-3'}`} role="navigation" aria-label="Primary navigation">
-          <div className="container">
+        <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`} role="navigation" aria-label="Primary navigation">
+          <div className="mx-auto w-full max-w-[1400px] pl-2 pr-4 sm:pr-6 lg:pr-8">
             <div className="flex justify-between items-center">
-              {/* Logo */}
+              {/* Logo - Enhanced Sizing for Maximum Impact */}
               <Link href="/" className="flex items-center" aria-label="Weather Shield Roofing - Top Roofing Companies Myrtle Beach | WeatherShield Home">
                 <div className={`relative transition-all duration-300 ${
-                  isScrolled 
-                    ? 'w-40 sm:w-48 lg:w-52 h-14 sm:h-16 lg:h-18' 
-                    : 'w-48 sm:w-56 lg:w-64 h-16 sm:h-20 lg:h-24'
+                  isScrolled
+                    ? 'w-52 sm:w-64 md:w-72 lg:w-80 xl:w-96 h-18 sm:h-20 md:h-22 lg:h-24 xl:h-26'
+                    : 'w-64 sm:w-72 md:w-80 lg:w-96 xl:w-[26rem] h-22 sm:h-24 md:h-26 lg:h-28 xl:h-32'
                 }`}>
                   <StaticImage
                     src="/favicon.png"
                     alt="Weather Shield Roofing - Leading Roofing Companies Myrtle Beach | WeatherShield Roofing Logo"
                     className="absolute inset-0 w-full h-full object-contain"
+                    priority={true}
                   />
                 </div>
               </Link>
 
               {/* Desktop Navigation */}
-              <div className="hidden lg:flex items-center space-x-4 xl:space-x-6">
+              <div className="hidden lg:flex items-center space-x-3 xl:space-x-5">
                 <Link
                   href="/"
                   className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
@@ -212,7 +213,7 @@ export default function Header() {
               </div>
 
               {/* Desktop CTA Section */}
-              <div className="hidden lg:flex items-center gap-3 ml-auto">
+              <div className="hidden lg:flex items-center gap-2 ml-4">
                 {/* Phone Number CTA */}
                 <a
                   href="tel:843-877-5539"
@@ -231,7 +232,7 @@ export default function Header() {
                 {/* Primary CTA Button */}
                 <a
                   {...getBookingLinkProps()}
-                  className="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-5 py-2.5 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group hover:-translate-y-0.5 whitespace-nowrap text-sm"
+                  className="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group hover:-translate-y-0.5 whitespace-nowrap text-base"
                 >
                   Request Quote
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -241,14 +242,14 @@ export default function Header() {
               {/* Mobile Menu Toggle */}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors focus-visible-ring min-tap-target"
+                className="lg:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors focus-visible-ring min-tap-target self-center"
                 aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
                 aria-expanded={isMobileMenuOpen ? 'true' : 'false'}
               >
                 {isMobileMenuOpen ? (
-                  <X className="w-6 h-6 text-gray-700" />
+                  <X className="w-7 h-7 text-gray-700" />
                 ) : (
-                  <Menu className="w-6 h-6 text-gray-700" />
+                  <Menu className="w-7 h-7 text-gray-700" />
                 )}
               </button>
             </div>
@@ -265,7 +266,7 @@ export default function Header() {
               transition={{ duration: 0.3 }}
               className="lg:hidden bg-white border-t border-gray-200 overflow-hidden shadow-lg"
             >
-              <div className="container py-4">
+              <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 py-4">
                 {/* Mobile Phone CTA */}
                 <a
                   href="tel:843-877-5539"

@@ -2,8 +2,6 @@
 
 import { useEffect } from 'react';
 import { BOOKING_CONFIG } from '../config/booking';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import { ArrowRight, Clock } from 'lucide-react';
 
 export default function QuotePage() {
@@ -18,7 +16,6 @@ export default function QuotePage() {
 
   return (
     <>
-      <Header />
       <main className="min-h-screen bg-gradient-to-b from-weather-light to-white pt-20">
         <div className="container mx-auto px-4 py-12">
           <div className="max-w-2xl mx-auto text-center">
@@ -83,7 +80,6 @@ export default function QuotePage() {
           </div>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

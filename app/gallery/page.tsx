@@ -1,8 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import CTASection from '../components/CTASection';
 import StaticImage from '../components/StaticImage';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -123,7 +121,6 @@ export default function GalleryPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      <Header />
       
       {/* Hero Section with Enhanced Design */}
       <section className="relative min-h-[500px] bg-gradient-to-br from-weather-teal via-weather-blue to-weather-purple overflow-hidden">
@@ -390,7 +387,6 @@ export default function GalleryPage() {
         )}
       </AnimatePresence>
 
-      <Footer />
     </div>
   );
 }

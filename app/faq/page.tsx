@@ -4,7 +4,6 @@ import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import FloatingContact from '../components/FloatingContact';
 import CTASection from '../components/CTASection';
 import { 
   ChevronDown, 
@@ -108,7 +107,7 @@ const faqs: FAQ[] = [
   {
     id: '12',
     question: 'How much does a new roof cost?',
-    answer: 'Roof replacement costs in Myrtle Beach typically range from $8,000 to $25,000 for average-sized homes, depending on factors including: roof size and pitch, material selection, existing damage requiring repair, number of layers to remove, and architectural complexity. Asphalt shingle roofs are most affordable, while metal, tile, or premium materials cost more but offer longer lifespans. We provide free, detailed estimates breaking down all costs with no hidden fees. Our transparent pricing and financing options help make quality roofing affordable for every budget.',
+    answer: 'Roof replacement costs in Myrtle Beach vary depending on factors including: roof size and pitch, material selection, existing damage requiring repair, number of layers to remove, and architectural complexity. Asphalt shingle roofs are most affordable, while metal, tile, or premium materials offer longer lifespans. We provide free, detailed estimates with transparent pricing and no hidden fees. Contact us for a customized quote based on your specific project requirements. Our flexible financing options help make quality roofing affordable for every budget.',
     category: 'pricing'
   },
   {
@@ -127,7 +126,7 @@ const faqs: FAQ[] = [
   {
     id: '15',
     question: 'Are you licensed and insured?',
-    answer: 'Absolutely. WeatherShield Roofing is fully licensed by the state of South Carolina (License #RRG.23657), bonded, and carries comprehensive insurance including general liability ($2 million coverage) and workers\' compensation for all employees. We\'re also BBB A+ rated, certified, and members of the National Roofing Contractors Association. We gladly provide proof of insurance and licensing for every project. This protection ensures you\'re never liable for accidents or damage during your project - your peace of mind is our priority.',
+    answer: 'Absolutely. WeatherShield Roofing is fully licensed by the state of South Carolina (License #RRG.23657), bonded, and carries comprehensive insurance including general liability and workers\' compensation for all employees. We\'re also BBB A+ rated, certified, and members of the National Roofing Contractors Association. We gladly provide proof of insurance and licensing for every project. This protection ensures you\'re never liable for accidents or damage during your project - your peace of mind is our priority.',
     category: 'warranty'
   }
 ];
@@ -484,7 +483,6 @@ export default function FAQPage() {
 
       <CTASection />
       <Footer />
-      <FloatingContact />
     </>
   );
 }

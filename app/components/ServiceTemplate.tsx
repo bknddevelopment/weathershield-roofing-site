@@ -3,9 +3,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import StaticImage from './StaticImage'
-import Header from './Header'
-import Footer from './Footer'
-import FloatingContact from './FloatingContact'
 import { 
   Phone, 
   Clock, 
@@ -69,7 +66,7 @@ export default function ServiceTemplate({
   ],
   features = [],
   faqs = [],
-  priceRange = '$5,000 - $15,000',
+  priceRange = 'Contact us for a quote',
   image = '/images/background/roof-replacement-services.jpg',
   relatedServices = [],
   emergencyService = false,
@@ -78,8 +75,6 @@ export default function ServiceTemplate({
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   return (
     <>
-      <Header />
-      
       {/* Hero Section with Enhanced Design */}
       <section className="relative h-[300px] sm:h-[350px] md:h-[400px] bg-gradient-to-br from-weather-dark to-weather-black overflow-hidden">
         <div className="absolute inset-0">
@@ -408,9 +403,6 @@ export default function ServiceTemplate({
           </div>
         </div>
       </section>
-
-      <FloatingContact />
-      <Footer />
     </>
   )
 }

@@ -27,18 +27,36 @@ const serviceAreas: ServiceArea[] = [
     featured: true
   },
   {
+    name: 'Charleston',
+    slug: 'charleston-sc',
+    zipCodes: ['29401', '29403', '29405', '29407'],
+    featured: true
+  },
+  {
+    name: 'Charlotte',
+    slug: 'charlotte-nc',
+    zipCodes: ['28201', '28202', '28203', '28204'],
+    featured: true
+  },
+  {
+    name: 'Florence',
+    slug: 'florence',
+    zipCodes: ['29501', '29502', '29503'],
+    featured: true
+  },
+  {
     name: 'Conway',
     slug: 'conway',
     zipCodes: ['29526', '29527', '29528'],
     distance: '15 miles',
-    featured: true
+    featured: false
   },
   {
     name: 'North Myrtle Beach',
     slug: 'north-myrtle-beach',
     zipCodes: ['29582', '29597', '29598'],
     distance: '10 miles',
-    featured: true
+    featured: false
   },
   {
     name: 'Surfside Beach',
@@ -116,10 +134,10 @@ export default function ServiceAreas() {
             <span className="text-weather-teal font-semibold">Service Coverage</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-weather-black mb-4">
-            Proudly Serving the Grand Strand
+            Proudly Serving North & South Carolina
           </h2>
           <p className="text-xl text-weather-dark max-w-3xl mx-auto">
-            From Pawleys Island to Little River, we provide premium roofing services throughout Horry County
+            From Charleston to Charlotte, we provide premium roofing services throughout the Carolinas
           </p>
         </motion.div>
 
@@ -135,7 +153,7 @@ export default function ServiceAreas() {
             <div className="text-center">
               <Navigation className="w-16 h-16 text-weather-teal/30 mx-auto mb-4" />
               <p className="text-2xl font-bold text-weather-dark/50">Interactive Service Map</p>
-              <p className="text-weather-dark/40">Covering 30+ mile radius from Myrtle Beach</p>
+              <p className="text-weather-dark/40">Covering North Carolina and South Carolina</p>
             </div>
           </div>
           <div className="h-96 relative z-10">
@@ -152,7 +170,7 @@ export default function ServiceAreas() {
           className="mb-12"
         >
           <h3 className="text-2xl font-bold text-weather-black mb-6 text-center">Primary Service Areas</h3>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredAreas.map((area, index) => (
               <motion.div
                 key={area.slug}
@@ -235,12 +253,12 @@ export default function ServiceAreas() {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-3xl font-bold text-weather-black mb-4">
-                Local Expertise, Rapid Response
+                Regional Expertise, Rapid Response
               </h3>
               <p className="text-weather-dark mb-6">
-                As a local Myrtle Beach company, we understand the unique roofing challenges 
-                of coastal living. From hurricane preparedness to salt air corrosion, we have 
-                the expertise to protect your home.
+                With locations across North and South Carolina, we understand the unique roofing
+                challenges of each region. From coastal hurricanes to mountain weather, we have
+                the expertise to protect your property.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
@@ -278,10 +296,10 @@ export default function ServiceAreas() {
                   Call (843) 493-4963
                 </a>
                 <Link
-                  href="/contact"
+                  href="/locations"
                   className="flex items-center justify-center gap-2 border-2 border-weather-teal text-weather-teal px-6 py-3 rounded-lg font-semibold hover:bg-weather-teal hover:text-white transition-all duration-300"
                 >
-                  Check Service Availability
+                  View All Service Areas
                 </Link>
               </div>
             </div>

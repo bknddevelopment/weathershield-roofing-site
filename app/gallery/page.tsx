@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import FloatingContact from '../components/FloatingContact';
 import CTASection from '../components/CTASection';
 import StaticImage from '../components/StaticImage';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -391,7 +390,6 @@ export default function GalleryPage() {
         )}
       </AnimatePresence>
 
-      <FloatingContact />
       <Footer />
     </div>
   );

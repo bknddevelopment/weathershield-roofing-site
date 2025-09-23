@@ -1,8 +1,12 @@
-# WeatherShield Website - GitHub Pages Deployment
+# WeatherShield Roofing - Deployment Guide
 
-## Deployment Configuration Complete ✅
+## 🚀 Deployment Overview
 
-The WeatherShield website has been configured for deployment to GitHub Pages. All necessary files and configurations have been added to the repository.
+**Current Status**: ✅ Production Ready
+**Deployment Method**: GitHub Pages with CI/CD
+**Live URL**: [https://charwinvanryckdegroot.github.io/weathershield-roofing-site/](https://charwinvanryckdegroot.github.io/weathershield-roofing-site/)
+**Deployment Time**: ~2-5 minutes per deployment
+**Automatic Deployments**: Enabled on push to `main` branch
 
 ## What Was Done
 
@@ -109,4 +113,282 @@ If you encounter any issues:
 
 ---
 
-*Deployment configured on: August 23, 2025*
+## Alternative Deployment Options
+
+### Vercel Deployment
+
+1. **Install Vercel CLI**
+```bash
+npm i -g vercel
+```
+
+2. **Deploy**
+```bash
+vercel --prod
+```
+
+3. **Configure custom domain** (if needed)
+- Add domain in Vercel dashboard
+- Update DNS records
+
+### Netlify Deployment
+
+1. **Build locally**
+```bash
+npm run build
+```
+
+2. **Deploy via CLI**
+```bash
+npm i -g netlify-cli
+netlify deploy --dir=out --prod
+```
+
+3. **Or drag and drop**
+- Visit [app.netlify.com](https://app.netlify.com)
+- Drag the `out` folder to deploy
+
+### Traditional Hosting (Apache/Nginx)
+
+1. **Build the static site**
+```bash
+npm run build
+```
+
+2. **Upload files**
+- Upload contents of `/out` directory to web root
+- Ensure `.htaccess` (Apache) or nginx config handles routing
+
+3. **Apache .htaccess example**
+```apache
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+```
+
+4. **Nginx configuration example**
+```nginx
+server {
+    listen 80;
+    server_name weathershieldroofers.com;
+    root /var/www/weathershield;
+
+    location / {
+        try_files $uri $uri/ $uri.html /index.html;
+    }
+
+    # Cache static assets
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2)$ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+    }
+}
+```
+
+## Environment Configuration
+
+### Production Build Variables
+
+```bash
+# Build for production (GitHub Pages)
+NODE_ENV=production npm run build
+
+# Build for custom domain
+NEXT_PUBLIC_SITE_URL=https://weathershieldroofers.com npm run build
+```
+
+### Configuration Files
+
+#### next.config.js (GitHub Pages)
+```javascript
+const isProd = process.env.NODE_ENV === 'production'
+module.exports = {
+  output: 'export',
+  basePath: isProd ? '/weathershield-roofing-site' : '',
+  assetPrefix: isProd ? '/weathershield-roofing-site' : '',
+  // ... rest of config
+}
+```
+
+#### next.config.js (Custom Domain)
+```javascript
+module.exports = {
+  output: 'export',
+  // Remove basePath and assetPrefix for custom domain
+  // ... rest of config
+}
+```
+
+## Post-Deployment Checklist
+
+### Immediate Verification (0-5 minutes)
+- [ ] Site loads at deployment URL
+- [ ] Homepage renders correctly
+- [ ] Navigation works
+- [ ] Images load properly
+- [ ] Contact information is correct
+
+### Functionality Testing (5-15 minutes)
+- [ ] All service pages load
+- [ ] All location pages load
+- [ ] Mobile responsive design works
+- [ ] Forms display correctly
+- [ ] Phone/email links work
+- [ ] Emergency CTAs visible
+
+### Performance Verification (15-30 minutes)
+- [ ] Run Lighthouse audit (target: 90+ score)
+- [ ] Check Core Web Vitals
+- [ ] Verify lazy loading works
+- [ ] Test on 3G connection
+- [ ] Check bundle size (< 1MB)
+
+### SEO Verification (30-45 minutes)
+- [ ] Check robots.txt accessibility
+- [ ] Verify sitemap.xml loads
+- [ ] Test meta tags with SEO tools
+- [ ] Verify canonical URLs
+- [ ] Check Open Graph tags
+- [ ] Submit to Google Search Console
+
+### Security Verification
+- [ ] HTTPS enabled
+- [ ] No exposed API keys
+- [ ] No console errors
+- [ ] CSP headers (if configured)
+
+## Rollback Procedures
+
+### GitHub Pages Rollback
+
+1. **Revert to previous commit**
+```bash
+# Find the last working commit
+git log --oneline
+
+# Revert to specific commit
+git revert HEAD
+git push origin main
+```
+
+2. **Or use GitHub UI**
+- Go to Actions tab
+- Find last successful deployment
+- Click "Re-run all jobs"
+
+### Emergency Rollback
+
+```bash
+# Create a rollback branch from last known good commit
+git checkout -b emergency-rollback <commit-hash>
+git push origin emergency-rollback
+
+# Change default branch in GitHub settings temporarily
+# Then fix issues in main branch
+```
+
+## Monitoring & Maintenance
+
+### Automated Monitoring
+
+1. **GitHub Actions Status**
+   - Monitor at: [Actions Tab](https://github.com/charwinvanryckdegroot/weathershield-roofing-site/actions)
+   - Set up email notifications for failures
+
+2. **Uptime Monitoring**
+   - Use services like UptimeRobot or Pingdom
+   - Set up alerts for downtime
+
+3. **Performance Monitoring**
+   - Google PageSpeed Insights API
+   - Web Vitals reporting
+   - Real User Monitoring (RUM)
+
+### Manual Checks (Weekly)
+
+```bash
+# Check deployment status
+gh run list --limit 5
+
+# Check site health
+curl -I https://charwinvanryckdegroot.github.io/weathershield-roofing-site/
+
+# Run Lighthouse
+npx lighthouse https://charwinvanryckdegroot.github.io/weathershield-roofing-site/ --view
+```
+
+## Troubleshooting Guide
+
+### Common Issues & Solutions
+
+#### Site Not Updating After Push
+```bash
+# Check workflow status
+gh run list --limit 1
+
+# Manually trigger deployment
+gh workflow run deploy.yml
+
+# Clear GitHub Pages cache
+# Wait 10 minutes or add ?v=timestamp to URLs
+```
+
+#### 404 Errors on Routes
+```bash
+# Ensure trailingSlash is set in next.config.js
+trailingSlash: true
+
+# Rebuild and redeploy
+npm run build
+git add -A
+git commit -m "Fix 404 routing issues"
+git push
+```
+
+#### Images Not Loading
+```bash
+# Check image paths in code
+# Should be: /images/filename.jpg (without basePath)
+# StaticImage component handles basePath automatically
+
+# Verify images exist in /public/images/
+ls -la public/images/
+```
+
+#### Build Failures
+```bash
+# Check error logs
+gh run view
+
+# Test locally
+npm ci
+npm run build
+
+# Common fixes
+rm -rf node_modules .next out
+npm ci
+npm run build
+```
+
+## Support & Resources
+
+### Documentation
+- [Next.js Static Export](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
+- [GitHub Pages Documentation](https://docs.github.com/pages)
+- [GitHub Actions](https://docs.github.com/actions)
+
+### Getting Help
+1. Check the [CHANGELOG.md](./CHANGELOG.md) for recent changes
+2. Review [GitHub Issues](https://github.com/charwinvanryckdegroot/weathershield-roofing-site/issues)
+3. Check deployment logs in GitHub Actions
+4. Contact the development team
+
+---
+
+*Last Updated: September 22, 2025*
+*Version: 1.0.0*

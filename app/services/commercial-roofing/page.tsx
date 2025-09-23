@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: 'Commercial Roofing Services | Weather Shield Roofing',
   description: 'Professional commercial roofing solutions in Myrtle Beach. Flat roofs, metal roofing, TPO, EPDM, and maintenance programs for businesses.',
   keywords: 'commercial roofing, flat roof, TPO roofing, EPDM, metal roofing, commercial roof repair',
+  alternates: {
+    canonical: 'https://weathershieldroofers.com/services/commercial-roofing',
+  },
+  openGraph: {
+    title: 'Commercial Roofing Services | Weather Shield Roofing',
+    description: 'Professional commercial roofing solutions in Myrtle Beach. Protect your business investment.',
+    url: 'https://weathershieldroofers.com/services/commercial-roofing',
+    type: 'website',
+  },
 }
 
 const commercialRoofingData = {
@@ -112,7 +121,7 @@ const commercialRoofingData = {
       answer: 'We offer manufacturer warranties up to 30 years on materials and our own workmanship warranties up to 10 years. We\'re certified installers for major manufacturers, allowing us to offer the best warranty packages available.'
     }
   ],
-  priceRange: '$15,000 - $500,000+',
+  priceRange: 'Request a custom quote',
   image: '/images/background/home-exterior-improvement-services.jpg',
   relatedServices: [
     { name: 'Roof Maintenance Programs', href: '/services/roof-maintenance' },

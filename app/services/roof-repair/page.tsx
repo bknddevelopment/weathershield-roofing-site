@@ -104,10 +104,10 @@ const roofRepairData = {
     },
     {
       question: 'How much do roof repairs typically cost?',
-      answer: 'Repair costs vary based on the extent of damage, but minor repairs typically range from $300-$1,500, while major repairs can range from $1,500-$5,000. We provide free estimates before any work begins.'
+      answer: 'Repair costs vary based on the extent of damage. We provide free estimates before any work begins, allowing you to make an informed decision about your repair needs.'
     }
   ],
-  priceRange: '$300 - $5,000',
+  priceRange: 'Contact us for pricing',
   image: '/images/background/roof-replacement-services.jpg',
   relatedServices: [
     { name: 'Emergency Roofing', href: '/services/emergency-roofing' },

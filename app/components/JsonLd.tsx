@@ -60,7 +60,7 @@ interface ReviewProps {
 export function LocalBusinessJsonLd({
   name = 'Weather Shield Roofing',
   description = 'Professional roofing services in Myrtle Beach, SC. Specializing in roof replacement, repair, storm damage, and 24/7 emergency service.',
-  url = 'https://weathershieldroofing.com',
+  url = 'https://weathershieldroofers.com',
   telephone = '843-493-4963',
   email = 'roofing@weathershieldroofers.com',
   address = {
@@ -81,8 +81,8 @@ export function LocalBusinessJsonLd({
   ],
   priceRange = '$$',
   image = [
-    'https://weathershieldroofing.com/images/logo.png',
-    'https://weathershieldroofing.com/images/office.jpg'
+    'https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png',
+    'https://weathershieldroofers.com/images/office.jpg'
   ],
   sameAs = [
     'https://www.facebook.com/weathershieldroofing',
@@ -295,8 +295,8 @@ export function OrganizationJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Weather Shield Roofing',
-    url: 'https://weathershieldroofing.com',
-    logo: 'https://weathershieldroofing.com/images/logo.png',
+    url: 'https://weathershieldroofers.com',
+    logo: 'https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png',
     email: 'roofing@weathershieldroofers.com',
     contactPoint: {
       '@type': 'ContactPoint',

@@ -1,0 +1,46 @@
+# Robots.txt for Weather Shield Roofing
+# https://weathershieldroofers.com
+
+# Allow all bots
+User-agent: *
+Allow: /
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow admin or private areas (if any exist in future)
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://weathershieldroofers.com/sitemap.xml
+
+# Crawl-delay for less important bots
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 20
+
+# Block bad bots
+User-agent: BadBot
+Disallow: /
+
+User-agent: SiteCheckerBot
+Disallow: /
+
+User-agent: ScrapyBot
+Disallow: /

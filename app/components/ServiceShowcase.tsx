@@ -45,7 +45,7 @@ const services: Service[] = [
       'Lifetime material warranty',
       '25-year workmanship guarantee'
     ],
-    priceRange: '$8,500 - $15,000',
+    priceRange: 'Request a free estimate',
     timeframe: '2-3 days',
     badge: 'popular',
     rating: 4.9
@@ -61,7 +61,7 @@ const services: Service[] = [
       'Flashing & seal repair',
       'Same-day service available'
     ],
-    priceRange: '$350 - $2,500',
+    priceRange: 'Contact us for pricing',
     timeframe: '2-4 hours',
     rating: 4.8
   },
@@ -108,7 +108,7 @@ const services: Service[] = [
       'Cleaning & maintenance',
       'Downspout optimization'
     ],
-    priceRange: '$1,200 - $3,500',
+    priceRange: 'Call for pricing details',
     timeframe: '1 day',
     rating: 4.7
   },

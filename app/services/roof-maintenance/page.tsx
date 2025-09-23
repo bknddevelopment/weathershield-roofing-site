@@ -104,10 +104,10 @@ const roofMaintenanceData = {
     },
     {
       question: 'What\'s the cost of a maintenance program?',
-      answer: 'Annual maintenance programs typically cost $400-800 depending on roof size and type - a fraction of the cost of one emergency repair. Programs include two visits, priority emergency service, and discounts on any needed repairs. Most customers save money in the first year alone.'
+      answer: 'Annual maintenance programs vary by roof size and type. Programs include two visits, priority emergency service, and discounts on any needed repairs. Contact us for a customized maintenance plan quote. Most customers save money in the first year alone through prevented repairs.'
     }
   ],
-  priceRange: '$400 - $800/year',
+  priceRange: 'Call for pricing details',
   image: '/images/background/roof-maintenance-services.jpg',
   relatedServices: [
     { name: 'Roof Inspections', href: '/services/roof-inspections' },

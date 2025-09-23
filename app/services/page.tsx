@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import FloatingContact from '../components/FloatingContact';
 import CTASection from '../components/CTASection';
 import { 
   Home, 
@@ -23,44 +22,44 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Roofing Services | WeatherShield Roofing - Rohnert Park, CA',
-  description: 'Professional roofing services in Rohnert Park. Residential, commercial, gutters, siding, storm damage repair, and emergency services. Request inspections and estimates.',
-  keywords: 'roofing services, residential roofing, commercial roofing, gutter services, siding installation, storm damage repair, roof inspection, emergency repairs, roof maintenance, Rohnert Park',
+  title: 'Roofing Services | Weather Shield Roofing - Top Roofing Companies Myrtle Beach | WeatherShield',
+  description: 'Weather Shield Roofing - Leading roofing companies Myrtle Beach trusts. WeatherShield roofing services for weather protection. Expert roofing companies near me offering residential, commercial, storm damage & emergency services.',
+  keywords: 'weather shield roofing, weathershield roofing, roofing companies myrtle beach, roofing companies near me, weather myrtle beach, weather in myrtle beach, roofing services, residential roofing, commercial roofing, storm damage repair, weather protection services',
   openGraph: {
-    title: 'Roofing Services | WeatherShield Roofing',
-    description: 'Complete roofing solutions for residential and commercial properties in Rohnert Park, CA.',
+    title: 'Weather Shield Roofing Services | Premier Roofing Companies Myrtle Beach',
+    description: 'Weather Shield Roofing - Complete weatherproof solutions by top roofing companies Myrtle Beach. WeatherShield experts protect against weather in Myrtle Beach.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'WeatherShield Roofing',
+    siteName: 'Weather Shield Roofing',
   },
 };
 
 const mainServices = [
   {
     icon: Home,
-    title: 'Residential Roofing',
-    description: 'Complete roofing solutions for your home. From repairs to full replacements, we protect what matters most.',
+    title: 'Residential Roofing - Weather Shield',
+    description: 'Weather Shield Roofing provides complete weatherproof solutions. Top roofing companies Myrtle Beach choose for weather protection.',
     features: ['Shingle Roofing', 'Tile Roofing', 'Metal Roofing', 'Flat Roofing'],
     link: '/services/residential'
   },
   {
     icon: Building2,
-    title: 'Commercial Roofing',
-    description: 'Professional commercial roofing services designed to minimize business disruption and maximize protection.',
+    title: 'Commercial WeatherShield Roofing',
+    description: 'Weather Shield Roofing - Leading commercial roofing companies near me. Weatherproof protection for Myrtle Beach businesses.',
     features: ['TPO Systems', 'EPDM Roofing', 'Built-Up Roofing', 'Roof Coatings'],
     link: '/services/commercial'
   },
   {
     icon: Droplets,
-    title: 'Gutter Services',
-    description: 'Complete gutter solutions to protect your property from water damage and foundation issues.',
+    title: 'Weather Protection Gutter Services',
+    description: 'Weather Shield Roofing gutter solutions protect against weather Myrtle Beach brings. Top roofing companies near me for water management.',
     features: ['Gutter Installation', 'Gutter Repair', 'Gutter Guards', 'Downspout Services'],
     link: '/services/gutters'
   },
   {
     icon: Package,
-    title: 'Siding Installation',
-    description: 'Transform your property\'s exterior with durable, beautiful siding that stands up to the elements.',
+    title: 'WeatherShield Siding Installation',
+    description: 'Weather Shield Roofing transforms exteriors with weatherproof siding. Leading roofing companies Myrtle Beach for complete weather protection.',
     features: ['Vinyl Siding', 'Fiber Cement', 'Wood Siding', 'Siding Repair'],
     link: '/services/siding'
   }
@@ -69,13 +68,13 @@ const mainServices = [
 const additionalServices = [
   {
     icon: CloudRain,
-    title: 'Storm Damage Repair',
-    description: 'Fast response to storm damage with insurance claim assistance.',
+    title: 'Weather & Storm Damage Repair',
+    description: 'Weather Shield Roofing responds fast to weather damage. Top roofing companies near me for storm repairs in Myrtle Beach.',
   },
   {
     icon: Search,
     title: 'Roof Inspection',
-    description: 'Comprehensive inspections to identify issues before they become costly repairs.',
+    description: 'Comprehensive inspections to identify issues before they become major repairs.',
   },
   {
     icon: AlertTriangle,
@@ -98,7 +97,7 @@ const processSteps = [
   {
     icon: FileText,
     title: 'Quote',
-    description: 'Detailed, transparent pricing with no hidden fees'
+    description: 'Detailed, transparent quotes with no hidden fees'
   },
   {
     icon: HardHat,
@@ -122,10 +121,10 @@ export default function ServicesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-5xl font-bold mb-6">
-                Professional Roofing Services
+                Weather Shield Roofing - Professional Services
               </h1>
               <p className="text-xl opacity-90 mb-8">
-                Protecting Sonoma County homes and businesses with expert roofing solutions since 1985
+                Leading roofing companies Myrtle Beach trust for weather protection. WeatherShield roofing experts protect homes from weather in Myrtle Beach since 2010.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -152,10 +151,10 @@ export default function ServicesPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Our Core Services
+                Weather Shield Roofing Core Services
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                From residential roofs to commercial properties, we offer comprehensive solutions for all your roofing needs
+                WeatherShield roofing - Leading roofing companies Myrtle Beach offering comprehensive weather protection solutions for all properties
               </p>
             </div>
 
@@ -260,10 +259,10 @@ export default function ServicesPage() {
             <div className="max-w-4xl mx-auto text-center">
               <AlertTriangle className="h-16 w-16 mx-auto mb-6 text-weather-teal" />
               <h2 className="text-4xl font-bold mb-4">
-                24/7 Emergency Roofing Services
+                24/7 Weather Shield Emergency Services
               </h2>
               <p className="text-xl opacity-90 mb-8">
-                When disaster strikes, we're here to help. Our emergency response team is available around the clock to protect your property from further damage.
+                When weather in Myrtle Beach strikes, Weather Shield Roofing responds. Leading roofing companies near me with 24/7 weatherproof emergency protection.
               </p>
               <div className="grid sm:grid-cols-3 gap-8 mb-8">
                 <div>
@@ -303,7 +302,7 @@ export default function ServicesPage() {
                   Flexible Financing Available
                 </h2>
                 <p className="text-xl text-gray-600 mb-6">
-                  Don't let budget concerns delay necessary roof repairs. We offer flexible financing options with competitive rates and terms to fit your budget.
+                  Don't let financial concerns delay necessary roof repairs. We offer flexible financing options with various terms to fit your needs.
                 </p>
                 <div className="grid sm:grid-cols-3 gap-6 mb-8">
                   <div>
@@ -334,7 +333,6 @@ export default function ServicesPage() {
         {/* CTA Section */}
         <CTASection />
       </main>
-      <FloatingContact />
       <Footer />
     </>
   );

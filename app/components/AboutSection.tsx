@@ -18,32 +18,32 @@ import {
 } from 'lucide-react';
 
 const stats = [
-  { number: '15+', label: 'Years Experience', icon: Clock },
-  { number: '5000+', label: 'Roofs Installed', icon: Home },
-  { number: '100%', label: 'Satisfaction Rate', icon: Heart },
-  { number: '24/7', label: 'Emergency Service', icon: Zap }
+  { number: '15+', label: 'Years of Weather Protection', icon: Clock },
+  { number: '5000+', label: 'WeatherShield Roofs Installed', icon: Home },
+  { number: '100%', label: 'Weather Damage Coverage', icon: Heart },
+  { number: '24/7', label: 'Weather Emergency Service', icon: Zap }
 ];
 
 const values = [
   {
     icon: Shield,
-    title: 'Quality First',
-    description: 'We never compromise on materials or workmanship. Every roof is built to last.'
+    title: 'Weather-Proof Quality',
+    description: 'Weather Shield Roofing never compromises. Every WeatherShield roof withstands weather in Myrtle Beach.'
   },
   {
     icon: Users,
-    title: 'Customer Focus',
-    description: 'Your satisfaction is our priority. We listen, advise, and deliver beyond expectations.'
+    title: 'Weather Shield Focus',
+    description: 'Leading roofing companies near me in customer satisfaction. Weather Shield Roofing exceeds expectations.'
   },
   {
     icon: Award,
-    title: 'Expert Team',
-    description: 'Certified professionals with continuous training and development.'
+    title: 'WeatherShield Experts',
+    description: 'Weather Shield Roofing certified professionals - best among roofing companies Myrtle Beach.'
   },
   {
     icon: Target,
-    title: 'Integrity',
-    description: 'Honest assessments, fair pricing, and transparent communication every step of the way.'
+    title: 'Weather Shield Integrity',
+    description: 'Most trusted roofing companies near me. Honest weather assessments and transparent WeatherShield pricing.'
   }
 ];
 
@@ -57,14 +57,14 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-4 py-2 mb-6">
             <Shield className="w-5 h-5 text-weather-teal" />
-            <span className="text-weather-teal font-semibold">About Weather Shield</span>
+            <span className="text-weather-teal font-semibold">About Weather Shield Roofing</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-weather-dark mb-4">
-            Myrtle Beach's Most Trusted Roofing Company
+            Weather Shield Roofing - Top Roofing Companies Myrtle Beach
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Since 2010, we've been protecting homes and families across the Grand Strand 
-            with superior roofing solutions and unmatched customer service.
+            Since 2010, Weather Shield Roofing has led all roofing companies Myrtle Beach in protecting homes from weather.
+            WeatherShield roofing experts provide superior weather protection for families across the Grand Strand.
           </p>
         </div>
 
@@ -76,21 +76,21 @@ export default function AboutSection() {
               <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-weather-teal to-weather-purple rounded-full" />
               <div className="pl-8">
                 <h3 className="text-3xl font-bold text-weather-dark mb-4">
-                  Your Local Roofing Experts
+                  Weather Shield - Leading Roofing Companies Near Me
                 </h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Weather Shield Roofing was founded with a simple mission: to provide Myrtle Beach 
-                  homeowners with roofing services they can trust. As a locally owned and operated 
-                  company, we understand the unique challenges our coastal climate presents.
+                  Weather Shield Roofing stands above all roofing companies Myrtle Beach as weather protection specialists.
+                  As locally-owned roofing companies near me, WeatherShield understands weather in Myrtle Beach
+                  and the unique weather challenges our coastal climate presents.
                 </p>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  From hurricane-force winds to intense summer heat, your roof faces constant challenges. 
-                  That's why we exclusively use premium materials and proven installation techniques 
-                  that exceed industry standards.
+                  From hurricane weather to intense heat, weather Myrtle Beach brings constant roofing challenges.
+                  That's why Weather Shield Roofing uses weatherproof materials and WeatherShield installation techniques
+                  that outperform other roofing companies near me.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  As a certified contractor with years of expertise, we offer exclusive warranties 
-                  and guarantees that give you complete peace of mind.
+                  Weather Shield Roofing certified experts offer exclusive weather warranties that other
+                  roofing companies Myrtle Beach can't match. WeatherShield guarantees complete weather protection.
                 </p>
               </div>
             </div>
@@ -120,7 +120,7 @@ export default function AboutSection() {
                 <div className="relative h-48 rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <StaticImage
                     src="/images/team-1.jpg"
-                    alt="Weather Shield team"
+                    alt="Weather Shield Roofing team - Top roofing companies Myrtle Beach"
                     fill
                     className="object-cover"
                   />
@@ -128,7 +128,7 @@ export default function AboutSection() {
                 <div className="relative h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <StaticImage
                     src="/images/work-1.jpg"
-                    alt="Roofing work"
+                    alt="WeatherShield roofing installation - Weather protection for Myrtle Beach"
                     fill
                     className="object-cover"
                   />
@@ -138,7 +138,7 @@ export default function AboutSection() {
                 <div className="relative h-64 rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <StaticImage
                     src="/images/work-2.jpg"
-                    alt="Quality roofing"
+                    alt="Weather Shield Roofing quality - Leading roofing companies near me"
                     fill
                     className="object-cover"
                   />
@@ -146,7 +146,7 @@ export default function AboutSection() {
                 <div className="relative h-48 rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <StaticImage
                     src="/images/team-2.jpg"
-                    alt="Professional team"
+                    alt="Weather Shield professional team - Best roofing companies Myrtle Beach"
                     fill
                     className="object-cover"
                   />
@@ -215,10 +215,11 @@ export default function AboutSection() {
         {/* Bottom CTA */}
         <div className="mt-16 text-center bg-gradient-to-r from-weather-teal/5 to-weather-purple/5 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-weather-dark mb-4">
-            Ready to Experience the Weather Shield Difference?
+            Ready to Experience Weather Shield Roofing Excellence?
           </h3>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Join thousands of satisfied homeowners who trust Weather Shield for all their roofing needs.
+            Join thousands who choose Weather Shield Roofing over other roofing companies Myrtle Beach.
+            WeatherShield protection against weather in Myrtle Beach - trusted roofing companies near me.
           </p>
           <Link
             href="https://your-n8n-form-url.com"

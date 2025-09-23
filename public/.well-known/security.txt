@@ -1,0 +1,18 @@
+# Weather Shield Roofing Security Policy
+# For security concerns regarding our website
+
+Contact: mailto:roofing@weathershieldroofers.com
+Contact: tel:+18434934963
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://weathershieldroofers.com/.well-known/security.txt
+
+# Policy
+# We take security seriously. If you discover any security issues,
+# please contact us immediately at the above email address.
+# We appreciate responsible disclosure and will work with you
+# to understand and address any vulnerabilities.
+
+# Acknowledgments
+# We thank all security researchers who responsibly disclose
+# vulnerabilities to us.

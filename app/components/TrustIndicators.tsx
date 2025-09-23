@@ -92,8 +92,9 @@ function useCountUp(end: number, duration: number = 2000, decimal: boolean = fal
     }
 
     return () => {
-      if (countRef.current) {
-        observer.unobserve(countRef.current);
+      const currentRef = countRef.current;
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, [isVisible]);
@@ -128,6 +129,27 @@ function useCountUp(end: number, duration: number = 2000, decimal: boolean = fal
   }, [end, duration, isVisible, decimal]);
 
   return { count, countRef };
+}
+
+// Separate component for stat items to use hooks correctly
+function StatItem({ stat }: { stat: typeof stats[0] }) {
+  const Icon = stat.icon;
+  const { count, countRef } = useCountUp(stat.value, 2000, stat.decimal);
+
+  return (
+    <div
+      ref={countRef}
+      className="text-center group"
+    >
+      <div className={`inline-flex p-4 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 mb-4 group-hover:scale-110 transition-transform duration-300`}>
+        <Icon className={`w-8 h-8 ${stat.color}`} />
+      </div>
+      <div className="text-4xl md:text-5xl font-bold mb-2">
+        {stat.decimal ? count.toFixed(1) : count.toLocaleString()}{stat.suffix}
+      </div>
+      <div className="text-gray-400 font-medium">{stat.label}</div>
+    </div>
+  );
 }
 
 export default function TrustIndicators() {
@@ -172,26 +194,9 @@ export default function TrustIndicators() {
 
         {/* Stats Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon;
-            const { count, countRef } = useCountUp(stat.value, 2000, stat.decimal);
-            
-            return (
-              <div
-                key={index}
-                ref={countRef}
-                className="text-center group"
-              >
-                <div className={`inline-flex p-4 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                  <Icon className={`w-8 h-8 ${stat.color}`} />
-                </div>
-                <div className="text-4xl md:text-5xl font-bold mb-2">
-                  {stat.decimal ? count.toFixed(1) : count.toLocaleString()}{stat.suffix}
-                </div>
-                <div className="text-gray-400 font-medium">{stat.label}</div>
-              </div>
-            );
-          })}
+          {stats.map((stat, index) => (
+            <StatItem key={index} stat={stat} />
+          ))}
         </div>
 
         {/* Certifications */}

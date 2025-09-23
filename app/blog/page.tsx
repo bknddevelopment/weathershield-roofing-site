@@ -2,8 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import StaticImage from '../components/StaticImage';
 import { 
   Calendar, 
@@ -116,9 +114,7 @@ export default function BlogPage() {
   const currentPosts = filteredPosts.slice(startIndex, startIndex + postsPerPage);
 
   return (
-    <>
-      <Header />
-      <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-weather-dark via-weather-dark to-weather-black text-white py-20">
           <div className="absolute inset-0 opacity-10">
@@ -319,8 +315,6 @@ export default function BlogPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </>
+    </main>
   );
 }

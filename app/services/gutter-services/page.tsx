@@ -104,10 +104,10 @@ const gutterServicesData = {
     },
     {
       question: 'What materials do you offer?',
-      answer: 'We install aluminum (most popular), copper (premium option), steel (for heavy snow areas), and vinyl gutters. Each material has different benefits and price points. We\'ll recommend the best option based on your home and budget.'
+      answer: 'We install aluminum (most popular), copper (premium option), steel (for heavy snow areas), and vinyl gutters. Each material has different benefits. We\'ll recommend the best option based on your home and budget.'
     }
   ],
-  priceRange: '$800 - $3,500',
+  priceRange: 'Request a free estimate',
   image: '/images/background/gutter-services.jpg',
   relatedServices: [
     { name: 'Roof Repair', href: '/services/roof-repair' },

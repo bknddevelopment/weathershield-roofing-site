@@ -20,8 +20,8 @@ import {
 const services = [
   {
     icon: Home,
-    title: "Roof Replacement",
-    description: "Complete roof replacement with premium materials and lifetime warranties",
+    title: "WeatherShield Roof Replacement",
+    description: "Weather Shield Roofing replacement with weatherproof materials and lifetime weather warranties",
     features: ["Premium Materials", "50-Year Warranty", "Professional Inspection"],
     image: "/images/gallery/roof-installation-repair-services-1-400x300.jpg",
     href: "/services/roof-replacement",
@@ -29,8 +29,8 @@ const services = [
   },
   {
     icon: Hammer,
-    title: "Roof Repair",
-    description: "Expert repairs for leaks, damage, and wear - available 24/7",
+    title: "Weather Damage Repair",
+    description: "Weather Shield Roofing repairs weather damage, leaks, and wear - leading roofing companies near me 24/7",
     features: ["Emergency Service", "Insurance Claims", "Same-Day Service"],
     image: "/images/gallery/roof-repair-services-1-400x300.jpg",
     href: "/services/roof-repair",
@@ -38,8 +38,8 @@ const services = [
   },
   {
     icon: CloudRain,
-    title: "Storm Damage",
-    description: "Rapid response for hurricane and storm damage repairs",
+    title: "Weather & Storm Damage",
+    description: "Weather Shield Roofing rapid response for weather in Myrtle Beach storm damage",
     features: ["24/7 Response", "Insurance Experts", "Temporary Covers"],
     image: "/images/background/residential-roofing-gutter-siding-services.jpg",
     href: "/services/storm-damage",
@@ -47,8 +47,8 @@ const services = [
   },
   {
     icon: Search,
-    title: "Roof Inspections",
-    description: "Comprehensive inspections with detailed reports and recommendations",
+    title: "Weather Assessments",
+    description: "WeatherShield roofing inspections for weather damage - top roofing companies Myrtle Beach reports",
     features: ["Professional Estimates", "Drone Technology", "Detailed Reports"],
     image: "/images/gallery/residential-roof-installation-repair-services-1-225x300.jpg",
     href: "/services/roof-inspections",
@@ -56,8 +56,8 @@ const services = [
   },
   {
     icon: Droplets,
-    title: "Gutter Services",
-    description: "Installation, repair, and maintenance of gutter systems",
+    title: "Weather Protection Gutters",
+    description: "Weather Shield Roofing gutter systems for weather in Myrtle Beach protection",
     features: ["Seamless Gutters", "Gutter Guards", "Annual Maintenance"],
     image: "/images/gallery/roofing-gutter-services-1-400x300.jpg",
     href: "/services/gutter-services",
@@ -65,8 +65,8 @@ const services = [
   },
   {
     icon: Building2,
-    title: "Commercial Roofing",
-    description: "Professional roofing solutions for businesses and properties",
+    title: "Commercial WeatherShield",
+    description: "Weather Shield Roofing commercial solutions - leading business roofing companies near me",
     features: ["TPO & EPDM", "Minimal Disruption", "Maintenance Plans"],
     image: "/images/background/home-exterior-improvement-services.jpg",
     href: "/services/commercial",
@@ -84,14 +84,14 @@ export default function ServiceCards() {
         <div className="text-center mb-16 animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-4 py-2 mb-6">
             <Shield className="w-5 h-5 text-weather-teal" />
-            <span className="text-weather-teal font-semibold">Our Services</span>
+            <span className="text-weather-teal font-semibold">Weather Shield Roofing Services</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-weather-dark mb-4">
-            Professional Roofing Solutions
+            Weather Shield Roofing - Professional Weather Protection Solutions
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From emergency repairs to complete replacements, we provide comprehensive roofing services 
-            backed by industry-leading warranties and expert craftsmanship.
+            Weather Shield Roofing leads all roofing companies Myrtle Beach with comprehensive weatherproof services.
+            From weather emergency repairs to complete WeatherShield replacements, we're the top roofing companies near me.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export default function ServiceCards() {
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500">
                   <StaticImage
                     src={service.image}
-                    alt={service.title}
+                    alt={`${service.title} by Weather Shield Roofing - Top roofing companies Myrtle Beach | WeatherShield services`}
                     fill
                     className="object-cover"
                   />
@@ -165,11 +165,11 @@ export default function ServiceCards() {
           <div className="bg-gradient-to-r from-weather-teal to-weather-blue rounded-2xl p-8 md:p-12">
             <div className="max-w-3xl mx-auto">
               <h3 className="text-3xl font-bold text-white mb-4">
-                Need Emergency Roofing Service?
+                Need Weather Shield Emergency Service?
               </h3>
               <p className="text-xl text-white/90 mb-8">
-                We're available 24/7 for storm damage and emergency repairs. 
-                Don't wait - protect your home now.
+                Weather Shield Roofing available 24/7 for weather damage. Top roofing companies Myrtle Beach
+                for weather emergencies. WeatherShield protection when weather in Myrtle Beach strikes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -195,7 +195,7 @@ export default function ServiceCards() {
         <div className="mt-12 flex flex-wrap justify-center gap-8">
           <div className="flex items-center gap-2 text-gray-600">
             <Award className="w-6 h-6 text-weather-teal" />
-            <span className="font-semibold">Certified Professional</span>
+            <span className="font-semibold">Weather Shield Certified Professional</span>
           </div>
           <div className="flex items-center gap-2 text-gray-600">
             <Shield className="w-6 h-6 text-weather-teal" />

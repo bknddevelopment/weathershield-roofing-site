@@ -92,7 +92,7 @@ export default function FinancingPage() {
     {
       icon: <Percent className="w-6 h-6" />,
       title: 'Competitive Rates',
-      description: 'Low APR options starting at 0% for qualified buyers'
+      description: 'Competitive APR options with special promotions for qualified buyers'
     },
     {
       icon: <Zap className="w-6 h-6" />,
@@ -219,8 +219,8 @@ export default function FinancingPage() {
                 <span className="ml-2">Second Approval</span>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3">
-                <span className="text-2xl font-bold">$0</span>
-                <span className="ml-2">Down Options</span>
+                <span className="text-2xl font-bold">Flexible</span>
+                <span className="ml-2">Down Payment Options</span>
               </div>
             </div>
           </div>
@@ -254,8 +254,8 @@ export default function FinancingPage() {
                       className="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
                     />
                     <div className="flex justify-between text-sm text-gray-500 mt-1">
-                      <span>$5,000</span>
-                      <span>$50,000</span>
+                      <span>Min</span>
+                      <span>Max</span>
                     </div>
                   </div>
 
@@ -276,8 +276,8 @@ export default function FinancingPage() {
                       className="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
                     />
                     <div className="flex justify-between text-sm text-gray-500 mt-1">
-                      <span>$0</span>
-                      <span>${(projectCost * 0.5).toLocaleString()}</span>
+                      <span>0%</span>
+                      <span>50%</span>
                     </div>
                   </div>
 
@@ -602,7 +602,7 @@ export default function FinancingPage() {
               Apply Online Now
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors">
-              Call (555) 123-4567
+              Call (843) 493-4963
             </button>
           </div>
         </div>
@@ -615,15 +615,15 @@ export default function FinancingPage() {
           appearance: none;
           width: 20px;
           height: 20px;
-          background: #0891b2;
+          background: rgb(0, 180, 184); /* weather-teal */
           cursor: pointer;
           border-radius: 50%;
         }
-        
+
         .slider::-moz-range-thumb {
           width: 20px;
           height: 20px;
-          background: #0891b2;
+          background: rgb(0, 180, 184); /* weather-teal */
           cursor: pointer;
           border-radius: 50%;
           border: none;

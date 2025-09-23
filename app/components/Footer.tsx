@@ -36,11 +36,11 @@ const services = [
 
 const serviceAreas = [
   'Myrtle Beach',
+  'Charleston',
+  'Charlotte',
+  'Florence',
   'Conway',
   'North Myrtle Beach',
-  'Surfside Beach',
-  'Garden City',
-  'Pawleys Island',
 ];
 
 export default function Footer() {
@@ -54,15 +54,16 @@ export default function Footer() {
             <div className="mb-6">
               <StaticImage
                 src="/favicon.png"
-                alt="Weather Shield Roofing"
+                alt="Weather Shield Roofing - Top Roofing Companies Myrtle Beach | WeatherShield Roofing"
                 width={320}
                 height={120}
                 className="h-24 sm:h-28 lg:h-32 w-auto mb-6 object-contain"
               />
             </div>
             <p className="text-gray-400 mb-4">
-              Protecting Myrtle Beach homes with superior roofing solutions since 2010. 
-              Licensed, insured, and committed to excellence.
+              Weather Shield Roofing - Leading roofing companies Myrtle Beach trusts for weather protection.
+              WeatherShield roofing experts protecting homes from weather in Myrtle Beach since 2010.
+              Top-rated roofing companies near me - Licensed, insured, and weatherproof.
             </p>
             <div className="space-y-2">
               <a href="tel:843-493-4963" className="flex items-center gap-2 text-gray-400 hover:text-weather-teal transition-colors">
@@ -82,7 +83,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Our Services</h4>
+            <h4 className="text-lg font-semibold mb-4">Weather Shield Roofing Services</h4>
             <ul className="space-y-2">
               {services.map((service) => (
                 <li key={service.href}>
@@ -90,7 +91,7 @@ export default function Footer() {
                     href={service.href}
                     className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
                   >
-                    <ChevronRight className="w-3 h-3" />
+                    <ChevronRight className="w-3 h-3" aria-hidden="true" />
                     {service.title}
                   </Link>
                 </li>
@@ -102,24 +103,67 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Service Areas</h4>
             <ul className="space-y-2">
-              {serviceAreas.map((area) => (
-                <li key={area}>
-                  <Link 
-                    href={`/locations/${area.toLowerCase().replace(/\s+/g, '-')}`}
-                    className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
-                  >
-                    <ChevronRight className="w-3 h-3" />
-                    {area}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  href="/locations/myrtle-beach"
+                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                >
+                  <ChevronRight className="w-3 h-3" aria-hidden="true" />
+                  Myrtle Beach, SC
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/locations/charleston-sc"
+                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                >
+                  <ChevronRight className="w-3 h-3" aria-hidden="true" />
+                  Charleston, SC
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/locations/charlotte-nc"
+                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                >
+                  <ChevronRight className="w-3 h-3" aria-hidden="true" />
+                  Charlotte, NC
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/locations/florence"
+                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                >
+                  <ChevronRight className="w-3 h-3" aria-hidden="true" />
+                  Florence, SC
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/locations/south-carolina"
+                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                >
+                  <ChevronRight className="w-3 h-3" aria-hidden="true" />
+                  All South Carolina
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/locations/north-carolina"
+                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                >
+                  <ChevronRight className="w-3 h-3" aria-hidden="true" />
+                  All North Carolina
+                </Link>
+              </li>
             </ul>
             <div className="mt-4">
-              <Link 
+              <Link
                 href="/locations"
                 className="text-weather-teal hover:text-weather-purple transition-colors font-semibold"
               >
-                View All Service Areas →
+                View All Locations →
               </Link>
             </div>
           </div>
@@ -134,7 +178,7 @@ export default function Footer() {
                     href={link.href}
                     className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
                   >
-                    <ChevronRight className="w-3 h-3" />
+                    <ChevronRight className="w-3 h-3" aria-hidden="true" />
                     {link.title}
                   </Link>
                 </li>

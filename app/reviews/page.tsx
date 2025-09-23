@@ -4,7 +4,6 @@ import { useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import FloatingContact from '../components/FloatingContact'
 import CTASection from '../components/CTASection'
 import TrustIndicators from '../components/TrustIndicators'
 
@@ -385,10 +384,7 @@ export default function ReviewsPage() {
       <CTASection />
       
       <Footer />
-      <FloatingContact />
       
-      {/* Floating Review CTA */}
-      <ReviewCTA variant="floating" />
     </>
   )
 }

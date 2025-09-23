@@ -36,7 +36,7 @@ interface ServiceLink {
 const services: ServiceLink[] = [
   {
     title: 'Roof Replacement',
-    href: '/services/roof-replacement',
+    href: '/services/residential-roofing',
     icon: <Home className="w-5 h-5" />,
     description: 'Complete roof replacement services',
     badge: 'Most Popular'
@@ -85,18 +85,21 @@ export default function Header() {
 
   return (
     <div className="sticky top-0 bg-white" style={{ zIndex: 99999, isolation: 'isolate' }}>
-      <header className={`transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-white/95 backdrop-blur-md shadow-2xl border-b border-gray-200' 
+      <header
+        role="banner"
+        aria-label="Main navigation"
+        className={`transition-all duration-300 ${
+        isScrolled
+          ? 'bg-white/95 backdrop-blur-md shadow-2xl border-b border-gray-200'
           : 'bg-white shadow-sm'
       }`}>
         {/* Top Bar */}
-        <div className="bg-gradient-to-r from-weather-navy to-weather-navy-dark text-white py-2 text-xs sm:text-sm">
+        <div className="bg-gradient-to-r from-weather-secondary to-weather-secondary-dark text-white py-2 text-xs sm:text-sm" aria-label="Contact information">
           <div className="container">
             {/* Mobile Layout */}
             <div className="flex sm:hidden justify-center items-center">
-              <a href="tel:843-493-4963" className="flex items-center hover:text-weather-amber transition-colors">
-                <Phone className="w-4 h-4 mr-1.5 animate-pulse" />
+              <a href="tel:843-493-4963" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 493-4963">
+                <Phone className="w-4 h-4 mr-1.5 animate-pulse" aria-hidden="true" />
                 <span className="font-bold">(843) 493-4963</span>
               </a>
             </div>
@@ -104,8 +107,8 @@ export default function Header() {
             {/* Desktop Layout */}
             <div className="hidden sm:flex justify-between items-center">
               <div className="flex items-center gap-4 lg:gap-6">
-                <a href="tel:843-493-4963" className="flex items-center hover:text-weather-amber transition-colors">
-                  <Phone className="w-4 h-4 mr-2 animate-pulse" />
+                <a href="tel:843-493-4963" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 493-4963">
+                  <Phone className="w-4 h-4 mr-2 animate-pulse" aria-hidden="true" />
                   <span className="font-bold text-sm lg:text-base">(843) 493-4963</span>
                 </a>
                 <div className="hidden md:flex items-center">
@@ -130,11 +133,11 @@ export default function Header() {
         </div>
 
         {/* Main Navigation */}
-        <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-1.5' : 'py-3'}`}>
+        <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-1.5' : 'py-3'}`} role="navigation" aria-label="Primary navigation">
           <div className="container">
             <div className="flex justify-between items-center">
               {/* Logo */}
-              <Link href="/" className="flex items-center">
+              <Link href="/" className="flex items-center" aria-label="Weather Shield Roofing - Top Roofing Companies Myrtle Beach | WeatherShield Home">
                 <div className={`relative transition-all duration-300 ${
                   isScrolled 
                     ? 'w-40 sm:w-48 lg:w-52 h-14 sm:h-16 lg:h-18' 
@@ -142,7 +145,7 @@ export default function Header() {
                 }`}>
                   <StaticImage
                     src="/favicon.png"
-                    alt="Weather Shield Roofing"
+                    alt="Weather Shield Roofing - Leading Roofing Companies Myrtle Beach | WeatherShield Roofing Logo"
                     className="absolute inset-0 w-full h-full object-contain"
                   />
                 </div>
@@ -150,16 +153,16 @@ export default function Header() {
 
               {/* Desktop Navigation */}
               <div className="hidden lg:flex items-center space-x-4 xl:space-x-6">
-                <Link 
-                  href="/" 
-                  className="text-gray-700 hover:text-weather-navy transition-colors py-2 px-1 font-semibold text-base"
+                <Link
+                  href="/"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
                 >
                   Home
                 </Link>
 
-                <Link 
-                  href="/about" 
-                  className="text-gray-700 hover:text-weather-navy transition-colors py-2 px-1 font-semibold text-base"
+                <Link
+                  href="/about"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
                 >
                   About
                 </Link>
@@ -167,20 +170,23 @@ export default function Header() {
                 {/* Services Dropdown */}
                 <div className="relative dropdown-wrapper">
                   <button
-                    className="flex items-center text-gray-700 hover:text-weather-navy transition-colors py-2 px-1 font-semibold text-base"
+                    className="flex items-center text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
                     aria-haspopup="true"
-                    aria-expanded="false"
+                    aria-expanded={isServicesOpen ? "true" : "false"}
+                    aria-controls="services-dropdown"
                   >
                     Services
                     <ChevronDown className="ml-1 h-4 w-4 transition-transform dropdown-wrapper:hover:rotate-180" />
                   </button>
                   {/* Always render dropdown, CSS handles visibility */}
                   <div
+                    id="services-dropdown"
                     className="dropdown-menu absolute left-0 top-full w-96 bg-white shadow-xl rounded-lg py-3 border border-gray-100"
-                    style={{ 
+                    style={{
                       marginTop: '0px',
                       zIndex: 99999
                     }}
+                    role="menu"
                   >
                     <div className="px-4 pb-2 border-b border-gray-100">
                       <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Our Services</p>
@@ -189,29 +195,30 @@ export default function Header() {
                       <Link
                         key={service.href}
                         href={service.href}
-                        className="flex items-start gap-3 px-4 py-3 hover:bg-gradient-to-r hover:from-weather-navy/5 hover:to-weather-amber/5 transition-all group relative"
+                        className="flex items-start gap-3 px-4 py-3 hover:bg-gradient-to-r hover:from-weather-secondary/5 hover:to-weather-amber/5 transition-all group relative focus-visible-ring"
+                        role="menuitem"
                       >
                         {service.badge && (
                           <span className="absolute top-2 right-4 text-xs font-bold text-weather-amber bg-weather-amber/10 px-2 py-1 rounded-full">
                             {service.badge}
                           </span>
                         )}
-                        <div className="text-weather-navy mt-1 group-hover:scale-110 transition-transform">
+                        <div className="text-weather-secondary mt-1 group-hover:scale-110 transition-transform" aria-hidden="true">
                           {service.icon}
                         </div>
                         <div className="flex-1">
-                          <h3 className="font-semibold text-weather-navy group-hover:text-weather-navy-dark transition-colors">
+                          <h3 className="font-semibold text-weather-secondary group-hover:text-weather-secondary-dark transition-colors">
                             {service.title}
                           </h3>
                           <p className="text-sm text-gray-600 mt-0.5">{service.description}</p>
                         </div>
-                        <ArrowRight className="w-4 h-4 text-weather-navy/30 group-hover:text-weather-amber group-hover:translate-x-1 transition-all mt-1" />
+                        <ArrowRight className="w-4 h-4 text-weather-secondary/30 group-hover:text-weather-amber group-hover:translate-x-1 transition-all mt-1" aria-hidden="true" />
                       </Link>
                     ))}
                     <div className="border-t border-gray-100 mt-2 pt-2 px-4">
                       <Link
                         href="/services"
-                        className="text-weather-navy text-sm font-semibold hover:text-weather-amber transition-colors flex items-center gap-2"
+                        className="text-weather-secondary text-sm font-semibold hover:text-weather-amber transition-colors flex items-center gap-2 focus-visible-ring"
                       >
                         View All Services
                         <ArrowRight className="w-4 h-4" />
@@ -220,23 +227,23 @@ export default function Header() {
                   </div>
                 </div>
 
-                <Link 
-                  href="/gallery" 
-                  className="text-gray-700 hover:text-weather-navy transition-colors py-2 px-1 font-semibold text-base"
+                <Link
+                  href="/gallery"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
                 >
                   Gallery
                 </Link>
 
-                <Link 
-                  href="/reviews" 
-                  className="text-gray-700 hover:text-weather-navy transition-colors py-2 px-1 font-semibold text-base"
+                <Link
+                  href="/reviews"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
                 >
                   Reviews
                 </Link>
 
-                <Link 
-                  href="/blog" 
-                  className="text-gray-700 hover:text-weather-navy transition-colors py-2 px-1 font-semibold text-base"
+                <Link
+                  href="/blog"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
                 >
                   Blog
                 </Link>
@@ -247,7 +254,8 @@ export default function Header() {
                 {/* Phone Number CTA */}
                 <a
                   href="tel:843-493-4963"
-                  className="flex items-center gap-2 text-weather-navy font-bold hover:text-weather-amber transition-colors whitespace-nowrap"
+                  className="flex items-center gap-2 text-weather-secondary font-bold hover:text-weather-amber transition-colors whitespace-nowrap focus-visible-ring"
+                  aria-label="Call us at (843) 493-4963"
                 >
                   <div className="relative">
                     <div className="absolute inset-0 bg-weather-amber/20 rounded-full animate-ping"></div>
@@ -273,7 +281,9 @@ export default function Header() {
               {/* Mobile Menu Toggle */}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+                className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors focus-visible-ring min-tap-target"
+                aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+                aria-expanded={isMobileMenuOpen ? 'true' : 'false'}
               >
                 {isMobileMenuOpen ? (
                   <X className="w-6 h-6 text-gray-700" />
@@ -305,18 +315,18 @@ export default function Header() {
                   <span>Call Now: (843) 493-4963</span>
                 </a>
 
-                <Link 
+                <Link
                   href="/"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block py-3 text-gray-700 hover:text-weather-navy transition-colors font-semibold border-b border-gray-200"
+                  className="block py-3 text-gray-700 hover:text-weather-secondary transition-colors font-semibold border-b border-gray-200 focus-visible-ring"
                 >
                   Home
                 </Link>
 
-                <Link 
+                <Link
                   href="/about"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block py-3 text-gray-700 hover:text-weather-navy transition-colors font-semibold border-b border-gray-200"
+                  className="block py-3 text-gray-700 hover:text-weather-secondary transition-colors font-semibold border-b border-gray-200 focus-visible-ring"
                 >
                   About
                 </Link>
@@ -324,7 +334,9 @@ export default function Header() {
                 <div className="py-3 border-b border-gray-200">
                   <button
                     onClick={() => setIsServicesOpen(!isServicesOpen)}
-                    className="flex items-center justify-between w-full text-gray-700 hover:text-weather-navy transition-colors font-semibold"
+                    className="flex items-center justify-between w-full text-gray-700 hover:text-weather-secondary transition-colors font-semibold focus-visible-ring"
+                    aria-expanded={isServicesOpen ? 'true' : 'false'}
+                    aria-controls="mobile-services-dropdown"
                   >
                     Services
                     <ChevronDown className={`w-4 h-4 transition-transform ${isServicesOpen ? 'rotate-180' : ''}`} />

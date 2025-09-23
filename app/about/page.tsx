@@ -3,9 +3,6 @@
 import { motion, useScroll, useTransform, useInView, AnimatePresence } from 'framer-motion'
 import { useRef, useState, useEffect } from 'react'
 import Image from 'next/image'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import FloatingContact from '../components/FloatingContact'
 import CTASection from '../components/CTASection'
 import { 
   Shield, 
@@ -136,11 +133,9 @@ export default function AboutPage() {
   const heroOpacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   return (
-    <>
-      <Header />
-      <main className="min-h-screen bg-white overflow-hidden">
+    <main className="min-h-screen bg-white overflow-hidden">
         {/* Hero Section with Parallax */}
-        <section ref={heroRef} className="relative min-h-[70vh] bg-gradient-to-br from-[#0056b3] via-[#0056b3] to-[#003d82] overflow-hidden">
+        <section ref={heroRef} className="relative min-h-[70vh] bg-gradient-to-br from-weather-secondary via-weather-secondary to-weather-secondary-dark overflow-hidden">
           {/* Animated Background Pattern */}
           <motion.div 
             className="absolute inset-0 opacity-10"
@@ -239,7 +234,7 @@ export default function AboutPage() {
                 </motion.a>
                 <motion.a
                   href="tel:843-493-4963"
-                  className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 text-lg font-bold rounded-lg shadow-xl hover:bg-white hover:text-[#0056b3] transition-all duration-300 flex items-center justify-center gap-2"
+                  className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 text-lg font-bold rounded-lg shadow-xl hover:bg-white hover:text-weather-secondary transition-all duration-300 flex items-center justify-center gap-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -307,7 +302,7 @@ export default function AboutPage() {
               className="max-w-5xl mx-auto"
             >
               <motion.h2 
-                className="text-4xl md:text-5xl font-display font-bold text-[#0056b3] mb-8 text-center"
+                className="text-4xl md:text-5xl font-display font-bold text-weather-secondary mb-8 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -387,7 +382,7 @@ export default function AboutPage() {
         </section>
 
         {/* Statistics Section with Animated Counters */}
-        <section className="py-20 bg-gradient-to-br from-[#0056b3] to-[#003d82] relative overflow-hidden">
+        <section className="py-20 bg-gradient-to-br from-weather-secondary to-weather-secondary-dark relative overflow-hidden">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute inset-0 bg-pattern"></div>
@@ -438,7 +433,7 @@ export default function AboutPage() {
               className="max-w-5xl mx-auto"
             >
               <motion.h2 
-                className="text-4xl md:text-5xl font-display font-bold text-[#0056b3] mb-8 text-center"
+                className="text-4xl md:text-5xl font-display font-bold text-weather-secondary mb-8 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -465,14 +460,14 @@ export default function AboutPage() {
                 {/* Service Categories */}
                 <div className="grid md:grid-cols-2 gap-6">
                   <motion.div 
-                    className="bg-gradient-to-br from-[#0056b3]/5 to-[#0056b3]/10 rounded-xl p-6"
+                    className="bg-gradient-to-br from-weather-secondary/5 to-weather-secondary/10 rounded-xl p-6"
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.3 }}
                     whileHover={{ scale: 1.02 }}
                   >
-                    <Home className="w-10 h-10 text-[#0056b3] mb-4" />
+                    <Home className="w-10 h-10 text-weather-secondary mb-4" />
                     <h3 className="text-xl font-bold text-gray-900 mb-3">Residential Services</h3>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
@@ -540,7 +535,7 @@ export default function AboutPage() {
               className="max-w-5xl mx-auto"
             >
               <motion.h2 
-                className="text-4xl md:text-5xl font-display font-bold text-[#0056b3] mb-8 text-center"
+                className="text-4xl md:text-5xl font-display font-bold text-weather-secondary mb-8 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -589,7 +584,7 @@ export default function AboutPage() {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     whileHover={{ y: -5 }}
                   >
-                    <div className="bg-gradient-to-br from-[#0056b3] to-[#003d82] text-white rounded-xl p-6 shadow-lg">
+                    <div className="bg-gradient-to-br from-weather-secondary to-weather-secondary-dark text-white rounded-xl p-6 shadow-lg">
                       <Shield className="w-12 h-12 mx-auto mb-4" />
                       <h3 className="text-xl font-bold mb-2">Premium Materials</h3>
                       <p className="text-sm opacity-90">Top brands & extended warranties</p>
@@ -667,7 +662,7 @@ export default function AboutPage() {
                 
                 {/* Play button overlay effect */}
                 <motion.div 
-                  className="absolute inset-0 bg-gradient-to-r from-[#0056b3]/20 to-amber-500/20 pointer-events-none"
+                  className="absolute inset-0 bg-gradient-to-r from-weather-secondary/20 to-weather-amber/20 pointer-events-none"
                   initial={{ opacity: 1 }}
                   whileInView={{ opacity: 0 }}
                   viewport={{ once: true }}
@@ -689,7 +684,7 @@ export default function AboutPage() {
               className="max-w-5xl mx-auto"
             >
               <motion.h2 
-                className="text-4xl md:text-5xl font-display font-bold text-[#0056b3] mb-8 text-center"
+                className="text-4xl md:text-5xl font-display font-bold text-weather-secondary mb-8 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -743,12 +738,12 @@ export default function AboutPage() {
                   ].map((benefit, index) => (
                     <motion.div
                       key={benefit.title}
-                      className="flex items-start gap-4 p-6 bg-gray-50 rounded-xl"
+                      className="flex items-start gap-4 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors"
                       initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
-                      whileHover={{ scale: 1.02, backgroundColor: '#f3f4f6' }}
+                      whileHover={{ scale: 1.02 }}
                     >
                       <div className={`flex-shrink-0 ${benefit.color}`}>
                         {benefit.icon}
@@ -780,7 +775,7 @@ export default function AboutPage() {
                   </motion.a>
                   <p className="text-gray-600 mt-4">
                     Or call us directly at{" "}
-                    <a href="tel:843-493-4963" className="text-[#0056b3] font-bold hover:underline">
+                    <a href="tel:843-493-4963" className="text-weather-secondary font-bold hover:underline">
                       (843) 493-4963
                     </a>
                   </p>
@@ -826,9 +821,6 @@ export default function AboutPage() {
 
         {/* Main CTA Section */}
         <CTASection />
-      </main>
-      <Footer />
-      <FloatingContact />
-    </>
+    </main>
   )
 }

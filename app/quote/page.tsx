@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import FloatingContact from '../components/FloatingContact'
 import { ChevronLeft, ChevronRight, Check, Upload, Home, Building2, Clock, AlertCircle } from 'lucide-react'
 
 interface FormData {
@@ -816,7 +815,6 @@ export default function QuotePage() {
         </div>
       </main>
       <Footer />
-      <FloatingContact />
     </>
   )
 }

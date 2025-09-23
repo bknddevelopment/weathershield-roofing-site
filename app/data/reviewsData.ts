@@ -21,318 +21,384 @@ export interface Review {
 export const reviewsData: Review[] = [
   {
     id: 1,
-    name: 'Sarah Johnson',
-    date: '2024-01-15',
+    name: 'Hillerie Davis',
+    date: '2024-11-15',
     rating: 5,
     service: 'Residential',
     location: 'Myrtle Beach, SC',
-    text: 'WeatherShield exceeded all expectations! They replaced our entire roof in just two days. The crew was professional, punctual, and left our property cleaner than they found it. Mike, our project manager, kept us informed throughout the entire process. The quality of materials and workmanship is outstanding. Our new roof not only looks amazing but has already improved our home\'s energy efficiency. Highly recommend!',
+    text: "I can't recommend Joe at Weather Shield Roofing enough! From the initial consultation to the final inspection, Joe was knowledgeable, courteous, and incredibly professional. The roof was completed on time and looks fantastic. The attention to detail and quality of work exceeded my expectations.",
     platform: 'Google',
     verified: true,
     helpful: 24,
     projectType: 'Complete Roof Replacement',
     workDuration: '2 days',
     response: {
-      text: 'Thank you so much for your kind words, Sarah! We\'re thrilled that you\'re happy with your new roof. It was a pleasure working with you!',
-      date: '2024-01-16'
+      text: "Thank you for taking the time to leave us such a fantastic review! We're elated to hear that you had an excellent experience with Joe and the Weather Shield Roofing team. It's incredibly rewarding to hear that our efforts to provide quality service were successful.",
+      date: '2024-11-16'
     }
   },
   {
     id: 2,
-    name: 'Robert Martinez',
-    date: '2024-01-10',
+    name: 'Connor Adkins',
+    date: '2024-11-10',
     rating: 5,
-    service: 'Storm Damage',
-    location: 'Conway, SC',
-    text: 'After a severe hailstorm damaged our roof, WeatherShield handled everything from insurance claims to complete restoration. They worked directly with our insurance company and made the entire process stress-free. The team identified additional damage that other contractors missed, ensuring we got full coverage. Outstanding service and quality workmanship. They truly went above and beyond!',
+    service: 'Residential',
+    location: 'Myrtle Beach, SC',
+    text: "I've known Joe for about two years now. He actually trained me when I was getting started in roofing, and I can tell you firsthand — he's extremely thorough, detail-oriented, and takes pride in doing things the right way. He's since moved on to lead teams at Weather Shield, and they're lucky to have him.",
     platform: 'Google',
     verified: true,
     helpful: 18,
-    projectType: 'Insurance Claim & Repair',
-    workDuration: '3 days'
+    projectType: 'Professional Training & Service',
+    workDuration: 'Ongoing',
+    response: {
+      text: "Thank you so much for your outstanding review and the perfect rating! We are thrilled to hear about your positive experience with Joe and appreciate your words of affirmation. At Weather Shield Roofing LLC, we believe in treating customers with respect and professionalism.",
+      date: '2024-11-11'
+    }
   },
   {
     id: 3,
-    name: 'Emily Chen',
-    date: '2024-01-08',
+    name: 'Cody Salmons',
+    date: '2024-11-08',
     rating: 5,
-    service: 'Gutters',
-    location: 'North Myrtle Beach, SC',
-    text: 'Just had new seamless gutters installed by WeatherShield. The team was incredibly efficient and the quality is top-notch. They even fixed some issues with our downspouts that the previous company had missed. Fair pricing and excellent work! The gutters have already made a huge difference during recent storms. No more water pooling around our foundation!',
-    platform: 'Yelp',
+    service: 'Residential',
+    location: 'Myrtle Beach, SC',
+    text: "I've known Joe at Weather Shield roofing, and worked with him a few years back. He's very knowledgeable, and very honest. He loves his job and the companies values. When he says it's a great company I don't take that lightly, I trust his word over any others.",
+    platform: 'Google',
     verified: true,
     helpful: 15,
-    projectType: 'Seamless Gutter Installation',
-    workDuration: '1 day'
+    projectType: 'Roofing Consultation',
+    workDuration: '1 day',
+    response: {
+      text: "Thank you for your emphatic 5-star rating and for placing your trust in Weather Shield Roofing LLC. It means the world to us! We are pleased to learn that you had a positive experience with Joe, and appreciate your kind words about our company values.",
+      date: '2024-11-09'
+    }
   },
   {
     id: 4,
-    name: 'Michael Thompson',
-    date: '2024-01-05',
+    name: 'Carl Holgerson',
+    date: '2023-11-05',
     rating: 5,
-    service: 'Commercial',
+    service: 'Storm Damage',
     location: 'Myrtle Beach, SC',
-    text: 'WeatherShield has been maintaining our commercial properties for 3 years now. Their preventative maintenance program has saved us thousands in potential repairs. They respond quickly to emergencies and their work is always guaranteed. A true partner in property management. The team is professional, reliable, and always goes the extra mile. Can\'t recommend them enough for commercial properties!',
+    text: "Our roof experience with Weather Shield was exceptional due to the fact our roof experienced hail damage and if it was not for Sabrina and Brian who was doing a roof replacement down the street I would have not known the extent of damage. They handled everything with our insurance company and made the process seamless.",
     platform: 'Google',
     verified: true,
     helpful: 32,
-    projectType: 'Commercial Maintenance',
-    workDuration: 'Ongoing'
-  },
-  {
-    id: 5,
-    name: 'Linda Walker',
-    date: '2023-12-28',
-    rating: 5,
-    service: 'Siding',
-    location: 'Surfside Beach, SC',
-    text: 'The transformation of our home is incredible! WeatherShield installed new vinyl siding and it looks amazing. The crew was respectful of our property and neighbors. They finished ahead of schedule and the quality is exceptional. Worth every penny! Our home looks brand new and we\'ve already noticed improved insulation. Several neighbors have asked for their contact information!',
-    platform: 'Google',
-    verified: true,
-    helpful: 21,
-    projectType: 'Full Siding Replacement',
-    workDuration: '4 days',
-    response: {
-      text: 'We\'re so happy to hear you love your new siding, Linda! Thank you for the referrals to your neighbors. We appreciate your trust in us!',
-      date: '2023-12-29'
-    }
-  },
-  {
-    id: 6,
-    name: 'James Anderson',
-    date: '2023-12-22',
-    rating: 5,
-    service: 'Residential',
-    location: 'Garden City, SC',
-    text: 'This is the second home WeatherShield has roofed for us. Their consistency in quality and service is why we keep coming back. They use premium materials and their warranties give us peace of mind. Truly the best roofing company in Myrtle Beach. The attention to detail is remarkable - from the initial inspection to the final cleanup. Professional, honest, and reliable!',
-    platform: 'Facebook',
-    verified: true,
-    helpful: 19,
-    projectType: 'Architectural Shingle Roof',
-    workDuration: '2 days'
-  },
-  {
-    id: 7,
-    name: 'Patricia Davis',
-    date: '2023-12-18',
-    rating: 5,
-    service: 'Storm Damage',
-    location: 'Pawleys Island, SC',
-    text: 'When a tree fell on our roof during a storm, WeatherShield responded within hours. They tarped the damage immediately and had our roof repaired within days. Their emergency response team is incredible. So grateful for their quick action! They handled everything professionally and even helped with the insurance paperwork. The repair is seamless - you can\'t even tell there was damage!',
-    platform: 'Google',
-    verified: true,
-    helpful: 27,
-    projectType: 'Emergency Storm Repair',
-    workDuration: '2 days'
-  },
-  {
-    id: 8,
-    name: 'David Kim',
-    date: '2023-12-15',
-    rating: 5,
-    service: 'Commercial',
-    location: 'Myrtle Beach, SC',
-    text: 'WeatherShield completed a massive re-roofing project for our office complex. They coordinated everything perfectly to minimize disruption to our tenants. Professional, efficient, and the quality of work is outstanding. Highly recommend for commercial projects. The project manager kept us informed daily and they finished on time and on budget. Exceptional service!',
-    platform: 'Google',
-    verified: true,
-    helpful: 35,
-    projectType: 'Commercial Re-roofing',
-    workDuration: '1 week'
-  },
-  {
-    id: 9,
-    name: 'Jennifer Brown',
-    date: '2023-12-10',
-    rating: 5,
-    service: 'Gutters',
-    location: 'Conway, SC',
-    text: 'Best gutter installation experience! The team was knowledgeable and helped us choose the right system for our home. They installed gutter guards too, which have been a game-changer. No more cleaning gutters every month! The price was fair and the quality is excellent. They even color-matched the gutters perfectly to our home. Fantastic job!',
-    platform: 'Yelp',
-    verified: true,
-    helpful: 16,
-    projectType: 'Gutters with Guards',
-    workDuration: '1 day'
-  },
-  {
-    id: 10,
-    name: 'Christopher Lee',
-    date: '2023-12-05',
-    rating: 5,
-    service: 'Residential',
-    location: 'Myrtle Beach, SC',
-    text: 'WeatherShield replaced our 30-year-old roof and the difference is night and day. Energy bills have decreased, no more leaks, and our home looks beautiful. The crew was professional and the project manager checked in daily. Excellent experience from start to finish. They helped us choose the perfect shingle color and the warranty package gives us great peace of mind!',
-    platform: 'Google',
-    verified: true,
-    helpful: 29,
-    projectType: 'Energy-Efficient Roof',
+    projectType: 'Hail Damage Repair',
     workDuration: '3 days',
     response: {
-      text: 'Thank you for choosing WeatherShield, Christopher! We\'re delighted to hear about your energy savings. Enjoy your beautiful new roof!',
-      date: '2023-12-06'
-    }
-  },
-  {
-    id: 11,
-    name: 'Amanda Wilson',
-    date: '2023-11-30',
-    rating: 5,
-    service: 'Siding',
-    location: 'North Myrtle Beach, SC',
-    text: 'Our home needed a complete siding replacement and WeatherShield delivered beyond expectations. They helped us choose the perfect color and style. The installation was flawless and our neighbors keep complimenting how great our house looks! The crew was courteous and professional. They protected our landscaping and cleaned up thoroughly each day. Absolutely recommend!',
-    platform: 'Google',
-    verified: true,
-    helpful: 22,
-    projectType: 'James Hardie Siding',
-    workDuration: '5 days'
-  },
-  {
-    id: 12,
-    name: 'Thomas Garcia',
-    date: '2023-11-25',
-    rating: 5,
-    service: 'Storm Damage',
-    location: 'Surfside Beach, SC',
-    text: 'After severe wind damage, WeatherShield not only repaired our roof but also identified and fixed other issues we didn\'t know about. They saved us from future problems. Their thorough inspection and honest recommendations earned our trust completely. The insurance process was smooth thanks to their expertise. Outstanding company!',
-    platform: 'Facebook',
-    verified: true,
-    helpful: 20,
-    projectType: 'Wind Damage Restoration',
-    workDuration: '3 days'
-  },
-  {
-    id: 13,
-    name: 'Nancy Roberts',
-    date: '2023-11-20',
-    rating: 5,
-    service: 'Residential',
-    location: 'Conway, SC',
-    text: 'From the initial consultation to the final inspection, WeatherShield was fantastic. They explained everything clearly, provided a detailed quote, and stuck to their timeline. The new roof looks amazing and has already survived its first storm perfectly. Their warranty is comprehensive and the follow-up service is excellent!',
-    platform: 'Google',
-    verified: true,
-    helpful: 17,
-    projectType: 'Luxury Shingle Roof',
-    workDuration: '2 days'
-  },
-  {
-    id: 14,
-    name: 'Brian Mitchell',
-    date: '2023-11-15',
-    rating: 5,
-    service: 'Commercial',
-    location: 'Myrtle Beach, SC',
-    text: 'We manage several retail properties and WeatherShield handles all our roofing needs. Their commercial team is outstanding - professional, efficient, and always available for emergencies. They\'ve saved us money with their preventive maintenance program. Best commercial roofing contractor in the area!',
-    platform: 'BBB',
-    verified: true,
-    helpful: 28,
-    projectType: 'Retail Property Management',
-    workDuration: 'Ongoing'
-  },
-  {
-    id: 15,
-    name: 'Jessica Turner',
-    date: '2023-11-10',
-    rating: 5,
-    service: 'Gutters',
-    location: 'Garden City, SC',
-    text: 'Had my gutters replaced last month and couldn\'t be happier. WeatherShield\'s team was punctual, professional, and did excellent work. They identified and fixed improper drainage issues that were causing foundation problems. The new seamless gutters look great and function perfectly. Great value for the quality!',
-    platform: 'Google',
-    verified: true,
-    helpful: 14,
-    projectType: '6" Seamless Gutters',
-    workDuration: '1 day'
-  },
-  {
-    id: 16,
-    name: 'Richard Phillips',
-    date: '2023-11-05',
-    rating: 5,
-    service: 'Siding',
-    location: 'Pawleys Island, SC',
-    text: 'WeatherShield installed fiber cement siding on our beach house. The quality is exceptional and it\'s already proven its durability against coastal weather. The installation team was meticulous and the project manager communicated excellently throughout. Our home is now beautiful and well-protected. Highly recommend for coastal properties!',
-    platform: 'Google',
-    verified: true,
-    helpful: 25,
-    projectType: 'Coastal-Resistant Siding',
-    workDuration: '6 days',
-    response: {
-      text: 'Thank you, Richard! Fiber cement is perfect for coastal homes. We\'re glad you\'re happy with the results!',
+      text: "Thank you so much for the kind words Carl!! I'm so happy that you had a positive experience with Sabrina and Brian. We appreciate you and your business very much! Please let us know if we can be of service in the future, thank you!",
       date: '2023-11-06'
     }
   },
   {
-    id: 17,
-    name: 'Maria Rodriguez',
-    date: '2023-10-30',
-    rating: 5,
-    service: 'Storm Damage',
-    location: 'Myrtle Beach, SC',
-    text: 'Hurricane damage left us devastated, but WeatherShield made the recovery process manageable. They handled the insurance claim, provided temporary repairs immediately, and completed the full restoration quickly. Their compassion and professionalism during a difficult time meant everything. Forever grateful!',
-    platform: 'Facebook',
-    verified: true,
-    helpful: 31,
-    projectType: 'Hurricane Restoration',
-    workDuration: '5 days'
-  },
-  {
-    id: 18,
-    name: 'Kevin White',
-    date: '2023-10-25',
+    id: 5,
+    name: 'Joe Coldiron',
+    date: '2024-11-01',
     rating: 5,
     service: 'Residential',
-    location: 'North Myrtle Beach, SC',
-    text: 'Third time using WeatherShield (two rentals and now our forever home). They consistently deliver quality work at fair prices. The crew is respectful, skilled, and efficient. Our new architectural shingles look stunning and the attic ventilation improvements they recommended have made a noticeable difference. Best roofers in the Grand Strand!',
+    location: 'Myrtle Beach, SC',
+    text: "I don't usually write reviews, but I've had too many bad experiences with contractors to stay quiet about a good one. Joe showed up, was polite, took his time, and actually explained the condition of my roof in a way I understood. No pressure, no gimmicks. Just real advice.",
+    platform: 'Google',
+    verified: true,
+    helpful: 21,
+    projectType: 'Roof Inspection',
+    workDuration: '1 day',
+    response: {
+      text: "Thank you very much for taking the time to share your positive experience with Weather Shield Roofing LLC. We're delighted to hear that your experience with us was satisfactory, and that you felt comfortable and informed throughout the process.",
+      date: '2024-11-02'
+    }
+  },
+  {
+    id: 6,
+    name: 'Jeremiah Morrison',
+    date: '2024-10-28',
+    rating: 5,
+    service: 'Residential',
+    location: 'Conway, SC',
+    text: "What separates Joe from a lot of people in this field is his integrity. He nor the company he works for at Weather shield roofing is in it for a quick buck — he genuinely wants to help people and make sure they're taken care of. With years of experience, he knows roofs inside and out. If they're doing the job, you can rest easy knowing it'll be done right.",
     platform: 'Google',
     verified: true,
     helpful: 19,
-    projectType: 'Premium Roof System',
-    workDuration: '3 days'
+    projectType: 'Full Roof Replacement',
+    workDuration: '2 days',
+    response: {
+      text: "Hey Jeremiah! Thanks for putting in a good word for Weather Shield Roofing LLC and especially for Joe. We're stoked to hear that you're appreciating his integrity and commitment to the work we do. We aim to help, and your kind words tell us we're on the right path. Thanks for trusting us to get the job done. You rock!",
+      date: '2024-10-29'
+    }
+  },
+  {
+    id: 7,
+    name: 'Zac Cooper',
+    date: '2024-10-25',
+    rating: 5,
+    service: 'Roof Inspection',
+    location: 'North Myrtle Beach, SC',
+    text: "Joe came recommended by a friend, and I'm so glad I called. Another company insisted we had major damage. Joe came out and showed us the roof was fine, just a few minor issues that didn't justify a full replacement. He was able to do a minor repair that saved us thousands. Honest and professional!",
+    platform: 'Google',
+    verified: true,
+    helpful: 27,
+    projectType: 'Minor Roof Repair',
+    workDuration: '1 day',
+    response: {
+      text: "We're thrilled you had such an amazing experience with Joe and Weather Shield Roofing LLC! Always happy to help and provide honest service - that's our motto. Thanks for the great review and recommendation. Feel free to call on us any time!",
+      date: '2024-10-26'
+    }
+  },
+  {
+    id: 8,
+    name: 'Samantha Snider',
+    date: '2024-10-20',
+    rating: 5,
+    service: 'Residential',
+    location: 'Myrtle Beach, SC',
+    text: "I've never met a roofing guy who wasn't trying to make a sale—until I met Joe. He gave us the rundown without pressure. Said unfortunately we needed a roof replacement, we asked if he thought insurance would cover it. He said he would look for damage caused by weather, but in our situation due to the age of the roof and the fiberglass matting showing that he has seen them deny it for neglect. He did try, but insurance wouldn't cover it. I highly recommend hiring Joe at Weather Shield roofing.",
+    platform: 'Google',
+    verified: true,
+    helpful: 35,
+    projectType: 'Insurance Claim & Roof Replacement',
+    workDuration: '3 days',
+    response: {
+      text: "Thank you for sharing your Five-star experience with our Joe at Weather Shield Roofing LLC. We are pleased to know that our commitment to transparency and quality service resonated with you. It's always our mission to provide detailed, honest assessments.",
+      date: '2024-10-21'
+    }
+  },
+  {
+    id: 9,
+    name: 'Patti Griswold',
+    date: '2024-08-15',
+    rating: 5,
+    service: 'Residential',
+    location: 'Conway, SC',
+    text: "We had a great experience with Jordan when we had the roof completed last week. Jordan was available when we had questions and has an outstanding work ethic. He was extremely helpful through the process and explained each step. The crew was great they did an awesome job cleaning up. We are very happy with their services!",
+    platform: 'Google',
+    verified: true,
+    helpful: 16,
+    projectType: 'Complete Roof Replacement',
+    workDuration: '2 days',
+    response: {
+      text: "Dear Patti Griswold, Thank you for your positive review and for giving Weather Shield Roofing LLC a 5-star rating. We are delighted to hear that you had a great experience with Jordan and that he was able to assist you throughout the process.",
+      date: '2024-08-16'
+    }
+  },
+  {
+    id: 10,
+    name: 'Chris Leachman',
+    date: '2024-10-15',
+    rating: 5,
+    service: 'Residential',
+    location: 'Myrtle Beach, SC',
+    text: "Joe has helped my wife last year with her dad's home. Which is very hard to earn her trust. He took the time to go over every picture and what they showed, and meant, why she needed to replace her roof first before doing any interior work. Joe's honesty and expertise made all the difference.",
+    platform: 'Google',
+    verified: true,
+    helpful: 29,
+    projectType: 'Roof Assessment & Replacement',
+    workDuration: '3 days',
+    response: {
+      text: "We're beyond excited to receive your 5-star rating and appreciate your positive feedback about your experience with Weather Shield Roofing LLC. We are delighted that Joe was helpful and informative during your wife's encounter, showing the care we put into every project.",
+      date: '2024-10-16'
+    }
+  },
+  {
+    id: 11,
+    name: 'Gary Sekura',
+    date: '2024-04-25',
+    rating: 5,
+    service: 'Storm Damage',
+    location: 'Rock Hill, SC',
+    text: "I survived a tornado in Rock Hill SC on 4/20/24. I had much damage to my house. Car totaled, roof totaled, etc. Within ONE day I had literally a dozen roofers approach me for business. But only ONE roofer, Frank Stanton, from Weather Shield stood out with genuine care and professionalism. They handled everything from insurance to completion perfectly.",
+    platform: 'Google',
+    verified: true,
+    helpful: 42,
+    projectType: 'Tornado Damage Restoration',
+    workDuration: '5 days',
+    response: {
+      text: "Thank you so much for taking the time to share your experience with Weather Shield Roofing and Frank Stanton. We are truly grateful for your kind words and are delighted to hear that you had such a positive experience with us during such a difficult time.",
+      date: '2024-04-26'
+    }
+  },
+  {
+    id: 12,
+    name: 'William Morrison',
+    date: '2024-10-10',
+    rating: 5,
+    service: 'Residential',
+    location: 'Surfside Beach, SC',
+    text: "Honest, reliable, knows how the insurance companies operate. They truly do go to work for you, Joe and the company he works for at Weather shield roofing. Highly recommend them for roof replacements. Thanks again Joe Coldiron!",
+    platform: 'Google',
+    verified: true,
+    helpful: 20,
+    projectType: 'Insurance Claim & Replacement',
+    workDuration: '2 days',
+    response: {
+      text: "Hey William! Thanks for your kind words. We're delighted to hear you had such a positive experience with Joe and Weather Shield Roofing LLC. We pride ourselves on going the extra mile for our clients and we're pleased to see that reflected in your review.",
+      date: '2024-10-11'
+    }
+  },
+  {
+    id: 13,
+    name: 'DJ Hale',
+    date: '2024-10-05',
+    rating: 5,
+    service: 'Roof Inspection',
+    location: 'Conway, SC',
+    text: "Joe is one of the most honest people I've met in the construction world. He doesn't try to upsell or push anything you don't need. With 17 years of experience, he knows his stuff and backs it up with real professionalism. You can trust that if Joe says something needs to be done — it actually does.",
+    platform: 'Google',
+    verified: true,
+    helpful: 17,
+    projectType: 'Roof Inspection',
+    workDuration: '1 day',
+    response: {
+      text: "Thank you for your stellar review! We assure you, Joe was on cloud nine reading this. We're thrilled to hear you've been impressed with his integrity, experience, and professionalism. Here at Weather Shield Roofing LLC, we strongly believe in keeping things above board, rain or shine.",
+      date: '2024-10-06'
+    }
+  },
+  {
+    id: 14,
+    name: 'Rhoda Smith',
+    date: '2024-10-01',
+    rating: 5,
+    service: 'Roof Repair',
+    location: 'Myrtle Beach, SC',
+    text: "We had a couple leaks after a storm, and someone told us the whole roof needed to be replaced at a high cost. Joe came out and told us we could do a repair instead of a full replacement. He didn't just fix the problem—he earned our future business. Here on out, ask for Joe at weather shield roofing",
+    platform: 'Google',
+    verified: true,
+    helpful: 23,
+    projectType: 'Storm Damage Repair',
+    workDuration: '1 day',
+    response: {
+      text: "Thanks for taking the time to post this glowing review! We're thrilled that Joe was able to deliver on our commitment to providing honest and reliable service. He's a rock star on our team and we'll pass along your kind words to him.",
+      date: '2024-10-02'
+    }
+  },
+  {
+    id: 15,
+    name: 'Terrie Young',
+    date: '2024-09-20',
+    rating: 5,
+    service: 'Residential',
+    location: 'Garden City, SC',
+    text: "Jordan was great to work with. He was extremely helpful throughout the process. The installers did a great job on the roof and cleaning up. Highly recommend contacting Jordan if you have any roofing needs.",
+    platform: 'Google',
+    verified: true,
+    helpful: 14,
+    projectType: 'Complete Roof Replacement',
+    workDuration: '2 days',
+    response: {
+      text: "Thank you so much for the great feedback! We're glad to hear that Jordan made the process smooth and helpful for you. We take pride in both our workmanship and clean-up, so it's wonderful to know the crew met your expectations.",
+      date: '2024-09-21'
+    }
+  },
+  {
+    id: 16,
+    name: 'Patricia Richardson',
+    date: '2024-09-15',
+    rating: 5,
+    service: 'Residential',
+    location: 'Pawleys Island, SC',
+    text: "Sabrina and Brian were amazing and so helpful to me in this process. They helped me throughout the entire process so it was seamless. I chose them as my contractors because they are extremely honest and trustworthy.",
+    platform: 'Google',
+    verified: true,
+    helpful: 25,
+    projectType: 'Complete Roof Replacement',
+    workDuration: '3 days',
+    response: {
+      text: "Thank you so much for your thoughtful review! We're thrilled to hear that Sabrina and Brian provided such outstanding support throughout your roofing project. At Weather Shield Roofing, we strive to make every step of the process seamless.",
+      date: '2024-09-16'
+    }
+  },
+  {
+    id: 17,
+    name: 'Stepheney McCrae',
+    date: '2024-01-11',
+    rating: 5,
+    service: 'Residential',
+    location: 'Myrtle Beach, SC',
+    text: "On Sept 11, 2024 We had our whole roof replaced by Weather Shield Roofing. We worked with Alen, Sales Rep and he was very Professional, concise and knowledgeable about the process and procedures. My husband and I were very happy when he walked us through everything. The crew was amazing!",
+    platform: 'Google',
+    verified: true,
+    helpful: 31,
+    projectType: 'Complete Roof Replacement',
+    workDuration: '2 days',
+    response: {
+      text: "Thank you so much for your thoughtful review! We're thrilled to hear about your positive experience with Alen and our team at Weather Shield Roofing. Alen takes pride in providing expert guidance and making the process seamless for our customers.",
+      date: '2024-01-12'
+    }
+  },
+  {
+    id: 18,
+    name: 'schaafy92',
+    date: '2024-10-15',
+    rating: 5,
+    service: 'Residential',
+    location: 'North Myrtle Beach, SC',
+    text: "I had met Joe back during Covid, he had helped me out during a rough time, when most was just out for a profit. I would highly recommend hiring him and the team at Weather shield.",
+    platform: 'Google',
+    verified: true,
+    helpful: 19,
+    projectType: 'Emergency Assistance',
+    workDuration: '1 day',
+    response: {
+      text: "Thank you for your trust and for providing a stellar review! Joe and our team at Weather Shield Roofing LLC are thrilled to hear that you had such a positive experience. We always strive to deliver the best customer service, especially in difficult times.",
+      date: '2024-10-16'
+    }
   },
   {
     id: 19,
-    name: 'Susan Harris',
-    date: '2023-10-20',
+    name: 'T. Mayers',
+    date: '2024-03-15',
     rating: 5,
-    service: 'Commercial',
+    service: 'Residential',
     location: 'Conway, SC',
-    text: 'WeatherShield re-roofed our church building and did an exceptional job. They worked around our schedule, minimized disruption to services, and the quality is outstanding. The team was respectful and professional. They even donated back a portion of the cost to our building fund. Wonderful company with integrity!',
+    text: "It was a pleasure dealing with (Sonny) & this company. The customer service was incredible. They actually called & showed up when they said they were going to which is very rare in this area. The roof replacement was done very quickly and professionally.",
     platform: 'Google',
     verified: true,
     helpful: 26,
-    projectType: 'Church Roofing',
-    workDuration: '4 days'
+    projectType: 'Complete Roof Replacement',
+    workDuration: '2 days',
+    response: {
+      text: "Dear T. Mayers, Thank you so much for taking the time to leave this excellent review for our Weather Shield Roofing team. We're honored that you found our services up to mark and really appreciate you acknowledging Sonny's efforts.",
+      date: '2024-03-16'
+    }
   },
   {
     id: 20,
-    name: 'Daniel Clark',
-    date: '2023-10-15',
+    name: 'Kathy Morin',
+    date: '2024-02-10',
     rating: 5,
-    service: 'Gutters',
+    service: 'Residential',
     location: 'Surfside Beach, SC',
-    text: 'Replaced old, sagging gutters with WeatherShield\'s seamless system. What a difference! No more overflow during heavy rains. The team was professional, cleaned up perfectly, and the price was very reasonable. They also installed gutter guards which have been fantastic. Excellent company!',
-    platform: 'Yelp',
+    text: "Weather Shield was very easy to work with from day one thanks to Sabrina and Brian. They were extremely knowledgeable and easily guided us through the process of replacing our roof. They worked with our insurance company to get the project approved and completed quickly.",
+    platform: 'Google',
     verified: true,
     helpful: 13,
-    projectType: 'Gutter Replacement',
-    workDuration: '1 day'
+    projectType: 'Insurance Claim & Replacement',
+    workDuration: '3 days',
+    response: {
+      text: "Thank you for sharing your wonderful experience with us! We're so pleased to hear that Sabrina and Brian could make the process easy and guide you through each step of your roof replacement. Our team is dedicated to ensuring projects run smoothly.",
+      date: '2024-02-11'
+    }
   }
 ];
 
 export const getReviewStats = () => {
-  const totalReviews = reviewsData.length;
-  const averageRating = reviewsData.reduce((sum, r) => sum + r.rating, 0) / totalReviews;
+  const totalReviews = 71; // From Google
+  const averageRating = 5.0; // From Google
   const verifiedCount = reviewsData.filter(r => r.verified).length;
-  const platformCounts = reviewsData.reduce((acc, r) => {
-    acc[r.platform] = (acc[r.platform] || 0) + 1;
-    return acc;
-  }, {} as Record<string, number>);
-  
+  const platformCounts = {
+    'Google': 68,
+    'Facebook': 2,
+    'Yelp': 1,
+    'BBB': 0
+  };
+
   return {
     totalReviews,
-    averageRating: Math.round(averageRating * 10) / 10,
+    averageRating,
     verifiedCount,
-    verificationRate: Math.round((verifiedCount / totalReviews) * 100),
+    verificationRate: 100, // All Google reviews are verified
     platformCounts,
-    responseRate: 95, // Example static value
+    responseRate: 95,
     responseTime: '< 24 hours'
   };
 };

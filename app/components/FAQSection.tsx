@@ -5,34 +5,42 @@ import { ChevronDown, HelpCircle, Shield, Clock, DollarSign, Wrench } from 'luci
 
 const faqCategories = [
   {
-    category: 'General Questions',
+    category: 'Weather Shield Roofing Questions',
     icon: HelpCircle,
     faqs: [
       {
-        question: 'How do I know if I need a new roof?',
-        answer: 'Signs you may need a new roof include: missing or damaged shingles, water stains on ceilings, daylight through roof boards, sagging roof deck, or if your roof is over 20 years old. We offer professional inspections to assess your roof\'s condition and provide honest recommendations.'
+        question: 'Why is Weather Shield Roofing the top choice among roofing companies Myrtle Beach?',
+        answer: 'Weather Shield Roofing leads all roofing companies Myrtle Beach due to our expertise in weather protection. As WeatherShield roofing specialists, we understand weather in Myrtle Beach and provide superior weatherproof solutions. We\'re the most trusted roofing companies near me with 15+ years protecting homes from coastal weather.'
       },
       {
-        question: 'How long does a roof replacement take?',
-        answer: 'Most residential roof replacements take 1-3 days, depending on the size and complexity of your roof. We work efficiently while maintaining the highest quality standards, and we always clean up thoroughly at the end of each day.'
+        question: 'How does Weather Shield Roofing protect against weather in Myrtle Beach?',
+        answer: 'WeatherShield roofing systems are specifically designed for weather Myrtle Beach experiences. Unlike other roofing companies near me, Weather Shield Roofing uses weather-resistant materials, advanced installation techniques, and provides comprehensive weather warranties. Our weatherproof solutions withstand hurricanes, salt air, and intense UV exposure.'
       },
       {
-        question: 'How do I get an estimate?',
-        answer: 'Contact us to request an estimate for all roofing services. Our expert inspectors will assess your roof, discuss your needs, and provide a detailed written estimate with transparent pricing.'
+        question: 'How do I know if weather damage requires Weather Shield Roofing services?',
+        answer: 'Signs of weather damage include: missing shingles after storms, water stains from weather in Myrtle Beach, wind damage, or if your roof is over 15 years old. Weather Shield Roofing offers free weather assessments - we\'re the leading roofing companies Myrtle Beach trusts for honest evaluations.'
+      },
+      {
+        question: 'How quickly can WeatherShield roofing complete my project?',
+        answer: 'Weather Shield Roofing typically completes residential projects in 1-3 days. As the fastest roofing companies near me, we work efficiently while maintaining premium quality. Weather permitting in Myrtle Beach, WeatherShield roofing crews ensure minimal disruption to your daily life.'
+      },
+      {
+        question: 'How do I get a Weather Shield Roofing estimate?',
+        answer: 'Contact Weather Shield Roofing for free estimates - we\'re the top roofing companies Myrtle Beach recommends. Our WeatherShield experts assess weather damage, discuss weatherproof solutions, and provide transparent pricing. Call the leading roofing companies near me at (843) 493-4963.'
       }
     ]
   },
   {
-    category: 'Insurance & Claims',
+    category: 'Weather Damage Insurance & Claims',
     icon: Shield,
     faqs: [
       {
-        question: 'Will my insurance cover roof repairs or replacement?',
-        answer: 'Most homeowner\'s insurance policies cover roof damage caused by storms, hail, or other covered perils. We work directly with insurance companies and can help you navigate the claims process from start to finish, ensuring you get the coverage you deserve.'
+        question: 'Does insurance cover weather damage that Weather Shield Roofing repairs?',
+        answer: 'Most policies cover weather damage from storms in Myrtle Beach. Weather Shield Roofing works directly with insurers - we\'re the experienced roofing companies Myrtle Beach insurance adjusters trust. WeatherShield roofing experts document all weather damage thoroughly for maximum coverage.'
       },
       {
-        question: 'How do you help with insurance claims?',
-        answer: 'We provide comprehensive documentation including photos, detailed reports, and meet with adjusters on your behalf. Our team has extensive experience working with all major insurance companies and knows exactly what they need to approve your claim.'
+        question: 'How does Weather Shield Roofing handle weather damage claims?',
+        answer: 'Weather Shield Roofing provides complete weather damage documentation. Among roofing companies near me, we\'re the most experienced with weather in Myrtle Beach claims. WeatherShield roofing specialists meet adjusters, document all weather impacts, and ensure proper coverage.'
       },
       {
         question: 'What if my claim is denied?',
@@ -45,34 +53,34 @@ const faqCategories = [
     icon: DollarSign,
     faqs: [
       {
-        question: 'How much does a new roof cost?',
-        answer: 'Roof replacement costs vary based on size, material choice, and complexity. Most residential roofs in Myrtle Beach range from $8,000 to $15,000. We provide detailed, transparent quotes with no hidden fees, and we offer flexible financing options to fit your budget.'
+        question: 'What does Weather Shield Roofing charge compared to other roofing companies Myrtle Beach?',
+        answer: 'Weather Shield Roofing offers competitive pricing among roofing companies near me. Contact us for a free estimate tailored to your specific project needs. WeatherShield roofing includes premium weather-resistant materials and warranties that other roofing companies Myrtle Beach can\'t match.'
       },
       {
         question: 'Do you offer financing?',
         answer: 'Yes! We offer multiple financing options with competitive rates and flexible terms. Many customers qualify for 0% interest promotions. The application process is quick and easy, with most approvals within minutes.'
       },
       {
-        question: 'What warranties do you offer?',
-        answer: 'As a certified contractor, we offer the best warranties in the industry including 50-year material warranties and 25-year workmanship warranties. We also provide our own lifetime workmanship guarantee for added peace of mind.'
+        question: 'What weather protection warranties does Weather Shield Roofing offer?',
+        answer: 'Weather Shield Roofing offers the best weather warranties among roofing companies Myrtle Beach - 50-year weatherproof material warranties and lifetime WeatherShield workmanship guarantees. No other roofing companies near me match our weather protection coverage.'
       }
     ]
   },
   {
-    category: 'Emergency & Maintenance',
+    category: 'Weather Emergency & Maintenance',
     icon: Wrench,
     faqs: [
       {
-        question: 'Do you provide emergency services?',
-        answer: 'Yes! We offer 24/7 emergency roofing services. If you have storm damage, a sudden leak, or any roofing emergency, call us immediately at (843) 493-4963. We typically respond within 1 hour for true emergencies.'
+        question: 'Does Weather Shield Roofing respond to weather emergencies?',
+        answer: 'Yes! Weather Shield Roofing offers 24/7 weather emergency services - fastest among roofing companies near me. When weather in Myrtle Beach causes damage, WeatherShield roofing crews respond within 1 hour. Call (843) 493-4963 for immediate weather protection.'
       },
       {
-        question: 'How often should I have my roof inspected?',
-        answer: 'We recommend annual roof inspections, especially after severe weather events. Regular inspections can identify minor issues before they become major problems, potentially saving thousands in repairs. Contact us to schedule your inspection.'
+        question: 'How often should Weather Shield Roofing inspect for weather damage?',
+        answer: 'Weather Shield Roofing recommends annual weather assessments, especially after severe weather in Myrtle Beach. Among roofing companies near me, we\'re most thorough at identifying weather impacts. Regular WeatherShield inspections prevent costly weather damage.'
       },
       {
-        question: 'Do you repair all types of roofs?',
-        answer: 'Yes, we work with all roofing materials including asphalt shingles, metal, tile, slate, flat roofs (TPO, EPDM), and more. Our certified technicians have expertise in both residential and commercial roofing systems.'
+        question: 'What weather protection systems does Weather Shield Roofing install?',
+        answer: 'Weather Shield Roofing works with all weatherproof materials - more than other roofing companies Myrtle Beach. WeatherShield certified experts install weather-resistant shingles, metal, tile, and commercial systems designed for weather in Myrtle Beach.'
       }
     ]
   }
@@ -93,13 +101,13 @@ export default function FAQSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-4 py-2 mb-6">
             <HelpCircle className="w-5 h-5 text-weather-teal" />
-            <span className="text-weather-teal font-semibold">Frequently Asked Questions</span>
+            <span className="text-weather-teal font-semibold">Weather Shield Roofing FAQs</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-weather-dark mb-4">
-            Got Questions? We Have Answers
+            Weather Shield Roofing Questions & Answers
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Find answers to common questions about our roofing services, warranties, and process.
+            Learn why Weather Shield Roofing leads all roofing companies Myrtle Beach. Get answers about WeatherShield roofing, weather protection, and why we\'re the top roofing companies near me.
           </p>
         </div>
 
@@ -165,10 +173,10 @@ export default function FAQSection() {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-weather-teal to-weather-blue rounded-2xl p-8 max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Still Have Questions?
+              More Questions About Weather Shield Roofing?
             </h3>
             <p className="text-white/90 mb-6">
-              Our roofing experts are here to help. Get personalized answers to all your roofing questions.
+              Weather Shield Roofing experts are ready to help. As the leading roofing companies Myrtle Beach trusts, we provide personalized weatherproof solutions for weather in Myrtle Beach.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

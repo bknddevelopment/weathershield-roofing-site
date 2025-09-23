@@ -107,7 +107,7 @@ const sidingInstallationData = {
       answer: 'Warranties vary by material - vinyl typically offers 20-30 year warranties, fiber cement up to 30-50 years. We also provide our own workmanship warranty. We\'ll explain all warranty details during your consultation.'
     }
   ],
-  priceRange: '$8,000 - $25,000',
+  priceRange: 'Request a free estimate',
   image: '/images/background/siding-installation-services.jpg',
   relatedServices: [
     { name: 'Gutter Services', href: '/services/gutter-services' },

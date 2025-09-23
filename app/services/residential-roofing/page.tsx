@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: 'Residential Roofing Services | Weather Shield Roofing',
   description: 'Expert residential roofing installation, repair, and replacement services in Myrtle Beach. Protect your home with quality materials and professional craftsmanship.',
   keywords: 'residential roofing, home roof repair, roof replacement, shingle roofing, roof installation, Myrtle Beach roofing',
+  alternates: {
+    canonical: 'https://weathershieldroofers.com/services/residential-roofing',
+  },
+  openGraph: {
+    title: 'Residential Roofing Services | Weather Shield Roofing',
+    description: 'Expert residential roofing installation, repair, and replacement services in Myrtle Beach.',
+    url: 'https://weathershieldroofers.com/services/residential-roofing',
+    type: 'website',
+  },
 }
 
 const residentialRoofingData = {
@@ -107,7 +116,7 @@ const residentialRoofingData = {
       answer: 'For Myrtle Beach\'s coastal climate, we recommend impact-resistant architectural shingles, metal roofing, or concrete tiles. These materials withstand high winds, salt air, and intense sun while providing excellent protection and curb appeal.'
     }
   ],
-  priceRange: '$5,000 - $25,000',
+  priceRange: 'Contact us for a free estimate',
   image: '/images/background/residential-roofing-gutter-siding-services.jpg',
   relatedServices: [
     { name: 'Storm Damage Repair', href: '/services/storm-damage' },

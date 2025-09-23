@@ -360,9 +360,9 @@ const WeatherSection = () => (
           to protect your home with proven storm protection services and 24/7 emergency response.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:843-493-4963"
+          <a href="tel:843-877-5539"
              className="bg-white text-red-500 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
-            Call Emergency Line: (843) 493-4963
+            Call Emergency Line: (843) 877-5539
           </a>
           <a href="https://your-n8n-form-url.com"
              className="bg-white/20 backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-red-500 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 text-center">
@@ -426,7 +426,7 @@ const WeatherSection = () => (
                 <AlertTriangle className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" />
                 <div>
                   <strong className="block">Contact Info</strong>
-                  <span className="text-sm text-gray-600">Save our emergency number: (843) 493-4963</span>
+                  <span className="text-sm text-gray-600">Save our emergency number: (843) 877-5539</span>
                 </div>
               </li>
             </ul>

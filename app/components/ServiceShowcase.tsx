@@ -345,13 +345,13 @@ export default function ServiceShowcase() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a
-                href="tel:843-493-4963"
+                href="tel:843-877-5539"
                 className="bg-weather-amber text-weather-navy px-8 py-4 rounded-lg font-bold shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center gap-2 group"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Clock className="w-5 h-5 animate-pulse" />
-                Emergency: (843) 493-4963
+                Emergency: (843) 877-5539
               </motion.a>
               <Link href="/quote">
                 <motion.button

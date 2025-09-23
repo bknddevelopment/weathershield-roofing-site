@@ -26,7 +26,7 @@ export default function ReviewSchema({
     "@type": "LocalBusiness",
     "name": businessName,
     "url": businessUrl,
-    "telephone": "+1-843-493-4963",
+    "telephone": "+1-843-877-5539",
     "email": "roofing@weathershieldroofers.com",
     "address": {
       "@type": "PostalAddress",
@@ -168,7 +168,7 @@ export default function ReviewSchema({
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-843-493-4963",
+      "telephone": "+1-843-877-5539",
       "contactType": "customer service",
       "areaServed": "US",
       "availableLanguage": "English"

@@ -602,7 +602,7 @@ export default function FinancingPage() {
               Apply Online Now
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors">
-              Call (843) 493-4963
+              Call (843) 877-5539
             </button>
           </div>
         </div>

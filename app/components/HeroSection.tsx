@@ -112,12 +112,12 @@ export default function HeroSection() {
                 <ChevronRight className="relative w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
               <a
-                href="tel:843-493-4963"
+                href="tel:843-877-5539"
                 className="group inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/50 hover:bg-white hover:text-weather-black hover:border-white text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-white/20 focus-visible-ring"
-                aria-label="Call Weather Shield Roofing at (843) 493-4963"
+                aria-label="Call Weather Shield Roofing at (843) 877-5539"
               >
                 <Phone className="w-6 h-6 group-hover:animate-pulse" />
-                <span>Call (843) 493-4963</span>
+                <span>Call (843) 877-5539</span>
               </a>
             </div>
 

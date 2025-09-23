@@ -146,7 +146,7 @@ export default function SpanishLandingPage() {
               {/* Badge de confianza */}
               <div className="inline-flex items-center gap-2 bg-weather-primary/20 backdrop-blur-md border border-weather-primary/40 rounded-full px-6 py-3 mb-8">
                 <Phone className="w-5 h-5 text-weather-primary animate-pulse" />
-                <span className="font-bold text-lg">¡Hablamos Español! • (843) 493-4963</span>
+                <span className="font-bold text-lg">¡Hablamos Español! • (843) 877-5539</span>
               </div>
 
               {/* Título principal con keywords */}
@@ -166,11 +166,11 @@ export default function SpanishLandingPage() {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
                 <Link
-                  href="tel:8434934963"
+                  href="tel:8438775539"
                   className="inline-flex items-center gap-3 bg-weather-primary hover:bg-weather-primary/90 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 shadow-xl"
                 >
                   <Phone className="w-6 h-6" />
-                  Llamar Ahora: (843) 493-4963
+                  Llamar Ahora: (843) 877-5539
                 </Link>
                 <Link
                   href="/quote"
@@ -212,11 +212,11 @@ export default function SpanishLandingPage() {
                 </div>
               </div>
               <Link
-                href="tel:8434934963"
+                href="tel:8438775539"
                 className="bg-white text-red-600 hover:bg-white/90 px-8 py-3 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-flex items-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Llamar Ahora: (843) 493-4963
+                Llamar Ahora: (843) 877-5539
               </Link>
             </div>
           </div>
@@ -676,11 +676,11 @@ export default function SpanishLandingPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  href="tel:8434934963"
+                  href="tel:8438775539"
                   className="inline-flex items-center gap-3 bg-white text-weather-primary hover:bg-white/90 px-8 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 shadow-xl"
                 >
                   <Phone className="w-6 h-6" />
-                  Llamar: (843) 493-4963
+                  Llamar: (843) 877-5539
                 </Link>
                 <Link
                   href="/quote"
@@ -709,7 +709,7 @@ export default function SpanishLandingPage() {
               "alternateName": "Weather Shield - Compañías de Roof en Myrtle Beach",
               "description": "Las mejores compañías de roofing en Myrtle Beach SC. Servicio en español, financiamiento disponible, emergencias 24/7.",
               "url": "https://weathershieldroofers.com/es",
-              "telephone": "+18434934963",
+              "telephone": "+18438775539",
               "email": "roofing@weathershieldroofers.com",
               "address": {
                 "@type": "PostalAddress",

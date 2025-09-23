@@ -174,11 +174,11 @@ export default function ServiceCards() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:843-493-4963"
+                  href="tel:843-877-5539"
                   className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
                 >
                   <Clock className="w-5 h-5" />
-                  Call Now: (843) 493-4963
+                  Call Now: (843) 877-5539
                 </a>
                 <a
                   {...getBookingLinkProps()}

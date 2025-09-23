@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 import { Phone } from 'lucide-react';
 
 export default function FloatingPhoneButton() {
-  const phoneNumber = '(843) 493-4963';
-  const phoneLink = 'tel:+18434934963';
+  const phoneNumber = '(843) 877-5539';
+  const phoneLink = 'tel:+18438775539';
 
   return (
     <motion.a

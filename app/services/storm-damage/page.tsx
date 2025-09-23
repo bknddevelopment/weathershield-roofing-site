@@ -88,7 +88,7 @@ const stormDamageData = {
   faqs: [
     {
       question: 'What should I do immediately after storm damage?',
-      answer: 'First, ensure your family\'s safety. Then call us immediately at (843) 493-4963 for emergency response. Document visible damage with photos, but don\'t attempt repairs yourself. We\'ll provide emergency tarping and begin the insurance claim process.'
+      answer: 'First, ensure your family\'s safety. Then call us immediately at (843) 877-5539 for emergency response. Document visible damage with photos, but don\'t attempt repairs yourself. We\'ll provide emergency tarping and begin the insurance claim process.'
     },
     {
       question: 'Will insurance cover storm damage repairs?',

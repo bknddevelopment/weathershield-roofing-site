@@ -73,10 +73,10 @@ export default function QuotePage() {
                   Having trouble? You can also call us directly:
                 </p>
                 <a
-                  href="tel:843-493-4963"
+                  href="tel:843-877-5539"
                   className="text-2xl font-bold text-weather-secondary hover:text-weather-amber transition-colors"
                 >
-                  (843) 493-4963
+                  (843) 877-5539
                 </a>
               </div>
             </div>

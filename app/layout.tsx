@@ -152,7 +152,7 @@ export default function RootLayout({
               "name": "Weather Shield Roofing",
               "image": "https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png",
               "url": "https://weathershieldroofers.com",
-              "telephone": "+1-843-493-4963",
+              "telephone": "+1-843-877-5539",
               "email": "roofing@weathershieldroofers.com",
               "priceRange": "$$",
               "address": {

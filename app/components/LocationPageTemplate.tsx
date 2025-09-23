@@ -183,7 +183,7 @@ export default function LocationPageTemplate({
                   Get Free {city} Quote
                 </a>
                 <a
-                  href="tel:843-493-4963"
+                  href="tel:843-877-5539"
                   className="border-2 border-weather-teal text-weather-teal px-8 py-4 rounded-lg font-semibold text-center hover:bg-weather-teal hover:text-white transition-all duration-300"
                 >
                   Call Local Team

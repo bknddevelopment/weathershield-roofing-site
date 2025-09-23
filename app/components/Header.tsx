@@ -99,18 +99,18 @@ export default function Header() {
           <div className="container">
             {/* Mobile Layout */}
             <div className="flex sm:hidden justify-center items-center">
-              <a href="tel:843-493-4963" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 493-4963">
+              <a href="tel:843-877-5539" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 877-5539">
                 <Phone className="w-4 h-4 mr-1.5 animate-pulse" aria-hidden="true" />
-                <span className="font-bold">(843) 493-4963</span>
+                <span className="font-bold">(843) 877-5539</span>
               </a>
             </div>
             
             {/* Desktop Layout */}
             <div className="hidden sm:flex justify-between items-center">
               <div className="flex items-center gap-4 lg:gap-6">
-                <a href="tel:843-493-4963" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 493-4963">
+                <a href="tel:843-877-5539" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 877-5539">
                   <Phone className="w-4 h-4 mr-2 animate-pulse" aria-hidden="true" />
-                  <span className="font-bold text-sm lg:text-base">(843) 493-4963</span>
+                  <span className="font-bold text-sm lg:text-base">(843) 877-5539</span>
                 </a>
                 <div className="hidden md:flex items-center">
                   <MapPin className="w-4 h-4 mr-2" />
@@ -254,9 +254,9 @@ export default function Header() {
               <div className="hidden lg:flex items-center gap-3 ml-auto">
                 {/* Phone Number CTA */}
                 <a
-                  href="tel:843-493-4963"
+                  href="tel:843-877-5539"
                   className="flex items-center gap-2 text-weather-secondary font-bold hover:text-weather-amber transition-colors whitespace-nowrap focus-visible-ring"
-                  aria-label="Call us at (843) 493-4963"
+                  aria-label="Call us at (843) 877-5539"
                 >
                   <div className="relative">
                     <div className="absolute inset-0 bg-weather-amber/20 rounded-full animate-ping"></div>
@@ -264,7 +264,7 @@ export default function Header() {
                       <Phone className="w-4 h-4 text-weather-amber" />
                     </div>
                   </div>
-                  <span className="text-sm">(843) 493-4963</span>
+                  <span className="text-sm">(843) 877-5539</span>
                 </a>
 
                 {/* Primary CTA Button */}
@@ -307,11 +307,11 @@ export default function Header() {
               <div className="container py-4">
                 {/* Mobile Phone CTA */}
                 <a
-                  href="tel:843-493-4963"
+                  href="tel:843-877-5539"
                   className="flex items-center justify-center gap-3 bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-6 py-3 rounded-lg font-bold mb-4"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>Call Now: (843) 493-4963</span>
+                  <span>Call Now: (843) 877-5539</span>
                 </a>
 
                 <Link

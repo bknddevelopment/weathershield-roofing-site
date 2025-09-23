@@ -26,7 +26,7 @@ const faqCategories = [
       },
       {
         question: 'How do I get a Weather Shield Roofing estimate?',
-        answer: 'Contact Weather Shield Roofing for free estimates - we\'re the top roofing companies Myrtle Beach recommends. Our WeatherShield experts assess weather damage, discuss weatherproof solutions, and provide transparent pricing. Call the leading roofing companies near me at (843) 493-4963.'
+        answer: 'Contact Weather Shield Roofing for free estimates - we\'re the top roofing companies Myrtle Beach recommends. Our WeatherShield experts assess weather damage, discuss weatherproof solutions, and provide transparent pricing. Call the leading roofing companies near me at (843) 877-5539.'
       }
     ]
   },
@@ -72,7 +72,7 @@ const faqCategories = [
     faqs: [
       {
         question: 'Does Weather Shield Roofing respond to weather emergencies?',
-        answer: 'Yes! Weather Shield Roofing offers 24/7 weather emergency services - fastest among roofing companies near me. When weather in Myrtle Beach causes damage, WeatherShield roofing crews respond within 1 hour. Call (843) 493-4963 for immediate weather protection.'
+        answer: 'Yes! Weather Shield Roofing offers 24/7 weather emergency services - fastest among roofing companies near me. When weather in Myrtle Beach causes damage, WeatherShield roofing crews respond within 1 hour. Call (843) 877-5539 for immediate weather protection.'
       },
       {
         question: 'How often should Weather Shield Roofing inspect for weather damage?',
@@ -180,11 +180,11 @@ export default function FAQSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:843-493-4963"
+                href="tel:843-877-5539"
                 className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
               >
                 <Clock className="w-5 h-5" />
-                Call (843) 493-4963
+                Call (843) 877-5539
               </a>
               <a
                 href="https://your-n8n-form-url.com"

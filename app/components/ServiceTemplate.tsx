@@ -104,9 +104,9 @@ export default function ServiceTemplate({
                 Request Quote
                 <ArrowRight className="w-5 h-5" />
               </a>
-              <a href="tel:843-493-4963" className="inline-flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white hover:bg-white hover:text-weather-teal text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300">
+              <a href="tel:843-877-5539" className="inline-flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white hover:bg-white hover:text-weather-teal text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300">
                 <Phone className="w-5 h-5" />
-                Call: (843) 493-4963
+                Call: (843) 877-5539
               </a>
             </div>
           </div>
@@ -228,8 +228,8 @@ export default function ServiceTemplate({
                     <li>• Lifetime Warranty Options</li>
                   </ul>
                 </div>
-                <a href="tel:843-493-4963" className="bg-white text-weather-teal hover:bg-gray-100 px-6 py-3 rounded-lg font-bold text-sm sm:text-base block text-center transition-colors">
-                  CALL US NOW: (843) 493-4963
+                <a href="tel:843-877-5539" className="bg-white text-weather-teal hover:bg-gray-100 px-6 py-3 rounded-lg font-bold text-sm sm:text-base block text-center transition-colors">
+                  CALL US NOW: (843) 877-5539
                 </a>
               </div>
             </div>
@@ -242,9 +242,9 @@ export default function ServiceTemplate({
                   <h3 className="text-xl font-bold mb-4">Get Started Today</h3>
                   <p className="text-white/90 mb-4">Response {responseTime}</p>
                   <div className="space-y-3">
-                    <a href="tel:843-493-4963" className="flex items-center justify-center gap-2 bg-white text-weather-teal px-6 py-3 rounded-lg font-bold hover:shadow-lg transition-all duration-300 hover:scale-105">
+                    <a href="tel:843-877-5539" className="flex items-center justify-center gap-2 bg-white text-weather-teal px-6 py-3 rounded-lg font-bold hover:shadow-lg transition-all duration-300 hover:scale-105">
                       <Phone className="w-5 h-5" />
-                      Call (843) 493-4963
+                      Call (843) 877-5539
                     </a>
                     <a {...getBookingLinkProps()} className="flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-weather-teal transition-all duration-300">
                       Request Quote
@@ -374,7 +374,7 @@ export default function ServiceTemplate({
                       <h3 className="text-lg font-bold">Storm Damage?</h3>
                     </div>
                     <p className="text-sm mb-4">We're here 24/7 for emergency repairs</p>
-                    <a href="tel:843-493-4963" className="bg-white text-red-500 px-6 py-3 rounded-lg font-bold block text-center hover:bg-gray-100 transition-colors">
+                    <a href="tel:843-877-5539" className="bg-white text-red-500 px-6 py-3 rounded-lg font-bold block text-center hover:bg-gray-100 transition-colors">
                       Call Emergency Line Now
                     </a>
                   </div>
@@ -393,9 +393,9 @@ export default function ServiceTemplate({
             Request your inspection and estimate today. Our experts are standing by to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:843-493-4963" className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <a href="tel:843-877-5539" className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
               <Phone className="w-6 h-6" />
-              Call (843) 493-4963
+              Call (843) 877-5539
             </a>
             <Link href="https://your-n8n-form-url.com" className="inline-flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-weather-teal px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300">
               Get Free Quote Online

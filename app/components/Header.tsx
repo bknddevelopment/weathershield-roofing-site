@@ -5,11 +5,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import StaticImage from './StaticImage';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  Menu, 
-  X, 
-  ChevronDown, 
-  Phone, 
+import { getBookingLinkProps } from '../config/booking';
+import {
+  Menu,
+  X,
+  ChevronDown,
+  Phone,
   Mail,
   MapPin,
   Clock,
@@ -268,9 +269,7 @@ export default function Header() {
 
                 {/* Primary CTA Button */}
                 <a
-                  href="https://your-n8n-form-url.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...getBookingLinkProps()}
                   className="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-5 py-2.5 rounded-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group hover:-translate-y-0.5 whitespace-nowrap text-sm"
                 >
                   Request Quote
@@ -398,9 +397,7 @@ export default function Header() {
                 </Link>
 
                 <a
-                  href="https://your-n8n-form-url.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...getBookingLinkProps()}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="block mt-4 bg-gradient-to-r from-weather-navy to-weather-navy-dark text-white px-6 py-3 rounded-lg font-bold text-center shadow-lg"
                 >

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { Phone, MessageSquare, Clock, Shield, ArrowRight, CheckCircle } from 'lucide-react';
+import { getBookingLinkProps } from '../config/booking';
 
 export default function CTASection() {
   return (
@@ -53,13 +54,13 @@ export default function CTASection() {
                 </ul>
 
                 <div className="space-y-4">
-                  <Link
-                    href="https://your-n8n-form-url.com"
+                  <a
+                    {...getBookingLinkProps()}
                     className="w-full inline-flex items-center justify-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105"
                   >
                     Schedule Inspection
                     <ArrowRight className="w-5 h-5" />
-                  </Link>
+                  </a>
                   
                   <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
                     <Clock className="w-4 h-4" />

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import StaticImage from './StaticImage'
+import { getBookingLinkProps } from '../config/booking'
 import { 
   Phone, 
   Clock, 
@@ -99,10 +100,10 @@ export default function ServiceTemplate({
               </p>
             )}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://your-n8n-form-url.com" className="inline-flex items-center justify-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a {...getBookingLinkProps()} className="inline-flex items-center justify-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Request Quote
                 <ArrowRight className="w-5 h-5" />
-              </Link>
+              </a>
               <a href="tel:843-493-4963" className="inline-flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white hover:bg-white hover:text-weather-teal text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300">
                 <Phone className="w-5 h-5" />
                 Call: (843) 493-4963
@@ -245,10 +246,10 @@ export default function ServiceTemplate({
                       <Phone className="w-5 h-5" />
                       Call (843) 493-4963
                     </a>
-                    <Link href="https://your-n8n-form-url.com" className="flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-weather-teal transition-all duration-300">
+                    <a {...getBookingLinkProps()} className="flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-weather-teal transition-all duration-300">
                       Request Quote
                       <ArrowRight className="w-5 h-5" />
-                    </Link>
+                    </a>
                   </div>
                   {emergencyService && (
                     <div className="mt-4 pt-4 border-t border-white/20">

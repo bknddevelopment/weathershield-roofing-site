@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getBookingLinkProps } from '../config/booking';
 import { 
   CheckCircle, 
   Phone, 
@@ -249,13 +250,13 @@ export default function ServicePageTemplate({
                       <Phone className="w-5 h-5" />
                       Call (843) 493-4963
                     </a>
-                    <Link
-                      href="/quote"
+                    <a
+                      {...getBookingLinkProps()}
                       className="flex items-center justify-center gap-2 bg-white/20 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-weather-purple transition-all duration-300"
                     >
                       Get Free Quote
                       <ArrowRight className="w-5 h-5" />
-                    </Link>
+                    </a>
                   </div>
                   {emergencyService && (
                     <div className="mt-4 pt-4 border-t border-white/20">

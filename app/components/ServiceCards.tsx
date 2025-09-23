@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import StaticImage from './StaticImage';
+import { getBookingLinkProps } from '../config/booking';
 import { 
   Home, 
   Hammer, 
@@ -179,13 +180,13 @@ export default function ServiceCards() {
                   <Clock className="w-5 h-5" />
                   Call Now: (843) 493-4963
                 </a>
-                <Link
-                  href="https://your-n8n-form-url.com"
+                <a
+                  {...getBookingLinkProps()}
                   className="inline-flex items-center justify-center gap-2 bg-weather-dark text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-weather-dark/90 transition-colors"
                 >
                   Schedule Inspection
                   <ArrowRight className="w-5 h-5" />
-                </Link>
+                </a>
               </div>
             </div>
           </div>

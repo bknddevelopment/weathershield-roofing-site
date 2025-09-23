@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getBookingLinkProps } from '../config/booking';
 import { 
   MapPin, 
   Phone, 
@@ -175,12 +176,12 @@ export default function LocationPageTemplate({
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/quote"
+                <a
+                  {...getBookingLinkProps()}
                   className="bg-weather-teal text-white px-8 py-4 rounded-lg font-semibold text-center hover:shadow-lg transition-all duration-300 hover:scale-105"
                 >
                   Get Free {city} Quote
-                </Link>
+                </a>
                 <a
                   href="tel:843-493-4963"
                   className="border-2 border-weather-teal text-weather-teal px-8 py-4 rounded-lg font-semibold text-center hover:bg-weather-teal hover:text-white transition-all duration-300"

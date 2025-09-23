@@ -288,33 +288,6 @@ export default function BlogPage() {
             )}
           </div>
         </section>
-
-        {/* Newsletter Section */}
-        <section className="py-16 bg-gradient-to-r from-weather-teal to-weather-blue">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center text-white">
-              <h2 className="text-3xl font-bold mb-4">
-                Stay Updated with Roofing Tips
-              </h2>
-              <p className="text-white/90 mb-8">
-                Get monthly updates on roof maintenance, storm preparation, and exclusive offers.
-              </p>
-              <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="flex-1 px-6 py-3 rounded-lg text-weather-dark placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white"
-                />
-                <button
-                  type="submit"
-                  className="bg-weather-dark hover:bg-weather-black text-white px-8 py-3 rounded-lg font-bold transition-colors"
-                >
-                  Subscribe
-                </button>
-              </form>
-            </div>
-          </div>
-        </section>
     </main>
   );
 }

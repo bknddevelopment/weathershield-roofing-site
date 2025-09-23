@@ -195,34 +195,6 @@ export default function BlogsSection() {
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
-
-        {/* Newsletter Signup */}
-        <div className="mt-16 bg-gradient-to-r from-weather-dark to-weather-black rounded-2xl p-8 md:p-12 text-white">
-          <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-3xl font-bold mb-4">
-              Stay Updated with Roofing Tips
-            </h3>
-            <p className="text-white/80 mb-8">
-              Get monthly updates on roof maintenance, storm preparation, and exclusive offers delivered to your inbox.
-            </p>
-            <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-6 py-3 rounded-lg text-weather-dark placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-weather-teal"
-              />
-              <button
-                type="submit"
-                className="bg-weather-teal hover:bg-weather-teal-dark text-white px-8 py-3 rounded-lg font-bold transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
-            <p className="text-sm text-white/60 mt-4">
-              We respect your privacy. Unsubscribe at any time.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );

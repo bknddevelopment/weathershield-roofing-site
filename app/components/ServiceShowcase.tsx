@@ -180,10 +180,10 @@ export default function ServiceShowcase() {
             transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
           >
             <BadgeCheck className="w-4 h-4" />
-            <span className="text-sm font-bold">CERTIFIED PROFESSIONAL SERVICES</span>
+            <span className="text-sm font-semibold">CERTIFIED PROFESSIONAL SERVICES</span>
           </motion.div>
           
-          <h2 className="text-4xl lg:text-6xl font-display font-bold text-weather-navy mb-4">
+          <h2 className="text-2xl lg:text-4xl font-display font-semibold text-weather-navy mb-4">
             Premium Roofing Solutions
           </h2>
           <p className="text-xl text-weather-dark max-w-3xl mx-auto">
@@ -215,7 +215,7 @@ export default function ServiceShowcase() {
                 {service.badge && (
                   <div className="absolute -top-2 -right-2 z-20">
                     <motion.div 
-                      className={`${badgeConfig[service.badge].color} text-white text-xs font-bold px-3 py-2 rounded-full shadow-lg flex items-center gap-1`}
+                      className={`${badgeConfig[service.badge].color} text-white text-xs font-medium px-3 py-2 rounded-full shadow-lg flex items-center gap-1`}
                       animate={{ rotate: [0, -5, 5, -5, 0] }}
                       transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
                     >
@@ -239,13 +239,13 @@ export default function ServiceShowcase() {
 
                   {/* Title & Rating */}
                   <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-2xl font-display font-bold text-weather-navy">
+                    <h3 className="text-lg font-display font-semibold text-weather-navy">
                       {service.title}
                     </h3>
                     {service.rating && (
                       <div className="flex items-center gap-1">
                         <Star className="w-4 h-4 text-yellow-400 fill-current" />
-                        <span className="text-sm font-bold text-weather-dark">{service.rating}</span>
+                        <span className="text-sm font-medium text-weather-dark">{service.rating}</span>
                       </div>
                     )}
                   </div>
@@ -259,7 +259,7 @@ export default function ServiceShowcase() {
                     {service.priceRange && (
                       <div className="flex items-center gap-2">
                         <DollarSign className="w-4 h-4 text-weather-amber" />
-                        <span className="text-sm font-bold text-weather-navy">{service.priceRange}</span>
+                        <span className="text-sm font-medium text-weather-navy">{service.priceRange}</span>
                       </div>
                     )}
                     {service.timeframe && (
@@ -290,7 +290,7 @@ export default function ServiceShowcase() {
                   {/* CTA Button with 3D Effect */}
                   <Link href={service.href}>
                     <motion.button
-                      className="w-full bg-gradient-to-r from-weather-navy to-weather-navy-dark text-white font-bold py-3 px-6 rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
+                      className="w-full bg-gradient-to-r from-weather-navy to-weather-navy-dark text-white font-semibold py-3 px-6 rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                     >
@@ -334,9 +334,9 @@ export default function ServiceShowcase() {
                 transition={{ duration: 2, repeat: Infinity }}
               >
                 <Clock className="w-4 h-4" />
-                <span className="text-xs font-bold">AVAILABLE 24/7</span>
+                <span className="text-xs font-semibold">AVAILABLE 24/7</span>
               </motion.div>
-              <h3 className="text-3xl lg:text-4xl font-display font-bold mb-3">
+              <h3 className="text-xl lg:text-2xl font-display font-semibold mb-3">
                 Storm Damage? We're Here to Help!
               </h3>
               <p className="text-lg opacity-90">
@@ -346,7 +346,7 @@ export default function ServiceShowcase() {
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a
                 href="tel:843-877-5539"
-                className="bg-weather-amber text-weather-navy px-8 py-4 rounded-lg font-bold shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center gap-2 group"
+                className="bg-weather-amber text-weather-navy px-6 py-3 rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center gap-2 group"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -355,7 +355,7 @@ export default function ServiceShowcase() {
               </motion.a>
               <Link href="/quote">
                 <motion.button
-                  className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-weather-navy transition-all duration-300 flex items-center justify-center gap-2"
+                  className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-weather-navy transition-all duration-300 flex items-center justify-center gap-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >

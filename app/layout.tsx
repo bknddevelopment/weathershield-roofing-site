@@ -1,25 +1,50 @@
 import type { Metadata } from 'next'
-import { Inter, Oswald } from 'next/font/google'
+import { Inter, Montserrat, Source_Sans_3, Bebas_Neue } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import FloatingPhoneButton from './components/FloatingPhoneButton'
 
+// Primary font for body text - clean readability
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
   display: 'swap',
+  weight: ['400', '500', '600', '700'],
   preload: true,
   fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
   adjustFontFallback: true,
 })
 
-const oswald = Oswald({
+// Heading font - conveys strength and professionalism
+const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-oswald',
+  variable: '--font-montserrat',
   display: 'swap',
+  weight: ['500', '600', '700', '800', '900'],
   preload: true,
-  fallback: ['Georgia', 'Times New Roman', 'serif'],
+  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+  adjustFontFallback: true,
+})
+
+// Alternative body font option
+const sourceSans = Source_Sans_3({
+  subsets: ['latin'],
+  variable: '--font-source-sans',
+  display: 'swap',
+  weight: ['400', '600', '700'],
+  preload: true,
+  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+  adjustFontFallback: true,
+})
+
+// Impact accent font for bold statements
+const bebasNeue = Bebas_Neue({
+  subsets: ['latin'],
+  variable: '--font-bebas',
+  display: 'swap',
+  weight: '400',
+  preload: true,
+  fallback: ['Impact', 'Arial Black', 'sans-serif'],
   adjustFontFallback: true,
 })
 
@@ -90,7 +115,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${oswald.variable}`}>
+    <html lang="en" className={`${inter.variable} ${montserrat.variable} ${sourceSans.variable} ${bebasNeue.variable}`}>
       <head>
         {/* Critical Resource Hints */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -98,19 +123,19 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
 
-        {/* Preload critical fonts */}
+        {/* Preload critical fonts - Montserrat for headers, Inter for body */}
         <link
           rel="preload"
           as="font"
           type="font/woff2"
-          href="https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2"
+          href="https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2"
           crossOrigin="anonymous"
         />
         <link
           rel="preload"
           as="font"
           type="font/woff2"
-          href="https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2"
+          href="https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2"
           crossOrigin="anonymous"
         />
 
@@ -138,7 +163,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       </head>
-      <body className="font-sans antialiased">
+      <body className="font-inter antialiased">
         {/* Skip to Main Content Link for Keyboard Navigation */}
         <a href="#main-content" className="skip-to-content">
           Skip to main content
@@ -235,7 +260,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <FloatingPhoneButton />
       </body>
     </html>
   )

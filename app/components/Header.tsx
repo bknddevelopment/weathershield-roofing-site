@@ -94,45 +94,6 @@ export default function Header() {
           ? 'bg-white/95 backdrop-blur-md shadow-2xl border-b border-gray-200'
           : 'bg-white shadow-sm'
       }`}>
-        {/* Top Bar */}
-        <div className="bg-gradient-to-r from-weather-secondary to-weather-secondary-dark text-white py-2 text-xs sm:text-sm" aria-label="Contact information">
-          <div className="container">
-            {/* Mobile Layout */}
-            <div className="flex sm:hidden justify-center items-center">
-              <a href="tel:843-877-5539" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 877-5539">
-                <Phone className="w-4 h-4 mr-1.5 animate-pulse" aria-hidden="true" />
-                <span className="font-bold">(843) 877-5539</span>
-              </a>
-            </div>
-            
-            {/* Desktop Layout */}
-            <div className="hidden sm:flex justify-between items-center">
-              <div className="flex items-center gap-4 lg:gap-6">
-                <a href="tel:843-877-5539" className="flex items-center hover:text-weather-amber transition-colors" aria-label="Call us at (843) 877-5539">
-                  <Phone className="w-4 h-4 mr-2 animate-pulse" aria-hidden="true" />
-                  <span className="font-bold text-sm lg:text-base">(843) 877-5539</span>
-                </a>
-                <div className="hidden md:flex items-center">
-                  <MapPin className="w-4 h-4 mr-2" />
-                  <span>215 Ronnie Ct. Unit F, Myrtle Beach</span>
-                </div>
-              </div>
-              <div className="flex items-center gap-3 lg:gap-4">
-                <div className="flex items-center">
-                  <Clock className="w-4 h-4 mr-2" />
-                  <span className="hidden lg:inline">Mon-Fri: 9am-5pm | Sat-Sun: Closed</span>
-                  <span className="lg:hidden">Mon-Fri: 9am-5pm</span>
-                </div>
-                <div className="hidden lg:flex items-center">
-                  <Star className="w-4 h-4 mr-1 text-weather-amber fill-current" />
-                  <span className="font-bold">5.0</span>
-                  <span className="ml-1 text-gray-300">(500+ Reviews)</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Main Navigation */}
         <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-1.5' : 'py-3'}`} role="navigation" aria-label="Primary navigation">
           <div className="container">
@@ -200,7 +161,7 @@ export default function Header() {
                         role="menuitem"
                       >
                         {service.badge && (
-                          <span className="absolute top-2 right-4 text-xs font-bold text-weather-amber bg-weather-amber/10 px-2 py-1 rounded-full">
+                          <span className="absolute top-2 right-4 text-xs font-medium text-weather-amber bg-weather-amber/10 px-2 py-1 rounded-full">
                             {service.badge}
                           </span>
                         )}
@@ -255,7 +216,7 @@ export default function Header() {
                 {/* Phone Number CTA */}
                 <a
                   href="tel:843-877-5539"
-                  className="flex items-center gap-2 text-weather-secondary font-bold hover:text-weather-amber transition-colors whitespace-nowrap focus-visible-ring"
+                  className="flex items-center gap-2 text-weather-secondary font-semibold hover:text-weather-amber transition-colors whitespace-nowrap focus-visible-ring"
                   aria-label="Call us at (843) 877-5539"
                 >
                   <div className="relative">
@@ -270,7 +231,7 @@ export default function Header() {
                 {/* Primary CTA Button */}
                 <a
                   {...getBookingLinkProps()}
-                  className="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-5 py-2.5 rounded-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group hover:-translate-y-0.5 whitespace-nowrap text-sm"
+                  className="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-5 py-2.5 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group hover:-translate-y-0.5 whitespace-nowrap text-sm"
                 >
                   Request Quote
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -308,7 +269,7 @@ export default function Header() {
                 {/* Mobile Phone CTA */}
                 <a
                   href="tel:843-877-5539"
-                  className="flex items-center justify-center gap-3 bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-6 py-3 rounded-lg font-bold mb-4"
+                  className="flex items-center justify-center gap-3 bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-6 py-3 rounded-lg font-semibold mb-4"
                 >
                   <Phone className="w-5 h-5" />
                   <span>Call Now: (843) 877-5539</span>
@@ -360,7 +321,7 @@ export default function Header() {
                               <div className="text-weather-navy">{service.icon}</div>
                               <span>{service.title}</span>
                               {service.badge && (
-                                <span className="text-xs font-bold text-weather-amber bg-weather-amber/10 px-2 py-0.5 rounded-full ml-auto">
+                                <span className="text-xs font-medium text-weather-amber bg-weather-amber/10 px-2 py-0.5 rounded-full ml-auto">
                                   {service.badge}
                                 </span>
                               )}
@@ -399,7 +360,7 @@ export default function Header() {
                 <a
                   {...getBookingLinkProps()}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block mt-4 bg-gradient-to-r from-weather-navy to-weather-navy-dark text-white px-6 py-3 rounded-lg font-bold text-center shadow-lg"
+                  className="block mt-4 bg-gradient-to-r from-weather-navy to-weather-navy-dark text-white px-6 py-3 rounded-lg font-semibold text-center shadow-lg"
                 >
                   Request Quote
                 </a>

@@ -120,23 +120,23 @@ export default function ServicesPage() {
         <section className="relative bg-weather-blue text-white py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-5xl font-bold mb-6">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 tracking-heading-tight text-shadow-hero">
                 Weather Shield Roofing - Professional Services
               </h1>
-              <p className="text-xl opacity-90 mb-8">
+              <p className="text-xl md:text-2xl lg:text-3xl opacity-90 mb-8 font-medium text-shadow-soft">
                 Leading roofing companies Myrtle Beach trust for weather protection. WeatherShield roofing experts protect homes from weather in Myrtle Beach since 2010.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="/contact"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-weather-teal text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-weather-teal text-white font-black text-lg uppercase tracking-wide rounded-lg hover:bg-opacity-90 transition-all"
                 >
                   Request Estimate
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
                 <a
                   href="tel:843-877-5539"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-weather-blue font-semibold rounded-lg hover:bg-opacity-90 transition-all"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-weather-blue font-black text-lg tracking-wide rounded-lg hover:bg-opacity-90 transition-all"
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   Call (843) 877-5539
@@ -150,10 +150,10 @@ export default function ServicesPage() {
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-4 tracking-heading-tight">
                 Weather Shield Roofing Core Services
               </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto font-medium">
                 WeatherShield roofing - Leading roofing companies Myrtle Beach offering comprehensive weather protection solutions for all properties
               </p>
             </div>
@@ -166,10 +166,10 @@ export default function ServicesPage() {
                       <service.icon className="h-8 w-8 text-weather-teal" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                      <h3 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3 tracking-tight">
                         {service.title}
                       </h3>
-                      <p className="text-gray-600 mb-4">
+                      <p className="text-lg text-gray-600 mb-4 font-medium">
                         {service.description}
                       </p>
                       <ul className="space-y-2 mb-6">
@@ -182,7 +182,7 @@ export default function ServicesPage() {
                       </ul>
                       <a
                         href={service.link}
-                        className="inline-flex items-center text-weather-blue font-semibold hover:text-weather-teal transition-colors"
+                        className="inline-flex items-center text-weather-blue font-extrabold text-lg uppercase tracking-wide hover:text-weather-teal transition-colors"
                       >
                         Learn More
                         <ArrowRight className="ml-2 h-4 w-4" />

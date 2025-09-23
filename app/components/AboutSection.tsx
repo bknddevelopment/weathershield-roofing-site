@@ -53,16 +53,16 @@ export default function AboutSection() {
   return (
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* Section Header - BOLD & IMPACTFUL */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-4 py-2 mb-6">
-            <Shield className="w-5 h-5 text-weather-teal" />
-            <span className="text-weather-teal font-semibold">About Weather Shield Roofing</span>
+          <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-5 py-3 mb-8">
+            <Shield className="w-6 h-6 text-weather-teal" />
+            <span className="text-weather-teal font-semibold uppercase tracking-wide text-sm">About Weather Shield Roofing</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-weather-dark mb-4">
+          <h2 className="section-title text-weather-dark mb-6">
             Weather Shield Roofing - Top Roofing Companies Myrtle Beach
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-normal leading-relaxed">
             Since 2010, Weather Shield Roofing has led all roofing companies Myrtle Beach in protecting homes from weather.
             WeatherShield roofing experts provide superior weather protection for families across the Grand Strand.
           </p>
@@ -75,10 +75,10 @@ export default function AboutSection() {
             <div className="relative">
               <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-weather-teal to-weather-purple rounded-full" />
               <div className="pl-8">
-                <h3 className="text-3xl font-bold text-weather-dark mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-weather-dark mb-6 tracking-tight">
                   Weather Shield - Leading Roofing Companies Near Me
                 </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">
+                <p className="text-base text-gray-600 mb-4 leading-relaxed font-normal">
                   Weather Shield Roofing stands above all roofing companies Myrtle Beach as weather protection specialists.
                   As locally-owned roofing companies near me, WeatherShield understands weather in Myrtle Beach
                   and the unique weather challenges our coastal climate presents.
@@ -161,7 +161,7 @@ export default function AboutSection() {
                   <Award className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold text-weather-dark">Certified</p>
+                  <p className="text-xl font-semibold text-weather-dark">Certified</p>
                   <p className="text-sm text-gray-600">Professional</p>
                 </div>
               </div>
@@ -178,7 +178,7 @@ export default function AboutSection() {
                 <div className="inline-flex p-3 rounded-full bg-weather-teal/10 mb-3">
                   <Icon className="w-6 h-6 text-weather-teal" />
                 </div>
-                <div className="text-3xl font-bold text-weather-dark mb-1">{stat.number}</div>
+                <div className="text-2xl font-semibold text-weather-dark mb-1">{stat.number}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             );
@@ -187,7 +187,7 @@ export default function AboutSection() {
 
         {/* Core Values */}
         <div className="mt-16">
-          <h3 className="text-3xl font-bold text-weather-dark text-center mb-12">
+          <h3 className="text-2xl font-semibold text-weather-dark text-center mb-12">
             Our Core Values
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -204,7 +204,7 @@ export default function AboutSection() {
                   <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-weather-teal/10 to-weather-purple/10 mb-4">
                     <Icon className="w-8 h-8 text-weather-teal" />
                   </div>
-                  <h4 className="text-xl font-bold text-weather-dark mb-2">{value.title}</h4>
+                  <h4 className="text-lg font-semibold text-weather-dark mb-2">{value.title}</h4>
                   <p className="text-gray-600">{value.description}</p>
                 </div>
               );
@@ -214,7 +214,7 @@ export default function AboutSection() {
 
         {/* Bottom CTA */}
         <div className="mt-16 text-center bg-gradient-to-r from-weather-teal/5 to-weather-purple/5 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-weather-dark mb-4">
+          <h3 className="text-xl font-semibold text-weather-dark mb-4">
             Ready to Experience Weather Shield Roofing Excellence?
           </h3>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
@@ -223,7 +223,7 @@ export default function AboutSection() {
           </p>
           <Link
             href="https://your-n8n-form-url.com"
-            className="inline-flex items-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105"
+            className="inline-flex items-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-6 py-3 rounded-lg font-semibold text-base transition-all duration-300 transform hover:scale-105"
           >
             Get Your Free Quote
             <ArrowRight className="w-5 h-5" />

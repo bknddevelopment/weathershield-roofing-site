@@ -54,10 +54,22 @@ const config: Config = {
         'weather-navy-light': '#60A5FA',     // Light blue (dark bg only)
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Bebas Neue', 'Oswald', 'system-ui', 'sans-serif'],
+        // Professional Typography System
+        // Primary fonts
+        'montserrat': ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
+        'inter': ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        'source-sans': ['var(--font-source-sans)', 'system-ui', 'sans-serif'],
+        'bebas': ['var(--font-bebas)', 'Impact', 'Arial Black', 'sans-serif'],
+
+        // Legacy mappings for backward compatibility
+        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
         serif: ['Merriweather', 'Georgia', 'serif'],
-        script: ['Great Vibes', 'cursive'],
+
+        // Semantic font usage
+        'heading': ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
+        'heading-impact': ['var(--font-bebas)', 'Impact', 'Arial Black', 'sans-serif'],
+        'body': ['var(--font-inter)', 'system-ui', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
@@ -135,6 +147,37 @@ const config: Config = {
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'hero-pattern': "url('/images/roof-pattern.jpg')",
       },
+      fontSize: {
+        // Enhanced bold typography scale
+        'xs': ['0.75rem', { lineHeight: '1rem' }],
+        'sm': ['0.875rem', { lineHeight: '1.25rem' }],
+        'base': ['1rem', { lineHeight: '1.5rem' }],
+        'lg': ['1.125rem', { lineHeight: '1.75rem' }],
+        'xl': ['1.25rem', { lineHeight: '1.75rem' }],
+        '2xl': ['1.5rem', { lineHeight: '2rem' }],
+        '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+        '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
+        '5xl': ['3rem', { lineHeight: '1.1' }],
+        '6xl': ['3.75rem', { lineHeight: '1.1' }],
+        '7xl': ['4.5rem', { lineHeight: '1.05' }],
+        '8xl': ['6rem', { lineHeight: '1' }],
+        '9xl': ['8rem', { lineHeight: '1' }],
+        // Hero sizes
+        'hero-sm': ['2.5rem', { lineHeight: '1.1' }],
+        'hero-md': ['3.5rem', { lineHeight: '1.05' }],
+        'hero-lg': ['5rem', { lineHeight: '1' }],
+        'hero-xl': ['7rem', { lineHeight: '0.95' }],
+        'hero-2xl': ['9rem', { lineHeight: '0.9' }],
+      },
+      letterSpacing: {
+        'hero-tight': '-0.03em',
+        'heading-tight': '-0.025em',
+        'tight': '-0.02em',
+        'normal': '0',
+        'wide': '0.025em',
+        'wider': '0.05em',
+        'widest': '0.1em',
+      },
       boxShadow: {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
         'glow': '0 0 20px rgba(0, 86, 179, 0.3)',
@@ -144,6 +187,12 @@ const config: Config = {
         'elevation-3': '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)',
         'elevation-4': '0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)',
         'elevation-5': '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
+        // Text shadows
+        'text-sm': '1px 1px 2px rgba(0, 0, 0, 0.3)',
+        'text': '2px 2px 4px rgba(0, 0, 0, 0.5)',
+        'text-lg': '3px 3px 6px rgba(0, 0, 0, 0.7)',
+        'text-xl': '4px 4px 8px rgba(0, 0, 0, 0.8)',
+        'text-hero': '5px 5px 10px rgba(0, 0, 0, 0.9)',
       },
     },
   },

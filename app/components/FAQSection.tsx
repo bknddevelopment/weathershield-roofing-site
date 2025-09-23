@@ -97,16 +97,16 @@ export default function FAQSection() {
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* Section Header - BOLD & IMPACTFUL */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-4 py-2 mb-6">
-            <HelpCircle className="w-5 h-5 text-weather-teal" />
-            <span className="text-weather-teal font-semibold">Weather Shield Roofing FAQs</span>
+          <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-5 py-3 mb-8">
+            <HelpCircle className="w-6 h-6 text-weather-teal" />
+            <span className="text-weather-teal font-semibold uppercase tracking-wide text-sm">Weather Shield Roofing FAQs</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-weather-dark mb-4">
+          <h2 className="section-title text-weather-dark mb-6">
             Weather Shield Roofing Questions & Answers
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-normal leading-relaxed">
             Learn why Weather Shield Roofing leads all roofing companies Myrtle Beach. Get answers about WeatherShield roofing, weather protection, and why we\'re the top roofing companies near me.
           </p>
         </div>
@@ -147,7 +147,7 @@ export default function FAQSection() {
                   onClick={() => toggleQuestion(faq.question)}
                   className="w-full px-6 py-5 text-left flex items-center justify-between group"
                 >
-                  <h3 className="text-lg font-semibold text-weather-dark group-hover:text-weather-teal transition-colors pr-4">
+                  <h3 className="text-base md:text-lg font-semibold text-weather-dark group-hover:text-weather-teal transition-colors pr-4">
                     {faq.question}
                   </h3>
                   <ChevronDown
@@ -172,10 +172,10 @@ export default function FAQSection() {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-weather-teal to-weather-blue rounded-2xl p-8 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-4">
+            <h3 className="text-xl md:text-2xl font-bold text-white mb-4 tracking-tight">
               More Questions About Weather Shield Roofing?
             </h3>
-            <p className="text-white/90 mb-6">
+            <p className="text-base md:text-lg text-white/90 mb-6 font-normal">
               Weather Shield Roofing experts are ready to help. As the leading roofing companies Myrtle Beach trusts, we provide personalized weatherproof solutions for weather in Myrtle Beach.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

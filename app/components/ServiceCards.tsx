@@ -81,16 +81,16 @@ export default function ServiceCards() {
   return (
     <section className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* Section Header - BOLD & IMPACTFUL */}
         <div className="text-center mb-16 animate-fade-in">
-          <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-4 py-2 mb-6">
-            <Shield className="w-5 h-5 text-weather-teal" />
-            <span className="text-weather-teal font-semibold">Weather Shield Roofing Services</span>
+          <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-5 py-3 mb-8">
+            <Shield className="w-6 h-6 text-weather-teal" />
+            <span className="text-weather-teal font-semibold uppercase tracking-wide text-sm">Weather Shield Roofing Services</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-weather-dark mb-4">
+          <h2 className="section-title text-weather-dark mb-6">
             Weather Shield Roofing - Professional Weather Protection Solutions
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-normal leading-relaxed">
             Weather Shield Roofing leads all roofing companies Myrtle Beach with comprehensive weatherproof services.
             From weather emergency repairs to complete WeatherShield replacements, we're the top roofing companies near me.
           </p>
@@ -126,11 +126,11 @@ export default function ServiceCards() {
                     <Icon className={`w-8 h-8 ${service.color.replace('bg-', 'text-')}`} />
                   </div>
 
-                  {/* Title & Description */}
-                  <h3 className="text-2xl font-bold text-weather-dark mb-3 group-hover:text-weather-teal transition-colors">
+                  {/* Title & Description - Professional */}
+                  <h3 className="text-lg md:text-xl font-semibold text-weather-dark mb-4 group-hover:text-weather-teal transition-colors tracking-tight">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-6">
+                  <p className="text-sm md:text-base text-gray-600 mb-6 font-normal">
                     {service.description}
                   </p>
 
@@ -147,7 +147,7 @@ export default function ServiceCards() {
                   {/* CTA */}
                   <Link
                     href={service.href}
-                    className="inline-flex items-center gap-2 text-weather-teal font-semibold group-hover:gap-3 transition-all duration-300"
+                    className="inline-flex items-center gap-2 text-weather-teal font-semibold text-base uppercase tracking-wide group-hover:gap-3 transition-all duration-300"
                   >
                     Learn More
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -165,24 +165,24 @@ export default function ServiceCards() {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-weather-teal to-weather-blue rounded-2xl p-8 md:p-12">
             <div className="max-w-3xl mx-auto">
-              <h3 className="text-3xl font-bold text-white mb-4">
+              <h3 className="text-4xl md:text-5xl font-black text-white mb-4 tracking-heading-tight">
                 Need Weather Shield Emergency Service?
               </h3>
-              <p className="text-xl text-white/90 mb-8">
+              <p className="text-xl md:text-2xl text-white/90 mb-8 font-medium">
                 Weather Shield Roofing available 24/7 for weather damage. Top roofing companies Myrtle Beach
                 for weather emergencies. WeatherShield protection when weather in Myrtle Beach strikes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:843-877-5539"
-                  className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal px-8 py-4 rounded-lg font-black text-lg uppercase tracking-wide hover:bg-gray-100 transition-colors"
                 >
                   <Clock className="w-5 h-5" />
                   Call Now: (843) 877-5539
                 </a>
                 <a
                   {...getBookingLinkProps()}
-                  className="inline-flex items-center justify-center gap-2 bg-weather-dark text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-weather-dark/90 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-weather-dark text-white px-8 py-4 rounded-lg font-black text-lg uppercase tracking-wide hover:bg-weather-dark/90 transition-colors"
                 >
                   Schedule Inspection
                   <ArrowRight className="w-5 h-5" />
@@ -196,7 +196,7 @@ export default function ServiceCards() {
         <div className="mt-12 flex flex-wrap justify-center gap-8">
           <div className="flex items-center gap-2 text-gray-600">
             <Award className="w-6 h-6 text-weather-teal" />
-            <span className="font-semibold">Weather Shield Certified Professional</span>
+            <span className="font-extrabold text-lg">Weather Shield Certified Professional</span>
           </div>
           <div className="flex items-center gap-2 text-gray-600">
             <Shield className="w-6 h-6 text-weather-teal" />

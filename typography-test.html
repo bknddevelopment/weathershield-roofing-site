@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Test - WeatherShield Roofing</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            padding: 2rem;
+            background: #f8f8f8;
+        }
+        .test-section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        .old, .new {
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .old { background: #fff5f5; }
+        .new { background: #f5fff5; }
+        h2.test-header {
+            border-bottom: 2px solid #008B8B;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>WeatherShield Roofing - Typography Enhancement Test</h1>
+
+    <div class="test-section">
+        <h2 class="test-header">✅ IMPLEMENTED ENHANCEMENTS</h2>
+
+        <h3>1. Font Loading Updates</h3>
+        <ul>
+            <li>✅ Added Bebas Neue as accent font option</li>
+            <li>✅ Extended Montserrat weights to include 500, 600, 700, 800, 900</li>
+            <li>✅ All fonts properly configured with fallbacks</li>
+        </ul>
+
+        <h3>2. Typography Scale in Tailwind</h3>
+        <ul>
+            <li>✅ Enhanced font size scale up to 9xl (8rem)</li>
+            <li>✅ Custom hero sizes: hero-sm through hero-2xl (up to 9rem)</li>
+            <li>✅ Tighter line-heights for impact (1.0 - 1.1 for large text)</li>
+            <li>✅ Custom letter-spacing utilities (hero-tight: -0.03em)</li>
+            <li>✅ Text shadow utilities added to boxShadow config</li>
+        </ul>
+
+        <h3>3. Global CSS Typography</h3>
+        <ul>
+            <li>✅ H1: 4xl-8xl with font-black (900 weight)</li>
+            <li>✅ H2: 3xl-6xl with font-extrabold (800 weight)</li>
+            <li>✅ H3: 2xl-5xl with font-extrabold (800 weight)</li>
+            <li>✅ H4-H6: Progressive scaling with bold weights</li>
+            <li>✅ Body text increased to base-lg (16-18px)</li>
+        </ul>
+
+        <h3>4. Typography Utility Classes</h3>
+        <ul>
+            <li>✅ .hero-title - Massive hero text with tight spacing</li>
+            <li>✅ .hero-subtitle - Bold secondary hero text</li>
+            <li>✅ .section-title - Bold section headers</li>
+            <li>✅ .heading-impact - Bebas Neue uppercase accent</li>
+            <li>✅ .gradient-text variations with bold weight</li>
+            <li>✅ .text-shadow-hero - Dramatic shadows for hero text</li>
+        </ul>
+
+        <h3>5. Component Updates</h3>
+        <ul>
+            <li>✅ HeroSection: Using hero-title class with text shadows</li>
+            <li>✅ ServiceCards: Bold headers with tight tracking</li>
+            <li>✅ AboutSection: Section-title class applied</li>
+            <li>✅ FAQSection: Bold question text</li>
+            <li>✅ Services page: Massive hero text</li>
+            <li>✅ All CTAs: Uppercase, extrabold, wide tracking</li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h2 class="test-header">TYPOGRAPHY COMPARISON</h2>
+        <div class="comparison">
+            <div class="old">
+                <h3>OLD (Conservative)</h3>
+                <p style="font-size: 2.25rem; font-weight: 700; line-height: 1.2;">Hero Title</p>
+                <p style="font-size: 1.875rem; font-weight: 600;">Section Header</p>
+                <p style="font-size: 1.125rem; font-weight: 500;">Button Text</p>
+                <p style="font-size: 1rem;">Body text at 16px</p>
+            </div>
+            <div class="new">
+                <h3>NEW (Bold & Impactful)</h3>
+                <p style="font-size: 5rem; font-weight: 900; line-height: 1.0; letter-spacing: -0.03em;">Hero Title</p>
+                <p style="font-size: 3rem; font-weight: 800; letter-spacing: -0.025em;">Section Header</p>
+                <p style="font-size: 1.25rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.05em;">BUTTON TEXT</p>
+                <p style="font-size: 1.125rem;">Body text at 18px</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2 class="test-header">KEY IMPROVEMENTS</h2>
+        <ol>
+            <li><strong>Dramatic Size Increase:</strong> Hero text now reaches 7-8xl (4.5-6rem) on desktop</li>
+            <li><strong>Bolder Weights:</strong> Using 800-900 weights instead of 600-700</li>
+            <li><strong>Tighter Spacing:</strong> Letter-spacing reduced to -0.025 to -0.03em for impact</li>
+            <li><strong>Clear Hierarchy:</strong> Much stronger contrast between heading levels</li>
+            <li><strong>Text Shadows:</strong> Added for text over images for better readability</li>
+            <li><strong>CTAs Stand Out:</strong> Uppercase, extrabold, wide tracking for maximum impact</li>
+            <li><strong>Mobile Responsive:</strong> Proper scaling from mobile to desktop</li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h2 class="test-header">PRODUCTION READY</h2>
+        <p>✅ Build successful - No errors</p>
+        <p>✅ Lint passed - Only minor warnings</p>
+        <p>✅ All pages updated consistently</p>
+        <p>✅ Responsive breakpoints properly configured</p>
+        <p>✅ WCAG AA compliance maintained (contrast ratios preserved)</p>
+        <p>✅ Font loading optimized with preload and swap</p>
+    </div>
+</body>
+</html>

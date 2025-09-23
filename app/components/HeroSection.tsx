@@ -74,18 +74,18 @@ export default function HeroSection() {
             {/* Trust Badge */}
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-weather-primary/30 to-weather-secondary/30 backdrop-blur-md border border-weather-primary/40 rounded-full px-4 py-2 shadow-lg">
               <Shield className="w-5 h-5 text-weather-primary-on-dark animate-pulse" aria-hidden="true" />
-              <span className="text-weather-primary-on-dark font-bold text-sm uppercase tracking-wider">Licensed & Insured</span>
+              <span className="text-weather-primary-on-dark font-semibold text-sm uppercase tracking-wide">Licensed & Insured</span>
             </div>
 
-            {/* Main Heading */}
+            {/* Main Heading - Professional & Impactful */}
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
+              <h1 className="hero-title text-white text-shadow-hero">
                 {slide.title}
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-weather-primary-on-dark to-weather-secondary-light text-3xl md:text-4xl lg:text-5xl mt-3">
+                <span className="block gradient-text-hero text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-3 tracking-tight">
                   {slide.subtitle}
                 </span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-100 max-w-2xl font-light leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 max-w-2xl font-normal leading-relaxed text-shadow-soft">
                 {slide.description}
               </p>
             </div>
@@ -95,7 +95,7 @@ export default function HeroSection() {
               {slide.stats.map((stat, index) => (
                 <div key={index} className="flex items-center gap-2 group cursor-pointer transition-transform hover:scale-105">
                   <CheckCircle className="w-5 h-5 text-weather-primary-on-dark group-hover:text-weather-secondary-light transition-colors" aria-hidden="true" />
-                  <span className="text-white font-semibold text-base group-hover:text-weather-primary-on-dark transition-colors">{stat}</span>
+                  <span className="text-white font-medium text-sm group-hover:text-weather-primary-on-dark transition-colors">{stat}</span>
                 </div>
               ))}
             </div>
@@ -104,7 +104,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="https://your-n8n-form-url.com"
-                className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-primary to-weather-secondary hover:from-weather-secondary hover:to-weather-accent text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-primary/50 overflow-hidden focus-visible-ring"
+                className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-primary to-weather-secondary hover:from-weather-secondary hover:to-weather-accent text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-primary/50 overflow-hidden focus-visible-ring"
                 aria-label="Request a professional roof inspection"
               >
                 <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
@@ -113,7 +113,7 @@ export default function HeroSection() {
               </Link>
               <a
                 href="tel:843-877-5539"
-                className="group inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/50 hover:bg-white hover:text-weather-black hover:border-white text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-white/20 focus-visible-ring"
+                className="group inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/50 hover:bg-white hover:text-weather-black hover:border-white text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg tracking-wide transition-all duration-300 shadow-xl hover:shadow-white/20 focus-visible-ring"
                 aria-label="Call Weather Shield Roofing at (843) 877-5539"
               >
                 <Phone className="w-6 h-6 group-hover:animate-pulse" />
@@ -128,8 +128,8 @@ export default function HeroSection() {
                   <Clock className="w-6 h-6 text-weather-accent-light animate-pulse" aria-hidden="true" />
                 </div>
                 <div>
-                  <p className="text-white font-bold text-base">24/7 Emergency Service</p>
-                  <p className="text-gray-200 text-sm">Storm damage? We're here to help immediately.</p>
+                  <p className="text-white font-semibold text-base uppercase tracking-wide">24/7 Emergency Service</p>
+                  <p className="text-gray-200 text-sm font-normal">Storm damage? We're here to help immediately.</p>
                 </div>
               </div>
             </div>
@@ -152,13 +152,13 @@ export default function HeroSection() {
                       <Award className="w-14 h-14 text-weather-teal" />
                     </div>
                     <div className="text-right">
-                      <p className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-weather-teal to-weather-blue">15+</p>
-                      <p className="text-gray-200 font-semibold">Years</p>
+                      <p className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-weather-teal to-weather-blue">15+</p>
+                      <p className="text-gray-200 font-medium text-base">Years</p>
                     </div>
                   </div>
                   
                   <div className="space-y-4">
-                    <h3 className="text-3xl font-bold text-white">Why Choose Weather Shield Roofing?</h3>
+                    <h3 className="text-2xl font-bold text-white text-shadow-bold tracking-tight">Why Choose Weather Shield Roofing?</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
                         <CheckCircle className="w-6 h-6 text-weather-primary-on-dark mt-0.5 flex-shrink-0 group-hover:text-weather-secondary-light transition-colors" aria-hidden="true" />

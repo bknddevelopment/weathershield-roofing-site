@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, useInView, AnimatePresence } from 'fra
 import { useRef, useState, useEffect } from 'react'
 import Image from 'next/image'
 import CTASection from '../components/CTASection'
+import { GAFCertificationSection } from '../components/GAFCertification'
 import { 
   Shield, 
   Award, 
@@ -34,9 +35,9 @@ import {
 // Trust badges data
 const trustBadges = [
   {
-    name: 'Certified Professional',
-    icon: <BadgeCheck className="w-10 h-10" />,
-    description: 'Quality Assured',
+    name: 'GAF Preferred Contractor',
+    icon: <Award className="w-10 h-10" />,
+    description: 'Enhanced Warranties',
     color: 'from-amber-500 to-amber-600',
     featured: true
   },
@@ -818,6 +819,9 @@ export default function AboutPage() {
             </motion.div>
           </div>
         </motion.section>
+
+        {/* GAF Certification Section */}
+        <GAFCertificationSection />
 
         {/* Main CTA Section */}
         <CTASection />

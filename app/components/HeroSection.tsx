@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import StaticImage from './StaticImage';
+import { GAFBadge } from './GAFCertification';
 import { Phone, Shield, Clock, Award, ChevronRight, CheckCircle } from 'lucide-react';
 
 const heroSlides = [
@@ -71,10 +72,13 @@ export default function HeroSection() {
           <div className={`space-y-8 transition-all duration-1000 transform ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
-            {/* Trust Badge */}
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-weather-primary/30 to-weather-secondary/30 backdrop-blur-md border border-weather-primary/40 rounded-full px-4 py-2 shadow-lg">
-              <Shield className="w-5 h-5 text-weather-primary-on-dark animate-pulse" aria-hidden="true" />
-              <span className="text-weather-primary-on-dark font-semibold text-sm uppercase tracking-wide">Licensed & Insured</span>
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-3">
+              <GAFBadge variant="hero" showWarranty={true} />
+              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-weather-primary/30 to-weather-secondary/30 backdrop-blur-md border border-weather-primary/40 rounded-full px-4 py-2 shadow-lg">
+                <Shield className="w-5 h-5 text-weather-primary-on-dark animate-pulse" aria-hidden="true" />
+                <span className="text-weather-primary-on-dark font-semibold text-sm uppercase tracking-wide">Licensed & Insured</span>
+              </div>
             </div>
 
             {/* Main Heading - Professional & Impactful */}
@@ -105,10 +109,10 @@ export default function HeroSection() {
               <Link
                 href="https://your-n8n-form-url.com"
                 className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-primary to-weather-secondary hover:from-weather-secondary hover:to-weather-accent text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-primary/50 overflow-hidden focus-visible-ring"
-                aria-label="Request a professional roof inspection"
+                aria-label="Request a free professional roof inspection"
               >
                 <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                <span className="relative">Request Inspection</span>
+                <span className="relative">Request Free Inspection</span>
                 <ChevronRight className="relative w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
               <a
@@ -160,6 +164,10 @@ export default function HeroSection() {
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-white text-shadow-bold tracking-tight">Why Choose Weather Shield Roofing?</h3>
                     <ul className="space-y-3">
+                      <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
+                        <CheckCircle className="w-6 h-6 text-weather-amber mt-0.5 flex-shrink-0 group-hover:text-weather-amber-light transition-colors" aria-hidden="true" />
+                        <span className="text-gray-100 group-hover:text-white transition-colors">GAF Preferred Contractor - Enhanced Warranty Options</span>
+                      </li>
                       <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
                         <CheckCircle className="w-6 h-6 text-weather-primary-on-dark mt-0.5 flex-shrink-0 group-hover:text-weather-secondary-light transition-colors" aria-hidden="true" />
                         <span className="text-gray-100 group-hover:text-white transition-colors">WeatherShield Roofing Certified - Top Roofing Companies Myrtle Beach</span>

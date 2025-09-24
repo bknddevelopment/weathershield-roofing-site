@@ -27,7 +27,7 @@ export default function CTASection() {
                 </div>
                 
                 <h2 className="text-2xl md:text-3xl font-semibold text-weather-dark mb-4">
-                  Request Your Roof Inspection Today
+                  Request Your Free Roof Inspection Today
                 </h2>
 
                 <p className="text-base text-gray-600 mb-6">

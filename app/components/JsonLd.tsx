@@ -59,7 +59,7 @@ interface ReviewProps {
 
 export function LocalBusinessJsonLd({
   name = 'Weather Shield Roofing',
-  description = 'Professional roofing services in Myrtle Beach, SC. Specializing in roof replacement, repair, storm damage, and 24/7 emergency service.',
+  description = 'GAF Preferred Contractor providing professional roofing services in Myrtle Beach, SC. Specializing in roof replacement, repair, storm damage, and 24/7 emergency service with enhanced warranty options.',
   url = 'https://weathershieldroofers.com',
   telephone = '843-877-5539',
   email = 'roofing@weathershieldroofers.com',
@@ -138,6 +138,18 @@ export function LocalBusinessJsonLd({
       },
       geoRadius: '50000'
     },
+    certification: [
+      {
+        '@type': 'Certification',
+        name: 'GAF Preferred Contractor',
+        issuedBy: {
+          '@type': 'Organization',
+          name: 'GAF - North America\'s Largest Roofing Manufacturer'
+        },
+        validFrom: '2025-01-01',
+        description: 'Vetted for quality, insurance, and licensing with enhanced warranty options'
+      }
+    ],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Roofing Services',
@@ -147,7 +159,7 @@ export function LocalBusinessJsonLd({
           itemOffered: {
             '@type': 'Service',
             name: 'Roof Replacement',
-            description: 'Complete roof replacement with premium materials'
+            description: 'Complete roof replacement with GAF premium materials and enhanced warranty options'
           }
         },
         {
@@ -295,6 +307,7 @@ export function OrganizationJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Weather Shield Roofing',
+    alternateName: 'GAF Preferred Contractor - Weather Shield Roofing',
     url: 'https://weathershieldroofers.com',
     logo: 'https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png',
     email: 'roofing@weathershieldroofers.com',

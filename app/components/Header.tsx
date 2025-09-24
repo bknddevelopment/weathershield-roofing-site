@@ -6,6 +6,7 @@ import Image from 'next/image';
 import StaticImage from './StaticImage';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getBookingLinkProps } from '../config/booking';
+import { GAFBadge } from './GAFCertification';
 import {
   Menu,
   X,
@@ -59,7 +60,7 @@ const services: ServiceLink[] = [
     title: 'Roof Inspections',
     href: '/services/roof-inspections',
     icon: <Shield className="w-5 h-5" />,
-    description: 'Professional roof inspections',
+    description: 'Free professional roof inspections',
     badge: ''
   },
   {
@@ -96,36 +97,41 @@ export default function Header() {
       }`}>
         {/* Main Navigation */}
         <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`} role="navigation" aria-label="Primary navigation">
-          <div className="mx-auto w-full max-w-[1400px] pl-2 pr-4 sm:pr-6 lg:pr-8">
-            <div className="flex justify-between items-center">
-              {/* Logo - Enhanced Sizing for Maximum Impact */}
-              <Link href="/" className="flex items-center" aria-label="Weather Shield Roofing - Top Roofing Companies Myrtle Beach | WeatherShield Home">
-                <div className={`relative transition-all duration-300 ${
-                  isScrolled
-                    ? 'w-52 sm:w-64 md:w-72 lg:w-80 xl:w-96 h-18 sm:h-20 md:h-22 lg:h-24 xl:h-26'
-                    : 'w-64 sm:w-72 md:w-80 lg:w-96 xl:w-[26rem] h-22 sm:h-24 md:h-26 lg:h-28 xl:h-32'
-                }`}>
-                  <StaticImage
-                    src="/favicon.png"
-                    alt="Weather Shield Roofing - Leading Roofing Companies Myrtle Beach | WeatherShield Roofing Logo"
-                    className="absolute inset-0 w-full h-full object-contain"
-                    priority={true}
-                  />
-                </div>
-              </Link>
+          <div className="relative w-full">
+            {/* Logo - Positioned absolutely to break out of container constraints */}
+            <Link
+              href="/"
+              className="absolute left-2 sm:left-4 md:left-8 lg:left-12 xl:left-16 2xl:left-24 top-1/2 -translate-y-1/2 z-10 flex items-center"
+              aria-label="Weather Shield Roofing - Top Roofing Companies Myrtle Beach | WeatherShield Home"
+            >
+              <div className={`relative transition-all duration-300 ${
+                isScrolled
+                  ? 'w-44 sm:w-56 md:w-64 lg:w-72 xl:w-80 2xl:w-96 h-14 sm:h-16 md:h-18 lg:h-20 xl:h-22 2xl:h-24'
+                  : 'w-48 sm:w-64 md:w-72 lg:w-80 xl:w-96 2xl:w-[26rem] h-16 sm:h-20 md:h-22 lg:h-24 xl:h-26 2xl:h-28'
+              }`}>
+                <StaticImage
+                  src="/favicon.png"
+                  alt="Weather Shield Roofing - Leading Roofing Companies Myrtle Beach | WeatherShield Roofing Logo"
+                  className="absolute inset-0 w-full h-full object-contain"
+                  priority={true}
+                />
+              </div>
+            </Link>
 
-              {/* Desktop Navigation */}
-              <div className="hidden lg:flex items-center space-x-3 xl:space-x-5">
+            {/* Main container for nav and CTA - adjusted padding to account for absolute logo */}
+            <div className="flex justify-between items-center max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+              {/* Desktop Navigation - add left spacing to avoid logo overlap */}
+              <div className="hidden lg:flex items-center space-x-2 xl:space-x-3 ml-[280px] xl:ml-[340px] 2xl:ml-[400px] flex-nowrap whitespace-nowrap">
                 <Link
                   href="/"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
                 >
                   Home
                 </Link>
 
                 <Link
                   href="/about"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
                 >
                   About
                 </Link>
@@ -133,7 +139,7 @@ export default function Header() {
                 {/* Services Dropdown */}
                 <div className="relative dropdown-wrapper">
                   <button
-                    className="flex items-center text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
+                    className="flex items-center text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
                     aria-haspopup="true"
                     aria-expanded={isServicesOpen ? "true" : "false"}
                     aria-controls="services-dropdown"
@@ -192,28 +198,31 @@ export default function Header() {
 
                 <Link
                   href="/gallery"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
                 >
                   Gallery
                 </Link>
 
                 <Link
                   href="/reviews"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
                 >
                   Reviews
                 </Link>
 
                 <Link
                   href="/blog"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
                 >
                   Blog
                 </Link>
               </div>
 
               {/* Desktop CTA Section */}
-              <div className="hidden lg:flex items-center gap-2 ml-4">
+              <div className="hidden lg:flex items-center gap-3 ml-4">
+                {/* GAF Certification Badge */}
+                <GAFBadge variant="compact" className="border-r border-gray-200 pr-3" />
+
                 {/* Phone Number CTA */}
                 <a
                   href="tel:843-877-5539"
@@ -242,7 +251,7 @@ export default function Header() {
               {/* Mobile Menu Toggle */}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="lg:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors focus-visible-ring min-tap-target self-center"
+                className="lg:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors focus-visible-ring min-tap-target self-center ml-auto"
                 aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
                 aria-expanded={isMobileMenuOpen ? 'true' : 'false'}
               >

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import StaticImage from './StaticImage';
 import { getBookingLinkProps } from '../config/booking';
+import { GAFBadge } from './GAFCertification';
 import { 
   Home, 
   Hammer, 
@@ -23,7 +24,7 @@ const services = [
     icon: Home,
     title: "WeatherShield Roof Replacement",
     description: "Weather Shield Roofing replacement with weatherproof materials and lifetime weather warranties",
-    features: ["Premium Materials", "50-Year Warranty", "Professional Inspection"],
+    features: ["Premium Materials", "50-Year Warranty", "Free Professional Inspection"],
     image: "/images/gallery/roof-installation-repair-services-1-400x300.jpg",
     href: "/services/roof-replacement",
     color: "bg-weather-teal"
@@ -83,9 +84,12 @@ export default function ServiceCards() {
       <div className="container mx-auto px-4">
         {/* Section Header - BOLD & IMPACTFUL */}
         <div className="text-center mb-16 animate-fade-in">
-          <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-5 py-3 mb-8">
-            <Shield className="w-6 h-6 text-weather-teal" />
-            <span className="text-weather-teal font-semibold uppercase tracking-wide text-sm">Weather Shield Roofing Services</span>
+          <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
+            <div className="inline-flex items-center gap-2 bg-weather-teal/10 rounded-full px-5 py-3">
+              <Shield className="w-6 h-6 text-weather-teal" />
+              <span className="text-weather-teal font-semibold uppercase tracking-wide text-sm">Weather Shield Roofing Services</span>
+            </div>
+            <GAFBadge variant="inline" className="bg-weather-amber/10 rounded-full px-5 py-3" />
           </div>
           <h2 className="section-title text-weather-dark mb-6">
             Weather Shield Roofing - Professional Weather Protection Solutions

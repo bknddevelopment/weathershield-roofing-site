@@ -47,28 +47,33 @@ const stats = [
 
 const certifications = [
   {
-    name: 'Certified Professional',
-    description: 'Premium quality service and certification',
+    name: 'GAF Preferred Contractor',
+    description: 'North America\'s largest roofing manufacturer',
     icon: Award,
-    badge: '/images/certified-professional.png'
+    badge: '/images/gaf-preferred.png',
+    featured: true,
+    color: 'weather-amber'
   },
   {
     name: 'BBB Accredited',
     description: 'A+ Rating with Better Business Bureau',
     icon: Shield,
-    badge: '/images/bbb-accredited.png'
+    badge: '/images/bbb-accredited.png',
+    color: 'weather-teal'
   },
   {
     name: 'Angi Certified',
     description: 'Background checked and verified professionals',
     icon: CheckCircle,
-    badge: '/images/angi-certified.png'
+    badge: '/images/angi-certified.png',
+    color: 'weather-blue'
   },
   {
     name: 'Google Guaranteed',
     description: 'Screened & backed by Google',
     icon: ThumbsUp,
-    badge: '/images/google-guaranteed.png'
+    badge: '/images/google-guaranteed.png',
+    color: 'weather-purple'
   }
 ];
 
@@ -209,17 +214,33 @@ export default function TrustIndicators() {
             {certifications.map((cert, index) => {
               const Icon = cert.icon;
               
+              const bgColor = cert.featured ? 'bg-weather-amber/20' : 'bg-weather-teal/20';
+              const iconColor = cert.featured ? 'text-weather-amber' : 'text-weather-teal';
+              const borderColor = cert.featured ? 'border-weather-amber/30' : 'border-white/20';
+
               return (
                 <div
                   key={index}
                   className="text-center group hover:transform hover:scale-105 transition-all duration-300"
                 >
-                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 h-full">
-                    <div className="inline-flex p-3 rounded-full bg-weather-teal/20 mb-4">
-                      <Icon className="w-8 h-8 text-weather-teal" />
+                  <div className={`relative bg-white/10 backdrop-blur-sm border ${borderColor} rounded-xl p-6 h-full ${
+                    cert.featured ? 'ring-2 ring-weather-amber/30' : ''
+                  }`}>
+                    {cert.featured && (
+                      <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-weather-amber text-white text-xs font-bold px-3 py-1 rounded-full">
+                        FEATURED
+                      </div>
+                    )}
+                    <div className={`inline-flex p-3 rounded-full ${bgColor} mb-4`}>
+                      <Icon className={`w-8 h-8 ${iconColor}`} />
                     </div>
                     <h4 className="text-xl font-bold mb-2">{cert.name}</h4>
                     <p className="text-gray-400 text-sm">{cert.description}</p>
+                    {cert.featured && (
+                      <p className="text-weather-amber text-xs mt-2 font-semibold">
+                        ✓ Enhanced Warranties Available
+                      </p>
+                    )}
                   </div>
                 </div>
               );

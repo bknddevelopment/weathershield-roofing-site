@@ -23,7 +23,7 @@ const heroSlides = [
     subtitle: "Insurance Claims Experts",
     description: "We handle your insurance claim from start to finish - No upfront costs",
     image: "/images/background/residential-roofing-gutter-siding-services.jpg",
-    stats: ["Professional Inspections", "Insurance Approved", "Quick Response"]
+    stats: ["Free Professional Inspections", "Insurance Approved", "Quick Response"]
   },
   {
     title: "Certified Roofing Contractor",
@@ -161,7 +161,7 @@ export default function HeroSectionOptimized() {
                 prefetch={false}
               >
                 <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                <span className="relative">Request Inspection</span>
+                <span className="relative">Request Free Inspection</span>
                 <ChevronRight className="relative w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
               <a
@@ -216,7 +216,7 @@ export default function HeroSectionOptimized() {
                         "Certified Roofing Contractor - Premium Quality Service",
                         "Lifetime Workmanship Warranty",
                         "Insurance Claim Specialists",
-                        "Professional Inspections & Estimates"
+                        "Free Professional Inspections & Estimates"
                       ].map((item, index) => (
                         <li key={index} className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
                           <CheckCircle className="w-6 h-6 text-weather-teal mt-0.5 flex-shrink-0 group-hover:text-weather-blue transition-colors" />

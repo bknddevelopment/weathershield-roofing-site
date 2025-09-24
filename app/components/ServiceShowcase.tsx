@@ -87,7 +87,7 @@ const services: Service[] = [
     icon: <Shield className="w-8 h-8" />,
     href: '/services/roof-inspections',
     features: [
-      'Professional initial inspection',
+      'Free professional initial inspection',
       'Drone & thermal imaging',
       'Insurance documentation',
       'Preventive care plan'

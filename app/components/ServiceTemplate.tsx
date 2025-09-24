@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import StaticImage from './StaticImage'
 import { getBookingLinkProps } from '../config/booking'
+import { GAFBadge } from './GAFCertification'
 import { 
   Phone, 
   Clock, 
@@ -94,12 +95,16 @@ export default function ServiceTemplate({
               {title.toUpperCase()}
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-white mb-4 sm:mb-6">{description}</p>
-            {emergencyService && (
-              <p className="text-sm sm:text-base text-weather-teal font-semibold mb-2">
-                ✓ 24/7 EMERGENCY SERVICE AVAILABLE
-              </p>
-            )}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-wrap gap-3">
+              <GAFBadge variant="hero" showWarranty={true} />
+              {emergencyService && (
+                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-weather-teal/30 to-weather-teal-dark/30 backdrop-blur-md border border-weather-teal/40 rounded-full px-4 py-2 shadow-lg">
+                  <Zap className="w-5 h-5 text-weather-teal-light" />
+                  <span className="text-weather-teal-light font-semibold text-sm uppercase tracking-wide">24/7 Emergency Service</span>
+                </div>
+              )}
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 mt-6">
               <a {...getBookingLinkProps()} className="inline-flex items-center justify-center gap-2 bg-weather-teal hover:bg-weather-teal-dark text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Request Quote
                 <ArrowRight className="w-5 h-5" />
@@ -221,7 +226,7 @@ export default function ServiceTemplate({
                 <div className="bg-white/10 p-3 rounded mb-4">
                   <p className="text-sm font-semibold mb-2">Special Offers:</p>
                   <ul className="text-xs sm:text-sm space-y-1">
-                    <li>• Professional Roof Inspections</li>
+                    <li>• Free Professional Roof Inspections</li>
                     <li>• Insurance Claim Assistance</li>
                     <li>• Financing Options Available</li>
                     {emergencyService && <li>• 24/7 Emergency Service</li>}
@@ -283,7 +288,7 @@ export default function ServiceTemplate({
                       Current condition
                     </li>
                   </ul>
-                  <p className="text-xs text-weather-teal font-semibold mt-3">Inspection available</p>
+                  <p className="text-xs text-weather-teal font-semibold mt-3">Free inspection available</p>
                 </div>
 
                 {/* Business Info */}
@@ -390,7 +395,7 @@ export default function ServiceTemplate({
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Protect Your Home?</h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Request your inspection and estimate today. Our experts are standing by to help.
+            Request your free inspection and estimate today. Our experts are standing by to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:843-877-5539" className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">

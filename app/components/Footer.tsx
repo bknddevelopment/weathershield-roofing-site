@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import StaticImage from './StaticImage';
+import { GAFBadge } from './GAFCertification';
 import { 
   Phone, 
   Mail, 
@@ -223,6 +224,13 @@ export default function Footer() {
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
             {/* Trust Badges */}
             <div className="flex flex-wrap justify-center gap-6">
+              <div className="flex items-center gap-2 text-gray-400 bg-weather-amber/10 px-3 py-2 rounded-lg border border-weather-amber/30">
+                <Award className="w-5 h-5 text-weather-amber" />
+                <div>
+                  <span className="text-sm font-semibold text-weather-amber">GAF Preferred Contractor</span>
+                  <span className="text-xs block text-gray-400">Since 2025</span>
+                </div>
+              </div>
               <div className="flex items-center gap-2 text-gray-400">
                 <Award className="w-5 h-5 text-weather-teal" />
                 <span className="text-sm">BBB Accredited</span>

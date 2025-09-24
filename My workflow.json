@@ -1,0 +1,30 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        0,
+        0
+      ],
+      "id": "a72e8242-82a9-4b1e-a10f-9ecfd61c4b95",
+      "name": "On form submission",
+      "webhookId": "5f482009-c55c-4c69-b82a-fc507f6e1bfb"
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "",
+  "meta": {
+    "instanceId": "a5b979f0863b638744d845c6c68cb66b764fdd9b121a07d05d2badfa87eaa530"
+  },
+  "tags": []
+}

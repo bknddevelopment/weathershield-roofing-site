@@ -5,6 +5,7 @@ import { useRef, useState, useEffect } from 'react'
 import Image from 'next/image'
 import CTASection from '../components/CTASection'
 import { GAFCertificationSection } from '../components/GAFCertification'
+import LazyYouTubeEmbed from '../components/LazyYouTubeEmbed'
 import { 
   Shield, 
   Award, 
@@ -612,63 +613,142 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* YouTube Video Section */}
-        <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden">
-          {/* Background Pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute inset-0 bg-pattern"></div>
-          </div>
-          
+        {/* News Feature Video Section */}
+        <section className="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+          {/* Decorative elements */}
+          <div className="absolute top-0 right-0 w-96 h-96 bg-weather-primary/5 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-weather-secondary/5 rounded-full blur-3xl" />
+
           <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="max-w-5xl mx-auto"
+              className="max-w-6xl mx-auto"
             >
-              <motion.div 
+              {/* Section Header */}
+              <motion.div
                 className="text-center mb-12"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
               >
-                <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">
-                  See Weather Shield in Action
+                <div className="flex items-center justify-center gap-2 mb-4">
+                  <BadgeCheck className="w-8 h-8 text-weather-primary" />
+                  <span className="text-weather-primary font-bold uppercase tracking-wider text-sm">As Featured In The News</span>
+                </div>
+                <h2 className="text-4xl md:text-5xl font-display font-bold text-weather-secondary mb-4">
+                  Weather Shield Roofing Featured in the News
                 </h2>
-                <p className="text-xl text-gray-300">
-                  Watch our team deliver excellence in every project
+                <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+                  See why local news trusts us as the premier roofing experts in Myrtle Beach
                 </p>
               </motion.div>
-              
-              <motion.div 
-                className="relative rounded-2xl overflow-hidden shadow-2xl"
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-              >
-                <div className="aspect-w-16 aspect-h-9 bg-gray-900">
-                  <iframe
-                    src="https://www.youtube.com/embed/842PsMZ29gY"
-                    title="Weather Shield Roofing Video"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    className="w-full h-full"
-                    style={{ minHeight: '500px' }}
-                  ></iframe>
-                </div>
-                
-                {/* Play button overlay effect */}
-                <motion.div 
-                  className="absolute inset-0 bg-gradient-to-r from-weather-secondary/20 to-weather-amber/20 pointer-events-none"
-                  initial={{ opacity: 1 }}
-                  whileInView={{ opacity: 0 }}
+
+              {/* Two Column Layout */}
+              <div className="grid lg:grid-cols-3 gap-8 items-center">
+                {/* Video Column - Takes 2/3 */}
+                <motion.div
+                  className="lg:col-span-2"
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 1, delay: 1 }}
-                />
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                >
+                  <LazyYouTubeEmbed
+                    videoId="842PsMZ29gY"
+                    title="Weather Shield Roofing Featured in Local News"
+                    className="shadow-2xl"
+                  />
+                </motion.div>
+
+                {/* Content Column - Takes 1/3 */}
+                <motion.div
+                  className="space-y-6"
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: 0.4 }}
+                >
+                  {/* News Coverage Card */}
+                  <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+                        <Play className="w-6 h-6 text-red-600" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-gray-900">News Coverage</h3>
+                        <p className="text-sm text-gray-600">Local Media Feature</p>
+                      </div>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      Watch our recent news feature showcasing Weather Shield Roofing's commitment to excellence,
+                      community service, and why homeowners throughout the Grand Strand trust us with their most
+                      important investment.
+                    </p>
+                    <div className="flex items-center gap-2 text-sm text-gray-600">
+                      <Clock className="w-4 h-4" />
+                      <span>Featured Story</span>
+                    </div>
+                  </div>
+
+                  {/* Trust Indicators */}
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
+                      <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0" />
+                      <span className="text-sm font-medium text-gray-800">Trusted by Local News Media</span>
+                    </div>
+                    <div className="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
+                      <Award className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                      <span className="text-sm font-medium text-gray-800">Industry Leader Since 2008</span>
+                    </div>
+                    <div className="flex items-center gap-3 p-3 bg-amber-50 rounded-lg">
+                      <Star className="w-5 h-5 text-amber-600 flex-shrink-0" />
+                      <span className="text-sm font-medium text-gray-800">5-Star Customer Reviews</span>
+                    </div>
+                  </div>
+
+                  {/* CTA Button */}
+                  <motion.a
+                    href="/quote"
+                    className="w-full btn-primary flex items-center justify-center gap-2 py-4 text-lg font-bold rounded-lg shadow-xl"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    Schedule Your Free Inspection
+                    <ArrowRight className="w-5 h-5" />
+                  </motion.a>
+                </motion.div>
+              </div>
+
+              {/* Additional Info Bar */}
+              <motion.div
+                className="mt-12 bg-gradient-to-r from-weather-primary to-weather-secondary rounded-xl p-6 text-white"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.6 }}
+              >
+                <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+                  <div className="flex items-center gap-4">
+                    <Shield className="w-10 h-10" />
+                    <div>
+                      <p className="font-bold text-lg">Ready to Experience Excellence?</p>
+                      <p className="text-white/90">Join thousands of satisfied customers across the Grand Strand</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <a
+                      href="tel:843-493-4963"
+                      className="bg-white text-weather-primary px-6 py-3 rounded-lg font-bold hover:shadow-lg transition-all duration-300 flex items-center gap-2"
+                    >
+                      <Phone className="w-5 h-5" />
+                      (843) 493-4963
+                    </a>
+                  </div>
+                </div>
               </motion.div>
             </motion.div>
           </div>

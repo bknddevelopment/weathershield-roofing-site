@@ -248,19 +248,35 @@ export default function Header() {
                 </a>
               </div>
 
-              {/* Mobile Menu Toggle */}
-              <button
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="lg:hidden p-3 rounded-lg hover:bg-gray-100 transition-colors focus-visible-ring min-tap-target self-center ml-auto"
-                aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
-                aria-expanded={isMobileMenuOpen ? 'true' : 'false'}
-              >
-                {isMobileMenuOpen ? (
-                  <X className="w-7 h-7 text-gray-700" />
-                ) : (
-                  <Menu className="w-7 h-7 text-gray-700" />
-                )}
-              </button>
+              {/* Mobile Phone Button and Menu Toggle - Container for both */}
+              <div className="lg:hidden flex items-center gap-2 ml-auto">
+                {/* Mobile Phone Button */}
+                <a
+                  href="tel:843-877-5539"
+                  className="p-3 rounded-lg bg-gradient-to-r from-weather-amber/10 to-weather-amber/5 hover:from-weather-amber/20 hover:to-weather-amber/10 transition-all duration-300 focus-visible-ring min-tap-target group relative overflow-hidden"
+                  aria-label="Call us at (843) 877-5539"
+                >
+                  {/* Animated pulse effect */}
+                  <div className="absolute inset-0 bg-weather-amber/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-weather-amber/20 animate-ping"></div>
+                  {/* Phone icon */}
+                  <Phone className="w-6 h-6 text-weather-amber relative z-10" />
+                </a>
+
+                {/* Mobile Menu Toggle */}
+                <button
+                  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                  className="p-3 rounded-lg hover:bg-gray-100 transition-colors focus-visible-ring min-tap-target"
+                  aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+                  aria-expanded={isMobileMenuOpen ? 'true' : 'false'}
+                >
+                  {isMobileMenuOpen ? (
+                    <X className="w-7 h-7 text-gray-700" />
+                  ) : (
+                    <Menu className="w-7 h-7 text-gray-700" />
+                  )}
+                </button>
+              </div>
             </div>
           </div>
         </nav>

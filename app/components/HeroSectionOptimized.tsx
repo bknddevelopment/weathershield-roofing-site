@@ -156,7 +156,7 @@ export default function HeroSectionOptimized() {
             {/* CTA Buttons with loading="lazy" for non-critical interactions */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
+                href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                 className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-teal to-weather-blue hover:from-weather-blue hover:to-weather-purple text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-teal/50 overflow-hidden"
                 prefetch={false}
               >

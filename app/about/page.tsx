@@ -226,7 +226,7 @@ export default function AboutPage() {
                 className="flex flex-col sm:flex-row gap-4 justify-center mt-10"
               >
                 <motion.a
-                  href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
+                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                   className="btn-primary px-8 py-4 text-lg font-bold rounded-lg shadow-xl flex items-center justify-center gap-2 group"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -714,7 +714,7 @@ export default function AboutPage() {
 
                   {/* CTA Button */}
                   <motion.a
-                    href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
+                    href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                     className="w-full btn-primary flex items-center justify-center gap-2 py-4 text-lg font-bold rounded-lg shadow-xl"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
@@ -850,7 +850,7 @@ export default function AboutPage() {
                   transition={{ duration: 0.6, delay: 0.8 }}
                 >
                   <motion.a
-                    href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
+                    href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                     className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-lg font-bold rounded-lg shadow-xl"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}

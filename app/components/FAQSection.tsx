@@ -122,6 +122,8 @@ export default function FAQSection() {
                   setActiveCategory(index);
                   setOpenQuestion(null);
                 }}
+                aria-label={`View ${cat.category} FAQs`}
+                aria-pressed={activeCategory === index ? "true" : "false"}
                 className={`flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
                   activeCategory === index
                     ? 'bg-weather-teal text-white shadow-lg transform scale-105'
@@ -145,7 +147,9 @@ export default function FAQSection() {
               >
                 <button
                   onClick={() => toggleQuestion(faq.question)}
-                  className="w-full px-6 py-5 text-left flex items-center justify-between group"
+                  className="w-full px-6 py-5 text-left flex items-center justify-between group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-weather-warning focus-visible:ring-offset-2"
+                  aria-expanded={openQuestion === faq.question ? "true" : "false"}
+                  aria-controls={`faq-answer-${index}`}
                 >
                   <h3 className="text-base md:text-lg font-semibold text-weather-dark group-hover:text-weather-teal transition-colors pr-4">
                     {faq.question}
@@ -158,7 +162,7 @@ export default function FAQSection() {
                 </button>
                 
                 {openQuestion === faq.question && (
-                  <div className="px-6 pb-5 animate-fade-in">
+                  <div id={`faq-answer-${index}`} className="px-6 pb-5 animate-fade-in" role="region" aria-live="polite">
                     <div className="border-t border-gray-100 pt-4">
                       <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                     </div>

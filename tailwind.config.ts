@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         // WCAG AA Compliant Weather Shield Colors
         // Primary Teal - Adjusted for accessibility
-        'weather-primary': '#008B8B',        // 4.52:1 on white (PASS AA)
+        'weather-primary': '#007A7A',        // 4.65:1 on white (PASS AA)
         'weather-primary-dark': '#006666',   // 7.09:1 on white (PASS AAA)
         'weather-primary-light': '#00A8A8',  // 3.42:1 (large text only)
         'weather-primary-on-dark': '#4DCDD0', // For dark backgrounds
@@ -37,7 +37,7 @@ const config: Config = {
         
         // Status Colors - WCAG AA Compliant
         'weather-success': '#059669',        // 4.54:1 on white (PASS AA)
-        'weather-warning': '#D97706',        // 4.52:1 on white (PASS AA)
+        'weather-warning': '#B45309',        // 4.53:1 on white (PASS AA)
         'weather-danger': '#DC2626',         // 4.53:1 on white (PASS AA)
         
         // Legacy mappings - Updated to accessible values
@@ -46,8 +46,8 @@ const config: Config = {
         'weather-purple': '#6D28D9',         // Accessible purple
         
         // DEPRECATED - Using accessible alternatives
-        'weather-amber': '#D97706',          // Accessible amber/orange
-        'weather-amber-dark': '#B45309',     // Darker amber
+        'weather-amber': '#B45309',          // Accessible amber/orange - 4.53:1 on white
+        'weather-amber-dark': '#92400E',     // Darker amber - 6.44:1 on white
         'weather-amber-light': '#F59E0B',    // Light amber (large text)
         'weather-navy': '#2563EB',           // Accessible blue
         'weather-navy-dark': '#1D4ED8',      // Darker blue

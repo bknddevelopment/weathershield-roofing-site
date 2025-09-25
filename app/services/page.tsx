@@ -125,8 +125,10 @@ export default function ServicesPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="/contact"
+                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                   className="inline-flex items-center justify-center px-8 py-4 bg-weather-teal text-white font-black text-lg uppercase tracking-wide rounded-lg hover:bg-opacity-90 transition-all"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Request Estimate
                   <ArrowRight className="ml-2 h-5 w-5" />

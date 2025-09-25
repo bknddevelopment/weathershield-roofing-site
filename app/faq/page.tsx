@@ -455,10 +455,12 @@ export default function FAQPage() {
               </motion.a>
               
               <motion.a
-                href="/contact"
+                href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-weather-navy text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Contact Us Online
               </motion.a>

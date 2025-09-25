@@ -94,8 +94,10 @@ export default function LocationsPage() {
                 Call (843) 493-4963
               </a>
               <Link
-                href="/quote"
+                href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                 className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-weather-teal transition-all duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Get Free Quote
               </Link>

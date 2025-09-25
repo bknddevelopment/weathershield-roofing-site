@@ -353,7 +353,7 @@ export default function ServiceShowcase() {
                 <Clock className="w-5 h-5 animate-pulse" />
                 Emergency: (843) 877-5539
               </motion.a>
-              <Link href="/quote">
+              <Link href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate" target="_blank" rel="noopener noreferrer">
                 <motion.button
                   className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-weather-navy transition-all duration-300 flex items-center justify-center gap-2"
                   whileHover={{ scale: 1.05 }}

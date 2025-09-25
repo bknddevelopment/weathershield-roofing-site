@@ -274,8 +274,10 @@ export default function VideoTestimonials() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/quote"
+              href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
               className="bg-weather-teal text-white px-8 py-4 rounded-lg font-semibold hover:bg-weather-teal-dark transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Get Your Free Quote
             </a>

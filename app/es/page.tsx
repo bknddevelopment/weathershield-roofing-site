@@ -170,8 +170,10 @@ export default function SpanishLandingPage() {
                   Llamar Ahora: (843) 877-5539
                 </Link>
                 <Link
-                  href="/quote"
+                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                   className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/30 hover:bg-white/20 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FileCheck className="w-6 h-6" />
                   Presupuesto Gratis
@@ -680,8 +682,10 @@ export default function SpanishLandingPage() {
                   Llamar: (843) 877-5539
                 </Link>
                 <Link
-                  href="/quote"
+                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
                   className="inline-flex items-center gap-3 bg-transparent border-2 border-white hover:bg-white/10 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FileCheck className="w-6 h-6" />
                   Solicitar Presupuesto

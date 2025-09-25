@@ -13,33 +13,20 @@ interface StaticImageProps {
 }
 
 // This component uses a plain img tag with proper path handling for GitHub Pages
-export default function StaticImage({ 
-  src, 
-  alt, 
-  width, 
-  height, 
+export default function StaticImage({
+  src,
+  alt,
+  width,
+  height,
   className = '',
   style,
   loading = 'eager',
   fill = false,
   priority = false
 }: StaticImageProps) {
-  // Handle base path for GitHub Pages deployment
-  // Check at build time AND runtime
+  // For custom domain deployment, use paths as-is without any prefix
+  // The site is deployed to weathershieldroofing.com, not a GitHub Pages subdirectory
   let imageSrc = src
-  
-  // Build-time path handling (for static export)
-  const isProd = process.env.NODE_ENV === 'production'
-  if (isProd && src.startsWith('/') && !src.startsWith('/weathershield-roofing-site')) {
-    imageSrc = `/weathershield-roofing-site${src}`
-  }
-  
-  // Runtime path handling (for client-side navigation)
-  if (typeof window !== 'undefined' && window.location.hostname.includes('github.io')) {
-    if (src.startsWith('/') && !src.startsWith('/weathershield-roofing-site')) {
-      imageSrc = `/weathershield-roofing-site${src}`
-    }
-  }
   
   // If fill is true, create a positioned image container
   if (fill) {

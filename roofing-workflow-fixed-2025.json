@@ -1,0 +1,346 @@
+{
+  "name": "Roofing Estimate Form - Fixed",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "roofing-estimate",
+        "formTitle": "Get Your Free Roofing Estimate",
+        "formDescription": "Fill out this form and we'll provide you with a comprehensive estimate for your roofing needs.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Name",
+              "fieldType": "text",
+              "requiredField": true,
+              "placeholder": "Your Full Name"
+            },
+            {
+              "fieldLabel": "Phone",
+              "fieldType": "text",
+              "requiredField": true,
+              "placeholder": "(123) 456-7890"
+            },
+            {
+              "fieldLabel": "Email",
+              "fieldType": "email",
+              "requiredField": true,
+              "placeholder": "your.email@example.com"
+            },
+            {
+              "fieldLabel": "Interested In",
+              "fieldType": "dropdown",
+              "requiredField": true,
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Residential Roofing"
+                  },
+                  {
+                    "option": "Commercial Roofing"
+                  },
+                  {
+                    "option": "Gutters"
+                  },
+                  {
+                    "option": "Siding"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "Message",
+              "fieldType": "textarea",
+              "requiredField": false,
+              "placeholder": "Please provide any additional details about your project..."
+            }
+          ]
+        },
+        "responseMode": "onReceived",
+        "options": {
+          "formSubmittedText": "Thank you for your submission! We'll contact you within 24 hours."
+        }
+      },
+      "id": "a72e8242-82a9-4b1e-a10f-9ecfd61c4b95",
+      "name": "Roofing Estimate Form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.1,
+      "position": [
+        260,
+        300
+      ],
+      "webhookId": "5f482009-c55c-4c69-b82a-fc507f6e1bfb"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "YOUR_GOOGLE_SHEET_ID",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Name": "={{ $json.Name }}",
+            "Phone": "={{ $json.Phone }}",
+            "Email": "={{ $json.Email }}",
+            "Service": "={{ $json['Interested In'] }}",
+            "Message": "={{ $json.Message }}",
+            "Timestamp": "={{ $now.toISO() }}"
+          }
+        },
+        "options": {}
+      },
+      "id": "8c2f3456-91a2-4b3e-b10f-8dcgd71c5b96",
+      "name": "Save to Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [
+        680,
+        200
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "1",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "field1",
+              "name": "notificationSubject",
+              "type": "string",
+              "value": "={{ 'New Roofing Estimate Request from ' + $json.Name }}"
+            },
+            {
+              "id": "field2",
+              "name": "notificationHtml",
+              "type": "string",
+              "value": "={{ '<!DOCTYPE html>\\n<html>\\n<head>\\n<style>\\nbody { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }\\n.container { max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }\\n.header { background-color: #007bff; color: white; padding: 20px; text-align: center; }\\n.content { background-color: white; padding: 20px; margin-top: 20px; border-radius: 5px; }\\n.field { margin-bottom: 15px; }\\n.label { font-weight: bold; color: #555; }\\n.value { color: #333; margin-left: 10px; }\\n.footer { text-align: center; margin-top: 20px; color: #777; font-size: 12px; }\\n</style>\\n</head>\\n<body>\\n<div class=\"container\">\\n<div class=\"header\">\\n<h2>New Roofing Estimate Request</h2>\\n</div>\\n<div class=\"content\">\\n<div class=\"field\">\\n<span class=\"label\">Name:</span>\\n<span class=\"value\">' + $json.Name + '</span>\\n</div>\\n<div class=\"field\">\\n<span class=\"label\">Phone:</span>\\n<span class=\"value\">' + $json.Phone + '</span>\\n</div>\\n<div class=\"field\">\\n<span class=\"label\">Email:</span>\\n<span class=\"value\">' + $json.Email + '</span>\\n</div>\\n<div class=\"field\">\\n<span class=\"label\">Service Interested In:</span>\\n<span class=\"value\">' + $json['Interested In'] + '</span>\\n</div>\\n<div class=\"field\">\\n<span class=\"label\">Message:</span>\\n<span class=\"value\">' + ($json.Message || 'No additional message') + '</span>\\n</div>\\n<hr style=\"margin: 20px 0; border: 1px solid #eee;\">\\n<p style=\"font-weight: bold; color: #007bff;\">Please respond within 24 hours.</p>\\n</div>\\n<div class=\"footer\">\\n<p>This is an automated notification from WeatherShield Roofing</p>\\n</div>\\n</div>\\n</body>\\n</html>' }}"
+            },
+            {
+              "id": "field3",
+              "name": "customerEmail",
+              "type": "string",
+              "value": "={{ $json.Email }}"
+            },
+            {
+              "id": "field4",
+              "name": "customerName",
+              "type": "string",
+              "value": "={{ $json.Name }}"
+            },
+            {
+              "id": "field5",
+              "name": "customerPhone",
+              "type": "string",
+              "value": "={{ $json.Phone }}"
+            },
+            {
+              "id": "field6",
+              "name": "serviceRequested",
+              "type": "string",
+              "value": "={{ $json['Interested In'] }}"
+            },
+            {
+              "id": "field7",
+              "name": "customerMessage",
+              "type": "string",
+              "value": "={{ $json.Message || 'No additional details provided' }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-node-notification",
+      "name": "Prepare Notification Email",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [
+        680,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "field1",
+              "name": "confirmationSubject",
+              "type": "string",
+              "value": "Thank You for Your Roofing Estimate Request"
+            },
+            {
+              "id": "field2",
+              "name": "confirmationHtml",
+              "type": "string",
+              "value": "={{ '<!DOCTYPE html>\\n<html>\\n<head>\\n<style>\\nbody { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }\\n.container { max-width: 600px; margin: 0 auto; padding: 20px; }\\n.header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0; }\\n.content { background-color: white; padding: 30px; border: 1px solid #e0e0e0; border-radius: 0 0 10px 10px; }\\nh1 { margin: 0; font-size: 28px; }\\nh2 { color: #667eea; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }\\n.greeting { font-size: 18px; margin-bottom: 20px; }\\n.info-box { background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #667eea; }\\n.next-steps { margin: 20px 0; }\\n.next-steps li { margin-bottom: 10px; }\\n.details { background-color: #f0f4f8; padding: 15px; border-radius: 5px; margin: 20px 0; }\\n.contact-info { background-color: #667eea; color: white; padding: 20px; border-radius: 8px; text-align: center; margin: 20px 0; }\\n.contact-info a { color: white; text-decoration: none; font-weight: bold; }\\n.footer { text-align: center; color: #777; font-size: 12px; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e0e0e0; }\\n.badge { display: inline-block; background-color: #28a745; color: white; padding: 5px 10px; border-radius: 5px; font-size: 12px; }\\n</style>\\n</head>\\n<body>\\n<div class=\"container\">\\n<div class=\"header\">\\n<h1>WeatherShield Roofing</h1>\\n<p style=\"margin: 10px 0 0 0; font-size: 16px;\">Your Trusted Roofing Partner</p>\\n</div>\\n<div class=\"content\">\\n<div class=\"greeting\">Dear ' + $json.Name + ',</div>\\n<p>Thank you for requesting a roofing estimate from WeatherShield Roofing. We have received your information and one of our roofing specialists will contact you within 24 hours to discuss your project.</p>\\n\\n<div class=\"info-box\">\\n<h2>What Happens Next?</h2>\\n<ul class=\"next-steps\">\\n<li>Our specialist will call you at <strong>' + $json.Phone + '</strong> to schedule a convenient time for an inspection</li>\\n<li>We will provide a comprehensive, no-obligation estimate</li>\\n<li>You will receive detailed information about our services and warranty options</li>\\n</ul>\\n</div>\\n\\n<div class=\"details\">\\n<h3 style=\"color: #667eea; margin-top: 0;\">Your Request Details:</h3>\\n<p><strong>Service Requested:</strong> ' + $json['Interested In'] + '</p>\\n<p><strong>Additional Details:</strong> ' + ($json.Message || 'No additional details provided') + '</p>\\n</div>\\n\\n<div class=\"contact-info\">\\n<p style=\"font-size: 16px; margin-bottom: 10px;\">Have immediate questions?</p>\\n<p style=\"font-size: 20px; margin: 10px 0;\">Call us at: <a href=\"tel:843-877-5539\">(843) 877-5539</a></p>\\n<p style=\"margin: 10px 0;\">Email: <a href=\"mailto:info@weathershieldroofing.com\">info@weathershieldroofing.com</a></p>\\n</div>\\n\\n<p style=\"text-align: center; margin-top: 30px;\">\\n<span class=\"badge\">Licensed & Insured</span>\\n<span class=\"badge\" style=\"margin-left: 10px; background-color: #dc3545;\">GAF Certified</span>\\n</p>\\n\\n</div>\\n<div class=\"footer\">\\n<p>WeatherShield Roofing | 123 Main Street, Your City, State 12345</p>\\n<p>© 2025 WeatherShield Roofing. All rights reserved.</p>\\n</div>\\n</div>\\n</body>\\n</html>' }}"
+            },
+            {
+              "id": "field3",
+              "name": "customerEmail",
+              "type": "string",
+              "value": "={{ $json.Email }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-node-confirmation",
+      "name": "Prepare Confirmation Email",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [
+        680,
+        600
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "YOUR_NOTIFICATION_EMAIL@example.com",
+        "subject": "={{ $json.notificationSubject }}",
+        "emailType": "html",
+        "message": "={{ $json.notificationHtml }}",
+        "options": {
+          "replyTo": "={{ $json.customerEmail }}",
+          "appendAttribution": false
+        }
+      },
+      "id": "7b1e2345-82a9-4b1e-a10f-7bcfd51c4b87",
+      "name": "Send Email Notification",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        920,
+        400
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "2",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.customerEmail }}",
+        "subject": "={{ $json.confirmationSubject }}",
+        "emailType": "html",
+        "message": "={{ $json.confirmationHtml }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "9c3f4567-93b0-5c2f-b21g-8edhe82d5c97",
+      "name": "Send Confirmation to Customer",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        920,
+        600
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "2",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Roofing Estimate Form Workflow - Fixed for 2025\n\nThis updated workflow fixes the email formatting issues:\n\n### Key Changes:\n1. **Added Set Nodes**: Preprocesses HTML content before Gmail nodes (fixes known n8n issue)\n2. **HTML Email Type**: Changed from 'text' to 'html' for proper formatting\n3. **Professional HTML Templates**: Beautiful, responsive email designs\n4. **Proper Expression Evaluation**: Variables will now display actual values, not raw code\n\n### Features:\n1. **Form Submission**: Collects customer information\n2. **Data Storage**: Saves to Google Sheets\n3. **Notification Email**: Professional HTML email to your team\n4. **Confirmation Email**: Beautiful branded email to customer\n\n### Configuration Required:\n1. Update Google Sheet ID in the Google Sheets node\n2. Replace YOUR_NOTIFICATION_EMAIL@example.com with your email\n3. Configure Gmail and Google Sheets credentials\n4. Update phone number and email in the HTML templates if needed\n5. Activate the workflow when ready\n\n### Testing:\n1. Use Test URL first to verify everything works\n2. Check that emails display properly formatted HTML\n3. Verify all variables show actual values (not {{ $json.Name }})\n4. Switch to Production URL when confirmed working",
+        "height": 450,
+        "width": 420
+      },
+      "id": "sticky-note-1",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        80,
+        440
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Roofing Estimate Form": {
+      "main": [
+        [
+          {
+            "node": "Save to Google Sheets",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Prepare Notification Email",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Prepare Confirmation Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Notification Email": {
+      "main": [
+        [
+          {
+            "node": "Send Email Notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Confirmation Email": {
+      "main": [
+        [
+          {
+            "node": "Send Confirmation to Customer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "2025-09-23-fixed-html",
+  "meta": {
+    "instanceId": "a5b979f0863b638744d845c6c68cb66b764fdd9b121a07d05d2badfa87eaa530"
+  },
+  "tags": [
+    {
+      "name": "forms",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "name": "customer-service",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "name": "html-emails",
+      "createdAt": "2025-09-23T00:00:00.000Z",
+      "updatedAt": "2025-09-23T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
   output: 'export',
-  // Remove basePath and assetPrefix when using custom domain
-  // basePath: isProd ? '/weathershield-roofing-site' : '',
-  // assetPrefix: isProd ? '/weathershield-roofing-site' : '',
+  // No basePath or assetPrefix needed for custom domain deployment
   images: {
     unoptimized: true,
   },

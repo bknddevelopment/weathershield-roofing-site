@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     siteName: 'Weather Shield Roofing',
     images: [
       {
-        url: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/images/logo/weather_shield_roofing_transparent.png' : '/images/logo/weather_shield_roofing_transparent.png',
+        url: '/images/logo/weather_shield_roofing_transparent.png',
         width: 1200,
         height: 630,
         alt: 'Weather Shield Roofing - Myrtle Beach, SC',
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Weather Shield Roofing | Leading Roofing Companies Myrtle Beach | WeatherShield',
     description: 'Weather Shield Roofing - Premier roofing companies Myrtle Beach trusts. WeatherShield roofing experts protect homes from weather in Myrtle Beach. 24/7 emergency service.',
-    images: [process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/images/logo/weather_shield_roofing_transparent.png' : '/images/logo/weather_shield_roofing_transparent.png'],
+    images: ['/images/logo/weather_shield_roofing_transparent.png'],
     creator: '@weathershield',
   },
   robots: {
@@ -99,11 +99,11 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/favicon-right.png' : '/favicon-right.png',
-    shortcut: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/favicon-right.png' : '/favicon-right.png',
-    apple: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/favicon-right.png' : '/favicon-right.png',
+    icon: '/favicon-right.png',
+    shortcut: '/favicon-right.png',
+    apple: '/favicon-right.png',
   },
-  manifest: process.env.NODE_ENV === 'production' ? '/weathershield-roofing-site/manifest.json' : '/manifest.json',
+  manifest: '/manifest.json',
   verification: {
     google: 'google-verification-code',
   },
@@ -143,20 +143,14 @@ export default function RootLayout({
         <link
           rel="preload"
           as="image"
-          href={process.env.NODE_ENV === 'production'
-            ? '/weathershield-roofing-site/images/background/roof-replacement-services.jpg'
-            : '/images/background/roof-replacement-services.jpg'
-          }
+          href="/images/background/roof-replacement-services.jpg"
           type="image/jpeg"
         />
 
         {/* Prefetch other important resources */}
         <link
           rel="prefetch"
-          href={process.env.NODE_ENV === 'production'
-            ? '/weathershield-roofing-site/images/logo/weather_shield_roofing_transparent.png'
-            : '/images/logo/weather_shield_roofing_transparent.png'
-          }
+          href="/images/logo/weather_shield_roofing_transparent.png"
         />
 
         {/* Meta tags for performance */}

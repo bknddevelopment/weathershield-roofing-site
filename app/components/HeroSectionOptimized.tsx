@@ -156,7 +156,7 @@ export default function HeroSectionOptimized() {
             {/* CTA Buttons with loading="lazy" for non-critical interactions */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                 className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-teal to-weather-blue hover:from-weather-blue hover:to-weather-purple text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-teal/50 overflow-hidden"
                 prefetch={false}
               >
@@ -165,7 +165,7 @@ export default function HeroSectionOptimized() {
                 <ChevronRight className="relative w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
               <a
-                href="tel:843-877-5539"
+                href="tel:+18438775539"
                 className="group inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/50 hover:bg-white hover:text-weather-black hover:border-white text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-white/20"
               >
                 <Phone className="w-6 h-6 group-hover:animate-pulse" />

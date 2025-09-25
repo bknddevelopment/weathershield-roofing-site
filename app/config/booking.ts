@@ -3,7 +3,7 @@
  * All schedule/appointment/quote buttons redirect to this external booking page
  */
 export const BOOKING_CONFIG = {
-  url: 'https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate',
+  url: 'https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate',
   openInNewTab: true,
   linkProps: {
     target: '_blank' as const,

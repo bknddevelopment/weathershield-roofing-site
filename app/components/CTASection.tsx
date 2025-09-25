@@ -78,7 +78,7 @@ export default function CTASection() {
                 <div className="space-y-6">
                   {/* Phone */}
                   <a
-                    href="tel:843-877-5539"
+                    href="tel:+18438775539"
                     className="block bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/20 transition-colors group"
                   >
                     <div className="flex items-center gap-4">

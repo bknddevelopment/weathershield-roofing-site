@@ -226,7 +226,7 @@ export default function AboutPage() {
                 className="flex flex-col sm:flex-row gap-4 justify-center mt-10"
               >
                 <motion.a
-                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                  href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                   className="btn-primary px-8 py-4 text-lg font-bold rounded-lg shadow-xl flex items-center justify-center gap-2 group"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -237,7 +237,7 @@ export default function AboutPage() {
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </motion.a>
                 <motion.a
-                  href="tel:843-877-5539"
+                  href="tel:+18438775539"
                   className="bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 text-lg font-bold rounded-lg shadow-xl hover:bg-white hover:text-weather-secondary transition-all duration-300 flex items-center justify-center gap-2"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -714,7 +714,7 @@ export default function AboutPage() {
 
                   {/* CTA Button */}
                   <motion.a
-                    href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                    href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                     className="w-full btn-primary flex items-center justify-center gap-2 py-4 text-lg font-bold rounded-lg shadow-xl"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
@@ -850,7 +850,7 @@ export default function AboutPage() {
                   transition={{ duration: 0.6, delay: 0.8 }}
                 >
                   <motion.a
-                    href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                    href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                     className="btn-primary inline-flex items-center gap-2 px-8 py-4 text-lg font-bold rounded-lg shadow-xl"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -862,7 +862,7 @@ export default function AboutPage() {
                   </motion.a>
                   <p className="text-gray-600 mt-4">
                     Or call us directly at{" "}
-                    <a href="tel:843-877-5539" className="text-weather-secondary font-bold hover:underline">
+                    <a href="tel:+18438775539" className="text-weather-secondary font-bold hover:underline">
                       (843) 877-5539
                     </a>
                   </p>
@@ -894,7 +894,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <motion.a
-                href="tel:843-877-5539"
+                href="tel:+18438775539"
                 className="bg-white text-red-500 px-6 py-3 rounded-lg font-bold shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

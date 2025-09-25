@@ -3,9 +3,9 @@ import ServiceTemplate from '../../components/ServiceTemplate'
 import { Building, Clock, Shield, DollarSign, FileCheck, Users } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Commercial Roofing Services | Weather Shield Roofing',
-  description: 'Professional commercial roofing solutions in Myrtle Beach. Flat roofs, metal roofing, TPO, EPDM, and maintenance programs for businesses.',
-  keywords: 'commercial roofing, flat roof, TPO roofing, EPDM, metal roofing, commercial roof repair',
+  title: 'Commercial Roofing Myrtle Beach | Weather Shield Roofing Contractors',
+  description: 'Weather Shield Roofing - Leading commercial roofing contractors Myrtle Beach. Professional weathershield roofing for businesses. Storm shield roofing protection with 24/7 emergency service.',
+  keywords: 'commercial roofing myrtle beach, weathershield roofing, weather shield roofing, roofing contractors myrtle beach, storm shield roofing, commercial roofing companies myrtle beach sc, flat roof repair myrtle beach, TPO roofing myrtle beach, EPDM roofing contractors, metal roofing myrtle beach',
   alternates: {
     canonical: 'https://weathershieldroofers.com/services/commercial-roofing',
   },
@@ -18,12 +18,14 @@ export const metadata: Metadata = {
 }
 
 const commercialRoofingData = {
-  title: 'Commercial Roofing Services',
-  description: 'Comprehensive commercial roofing solutions designed to protect your business investment with minimal disruption to operations.',
+  title: 'Commercial Roofing Myrtle Beach - Weather Shield Roofing',
+  description: 'Weather Shield Roofing - Top commercial roofing contractors Myrtle Beach trusts. Comprehensive weathershield roofing solutions with storm shield protection for businesses.',
   longDescription: [
-    'Weather Shield Roofing understands that your commercial property is a significant investment that requires specialized roofing solutions. Our commercial division has over 15 years of experience installing and maintaining roofs for retail centers, office buildings, warehouses, and industrial facilities throughout Myrtle Beach and the Grand Strand.',
-    'We specialize in all types of commercial roofing systems including TPO, EPDM, modified bitumen, metal roofing, and built-up roofing. Our certified technicians are trained in the latest installation techniques and safety protocols, ensuring your project is completed on time, on budget, and with minimal disruption to your business operations.',
-    'Beyond installation, we offer comprehensive maintenance programs designed to extend your roof\'s lifespan and protect your warranty. Our proactive approach helps identify potential issues before they become costly problems, saving you money and preventing business interruptions.'
+    'Weather Shield Roofing stands as the premier commercial roofing contractors Myrtle Beach businesses rely on for superior weathershield roofing protection. As leading roofing companies in Myrtle Beach SC, our commercial division has over 15 years of experience installing storm shield roofing systems for retail centers, office buildings, warehouses, and industrial facilities throughout the Grand Strand. Our expertise in coastal commercial roofing ensures your business property withstands hurricanes, salt air corrosion, and intense UV radiation year-round.',
+    'We specialize in all types of commercial roofing systems including TPO, EPDM, modified bitumen, metal roofing, and built-up roofing. Our certified technicians are trained in the latest installation techniques and safety protocols, ensuring your project is completed on time, on budget, and with minimal disruption to your business operations. Each commercial roofing Myrtle Beach project incorporates energy-efficient materials and advanced weatherproofing technologies that reduce operational costs while maximizing protection.',
+    'Beyond installation, we offer comprehensive maintenance programs designed to extend your roof\'s lifespan and protect your warranty. Our proactive approach helps identify potential issues before they become costly problems, saving you money and preventing business interruptions. Regular inspections and preventive maintenance can extend commercial roof life by 30-50% in Myrtle Beach\'s challenging coastal environment.',
+    'As experienced commercial roofing contractors Myrtle Beach SC, we understand the unique challenges facing coastal businesses. From hotels and resorts along the Grand Strand to manufacturing facilities inland, our storm shield roofing systems provide reliable protection against extreme weather events. We work with property managers, facility directors, and business owners to develop customized roofing solutions that meet specific operational requirements and budget constraints.',
+    'Weather Shield Roofing\'s commercial division maintains all necessary certifications and insurance coverage required for large-scale projects. Our team includes OSHA-certified safety professionals, manufacturer-trained installers, and project managers experienced in coordinating complex commercial roofing installations. This comprehensive approach ensures your commercial roofing investment delivers maximum value and long-term performance.'
   ],
   benefits: [
     'Minimal disruption to business operations',

@@ -360,7 +360,7 @@ const WeatherSection = () => (
           to protect your home with proven storm protection services and 24/7 emergency response.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:843-877-5539"
+          <a href="tel:+18438775539"
              className="bg-white text-red-500 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
             Call Emergency Line: (843) 877-5539
           </a>

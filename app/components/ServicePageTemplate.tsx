@@ -244,7 +244,7 @@ export default function ServicePageTemplate({
                   <h3 className="text-xl font-bold mb-4">Get Started Today</h3>
                   <div className="space-y-4">
                     <a
-                      href="tel:843-877-5539"
+                      href="tel:+18438775539"
                       className="flex items-center justify-center gap-2 bg-white text-weather-purple px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
                     >
                       <Phone className="w-5 h-5" />

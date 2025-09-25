@@ -3,16 +3,16 @@ import ServiceTemplate from '../../components/ServiceTemplate'
 import { Wrench, AlertTriangle, Clock, Shield, DollarSign, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Roof Repair Services | Weather Shield Roofing',
-  description: 'Expert roof repair services in Myrtle Beach. From minor leaks to major damage, we provide fast, reliable repairs with warranty protection.',
-  keywords: 'roof repair, leak repair, shingle repair, emergency roof repair, roof patching, Myrtle Beach',
+  title: 'Roof Repair Myrtle Beach | Weather Shield Roofing Contractors',
+  description: 'Weather Shield Roofing - Fast roof repair Myrtle Beach relies on. Expert roofing contractors Myrtle Beach for storm shield repairs. WeatherShield roofing emergency service 24/7.',
+  keywords: 'roof repair myrtle beach, weathershield roofing, weather shield roofing, roofing contractors myrtle beach, storm shield roofing, emergency roof repair myrtle beach, leak repair myrtle beach sc, shingle repair contractors, roofing companies near me, roofers in myrtle beach',
 }
 
 const roofRepairData = {
-  title: 'Roof Repair Services',
-  description: 'Fast, reliable roof repairs to protect your home from water damage. Same-day service available for emergency repairs.',
+  title: 'Roof Repair Myrtle Beach - Weather Shield Roofing',
+  description: 'Weather Shield Roofing - Leading roof repair Myrtle Beach experts. Fast weathershield roofing repairs with storm shield protection. Same-day emergency service by top roofing contractors Myrtle Beach.',
   longDescription: [
-    'When your roof develops problems, quick action is essential to prevent water damage and costly structural issues. Weather Shield Roofing specializes in all types of roof repairs, from minor leaks to major storm damage, providing fast and reliable solutions that restore your roof\'s integrity.',
+    'When your roof develops problems, quick action is essential. Weather Shield Roofing - the leading roofing contractors Myrtle Beach homeowners trust for expert roof repair Myrtle Beach services. Our weathershield roofing team specializes in all types of repairs, from minor leaks to major storm shield damage, providing fast solutions that restore your roof\'s integrity.',
     'Our experienced technicians are trained to identify and fix roofing problems efficiently, using quality materials that match your existing roof. We understand that roof damage can be stressful, which is why we offer same-day emergency service and work directly with insurance companies to streamline the repair process.',
     'With over 15 years serving Myrtle Beach and the Grand Strand, we\'ve repaired thousands of roofs damaged by storms, age, and wear. Our commitment to quality repairs and honest pricing has made us the trusted choice for homeowners throughout the region.'
   ],

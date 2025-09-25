@@ -27,12 +27,12 @@ const quickLinks = [
 ];
 
 const services = [
-  { title: 'Roof Replacement', href: '/services/roof-replacement' },
-  { title: 'Roof Repair', href: '/services/roof-repair' },
-  { title: 'Storm Damage', href: '/services/storm-damage' },
-  { title: 'Roof Inspections', href: '/services/roof-inspections' },
-  { title: 'Gutter Services', href: '/services/gutter-services' },
-  { title: 'Commercial Roofing', href: '/services/commercial' },
+  { title: 'Roof Replacement Myrtle Beach', href: '/services/roof-replacement' },
+  { title: 'Roof Repair Myrtle Beach', href: '/services/roof-repair' },
+  { title: 'Storm Shield Roofing Services', href: '/services/storm-damage' },
+  { title: 'WeatherShield Roof Inspections', href: '/services/roof-inspections' },
+  { title: 'Weather Protection Gutters', href: '/services/gutter-services' },
+  { title: 'Commercial Roofing Myrtle Beach', href: '/services/commercial' },
 ];
 
 const serviceAreas = [
@@ -61,21 +61,21 @@ export default function Footer() {
                 className="h-24 sm:h-28 lg:h-32 w-auto mb-6 object-contain"
               />
             </div>
-            <p className="text-gray-400 mb-4">
+            <p className="text-gray-300 mb-4">
               Weather Shield Roofing - Leading roofing companies Myrtle Beach trusts for weather protection.
               WeatherShield roofing experts protecting homes from weather in Myrtle Beach since 2010.
               Top-rated roofing companies near me - Licensed, insured, and weatherproof.
             </p>
             <div className="space-y-2">
-              <a href="tel:843-877-5539" className="flex items-center gap-2 text-gray-400 hover:text-weather-teal transition-colors">
+              <a href="tel:+18438775539" className="flex items-center gap-2 text-gray-300 hover:text-weather-teal transition-colors">
                 <Phone className="w-4 h-4" />
                 <span>(843) 877-5539</span>
               </a>
-              <a href="mailto:roofing@weathershieldroofers.com" className="flex items-center gap-2 text-gray-400 hover:text-weather-teal transition-colors">
+              <a href="mailto:roofing@weathershieldroofers.com" className="flex items-center gap-2 text-gray-300 hover:text-weather-teal transition-colors">
                 <Mail className="w-4 h-4" />
                 <span>roofing@weathershieldroofers.com</span>
               </a>
-              <div className="flex items-center gap-2 text-gray-400">
+              <div className="flex items-center gap-2 text-gray-300">
                 <MapPin className="w-4 h-4" />
                 <span>215 Ronnie Ct. Unit F, Myrtle Beach, SC 29579</span>
               </div>
@@ -90,7 +90,7 @@ export default function Footer() {
                 <li key={service.href}>
                   <Link 
                     href={service.href}
-                    className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                    className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
                   >
                     <ChevronRight className="w-3 h-3" aria-hidden="true" />
                     {service.title}
@@ -107,16 +107,17 @@ export default function Footer() {
               <li>
                 <Link
                   href="/locations/myrtle-beach"
-                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                  className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
+                  title="Roofing Companies Myrtle Beach SC"
                 >
                   <ChevronRight className="w-3 h-3" aria-hidden="true" />
-                  Myrtle Beach, SC
+                  Roofing Myrtle Beach SC
                 </Link>
               </li>
               <li>
                 <Link
                   href="/locations/charleston-sc"
-                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                  className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
                 >
                   <ChevronRight className="w-3 h-3" aria-hidden="true" />
                   Charleston, SC
@@ -125,7 +126,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/locations/charlotte-nc"
-                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                  className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
                 >
                   <ChevronRight className="w-3 h-3" aria-hidden="true" />
                   Charlotte, NC
@@ -134,7 +135,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/locations/florence"
-                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                  className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
                 >
                   <ChevronRight className="w-3 h-3" aria-hidden="true" />
                   Florence, SC
@@ -143,7 +144,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/locations/south-carolina"
-                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                  className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
                 >
                   <ChevronRight className="w-3 h-3" aria-hidden="true" />
                   All South Carolina
@@ -152,7 +153,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/locations/north-carolina"
-                  className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                  className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
                 >
                   <ChevronRight className="w-3 h-3" aria-hidden="true" />
                   All North Carolina
@@ -163,8 +164,9 @@ export default function Footer() {
               <Link
                 href="/locations"
                 className="text-weather-teal hover:text-weather-purple transition-colors font-semibold"
+                title="Roofing Companies Near Me - All Service Areas"
               >
-                View All Locations →
+                View All Roofing Service Areas →
               </Link>
             </div>
           </div>
@@ -177,7 +179,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link 
                     href={link.href}
-                    className="flex items-center gap-1 text-gray-400 hover:text-weather-teal transition-colors"
+                    className="flex items-center gap-1 text-gray-300 hover:text-weather-teal transition-colors"
                   >
                     <ChevronRight className="w-3 h-3" aria-hidden="true" />
                     {link.title}
@@ -224,26 +226,26 @@ export default function Footer() {
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
             {/* Trust Badges */}
             <div className="flex flex-wrap justify-center gap-6">
-              <div className="flex items-center gap-2 text-gray-400 bg-weather-amber/10 px-3 py-2 rounded-lg border border-weather-amber/30">
+              <div className="flex items-center gap-2 text-gray-300 bg-weather-amber/10 px-3 py-2 rounded-lg border border-weather-amber/30">
                 <Award className="w-5 h-5 text-weather-amber" />
                 <div>
                   <span className="text-sm font-semibold text-weather-amber">GAF Preferred Contractor</span>
-                  <span className="text-xs block text-gray-400">Since 2025</span>
+                  <span className="text-xs block text-gray-300">Since 2025</span>
                 </div>
               </div>
-              <div className="flex items-center gap-2 text-gray-400">
+              <div className="flex items-center gap-2 text-gray-300">
                 <Award className="w-5 h-5 text-weather-teal" />
                 <span className="text-sm">BBB Accredited</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-400">
+              <div className="flex items-center gap-2 text-gray-300">
                 <Star className="w-5 h-5 text-weather-teal" />
                 <span className="text-sm">Angi Certified</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-400">
+              <div className="flex items-center gap-2 text-gray-300">
                 <Shield className="w-5 h-5 text-weather-teal" />
                 <span className="text-sm">Licensed & Insured</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-400">
+              <div className="flex items-center gap-2 text-gray-300">
                 <div className="flex text-yellow-400">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-current" />
@@ -255,18 +257,18 @@ export default function Footer() {
 
             {/* Payment Methods */}
             <div className="flex items-center gap-4">
-              <span className="text-sm text-gray-400">We Accept:</span>
+              <span className="text-sm text-gray-300">We Accept:</span>
               <div className="flex gap-3">
                 <div className="w-12 h-8 bg-gray-800 rounded flex items-center justify-center">
-                  <CreditCard className="w-6 h-4 text-gray-400" />
+                  <CreditCard className="w-6 h-4 text-gray-300" />
                 </div>
-                <div className="w-12 h-8 bg-gray-800 rounded flex items-center justify-center text-xs text-gray-400">
+                <div className="w-12 h-8 bg-gray-800 rounded flex items-center justify-center text-xs text-gray-300">
                   VISA
                 </div>
-                <div className="w-12 h-8 bg-gray-800 rounded flex items-center justify-center text-xs text-gray-400">
+                <div className="w-12 h-8 bg-gray-800 rounded flex items-center justify-center text-xs text-gray-300">
                   MC
                 </div>
-                <div className="w-12 h-8 bg-gray-800 rounded flex items-center justify-center text-xs text-gray-400">
+                <div className="w-12 h-8 bg-gray-800 rounded flex items-center justify-center text-xs text-gray-300">
                   AMEX
                 </div>
               </div>

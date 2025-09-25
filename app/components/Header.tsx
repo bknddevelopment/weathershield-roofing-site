@@ -86,7 +86,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="sticky top-0 bg-white" style={{ zIndex: 99999, isolation: 'isolate' }}>
+    <div className="sticky top-0 bg-white z-[9999]" style={{ isolation: 'isolate' }}>
       <header
         role="banner"
         aria-label="Main navigation"
@@ -143,6 +143,12 @@ export default function Header() {
                     aria-haspopup="true"
                     aria-expanded={isServicesOpen ? "true" : "false"}
                     aria-controls="services-dropdown"
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        setIsServicesOpen(!isServicesOpen);
+                      }
+                    }}
                   >
                     Services
                     <ChevronDown className="ml-1 h-4 w-4 transition-transform dropdown-wrapper:hover:rotate-180" />
@@ -153,7 +159,7 @@ export default function Header() {
                     className="dropdown-menu absolute left-0 top-full w-96 bg-white shadow-xl rounded-lg py-3 border border-gray-100"
                     style={{
                       marginTop: '0px',
-                      zIndex: 99999
+                      zIndex: 9999
                     }}
                     role="menu"
                   >
@@ -225,7 +231,7 @@ export default function Header() {
 
                 {/* Phone Number CTA */}
                 <a
-                  href="tel:843-877-5539"
+                  href="tel:+18438775539"
                   className="flex items-center gap-2 text-weather-secondary font-semibold hover:text-weather-amber transition-colors whitespace-nowrap focus-visible-ring"
                   aria-label="Call us at (843) 877-5539"
                 >
@@ -252,7 +258,7 @@ export default function Header() {
               <div className="lg:hidden flex items-center gap-2 ml-auto">
                 {/* Mobile Phone Button */}
                 <a
-                  href="tel:843-877-5539"
+                  href="tel:+18438775539"
                   className="p-3 rounded-lg bg-gradient-to-r from-weather-amber/10 to-weather-amber/5 hover:from-weather-amber/20 hover:to-weather-amber/10 transition-all duration-300 focus-visible-ring min-tap-target group relative overflow-hidden"
                   aria-label="Call us at (843) 877-5539"
                 >
@@ -294,7 +300,7 @@ export default function Header() {
               <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 py-4">
                 {/* Mobile Phone CTA */}
                 <a
-                  href="tel:843-877-5539"
+                  href="tel:+18438775539"
                   className="flex items-center justify-center gap-3 bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-6 py-3 rounded-lg font-semibold mb-4"
                 >
                   <Phone className="w-5 h-5" />

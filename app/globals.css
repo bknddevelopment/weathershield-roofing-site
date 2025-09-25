@@ -72,9 +72,10 @@
   *:focus-visible {
     @apply ring-2 ring-offset-2;
     ring-color: #D97706; /* Orange with 4.52:1 contrast */
-    outline: 2px solid #D97706;
+    outline: 3px solid #D97706;
     outline-offset: 2px;
     border-radius: 0.375rem;
+    z-index: 9999;
   }
 
   /* High contrast focus for interactive elements */
@@ -87,12 +88,17 @@
     ring-color: #D97706;
     outline: 3px solid #D97706;
     outline-offset: 2px;
+    z-index: 9999;
   }
 
   /* Dark background focus styles */
-  .dark-bg *:focus-visible {
+  .dark-bg *:focus-visible,
+  footer *:focus-visible,
+  [class*="bg-weather-black"] *:focus-visible,
+  [class*="bg-gray-900"] *:focus-visible {
     ring-color: #F59E0B;
     outline-color: #F59E0B;
+    @apply ring-offset-gray-900;
   }
 
   /* Professional Typography System - Perfectly Balanced */
@@ -519,19 +525,26 @@
     border-width: 0;
   }
 
-  /* Skip to Main Content Link */
+  /* Skip to Main Content Link - Enhanced for better accessibility */
   .skip-to-content {
-    @apply absolute left-0 bg-weather-secondary text-white px-4 py-2 z-50;
-    @apply focus:top-0 focus:left-0;
+    @apply absolute left-0 bg-weather-secondary text-white px-6 py-3 z-[10000];
+    @apply focus:top-4 focus:left-4;
     @apply transition-all duration-200;
-    top: -40px;
+    @apply font-semibold text-base;
+    top: -100px;
     text-decoration: none;
-    border-radius: 0 0 0.5rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .skip-to-content:focus {
     outline: 3px solid #F59E0B;
     outline-offset: 2px;
+    transform: translateY(0);
+  }
+
+  .skip-to-content:hover {
+    @apply bg-weather-secondary-dark;
   }
 
   /* Focus visible utilities */

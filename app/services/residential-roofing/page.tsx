@@ -3,9 +3,9 @@ import ServiceTemplate from '../../components/ServiceTemplate'
 import { Home, Shield, Clock, DollarSign, Wrench, Award } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Residential Roofing Services | Weather Shield Roofing',
-  description: 'Expert residential roofing installation, repair, and replacement services in Myrtle Beach. Protect your home with quality materials and professional craftsmanship.',
-  keywords: 'residential roofing, home roof repair, roof replacement, shingle roofing, roof installation, Myrtle Beach roofing',
+  title: 'Roof Replacement Myrtle Beach | Weather Shield Roofing Contractors',
+  description: 'Weather Shield Roofing - Expert roof replacement Myrtle Beach trusts. Leading roofing contractors Myrtle Beach for residential weathershield roofing. Storm shield protection for homes.',
+  keywords: 'roof replacement myrtle beach, weathershield roofing, weather shield roofing, roofing contractors myrtle beach, residential roofing myrtle beach sc, storm shield roofing, roofers in myrtle beach, home roof repair myrtle beach, shingle roofing contractors, roofing companies myrtle beach',
   alternates: {
     canonical: 'https://weathershieldroofers.com/services/residential-roofing',
   },
@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 }
 
 const residentialRoofingData = {
-  title: 'Residential Roofing Services',
-  description: 'Complete roofing solutions for your home with lifetime warranties and expert installation by certified roofing professionals.',
+  title: 'Roof Replacement Myrtle Beach - Weather Shield Roofing',
+  description: 'Weather Shield Roofing - Premier roof replacement Myrtle Beach specialists. Expert weathershield roofing contractors providing storm shield protection with lifetime warranties.',
   longDescription: [
-    'Your home is your most valuable investment, and at Weather Shield Roofing, we understand the importance of protecting it with a quality roof. As Myrtle Beach\'s premier residential roofing contractor, we specialize in providing comprehensive roofing solutions that combine durability, aesthetics, and energy efficiency.',
+    'Weather Shield Roofing is the leading choice for roof replacement Myrtle Beach homeowners trust. As top-rated roofing contractors Myrtle Beach, we specialize in comprehensive weathershield roofing solutions that provide superior storm shield protection. Our roofing companies in Myrtle Beach SC division combines durability, aesthetics, and energy efficiency for complete weather protection.',
     'With over 15 years of experience serving the Grand Strand area, our certified team has completed over 5,000 residential roofing projects. We pride ourselves on using only the highest quality materials from trusted manufacturers, backed by industry-leading warranties that give you peace of mind for decades to come.',
     'Whether you need a complete roof replacement, storm damage repair, or routine maintenance, our expert technicians deliver exceptional craftsmanship on every project. We work with all types of roofing materials including architectural shingles, metal roofing, tile, and slate, ensuring your home gets the perfect roofing solution for our coastal climate.'
   ],

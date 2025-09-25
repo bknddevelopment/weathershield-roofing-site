@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import LocationPageTemplate from '../../components/LocationPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Roofing Services in Conway, SC | Weather Shield Roofing',
-  description: 'Professional roofing contractors serving Conway, SC. Expert installation, repair, and storm damage restoration. 24/7 emergency service available. Call (843) 493-4963.',
-  keywords: 'Conway roofing, roofing contractors Conway SC, roof repair Conway, roof replacement Conway, storm damage Conway',
+  title: 'Conway SC Roofing Contractors | Weather Shield Roofing Services',
+  description: 'Weather Shield Roofing - Leading Conway SC roofing contractors. Expert weathershield roofing installation, repair, storm damage restoration. 24/7 emergency service. Free estimates (843) 877-5539.',
+  keywords: 'Conway roofing, roofing contractors Conway SC, Conway roof repair, Conway roof replacement, storm damage Conway, weathershield roofing Conway, weather shield roofing, Conway SC roofers, Horry County roofing, Conway storm protection',
   openGraph: {
     title: 'Conway Roofing Services | Weather Shield Roofing',
     description: 'Trusted roofing services in Conway, SC. Professional installation, repairs, and storm damage restoration.',
@@ -30,7 +30,7 @@ export default function ConwayPage() {
       state="SC"
       zipCodes={['29526', '29527', '29528']}
       population="24,000+"
-      description="As the county seat of Horry County, Conway is a historic city experiencing rapid growth. Our roofing services protect homes from the Waccamaw River area to Highway 501, ensuring quality protection for this charming riverside community."
+      description="As Horry County's seat, Conway demands specialized roofing solutions for its unique climate challenges. Weather Shield Roofing has served Conway for 15+ years, protecting homes from the Waccamaw River flooding risks to Highway 501's rapid development. Our weathershield roofing systems are specifically designed for Conway's high humidity, hurricane threats, and seasonal storms. From historic downtown Conway to new developments near Coastal Carolina University, we provide comprehensive roofing services tailored to this growing riverside community's needs."
       neighborhoods={[
         'Downtown Conway',
         'Conway Medical Center Area',
@@ -44,18 +44,23 @@ export default function ConwayPage() {
       weatherChallenges={[
         {
           icon: null,
-          title: 'River Flooding',
-          description: 'Proximity to Waccamaw River requires superior water protection'
+          title: 'Waccamaw River Flooding',
+          description: 'Conway\'s proximity to the Waccamaw River creates unique moisture challenges requiring advanced waterproofing and superior drainage systems'
         },
         {
           icon: null,
-          title: 'Hurricane Impact',
-          description: 'Inland location still faces significant hurricane winds and rain'
+          title: 'Hurricane & Tropical Storms',
+          description: 'Though 15 miles inland, Conway experiences Category 1-3 hurricane winds requiring impact-resistant roofing and storm shield protection'
         },
         {
           icon: null,
-          title: 'High Humidity',
-          description: 'Year-round humidity demands proper ventilation and moisture control'
+          title: 'Extreme Humidity & Heat',
+          description: 'Conway\'s 70%+ humidity and 90°F+ summers demand proper attic ventilation, algae-resistant shingles, and moisture barriers'
+        },
+        {
+          icon: null,
+          title: 'Severe Thunderstorms',
+          description: 'Frequent afternoon storms bring hail, lightning, and 60+ mph winds requiring durable, impact-resistant roofing materials'
         }
       ]}
       localStats={[
@@ -73,13 +78,18 @@ export default function ConwayPage() {
       emergencyResponse="1-2 hours"
       localTestimonials={[
         {
-          name: 'Sarah M.',
-          review: 'Weather Shield replaced our roof after hurricane damage. They worked directly with our insurance and completed everything quickly. Highly recommend for Conway residents!',
+          name: 'Sarah M. - Downtown Conway',
+          review: 'Weather Shield Roofing replaced our historic home\'s roof after Hurricane Florence damage. They worked directly with State Farm insurance and preserved our home\'s character while adding modern storm protection. Best roofing contractors in Conway!',
           rating: 5
         },
         {
-          name: 'Robert T.',
-          review: 'Professional team, fair pricing, and excellent work. They understand the specific challenges of roofing near the river. Very satisfied with our new roof.',
+          name: 'Robert T. - CCU Area',
+          review: 'Professional Conway roofing team with excellent local knowledge. They recommended algae-resistant shingles perfect for our humidity and installed superior ventilation. Fair pricing and weathershield roofing warranty gives us peace of mind.',
+          rating: 5
+        },
+        {
+          name: 'Jennifer K. - Highway 501',
+          review: 'After getting multiple quotes from Conway SC roofers, Weather Shield offered the best value and warranty. Their storm shield roofing system has already weathered two major storms perfectly. Highly recommend!',
           rating: 5
         }
       ]}

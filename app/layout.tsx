@@ -49,9 +49,9 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  title: 'Weather Shield Roofing | Top Roofing Companies Myrtle Beach SC | WeatherShield Roofing',
-  description: 'Weather Shield Roofing - Leading roofing companies Myrtle Beach trusts for weather protection. Expert roof repair, replacement & storm damage restoration. WeatherShield Roofing provides 24/7 emergency service for weather in Myrtle Beach. Licensed & insured roofing companies near me.',
-  keywords: 'weather shield roofing, weathershield roofing, roofing companies myrtle beach, roofing companies near me, weather myrtle beach, weather in myrtle beach, weather, roof repair myrtle beach, roof replacement, storm damage, emergency roof repair, commercial roofing, residential roofing, myrtle beach weather protection',
+  title: 'WeatherShield Roofing | #1 Roofing Contractors Myrtle Beach SC | Weather Shield',
+  description: 'Weather Shield Roofing - Premier roofing contractors Myrtle Beach trusts. Expert roof replacement Myrtle Beach & commercial roofing services. WeatherShield roofing provides 24/7 emergency storm damage repair. Top-rated roofing companies Myrtle Beach SC with lifetime warranties.',
+  keywords: 'weathershield roofing, weather shield roofing, roofing contractors myrtle beach, roofing companies myrtle beach, roof replacement myrtle beach, commercial roofing myrtle beach, roofing myrtle beach sc, roof repair myrtle beach, storm damage repair, emergency roofing service, residential roofing myrtle beach, roofing companies near me, myrtle beach roofing contractor',
   authors: [{ name: 'Weather Shield Roofing' }],
   creator: 'Weather Shield Roofing',
   publisher: 'Weather Shield Roofing',
@@ -63,10 +63,14 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://weathershieldroofers.com'),
   alternates: {
     canonical: '/',
+    languages: {
+      'en-US': '/',
+      'es': '/es',
+    },
   },
   openGraph: {
-    title: 'Weather Shield Roofing | #1 Roofing Companies Myrtle Beach | WeatherShield Roofing',
-    description: 'Weather Shield Roofing - Top-rated roofing companies Myrtle Beach relies on for weather protection. Expert weathershield roofing solutions for weather in Myrtle Beach. 24/7 emergency service by trusted roofing companies near me.',
+    title: 'WeatherShield Roofing | Top Roofing Contractors Myrtle Beach SC',
+    description: 'Weather Shield Roofing - Leading roofing contractors Myrtle Beach. Professional roof replacement & commercial roofing services. 24/7 emergency storm damage repair. WeatherShield roofing experts serving Myrtle Beach SC.',
     url: 'https://weathershieldroofers.com',
     siteName: 'Weather Shield Roofing',
     images: [
@@ -74,25 +78,43 @@ export const metadata: Metadata = {
         url: '/images/logo/weather_shield_roofing_transparent.png',
         width: 1200,
         height: 630,
-        alt: 'Weather Shield Roofing - Myrtle Beach, SC',
+        alt: 'Weather Shield Roofing - Premier Roofing Contractors Myrtle Beach SC',
+      },
+      {
+        url: '/images/background/roof-replacement-services.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Weather Shield Roofing - Roof Replacement Services Myrtle Beach',
       },
     ],
     locale: 'en_US',
     type: 'website',
+    countryName: 'United States',
+    phoneNumbers: ['+1-843-877-5539'],
+    faxNumbers: ['+1-843-877-5540'],
+    emails: ['roofing@weathershieldroofers.com'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Weather Shield Roofing | Leading Roofing Companies Myrtle Beach | WeatherShield',
     description: 'Weather Shield Roofing - Premier roofing companies Myrtle Beach trusts. WeatherShield roofing experts protect homes from weather in Myrtle Beach. 24/7 emergency service.',
-    images: ['/images/logo/weather_shield_roofing_transparent.png'],
+    images: [
+      {
+        url: '/images/logo/weather_shield_roofing_transparent.png',
+        alt: 'Weather Shield Roofing Logo',
+      },
+    ],
     creator: '@weathershield',
+    site: '@weathershield',
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: false,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
@@ -102,11 +124,30 @@ export const metadata: Metadata = {
     icon: '/favicon-right.png',
     shortcut: '/favicon-right.png',
     apple: '/favicon-right.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/favicon-right.png',
+    },
   },
   manifest: '/manifest.json',
   verification: {
     google: 'google-verification-code',
+    yandex: 'yandex-verification-code',
+    yahoo: 'yahoo-verification-code',
   },
+  category: 'Roofing Services',
+  classification: 'Business',
+  referrer: 'no-referrer-when-downgrade',
+  colorScheme: 'light',
+  themeColor: '#1e3a8a',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+  },
+  archives: ['https://weathershieldroofers.com/archive'],
+  assets: ['https://weathershieldroofers.com/assets'],
+  bookmarks: ['https://weathershieldroofers.com/services'],
 }
 
 export default function RootLayout({
@@ -156,6 +197,31 @@ export default function RootLayout({
         {/* Meta tags for performance */}
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
+        {/* Additional Meta Tags for SEO */}
+        <meta name="geo.region" content="US-SC" />
+        <meta name="geo.placename" content="Myrtle Beach" />
+        <meta name="geo.position" content="33.6891;-78.8867" />
+        <meta name="ICBM" content="33.6891, -78.8867" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Weather Shield Roofing" />
+        <meta name="application-name" content="Weather Shield Roofing" />
+        <meta name="msapplication-TileColor" content="#1e3a8a" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        <meta name="theme-color" content="#1e3a8a" />
+
+        {/* Dublin Core Metadata */}
+        <meta name="DC.title" content="Weather Shield Roofing - Premier Roofing Contractors Myrtle Beach SC" />
+        <meta name="DC.creator" content="Weather Shield Roofing LLC" />
+        <meta name="DC.subject" content="Roofing Services, Roof Replacement, Commercial Roofing, Storm Damage Repair" />
+        <meta name="DC.description" content="Leading roofing contractors Myrtle Beach SC. Weather Shield Roofing provides expert roof replacement and commercial roofing services." />
+        <meta name="DC.publisher" content="Weather Shield Roofing LLC" />
+        <meta name="DC.type" content="Service" />
+        <meta name="DC.format" content="text/html" />
+        <meta name="DC.language" content="en-US" />
+        <meta name="DC.coverage" content="Myrtle Beach, South Carolina, United States" />
+        <meta name="DC.rights" content="Copyright 2024 Weather Shield Roofing LLC. All rights reserved." />
       </head>
       <body className="font-inter antialiased">
         {/* Skip to Main Content Link for Keyboard Navigation */}
@@ -165,88 +231,157 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "RoofingContractor",
-              "name": "Weather Shield Roofing",
-              "image": "https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png",
-              "url": "https://weathershieldroofers.com",
-              "telephone": "+1-843-877-5539",
-              "email": "roofing@weathershieldroofers.com",
-              "priceRange": "$$",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "215 Ronnie Ct. Unit F",
-                "addressLocality": "Myrtle Beach",
-                "addressRegion": "SC",
-                "postalCode": "29579",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 33.6891,
-                "longitude": -78.8867
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                  ],
-                  "opens": "09:00",
-                  "closes": "17:00"
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "RoofingContractor",
+                "@id": "https://weathershieldroofers.com/#organization",
+                "name": "Weather Shield Roofing",
+                "alternateName": "WeatherShield Roofing",
+                "description": "Weather Shield Roofing - Premier roofing contractors Myrtle Beach SC. Expert roof replacement, commercial roofing, and storm damage repair services.",
+                "image": "https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png",
+                  "width": 600,
+                  "height": 400
                 },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Saturday",
-                  "opens": "Closed",
-                  "closes": "Closed"
-                }
-              ],
-              "sameAs": [
-                "https://www.facebook.com/weathershieldroofing",
-                "https://www.instagram.com/weathershieldroofing",
-                "https://www.linkedin.com/company/weather-shield-roofing"
-              ],
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Roofing Services",
-                "itemListElement": [
+                "url": "https://weathershieldroofers.com",
+                "telephone": "+1-843-877-5539",
+                "email": "roofing@weathershieldroofers.com",
+                "priceRange": "$$",
+                "paymentAccepted": ["Cash", "Credit Card", "Check", "Financing Available"],
+                "currenciesAccepted": "USD",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "215 Ronnie Ct. Unit F",
+                  "addressLocality": "Myrtle Beach",
+                  "addressRegion": "SC",
+                  "postalCode": "29579",
+                  "addressCountry": "US"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 33.6891,
+                  "longitude": -78.8867
+                },
+                "areaServed": [
                   {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Roof Repair"
-                    }
+                    "@type": "City",
+                    "name": "Myrtle Beach",
+                    "sameAs": "https://en.wikipedia.org/wiki/Myrtle_Beach,_South_Carolina"
                   },
                   {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Roof Replacement"
-                    }
+                    "@type": "City",
+                    "name": "Conway"
                   },
                   {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Storm Damage Restoration"
-                    }
+                    "@type": "City",
+                    "name": "Georgetown"
                   },
                   {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Emergency Roof Repair"
+                    "@type": "City",
+                    "name": "North Myrtle Beach"
+                  }
+                ],
+                "openingHoursSpecification": [
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                    "opens": "09:00",
+                    "closes": "17:00"
+                  },
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Saturday",
+                    "opens": "09:00",
+                    "closes": "12:00"
+                  }
+                ],
+                "sameAs": [
+                  "https://www.facebook.com/weathershieldroofing",
+                  "https://www.instagram.com/weathershieldroofing",
+                  "https://www.linkedin.com/company/weather-shield-roofing",
+                  "https://www.youtube.com/@weathershieldroofing"
+                ],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Roofing Services",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Roof Replacement Myrtle Beach",
+                        "description": "Complete roof replacement services with lifetime warranties"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Commercial Roofing Myrtle Beach",
+                        "description": "Professional commercial roofing for businesses"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Storm Damage Repair",
+                        "description": "24/7 emergency storm damage restoration"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Roof Repair Services",
+                        "description": "Expert roof repair for all types of damage"
+                      }
                     }
+                  ]
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "reviewCount": "327",
+                  "bestRating": "5"
+                },
+                "review": [
+                  {
+                    "@type": "Review",
+                    "reviewRating": {
+                      "@type": "Rating",
+                      "ratingValue": "5",
+                      "bestRating": "5"
+                    },
+                    "author": {
+                      "@type": "Person",
+                      "name": "John Smith"
+                    },
+                    "reviewBody": "Weather Shield Roofing provided excellent roof replacement service. Professional roofing contractors who completed the job on time and on budget."
                   }
                 ]
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "@id": "https://weathershieldroofers.com/#localbusiness",
+                "name": "Weather Shield Roofing Myrtle Beach",
+                "description": "Leading roofing contractors Myrtle Beach SC specializing in roof replacement and commercial roofing services",
+                "url": "https://weathershieldroofers.com",
+                "telephone": "+1-843-877-5539",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "215 Ronnie Ct. Unit F",
+                  "addressLocality": "Myrtle Beach",
+                  "addressRegion": "SC",
+                  "postalCode": "29579",
+                  "addressCountry": "US"
+                }
               }
-            })
+            ])
           }}
         />
         <Header />

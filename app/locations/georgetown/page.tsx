@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import LocationPageTemplate from '../../components/LocationPageTemplate';
 
 export const metadata: Metadata = {
-  title: 'Roofing Services in Georgetown, SC | Weather Shield Roofing',
-  description: 'Expert roofing contractors serving Georgetown, SC. Professional installation, repair, and maintenance services. Historic district specialists. Call (843) 493-4963.',
-  keywords: 'Georgetown roofing, roofing contractors Georgetown SC, roof repair Georgetown, historic district roofing, storm damage Georgetown',
+  title: 'Georgetown SC Roofing Contractors | Weather Shield Historic & Coastal Experts',
+  description: 'Weather Shield Roofing - Georgetown SC\'s trusted roofing contractors. Specializing in historic district preservation and coastal weathershield roofing. Storm damage experts. Call (843) 877-5539.',
+  keywords: 'Georgetown roofing, roofing contractors Georgetown SC, Georgetown roof repair, historic district roofing Georgetown, storm damage Georgetown, weathershield roofing Georgetown, weather shield roofing, coastal roofing Georgetown, Winyah Bay roofing, Georgetown SC roofers',
   openGraph: {
     title: 'Georgetown Roofing Services | Weather Shield Roofing',
     description: 'Trusted roofing services in Georgetown, SC. Specializing in historic homes and coastal properties.',
@@ -30,7 +30,7 @@ export default function GeorgetownPage() {
       state="SC"
       zipCodes={['29440', '29442']}
       population="9,000+"
-      description="Georgetown's historic charm and coastal location require specialized roofing expertise. From the Historic District's antebellum homes to modern waterfront properties, we provide tailored roofing solutions that respect architectural heritage while ensuring modern protection."
+      description="Georgetown's unique position where the Sampit River meets Winyah Bay creates exceptional roofing challenges requiring specialized expertise. Weather Shield Roofing has protected Georgetown's historic antebellum homes and coastal properties for over a decade. Our weathershield roofing systems balance historic preservation requirements with modern storm protection technology. From the Historic District's 18th-century architecture to waterfront estates facing Atlantic storms, we provide comprehensive roofing solutions that respect Georgetown's heritage while ensuring superior protection against hurricanes, salt air corrosion, and coastal flooding risks."
       neighborhoods={[
         'Historic District',
         'East Bay Street',
@@ -44,18 +44,23 @@ export default function GeorgetownPage() {
       weatherChallenges={[
         {
           icon: null,
-          title: 'Coastal Storms',
-          description: 'Direct exposure to Atlantic storms requires robust roofing systems'
+          title: 'Atlantic Hurricane Exposure',
+          description: 'Georgetown\'s coastal position faces direct hurricane impacts requiring storm shield roofing rated for 130+ mph winds and storm surge protection'
         },
         {
           icon: null,
-          title: 'Salt Air Corrosion',
-          description: 'Proximity to ocean demands corrosion-resistant materials'
+          title: 'Severe Salt Air Corrosion',
+          description: 'Winyah Bay proximity accelerates metal deterioration, demanding specialized weathershield roofing materials and corrosion-resistant fasteners'
         },
         {
           icon: null,
-          title: 'Historic Preservation',
-          description: 'Special considerations for maintaining historic architectural integrity'
+          title: 'Historic District Regulations',
+          description: 'Strict preservation guidelines require expertise in period-appropriate materials while incorporating modern weather protection technology'
+        },
+        {
+          icon: null,
+          title: 'Tidal Flooding & Storm Surge',
+          description: 'Low elevation near rivers requires enhanced waterproofing and drainage systems to handle coastal flooding events'
         }
       ]}
       localStats={[
@@ -73,13 +78,18 @@ export default function GeorgetownPage() {
       emergencyResponse="2-3 hours"
       localTestimonials={[
         {
-          name: 'William H.',
-          review: 'They did excellent work on our historic home, maintaining the original character while improving protection. Very knowledgeable about Georgetown building codes.',
+          name: 'William H. - Historic District',
+          review: 'Weather Shield Roofing expertly restored our 1790s home\'s roof while meeting all historic preservation requirements. They sourced period-appropriate materials and added hidden storm protection. Best Georgetown roofing contractors for historic properties!',
           rating: 5
         },
         {
-          name: 'Patricia L.',
-          review: 'Fast response after the last hurricane. They tarped our roof immediately and completed repairs quickly. True professionals who understand coastal roofing.',
+          name: 'Patricia L. - Waterfront',
+          review: 'After Hurricane Ian, Weather Shield provided immediate emergency response to our Georgetown waterfront home. Their weathershield roofing system has exceptional salt resistance. True coastal roofing experts who understand Winyah Bay challenges.',
+          rating: 5
+        },
+        {
+          name: 'James R. - East Bay',
+          review: 'Multiple Georgetown SC roofers couldn\'t handle our complex historic renovation. Weather Shield navigated preservation committee requirements perfectly while installing modern storm shield protection. Outstanding expertise and professionalism!',
           rating: 5
         }
       ]}

@@ -105,7 +105,7 @@ export default function AboutSection() {
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <a
-                href="tel:843-877-5539"
+                href="tel:+18438775539"
                 className="inline-flex items-center justify-center gap-2 border-2 border-weather-teal text-weather-teal hover:bg-weather-teal hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300"
               >
                 Call (843) 877-5539

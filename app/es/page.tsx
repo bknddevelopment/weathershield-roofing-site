@@ -163,14 +163,14 @@ export default function SpanishLandingPage() {
               {/* CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
                 <Link
-                  href="tel:8438775539"
+                  href="tel:+18438775539"
                   className="inline-flex items-center gap-3 bg-weather-primary hover:bg-weather-primary/90 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 shadow-xl"
                 >
                   <Phone className="w-6 h-6" />
                   Llamar Ahora: (843) 877-5539
                 </Link>
                 <Link
-                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                  href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                   className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/30 hover:bg-white/20 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -211,7 +211,7 @@ export default function SpanishLandingPage() {
                 </div>
               </div>
               <Link
-                href="tel:8438775539"
+                href="tel:+18438775539"
                 className="bg-white text-red-600 hover:bg-white/90 px-8 py-3 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-flex items-center gap-2"
               >
                 <Phone className="w-5 h-5" />
@@ -675,14 +675,14 @@ export default function SpanishLandingPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
-                  href="tel:8438775539"
+                  href="tel:+18438775539"
                   className="inline-flex items-center gap-3 bg-white text-weather-primary hover:bg-white/90 px-8 py-4 rounded-lg text-lg font-bold transition-all transform hover:scale-105 shadow-xl"
                 >
                   <Phone className="w-6 h-6" />
                   Llamar: (843) 877-5539
                 </Link>
                 <Link
-                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                  href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                   className="inline-flex items-center gap-3 bg-transparent border-2 border-white hover:bg-white/10 text-white px-8 py-4 rounded-lg text-lg font-bold transition-all"
                   target="_blank"
                   rel="noopener noreferrer"

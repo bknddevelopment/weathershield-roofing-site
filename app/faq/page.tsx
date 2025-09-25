@@ -34,26 +34,44 @@ const faqs: FAQ[] = [
   // General FAQs
   {
     id: '1',
-    question: 'How often should I have my roof inspected?',
-    answer: 'We recommend having your roof professionally inspected at least twice a year - ideally in spring and fall. Additionally, you should schedule an inspection after any major storm event, especially here in Myrtle Beach where we experience hurricanes and severe weather. Regular inspections help identify small issues before they become costly repairs, potentially extending your roof\'s lifespan by years. Our certified inspectors provide comprehensive evaluations that include checking for damaged shingles, proper ventilation, flashing integrity, and signs of water damage.',
+    question: 'How much does roof replacement cost in Myrtle Beach?',
+    answer: 'Roof replacement costs in Myrtle Beach typically range from $8,000 to $25,000 for an average home, depending on size, materials, and complexity. Asphalt shingle roofs cost $350-550 per square (100 sq ft), making them the most affordable option. Metal roofing runs $650-1,200 per square but lasts 40-70 years. Factors affecting cost include roof pitch, number of layers to remove, deck repairs, and permit fees. Weather Shield Roofing provides free detailed estimates with transparent pricing and offers financing options to make quality roofing affordable. Our weathershield roofing systems include comprehensive warranties that protect your investment.',
     category: 'general'
   },
   {
     id: '2',
-    question: 'What are signs I need a new roof?',
-    answer: 'Several indicators suggest it\'s time for a roof replacement: missing or curling shingles, granules in your gutters, daylight visible through roof boards, sagging areas, water stains on ceilings or walls, and a roof age exceeding 20-25 years. In coastal South Carolina, additional signs include salt damage, excessive moss or algae growth, and wind-lifted shingles. If you notice multiple issues or your energy bills have increased significantly, it\'s time for a professional assessment. Our team provides free inspections to determine whether repair or replacement is your best option.',
+    question: 'How often should I have my roof inspected in South Carolina?',
+    answer: 'In Myrtle Beach\'s coastal climate, we recommend professional roof inspections twice yearly - in spring before hurricane season and fall after summer storms. Additionally, schedule inspections after any storm with winds over 40 mph, hail events, or if you notice interior water stains. Regular inspections help identify issues like lifted shingles, compromised flashing, or salt damage before they cause expensive damage. Weather Shield Roofing offers free inspections that include detailed reports with photos, helping you maintain your roof and validate insurance claims when needed.',
     category: 'general'
   },
   {
     id: '3',
-    question: 'How long does a roof replacement take?',
+    question: 'What are the best roofing materials for coastal homes in South Carolina?',
+    answer: 'For Myrtle Beach\'s coastal environment, Weather Shield Roofing recommends impact-resistant architectural shingles with algae protection and 130+ mph wind ratings as the best value option. Metal roofing (aluminum or coated steel) provides superior 40-70 year longevity and excellent wind resistance but costs more initially. Concrete tiles offer exceptional hurricane resistance and 50+ year lifespan for homes with adequate structural support. All materials should feature enhanced UV protection, corrosion-resistant fasteners, and proper ventilation. Our storm shield roofing systems incorporate these materials with advanced installation techniques for maximum coastal protection.',
+    category: 'general'
+  },
+  {
+    id: '4',
+    question: 'How often should I replace my roof in Myrtle Beach?',
+    answer: 'Several indicators suggest it\'s time for a roof replacement: missing or curling shingles, granules in your gutters, daylight visible through roof boards, sagging areas, water stains on ceilings or walls, and a roof age exceeding 20-25 years. In coastal South Carolina, additional signs include salt damage, excessive moss or algae growth, and wind-lifted shingles. If you notice multiple issues or your energy bills have increased significantly, it\'s time for a professional assessment. Our team provides free inspections to determine whether repair or replacement is your best option.',
+    category: 'general'
+  },
+  {
+    id: '5',
+    question: 'How long does a roof replacement take in Myrtle Beach?',
     answer: 'Most residential roof replacements in Myrtle Beach are completed in 1-3 days, depending on factors like roof size, complexity, weather conditions, and material choice. A typical single-family home with asphalt shingles usually takes 1-2 days. More complex projects involving multiple layers of old roofing, structural repairs, or premium materials like tile or metal may take 3-5 days. We always provide a detailed timeline during your consultation and work efficiently to minimize disruption to your daily routine while maintaining our high quality standards.',
     category: 'general'
   },
   // Residential FAQs
   {
-    id: '4',
-    question: 'What roofing materials do you recommend for coastal areas?',
+    id: '6',
+    question: 'Does homeowners insurance cover roof replacement in South Carolina?',
+    answer: 'Insurance typically covers roof replacement when damage results from covered perils like hurricanes, wind storms, hail, fire, or falling trees. However, damage from normal wear and tear, lack of maintenance, or gradual deterioration is not covered. Most Myrtle Beach policies have separate wind/hail deductibles (2-5% of home value) due to coastal risks. Weather Shield Roofing works directly with insurance companies, documenting damage thoroughly and ensuring you receive fair compensation. We help navigate the claims process from initial inspection through final approval, maximizing your coverage for storm-related damage.',
+    category: 'residential'
+  },
+  {
+    id: '7',
+    question: 'What roofing materials do you recommend for hurricane protection?',
     answer: 'For Myrtle Beach and coastal South Carolina, we recommend materials that withstand high winds, salt air, and intense UV exposure. Our top recommendations include: architectural asphalt shingles with high wind ratings (130+ mph), metal roofing for superior durability and wind resistance, and impact-resistant shingles for hail protection. Premium architectural shingles are particularly popular, offering excellent wind resistance and algae protection. We also recommend proper ventilation systems and salt-resistant fasteners to maximize your roof\'s lifespan in our coastal environment.',
     category: 'residential'
   },
@@ -101,11 +119,42 @@ const faqs: FAQ[] = [
     answer: 'First, ensure your safety - avoid areas where water is pooling on ceilings as they may collapse. Place buckets or containers under leaks, move valuables away from affected areas, and use towels to contain water spread. If safe, cover furniture with plastic sheets. Take photos for insurance documentation. Never attempt roof repairs during a storm. Call our 24/7 emergency line at (843) 877-5539 immediately - we can talk you through temporary measures and dispatch help as soon as conditions permit. Document all damage thoroughly for insurance claims.',
     category: 'emergency'
   },
+  // Additional People Also Ask FAQs
+  {
+    id: '16',
+    question: 'When is the best time to replace a roof in Myrtle Beach?',
+    answer: 'The ideal time for roof replacement in Myrtle Beach is late fall through early spring (November-April) when temperatures are moderate and hurricane season has passed. This period offers stable weather conditions, easier contractor scheduling, and potentially lower prices due to decreased demand. Spring installations allow proper sealing before summer heat and storm season. However, Weather Shield Roofing performs quality installations year-round, with special techniques for hot summer installations. Emergency replacements are available 24/7 regardless of season.',
+    category: 'general'
+  },
+  {
+    id: '17',
+    question: 'How do I prepare my roof for hurricane season in South Carolina?',
+    answer: 'Hurricane preparation should begin by May with a professional inspection to identify vulnerabilities. Essential steps include: clearing gutters and downspouts, trimming overhanging branches, securing loose shingles or flashing, checking attic ventilation, and documenting roof condition with photos. Consider upgrading to impact-resistant shingles and hurricane straps. Weather Shield Roofing offers comprehensive storm preparation services including inspections, preventive repairs, and storm shield upgrades. Our weathershield roofing systems are specifically designed to withstand coastal hurricanes, protecting your home when storms strike.',
+    category: 'general'
+  },
+  {
+    id: '18',
+    question: 'What should I look for in a Myrtle Beach roofing contractor?',
+    answer: 'Choose contractors with South Carolina licensing, comprehensive insurance (liability and workers\' comp), and local experience (5+ years minimum in Myrtle Beach). Look for manufacturer certifications like GAF Master Elite, BBB accreditation, strong online reviews, and detailed written estimates. Avoid door-to-door sales, unusually low bids, or pressure tactics. Weather Shield Roofing exceeds all standards with 15+ years local experience, full certification, hundreds of five-star reviews, and transparent pricing. We provide references, insurance documentation, and comprehensive warranties for your protection.',
+    category: 'general'
+  },
+  {
+    id: '19',
+    question: 'Can a roof be replaced in winter in South Carolina?',
+    answer: 'Yes, winter roof replacement in Myrtle Beach is often ideal due to mild temperatures (average highs 55-60°F) allowing year-round installation. Winter benefits include faster scheduling, potential off-season discounts, and completion before storm season. Modern materials and techniques work well in cool weather, with limitations only during rare freezing conditions or rain. Weather Shield Roofing monitors weather carefully, using specialized cold-weather adhesives when needed. Winter installations receive the same comprehensive warranties as any season.',
+    category: 'general'
+  },
+  {
+    id: '20',
+    question: 'What is the lifespan of different roofing materials in coastal areas?',
+    answer: 'In Myrtle Beach\'s coastal climate, roofing lifespans are shorter than national averages due to salt air, UV exposure, and storms. Asphalt shingles typically last 15-25 years (vs. 20-30 inland), metal roofing 40-70 years with proper maintenance, concrete tiles 50+ years, and TPO/EPDM commercial roofing 20-30 years. Weather Shield Roofing\'s storm shield systems and regular maintenance can extend these lifespans by 30-50%. Factors affecting longevity include material quality, installation expertise, ventilation, and maintenance frequency.',
+    category: 'general'
+  },
   // Pricing FAQs
   {
     id: '12',
-    question: 'How much does a new roof cost?',
-    answer: 'Roof replacement costs in Myrtle Beach vary depending on factors including: roof size and pitch, material selection, existing damage requiring repair, number of layers to remove, and architectural complexity. Asphalt shingle roofs are most affordable, while metal, tile, or premium materials offer longer lifespans. We provide free, detailed estimates with transparent pricing and no hidden fees. Contact us for a customized quote based on your specific project requirements. Our flexible financing options help make quality roofing affordable for every budget.',
+    question: 'How much does roof repair cost in Myrtle Beach?',
+    answer: 'Roof repair costs in Myrtle Beach vary by scope: minor repairs (few shingles, small leaks) $150-400, moderate repairs (flashing, larger sections) $400-1,000, major repairs (structural issues, extensive damage) $1,000-3,000, and emergency repairs add 25-50% premium. Factors affecting cost include damage extent, roof height/pitch, material type, and urgency. Weather Shield Roofing provides free inspections with detailed estimates. Many repairs are covered by insurance for storm damage. Regular maintenance prevents costly emergency repairs.',
     category: 'pricing'
   },
   {
@@ -445,7 +494,7 @@ export default function FAQPage() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="tel:843-877-5539"
+                href="tel:+18438775539"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-weather-danger to-weather-amber text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-3"
@@ -455,7 +504,7 @@ export default function FAQPage() {
               </motion.a>
               
               <motion.a
-                href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-weather-navy text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all"

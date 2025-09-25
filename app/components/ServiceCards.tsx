@@ -151,10 +151,11 @@ export default function ServiceCards() {
                   {/* CTA */}
                   <Link
                     href={service.href}
-                    className="inline-flex items-center gap-2 text-weather-teal font-semibold text-base uppercase tracking-wide group-hover:gap-3 transition-all duration-300"
+                    className="inline-flex items-center gap-2 text-weather-teal font-semibold text-base uppercase tracking-wide group-hover:gap-3 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-weather-warning focus-visible:ring-offset-2"
+                    aria-label={`Learn more about ${service.title} services`}
                   >
                     Learn More
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                   </Link>
                 </div>
 
@@ -178,7 +179,7 @@ export default function ServiceCards() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:843-877-5539"
+                  href="tel:+18438775539"
                   className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal px-8 py-4 rounded-lg font-black text-lg uppercase tracking-wide hover:bg-gray-100 transition-colors"
                 >
                   <Clock className="w-5 h-5" />

@@ -107,7 +107,7 @@ export default function HeroSection() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                href="https://weathershieldroofing.app.n8n.cloud/form/roofing-estimate"
                 className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-primary to-weather-secondary hover:from-weather-secondary hover:to-weather-accent text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-primary/50 overflow-hidden focus-visible-ring"
                 aria-label="Request a free professional roof inspection"
               >
@@ -116,7 +116,7 @@ export default function HeroSection() {
                 <ChevronRight className="relative w-6 h-6 group-hover:translate-x-2 transition-transform" />
               </Link>
               <a
-                href="tel:843-877-5539"
+                href="tel:+18438775539"
                 className="group inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/50 hover:bg-white hover:text-weather-black hover:border-white text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg tracking-wide transition-all duration-300 shadow-xl hover:shadow-white/20 focus-visible-ring"
                 aria-label="Call Weather Shield Roofing at (843) 877-5539"
               >

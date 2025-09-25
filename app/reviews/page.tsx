@@ -11,7 +11,6 @@ import ReviewFilters, { FilterState, SortOption } from '../components/reviews/Re
 import ReviewCard from '../components/reviews/ReviewCard'
 import ReviewStats from '../components/reviews/ReviewStats'
 import PlatformIntegration from '../components/reviews/PlatformIntegration'
-import VideoTestimonials from '../components/reviews/VideoTestimonials'
 import ReviewSchema from '../components/reviews/ReviewSchema'
 import ReviewCTA from '../components/reviews/ReviewCTA'
 
@@ -364,9 +363,6 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Video Testimonials */}
-      <VideoTestimonials />
-      
       {/* Review CTA */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

@@ -3,15 +3,15 @@ import ServiceTemplate from '../../components/ServiceTemplate'
 import { Phone, Clock, Shield, AlertTriangle, Zap, Home } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Emergency Roofing Services Myrtle Beach | 24/7 Weather Shield Response',
-  description: '24/7 emergency roofing Myrtle Beach. Weather Shield Roofing provides immediate storm damage repair, emergency leak repair, and urgent weathershield roofing services. 2-hour guaranteed response.',
-  keywords: 'emergency roofing myrtle beach, 24/7 roof repair myrtle beach, emergency leak repair, storm damage repair myrtle beach, weathershield roofing emergency, weather shield roofing, urgent roof repair, after hours roofing, hurricane damage repair, emergency tarping services',
+  title: 'Emergency Roofer Available NOW | 24 Hour Roof Repair Near Me | Call Today!',
+  description: '🚨 ROOF LEAK REPAIR TODAY! Emergency roofer available now - Weather Shield responds in 2 HOURS! Storm damage repair same day, emergency roof tarp service. Urgent roof repair Myrtle Beach 24/7. CALL NOW!',
+  keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, emergency roofing myrtle beach, 24/7 roof repair myrtle beach, immediate roof repair, same day roofing, weathershield roofing emergency, weather shield roofing, after hours roofing, hurricane damage repair, emergency tarping services',
   alternates: {
     canonical: 'https://weathershieldroofers.com/services/emergency-roofing',
   },
   openGraph: {
-    title: 'Emergency Roofing Services 24/7 | Weather Shield Roofing',
-    description: 'Immediate emergency roofing response in Myrtle Beach. Available 24/7 for storm damage, leaks, and urgent repairs.',
+    title: 'Emergency Roofer Available NOW | Roof Leak Repair Today | 24/7',
+    description: '🚨 ROOF EMERGENCY? Emergency roofer available now! 24 hour roof repair near me with 2-hour response. Storm damage repair same day. Emergency roof tarp service. Urgent roof repair Myrtle Beach - CALL NOW!',
     url: 'https://weathershieldroofers.com/services/emergency-roofing',
     type: 'website',
   },

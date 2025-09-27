@@ -25,8 +25,7 @@ const blogPosts = [
     readTime: '5 min read',
     category: 'Storm Preparation',
     image: '/images/background/residential-roofing-gutter-siding-services.jpg',
-    slug: 'hurricane-season-roof-preparation',
-    featured: true
+    slug: 'hurricane-season-roof-preparation'
   },
   {
     id: 2,
@@ -74,14 +73,15 @@ const blogPosts = [
   },
   {
     id: 6,
-    title: 'The Importance of Regular Roof Maintenance',
-    excerpt: 'Learn why regular roof maintenance is crucial for extending your roof\'s lifespan and preventing costly repairs.',
-    author: 'Tom Anderson',
-    date: 'October 15, 2024',
-    readTime: '5 min read',
+    title: 'Save Thousands: Why Your Roof Maintenance Can\'t Wait Another Day',
+    excerpt: '80% of roofs fail early, costing homeowners thousands. Discover how annual maintenance adds 10+ years to your roof. Free inspection available.',
+    author: 'David Karimi',
+    date: 'September 27, 2025',
+    readTime: '12 min read',
     category: 'Roof Maintenance',
     image: '/images/background/roof-replacement-services.jpg',
-    slug: 'importance-regular-roof-maintenance'
+    slug: 'importance-regular-roof-maintenance',
+    featured: true
   }
 ];
 

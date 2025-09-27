@@ -80,6 +80,7 @@ Allow: /favicon-*.png
 
 # Sitemap locations
 Sitemap: https://weathershieldroofers.com/sitemap.xml
+Sitemap: https://weathershieldroofers.com/sitemap-emergency.xml
 Sitemap: https://weathershieldroofers.com/sitemap-images.xml
 
 # Crawl-delay for less important bots to preserve bandwidth

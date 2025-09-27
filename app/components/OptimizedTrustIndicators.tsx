@@ -1,17 +1,18 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { 
-  Award, 
-  Shield, 
-  Star, 
-  Users,
-  Home,
-  TrendingUp,
-  CheckCircle,
-  Clock,
-  ThumbsUp
-} from 'lucide-react';
+import dynamic from 'next/dynamic';
+
+// Lazy load icons
+const Award = dynamic(() => import('lucide-react').then(mod => ({ default: mod.Award })), { ssr: true });
+const Shield = dynamic(() => import('lucide-react').then(mod => ({ default: mod.Shield })), { ssr: true });
+const Star = dynamic(() => import('lucide-react').then(mod => ({ default: mod.Star })), { ssr: true });
+const Users = dynamic(() => import('lucide-react').then(mod => ({ default: mod.Users })), { ssr: true });
+const Home = dynamic(() => import('lucide-react').then(mod => ({ default: mod.Home })), { ssr: true });
+const Clock = dynamic(() => import('lucide-react').then(mod => ({ default: mod.Clock })), { ssr: true });
+const CheckCircle = dynamic(() => import('lucide-react').then(mod => ({ default: mod.CheckCircle })), { ssr: true });
+const ThumbsUp = dynamic(() => import('lucide-react').then(mod => ({ default: mod.ThumbsUp })), { ssr: true });
+const TrendingUp = dynamic(() => import('lucide-react').then(mod => ({ default: mod.TrendingUp })), { ssr: true });
 
 const stats = [
   {
@@ -19,21 +20,21 @@ const stats = [
     value: 5000,
     suffix: '+',
     label: 'Roofs Installed',
-    color: 'text-weather-teal'
+    color: 'text-blue-500'
   },
   {
     icon: Users,
     value: 15,
     suffix: '+',
     label: 'Years Experience',
-    color: 'text-weather-blue'
+    color: 'text-blue-600'
   },
   {
     icon: Star,
     value: 5.0,
     suffix: '',
     label: 'Google Rating',
-    color: 'text-weather-purple',
+    color: 'text-purple-600',
     decimal: true
   },
   {
@@ -41,7 +42,7 @@ const stats = [
     value: 24,
     suffix: '/7',
     label: 'Emergency Service',
-    color: 'text-weather-teal'
+    color: 'text-blue-500'
   }
 ];
 
@@ -50,46 +51,43 @@ const certifications = [
     name: 'GAF Preferred Contractor',
     description: 'North America\'s largest roofing manufacturer',
     icon: Award,
-    badge: '/images/gaf-preferred.png',
     featured: true,
-    color: 'weather-amber'
   },
   {
     name: 'BBB Accredited',
     description: 'A+ Rating with Better Business Bureau',
     icon: Shield,
-    badge: '/images/bbb-accredited.png',
-    color: 'weather-teal'
   },
   {
     name: 'Angi Certified',
     description: 'Background checked and verified professionals',
     icon: CheckCircle,
-    badge: '/images/angi-certified.png',
-    color: 'weather-blue'
   },
   {
     name: 'Google Guaranteed',
     description: 'Screened & backed by Google',
     icon: ThumbsUp,
-    badge: '/images/google-guaranteed.png',
-    color: 'weather-purple'
   }
 ];
 
+// Optimized counter with less frequent updates
 function useCountUp(end: number, duration: number = 2000, decimal: boolean = false) {
   const [count, setCount] = useState(0);
   const countRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
+  const hasAnimated = useRef(false);
 
   useEffect(() => {
+    if (hasAnimated.current) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !isVisible) {
           setIsVisible(true);
+          hasAnimated.current = true;
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: '50px' }
     );
 
     if (countRef.current) {
@@ -97,9 +95,8 @@ function useCountUp(end: number, duration: number = 2000, decimal: boolean = fal
     }
 
     return () => {
-      const currentRef = countRef.current;
-      if (currentRef) {
-        observer.unobserve(currentRef);
+      if (countRef.current) {
+        observer.unobserve(countRef.current);
       }
     };
   }, [isVisible]);
@@ -107,46 +104,35 @@ function useCountUp(end: number, duration: number = 2000, decimal: boolean = fal
   useEffect(() => {
     if (!isVisible) return;
 
-    let startTime: number | null = null;
-    let animationFrame: number;
+    const steps = 20; // Reduce animation steps for better performance
+    const stepDuration = duration / steps;
+    const increment = end / steps;
+    let currentStep = 0;
 
-    const animate = (timestamp: number) => {
-      if (!startTime) startTime = timestamp;
-      const progress = Math.min((timestamp - startTime) / duration, 1);
-      
-      const easeOutQuart = 1 - Math.pow(1 - progress, 4);
-      const currentCount = easeOutQuart * end;
-      
-      setCount(decimal ? parseFloat(currentCount.toFixed(1)) : Math.floor(currentCount));
-
-      if (progress < 1) {
-        animationFrame = requestAnimationFrame(animate);
+    const timer = setInterval(() => {
+      currentStep++;
+      if (currentStep <= steps) {
+        const value = Math.min(increment * currentStep, end);
+        setCount(decimal ? parseFloat(value.toFixed(1)) : Math.floor(value));
+      } else {
+        clearInterval(timer);
+        setCount(end);
       }
-    };
+    }, stepDuration);
 
-    animationFrame = requestAnimationFrame(animate);
-
-    return () => {
-      if (animationFrame) {
-        cancelAnimationFrame(animationFrame);
-      }
-    };
+    return () => clearInterval(timer);
   }, [end, duration, isVisible, decimal]);
 
   return { count, countRef };
 }
 
-// Separate component for stat items to use hooks correctly
 function StatItem({ stat }: { stat: typeof stats[0] }) {
   const Icon = stat.icon;
   const { count, countRef } = useCountUp(stat.value, 2000, stat.decimal);
 
   return (
-    <div
-      ref={countRef}
-      className="text-center group"
-    >
-      <div className={`inline-flex p-4 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 mb-4 group-hover:scale-110 transition-transform duration-300`}>
+    <div ref={countRef} className="text-center group">
+      <div className="inline-flex p-4 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 mb-4 group-hover:scale-110 transition-transform duration-300">
         <Icon className={`w-8 h-8 ${stat.color}`} />
       </div>
       <div className="text-4xl md:text-5xl font-bold mb-2">
@@ -157,11 +143,11 @@ function StatItem({ stat }: { stat: typeof stats[0] }) {
   );
 }
 
-interface TrustIndicatorsProps {
+interface OptimizedTrustIndicatorsProps {
   variant?: 'default' | 'emergency';
 }
 
-export default function TrustIndicators({ variant = 'default' }: TrustIndicatorsProps) {
+export default function OptimizedTrustIndicators({ variant = 'default' }: OptimizedTrustIndicatorsProps) {
   const emergencyStats = variant === 'emergency' ? [
     {
       icon: Clock,
@@ -196,25 +182,22 @@ export default function TrustIndicators({ variant = 'default' }: TrustIndicators
 
   const sectionClass = variant === 'emergency'
     ? 'py-16 bg-gradient-to-br from-red-900 via-orange-900 to-red-950 text-white relative overflow-hidden'
-    : 'py-20 bg-gradient-to-br from-weather-dark via-weather-dark to-weather-black text-white relative overflow-hidden';
+    : 'py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white relative overflow-hidden';
 
   return (
     <section className={sectionClass}>
-      {/* Parallax Background Image */}
-      <div 
-        className="absolute inset-0 z-0"
+      {/* Optimized background - no fixed attachment for mobile performance */}
+      <div
+        className="absolute inset-0 z-0 opacity-20"
         style={{
-          backgroundImage: `url('/images/background/customer-reviews-background.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/background/customer-reviews-background.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center center',
-          backgroundAttachment: 'fixed',
           backgroundRepeat: 'no-repeat'
         }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-weather-dark/95 via-weather-dark/90 to-weather-black/95" />
-      </div>
-      
-      {/* Background Pattern Overlay */}
+      />
+
+      {/* Simplified pattern overlay */}
       <div className="absolute inset-0 opacity-5 z-[1]">
         <div className="absolute inset-0" style={{
           backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px)`
@@ -239,9 +222,9 @@ export default function TrustIndicators({ variant = 'default' }: TrustIndicators
             </>
           ) : (
             <>
-              <div className="inline-flex items-center gap-2 bg-weather-teal/20 rounded-full px-4 py-2 mb-6">
-                <TrendingUp className="w-5 h-5 text-weather-teal" />
-                <span className="text-weather-teal font-semibold">Why Choose Us</span>
+              <div className="inline-flex items-center gap-2 bg-blue-500/20 rounded-full px-4 py-2 mb-6">
+                <TrendingUp className="w-5 h-5 text-blue-400" />
+                <span className="text-blue-400 font-semibold">Why Choose Us</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
                 Trusted by Thousands of Homeowners
@@ -266,35 +249,31 @@ export default function TrustIndicators({ variant = 'default' }: TrustIndicators
           <h3 className="text-3xl font-bold text-center mb-12">
             Certified Excellence
           </h3>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {certifications.map((cert, index) => {
               const Icon = cert.icon;
-              
-              const bgColor = cert.featured ? 'bg-weather-amber/20' : 'bg-weather-teal/20';
-              const iconColor = cert.featured ? 'text-weather-amber' : 'text-weather-teal';
-              const borderColor = cert.featured ? 'border-weather-amber/30' : 'border-white/20';
 
               return (
                 <div
                   key={index}
                   className="text-center group hover:transform hover:scale-105 transition-all duration-300"
                 >
-                  <div className={`relative bg-white/10 backdrop-blur-sm border ${borderColor} rounded-xl p-6 h-full ${
-                    cert.featured ? 'ring-2 ring-weather-amber/30' : ''
+                  <div className={`relative bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 h-full ${
+                    cert.featured ? 'ring-2 ring-yellow-500/30' : ''
                   }`}>
                     {cert.featured && (
-                      <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-weather-amber text-white text-xs font-bold px-3 py-1 rounded-full">
+                      <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                         FEATURED
                       </div>
                     )}
-                    <div className={`inline-flex p-3 rounded-full ${bgColor} mb-4`}>
-                      <Icon className={`w-8 h-8 ${iconColor}`} />
+                    <div className="inline-flex p-3 rounded-full bg-blue-500/20 mb-4">
+                      <Icon className="w-8 h-8 text-blue-400" />
                     </div>
                     <h4 className="text-xl font-bold mb-2">{cert.name}</h4>
                     <p className="text-gray-400 text-sm">{cert.description}</p>
                     {cert.featured && (
-                      <p className="text-weather-amber text-xs mt-2 font-semibold">
+                      <p className="text-yellow-400 text-xs mt-2 font-semibold">
                         ✓ Enhanced Warranties Available
                       </p>
                     )}
@@ -307,7 +286,7 @@ export default function TrustIndicators({ variant = 'default' }: TrustIndicators
 
         {/* Bottom Message */}
         <div className="mt-16 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-gradient-to-r from-weather-teal/20 to-weather-purple/20 backdrop-blur-sm border border-weather-teal/30 rounded-full px-8 py-4">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-blue-500/30 rounded-full px-8 py-4">
             <div className="flex -space-x-1">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-6 h-6 text-yellow-400 fill-yellow-400" />

@@ -49,9 +49,9 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  title: 'WeatherShield Roofing | #1 Roofing Contractors Myrtle Beach SC | Weather Shield',
-  description: 'Weather Shield Roofing - Premier roofing contractors Myrtle Beach trusts. Expert roof replacement Myrtle Beach & commercial roofing services. WeatherShield roofing provides 24/7 emergency storm damage repair. Top-rated roofing companies Myrtle Beach SC with lifetime warranties.',
-  keywords: 'weathershield roofing, weather shield roofing, roofing contractors myrtle beach, roofing companies myrtle beach, roof replacement myrtle beach, commercial roofing myrtle beach, roofing myrtle beach sc, roof repair myrtle beach, storm damage repair, emergency roofing service, residential roofing myrtle beach, roofing companies near me, myrtle beach roofing contractor',
+  title: 'Emergency Roofer Available NOW | WeatherShield Roofing Myrtle Beach 24/7',
+  description: '🚨 ROOF LEAK? Call Now! Weather Shield Roofing - 24 hour roof repair near me. Emergency roofer available now for storm damage repair same day. Urgent roof repair Myrtle Beach with 2-hour response. Emergency roof tarp service today!',
+  keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, weathershield roofing, weather shield roofing, emergency roofing myrtle beach, 24/7 roof repair, immediate roof repair, emergency leak repair, same day roofing service, roofing contractors myrtle beach, emergency roofing service',
   authors: [{ name: 'Weather Shield Roofing' }],
   creator: 'Weather Shield Roofing',
   publisher: 'Weather Shield Roofing',
@@ -69,8 +69,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'WeatherShield Roofing | Top Roofing Contractors Myrtle Beach SC',
-    description: 'Weather Shield Roofing - Leading roofing contractors Myrtle Beach. Professional roof replacement & commercial roofing services. 24/7 emergency storm damage repair. WeatherShield roofing experts serving Myrtle Beach SC.',
+    title: 'Emergency Roofer Available NOW | 24/7 Roof Leak Repair Today',
+    description: '🚨 ROOF EMERGENCY? Call Weather Shield Roofing NOW! 24 hour roof repair near me with 2-hour response. Storm damage repair same day. Emergency roof tarp service. Urgent roof repair Myrtle Beach available 24/7/365.',
     url: 'https://weathershieldroofers.com',
     siteName: 'Weather Shield Roofing',
     images: [
@@ -96,8 +96,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Weather Shield Roofing | Leading Roofing Companies Myrtle Beach | WeatherShield',
-    description: 'Weather Shield Roofing - Premier roofing companies Myrtle Beach trusts. WeatherShield roofing experts protect homes from weather in Myrtle Beach. 24/7 emergency service.',
+    title: 'Emergency Roofer Available NOW | 24 Hour Roof Repair Near Me',
+    description: '🚨 ROOF LEAK EMERGENCY? Weather Shield Roofing responds in 2 hours! 24/7 emergency roof repair, storm damage repair same day. Call NOW for urgent roof repair Myrtle Beach.',
     images: [
       {
         url: '/images/logo/weather_shield_roofing_transparent.png',
@@ -238,7 +238,7 @@ export default function RootLayout({
                 "@id": "https://weathershieldroofers.com/#organization",
                 "name": "Weather Shield Roofing",
                 "alternateName": "WeatherShield Roofing",
-                "description": "Weather Shield Roofing - Premier roofing contractors Myrtle Beach SC. Expert roof replacement, commercial roofing, and storm damage repair services.",
+                "description": "Emergency roofer available now! Weather Shield Roofing provides 24 hour roof repair near me in Myrtle Beach SC. Roof leak repair today, storm damage repair same day, emergency roof tarp service. Urgent roof repair with 2-hour response guaranteed.",
                 "image": "https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png",
                 "logo": {
                   "@type": "ImageObject",
@@ -296,6 +296,13 @@ export default function RootLayout({
                     "dayOfWeek": "Saturday",
                     "opens": "09:00",
                     "closes": "12:00"
+                  },
+                  {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                    "opens": "00:00",
+                    "closes": "23:59",
+                    "name": "24/7 Emergency Service Available"
                   }
                 ],
                 "sameAs": [
@@ -328,8 +335,24 @@ export default function RootLayout({
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Storm Damage Repair",
-                        "description": "24/7 emergency storm damage restoration"
+                        "name": "Emergency Roof Leak Repair Today",
+                        "description": "24 hour roof repair near me - Emergency roofer available now with 2-hour response",
+                        "availableChannel": {
+                          "@type": "ServiceChannel",
+                          "serviceUrl": "https://weathershieldroofers.com/services/emergency-roofing",
+                          "servicePhone": "+1-843-877-5539",
+                          "availableLanguage": ["en", "es"]
+                        },
+                        "areaServed": "Myrtle Beach, SC",
+                        "hoursAvailable": "24/7"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Storm Damage Repair Same Day",
+                        "description": "Emergency roof tarp service and urgent storm damage repairs available today"
                       }
                     },
                     {
@@ -369,7 +392,29 @@ export default function RootLayout({
                 "@type": "LocalBusiness",
                 "@id": "https://weathershieldroofers.com/#localbusiness",
                 "name": "Weather Shield Roofing Myrtle Beach",
-                "description": "Leading roofing contractors Myrtle Beach SC specializing in roof replacement and commercial roofing services",
+                "description": "Emergency roofer available now! 24 hour roof repair near me. Roof leak repair today, storm damage repair same day. Urgent roof repair Myrtle Beach with emergency roof tarp service.",
+                "knowsAbout": ["Emergency Roof Repair", "Roof Leak Repair", "Storm Damage Repair", "24/7 Roofing Service", "Emergency Tarp Service"],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Emergency Roofing Services",
+                  "itemListElement": [
+                    {
+                      "@type": "Service",
+                      "name": "24 Hour Roof Repair Near Me",
+                      "description": "Emergency roofer available now for urgent repairs"
+                    },
+                    {
+                      "@type": "Service",
+                      "name": "Roof Leak Repair Today",
+                      "description": "Same day roof leak repair service"
+                    },
+                    {
+                      "@type": "Service",
+                      "name": "Emergency Roof Tarp Service",
+                      "description": "Immediate roof tarping to prevent water damage"
+                    }
+                  ]
+                },
                 "url": "https://weathershieldroofers.com",
                 "telephone": "+1-843-877-5539",
                 "address": {

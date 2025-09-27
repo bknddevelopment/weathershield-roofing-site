@@ -8,25 +8,25 @@ import { Phone, Shield, Clock, Award, ChevronRight, CheckCircle } from 'lucide-r
 
 const heroSlides = [
   {
-    title: "Weather Shield Roofing Protects Myrtle Beach",
-    subtitle: "Top Roofing Companies Myrtle Beach Trusts",
-    description: "WeatherShield roofing experts providing weather protection for Myrtle Beach homes. Leading roofing companies near me with lifetime warranties.",
+    title: "Emergency Roofer Available NOW in Myrtle Beach",
+    subtitle: "24 Hour Roof Repair Near Me - Call Today!",
+    description: "Roof leak repair today? Weather Shield Roofing responds in 2 hours! Emergency roof tarp service, storm damage repair same day. Urgent roof repair Myrtle Beach available 24/7.",
     image: "/images/background/roof-replacement-services.jpg",
-    stats: ["15+ Years of Weather Protection", "5000+ Roofs Weatherproofed", "#1 Roofing Companies Myrtle Beach"]
+    stats: ["2-Hour Emergency Response", "24/7 Available NOW", "Same Day Repairs"]
   },
   {
-    title: "Weather Damage Specialists in Myrtle Beach",
-    subtitle: "Weather Shield Roofing Handles Storm Claims",
-    description: "When weather in Myrtle Beach strikes, WeatherShield roofing experts handle your insurance claim. Trusted roofing companies near me for storm damage.",
+    title: "Storm Damage Repair Same Day - Act Fast!",
+    subtitle: "Emergency Roof Tarp Service Available Today",
+    description: "Urgent roof repair Myrtle Beach! WeatherShield roofing provides emergency roofer available now for roof leak repair today. 24 hour roof repair near me with immediate response.",
     image: "/images/background/residential-roofing-gutter-siding-services.jpg",
-    stats: ["Weather Damage Experts", "Insurance Approved", "Fast Weather Response"]
+    stats: ["Emergency Service TODAY", "Insurance Direct Billing", "Immediate Protection"]
   },
   {
-    title: "WeatherShield Roofing - Certified Contractor",
-    subtitle: "Premier Roofing Companies Myrtle Beach",
-    description: "Weather Shield Roofing offers exclusive weatherproof warranties. Leading roofing companies near me for weather protection in Myrtle Beach.",
+    title: "Roof Leak Repair Today - Don't Wait!",
+    subtitle: "Urgent Roof Repair Myrtle Beach 24/7",
+    description: "Emergency roofer available now! Weather Shield Roofing: your 24 hour roof repair near me solution. Storm damage repair same day, emergency roof tarp service with 2-hour response.",
     image: "/images/background/home-exterior-improvement-services.jpg",
-    stats: ["50-Year Weather Warranties", "WeatherShield Certified", "Weather-Resistant Materials"]
+    stats: ["24/7 Emergency Hotline", "2-Hour Guaranteed Response", "No Emergency Fees"]
   }
 ];
 
@@ -53,7 +53,7 @@ export default function HeroSection() {
         <div className="relative w-full h-full">
           <StaticImage
             src={slide.image}
-            alt={`${slide.title} - Weather Shield Roofing - Top roofing companies Myrtle Beach for weather protection`}
+            alt={`${slide.title} - Emergency roofer available now - 24 hour roof repair near me - Weather Shield Roofing Myrtle Beach`}
             fill
             className="animate-slow-zoom"
             style={{

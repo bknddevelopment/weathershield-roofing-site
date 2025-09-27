@@ -368,7 +368,7 @@ export default function GalleryPage() {
                 
                 <div className="mt-8 flex flex-col sm:flex-row gap-4">
                   <button 
-                    onClick={() => window.location.href = 'https://your-n8n-form-url.com'}
+                    onClick={() => window.location.href = 'https://n8n.weathershieldroofers.com/webhook/weathershield-roofing-form-submissions'}
                     className="flex-1 bg-gradient-to-r from-weather-teal to-weather-blue text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
                   >
                     Request Similar Work

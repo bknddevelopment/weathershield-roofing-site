@@ -110,9 +110,9 @@ describe('Header Component', () => {
       'Home',
       'About',
       'Services',
-      'Reviews',
       'Gallery',
-      'Quote'
+      'Reviews',
+      'Blog'
     ]
 
     navItems.forEach(item => {
@@ -149,10 +149,9 @@ describe('Header Component', () => {
     const links = [
       { text: 'Home', href: '/' },
       { text: 'About', href: '/about' },
-      { text: 'Services', href: '/services' },
-      { text: 'Reviews', href: '/reviews' },
       { text: 'Gallery', href: '/gallery' },
-      { text: 'Quote', href: '/quote' }
+      { text: 'Reviews', href: '/reviews' },
+      { text: 'Blog', href: '/blog' }
     ]
 
     links.forEach(link => {

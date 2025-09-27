@@ -19,7 +19,7 @@ export default function EmergencyForm() {
 
     try {
       // Submit to n8n webhook
-      const response = await fetch('https://weathershieldroofing.app.n8n.cloud/webhook/contact-form', {
+      const response = await fetch('https://n8n.weathershieldroofers.com/webhook/weathershield-roofing-form-submissions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -51,10 +51,22 @@ export default function EmergencyForm() {
     }
   }
 
+  // Sanitize input to prevent XSS
+  const sanitizeInput = (input: string): string => {
+    return input
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#x27;')
+      .replace(/\//g, '&#x2F;')
+      .trim()
+  }
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const sanitizedValue = sanitizeInput(e.target.value)
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: sanitizedValue
     })
   }
 

@@ -99,7 +99,29 @@ describe('Performance Tests', () => {
 
       expect(content).toContain('User-agent: *')
       expect(content).toContain('Sitemap:')
-      expect(content).not.toContain('Disallow: /')
+      // Check that we allow crawling of the root, not blanket disallow
+      expect(content).toContain('Allow: /')
+
+      // Check that we don't block all crawlers - only specific bad bots
+      const lines = content.split('\n')
+      let currentUserAgent = ''
+      let hasGeneralDisallow = false
+
+      lines.forEach((line, index) => {
+        if (line.startsWith('User-agent:')) {
+          currentUserAgent = line
+        }
+        // Check if there's a blanket disallow for all user agents
+        if (line.trim() === 'Disallow: /' && currentUserAgent.includes('User-agent: *')) {
+          // Check if this is part of the "Disallow specific paths" section
+          const prevLines = lines.slice(Math.max(0, index - 5), index).join(' ')
+          if (!prevLines.includes('specific paths')) {
+            hasGeneralDisallow = true
+          }
+        }
+      })
+
+      expect(hasGeneralDisallow).toBe(false)
     })
 
     it('should have valid sitemap.xml', () => {

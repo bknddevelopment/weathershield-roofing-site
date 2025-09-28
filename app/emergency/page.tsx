@@ -3,13 +3,15 @@ import EmergencyHero from './EmergencyHero'
 import EmergencyServices from './EmergencyServices'
 import EmergencyForm from './EmergencyForm'
 import EmergencyCTA from './EmergencyCTA'
-import EmergencySchema from './EmergencySchema'
+import EmergencySchema from '../components/emergency/EmergencySchema'
 import TrustIndicators from '../components/TrustIndicators'
+import LiveAvailability from '../components/emergency/LiveAvailability'
+import EmergencyContactBar from '../components/emergency/EmergencyContactBar'
 
 export const metadata: Metadata = {
   title: 'Emergency Roof Repair Today | 24 Hour Roofer Available Now | WeatherShield',
-  description: 'URGENT: Roof leak repair today in Myrtle Beach. 24/7 emergency roofer available now. Storm damage repair same day. Call (843) 293-8150 for immediate response!',
-  keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, emergency roofing, immediate roof repair, 24/7 roofer, same day roof repair, emergency leak repair, storm damage contractor',
+  description: 'URGENT: Roof leak repair today in Myrtle Beach. 24/7 emergency roofer available now. Storm damage repair same day. Hurricane damage roof repair. Call (843) 293-8150 for immediate response!',
+  keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, hurricane damage roof repair myrtle beach, tropical storm roof damage, same day roof repair near me, weekend roofing service myrtle beach, immediate roof inspection after storm, emergency roofing, immediate roof repair, 24/7 roofer, emergency leak repair, storm damage contractor',
   alternates: {
     canonical: 'https://weathershieldroofers.com/emergency',
   },
@@ -49,10 +51,49 @@ export const metadata: Metadata = {
 export default function EmergencyPage() {
   return (
     <>
-      <EmergencySchema />
+      <EmergencySchema
+        serviceName="24/7 Emergency Roof Repair Myrtle Beach"
+        description="Immediate emergency roof repair service in Myrtle Beach. Available 24/7 for roof leaks, storm damage, hurricane damage, and urgent repairs with guaranteed 2-hour response time."
+        keywords={[
+          'emergency roof repair myrtle beach',
+          '24 hour roofing service near me',
+          'roof leak repair today',
+          'storm damage repair same day',
+          'hurricane damage roof repair',
+          'emergency tarp installation',
+          'urgent roof repair',
+          'weekend roofing service'
+        ]}
+        localAreas={[
+          'Myrtle Beach',
+          'North Myrtle Beach',
+          'Surfside Beach',
+          'Garden City',
+          'Conway',
+          'Carolina Forest',
+          'Socastee',
+          'Pawleys Island'
+        ]}
+        schemaType="emergency"
+        responseTime="2 hours"
+        availability="24/7"
+      />
+
+      {/* Emergency Contact Bar for Mobile */}
+      <EmergencyContactBar />
 
       {/* Critical Hero Section - Above the fold */}
       <EmergencyHero />
+
+      {/* Live Availability Status */}
+      <section className="bg-gradient-to-r from-gray-900 to-gray-800 py-4">
+        <div className="container mx-auto px-4">
+          <LiveAvailability
+            message="Emergency crews deployed throughout Myrtle Beach"
+            showCrewCount={true}
+          />
+        </div>
+      </section>
 
       {/* Trust Indicators - Build immediate confidence */}
       <section className="bg-gradient-to-r from-red-50 to-orange-50 py-4 border-y-2 border-red-200">
@@ -98,13 +139,18 @@ export default function EmergencyPage() {
               24/7 Emergency Roofing Services Throughout Myrtle Beach Area
             </h2>
             <p className="mb-2">
-              Immediate response for: roof leak repair today • emergency roofer available now •
-              24 hour roof repair near me • storm damage repair same day • emergency roof tarp service •
-              urgent roof repair Myrtle Beach • hurricane damage • tornado damage • fallen tree removal
+              Immediate response for: emergency roof repair myrtle beach • roof leak repair today • emergency roofer available now •
+              24 hour roofing service near me • storm damage repair same day • hurricane damage roof repair myrtle beach •
+              emergency tarp installation myrtle beach • urgent roof repair • weekend roofing service myrtle beach •
+              tropical storm roof damage • immediate roof inspection after storm • same day roof repair near me •
+              storm damage roofing contractors myrtle beach sc
             </p>
-            <p>
+            <p className="mb-2">
               Serving: Myrtle Beach, North Myrtle Beach, Surfside Beach, Garden City, Pawleys Island,
-              Conway, Socastee, Carolina Forest, and all of Horry County
+              Conway, Socastee, Carolina Forest, Little River, Loris, Aynor, Murrells Inlet, and all of Horry County
+            </p>
+            <p className="font-semibold text-gray-700">
+              ⚡ Average Response Time: 47 Minutes • 🛡️ Licensed & Insured • 📞 Real Person Answers 24/7
             </p>
           </div>
         </div>

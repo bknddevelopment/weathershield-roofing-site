@@ -26,14 +26,23 @@ const EmergencyCTA = dynamic(() => import('../emergency/EmergencyCTA'), {
   ssr: true
 })
 
-const EmergencySchema = dynamic(() => import('../emergency/EmergencySchema'), {
+const EmergencySchema = dynamic(() => import('../components/emergency/EmergencySchema'), {
   ssr: true
+})
+
+const LiveAvailability = dynamic(() => import('../components/emergency/LiveAvailability'), {
+  loading: () => <div className="h-24 bg-gray-900 animate-pulse" />,
+  ssr: false
+})
+
+const EmergencyContactBar = dynamic(() => import('../components/emergency/EmergencyContactBar'), {
+  ssr: false
 })
 
 export const metadata: Metadata = {
   title: 'Emergency Roof Repair Today | 24 Hour Roofer Available Now | WeatherShield',
-  description: 'URGENT: Roof leak repair today in Myrtle Beach. 24/7 emergency roofer available now. Storm damage repair same day. Call (843) 293-8150 for immediate response!',
-  keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, emergency roofing, immediate roof repair, 24/7 roofer, same day roof repair, emergency leak repair, storm damage contractor',
+  description: 'URGENT: Roof leak repair today in Myrtle Beach. 24/7 emergency roofer available now. Storm damage repair same day. Hurricane damage experts. Call (843) 293-8150 for immediate response!',
+  keywords: 'roof leak repair today, emergency roofer available now, 24 hour roofing service near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, hurricane damage roof repair myrtle beach, emergency roof repair myrtle beach, same day roof repair near me, weekend roofing service myrtle beach, immediate roof inspection after storm, storm damage roofing contractors myrtle beach sc, emergency roofing, immediate roof repair, 24/7 roofer, emergency leak repair',
   alternates: {
     canonical: 'https://weathershieldroofers.com/emergency',
   },
@@ -87,11 +96,52 @@ export default function OptimizedEmergencyPage() {
       <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
 
       <Suspense fallback={null}>
-        <EmergencySchema />
+        <EmergencySchema
+          serviceName="24/7 Emergency Roof Repair - Optimized Response"
+          description="Lightning-fast emergency roof repair in Myrtle Beach. Optimized for immediate mobile response. Hurricane damage, storm damage, and roof leak specialists."
+          keywords={[
+            'emergency roof repair myrtle beach',
+            '24 hour roofing service near me',
+            'roof leak repair today',
+            'hurricane damage roof repair',
+            'storm damage roofing contractors',
+            'emergency tarp installation',
+            'same day roof repair',
+            'weekend roofing service'
+          ]}
+          localAreas={[
+            'Myrtle Beach',
+            'North Myrtle Beach',
+            'Surfside Beach',
+            'Garden City',
+            'Conway',
+            'Carolina Forest'
+          ]}
+          schemaType="emergency-optimized"
+          responseTime="2 hours"
+          availability="24/7"
+        />
+      </Suspense>
+
+      {/* Emergency Contact Bar */}
+      <Suspense fallback={null}>
+        <EmergencyContactBar />
       </Suspense>
 
       {/* Critical Hero Section - Above the fold - Loaded immediately */}
       <OptimizedEmergencyHero />
+
+      {/* Live Availability Status */}
+      <Suspense fallback={<div className="h-24 bg-gray-900 animate-pulse" />}>
+        <section className="bg-gradient-to-r from-gray-900 to-gray-800 py-4">
+          <div className="container mx-auto px-4">
+            <LiveAvailability
+              message="Optimized response teams ready"
+              showCrewCount={true}
+            />
+          </div>
+        </section>
+      </Suspense>
 
       {/* Trust Indicators Banner - Above the fold but lightweight */}
       <section className="bg-gradient-to-r from-red-50 to-orange-50 py-4 border-y-2 border-red-200">

@@ -1,11 +1,11 @@
 'use client';
 
-import { useState } from 'react';
-import { 
-  Calculator, 
-  CreditCard, 
-  Shield, 
-  Clock, 
+import { useState, useEffect } from 'react';
+import {
+  Calculator,
+  CreditCard,
+  Shield,
+  Clock,
   CheckCircle2,
   FileText,
   Home,
@@ -24,6 +24,7 @@ import {
   Award,
   ArrowRight
 } from 'lucide-react';
+import { roofingMaterials, homeSizePricing } from '../data/pricing';
 
 interface FinancingPlan {
   months: number;
@@ -42,6 +43,8 @@ export default function FinancingPage() {
   const [downPayment, setDownPayment] = useState(1500);
   const [selectedTerm, setSelectedTerm] = useState(36);
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
+  const [selectedMaterial, setSelectedMaterial] = useState('asphalt-architectural');
+  const [homeSize, setHomeSize] = useState('1500');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -52,6 +55,18 @@ export default function FinancingPage() {
     projectType: 'roofing',
     additionalInfo: ''
   });
+
+  // Update project cost based on material and home size
+  useEffect(() => {
+    const material = roofingMaterials.find(m => m.id === selectedMaterial);
+    if (material) {
+      const homeSq = parseFloat(homeSize);
+      const roofSq = homeSq * 1.2; // Rough estimate
+      const squares = roofSq / 100;
+      const estimatedCost = squares * material.pricePerSquareFoot.mid * 100;
+      setProjectCost(Math.round(estimatedCost));
+    }
+  }, [selectedMaterial, homeSize]);
 
   const financingPlans = [
     { months: 12, apr: 0, label: '12 Months', promo: '0% APR' },
@@ -229,11 +244,45 @@ export default function FinancingPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">Payment Calculator</h2>
-            
+
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="grid md:grid-cols-2 gap-8">
                 {/* Calculator Inputs */}
                 <div className="space-y-6">
+                  {/* Quick Estimate Section */}
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                    <h3 className="font-semibold text-blue-900 mb-3">Quick Project Estimate</h3>
+                    <div className="space-y-3">
+                      <div>
+                        <label className="text-sm font-medium text-blue-800">Home Size (sq ft)</label>
+                        <input
+                          type="range"
+                          min="800"
+                          max="4000"
+                          step="100"
+                          value={homeSize}
+                          onChange={(e) => setHomeSize(e.target.value)}
+                          className="w-full h-2 bg-blue-200 rounded-lg appearance-none cursor-pointer mt-1"
+                        />
+                        <div className="text-right text-sm text-blue-700 mt-1">{parseInt(homeSize).toLocaleString()} sq ft</div>
+                      </div>
+                      <div>
+                        <label className="text-sm font-medium text-blue-800">Roofing Material</label>
+                        <select
+                          value={selectedMaterial}
+                          onChange={(e) => setSelectedMaterial(e.target.value)}
+                          className="w-full mt-1 px-3 py-2 border border-blue-200 rounded-lg focus:outline-none focus:border-blue-400"
+                        >
+                          {roofingMaterials.slice(0, 5).map((material) => (
+                            <option key={material.id} value={material.id}>
+                              {material.name} (${material.pricePerSquareFoot.mid}/sq ft)
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
                   <div>
                     <label className="flex justify-between mb-2">
                       <span className="font-semibold">Project Cost</span>
@@ -251,8 +300,9 @@ export default function FinancingPage() {
                       className="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
                     />
                     <div className="flex justify-between text-sm text-gray-500 mt-1">
-                      <span>Min</span>
-                      <span>Max</span>
+                      <span>$5K</span>
+                      <span>$25K</span>
+                      <span>$50K</span>
                     </div>
                   </div>
 

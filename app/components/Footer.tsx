@@ -19,19 +19,20 @@ import {
 
 const quickLinks = [
   { title: 'Emergency Service', href: '/emergency' },
+  { title: '24 Hour Roofing', href: '/24-hour-roofing' },
+  { title: 'Emergency Roof Repair', href: '/emergency-roof-repair' },
   { title: 'Request Quote', href: '/quote' },
-  { title: 'Warranty Info', href: '/warranty' },
+  { title: 'Free Inspection', href: '/free-inspection' },
   { title: 'Financing Options', href: '/financing' },
-  { title: 'Careers', href: '/careers' },
-  { title: 'Privacy Policy', href: '/privacy' },
 ];
 
 const services = [
+  { title: 'Roof Leak Repair Today', href: '/roof-leak-repair-today' },
+  { title: 'Storm Damage Repair', href: '/storm-damage-repair' },
+  { title: 'Emergency Tarp Installation', href: '/emergency-tarp-installation' },
   { title: 'Roof Replacement Myrtle Beach', href: '/services/roof-replacement' },
   { title: 'Roof Repair Myrtle Beach', href: '/services/roof-repair' },
-  { title: 'Storm Shield Roofing Services', href: '/services/storm-damage' },
   { title: 'WeatherShield Roof Inspections', href: '/services/roof-inspections' },
-  { title: 'Weather Protection Gutters', href: '/services/gutter-services' },
   { title: 'Commercial Roofing Myrtle Beach', href: '/services/commercial' },
 ];
 

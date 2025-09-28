@@ -51,6 +51,35 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Additional High-Value SEO Pages -->
+  <url>
+    <loc>https://weathershieldroofers.com/pricing</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/free-inspection</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/insurance-deductible</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roof-cost-comparison</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://weathershieldroofers.com/faq</loc>
     <lastmod>2025-01-26</lastmod>
@@ -117,6 +146,42 @@
   <url>
     <loc>https://weathershieldroofers.com/services/storm-damage</loc>
     <lastmod>2025-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- New Emergency Landing Pages - Phase I SEO Implementation -->
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-roof-repair</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/24-hour-roofing</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roof-leak-repair-today</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/storm-damage-repair</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-tarp-installation</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -29,26 +29,42 @@
     <mobile:mobile/>
   </url>
 
-  <!-- Emergency Landing Pages by Keyword -->
+  <!-- Emergency Landing Pages by Keyword - Phase I Implementation -->
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-roof-repair</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/24-hour-roofing</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
   <url>
     <loc>https://weathershieldroofers.com/roof-leak-repair-today</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
     <mobile:mobile/>
   </url>
 
   <url>
-    <loc>https://weathershieldroofers.com/24-hour-roof-repair</loc>
-    <lastmod>2025-01-26</lastmod>
+    <loc>https://weathershieldroofers.com/storm-damage-repair</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
     <mobile:mobile/>
   </url>
 
   <url>
-    <loc>https://weathershieldroofers.com/emergency-roof-tarp-service</loc>
-    <lastmod>2025-01-26</lastmod>
+    <loc>https://weathershieldroofers.com/emergency-tarp-installation</loc>
+    <lastmod>2025-09-28</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
     <mobile:mobile/>

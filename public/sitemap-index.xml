@@ -3,18 +3,18 @@
   <!-- Main Sitemap - All primary pages and services -->
   <sitemap>
     <loc>https://weathershieldroofers.com/sitemap.xml</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
   </sitemap>
 
   <!-- Emergency Services Sitemap - High-priority emergency pages -->
   <sitemap>
     <loc>https://weathershieldroofers.com/sitemap-emergency.xml</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
   </sitemap>
 
   <!-- Images Sitemap - Optimized images for Google Image Search -->
   <sitemap>
     <loc>https://weathershieldroofers.com/sitemap-images.xml</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
   </sitemap>
 </sitemapindex>

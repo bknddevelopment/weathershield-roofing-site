@@ -4,92 +4,92 @@
   <!-- Main Pages - High Priority -->
   <url>
     <loc>https://weathershieldroofers.com/</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/about</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/services</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/quote</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/gallery</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/reviews</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/financing</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Additional High-Value SEO Pages -->
+  <!-- High-Value SEO Pages - Phase II -->
   <url>
     <loc>https://weathershieldroofers.com/pricing</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/free-inspection</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/insurance-deductible</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/roof-cost-comparison</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/faq</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/blog</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -97,7 +97,7 @@
   <!-- High-Value Blog Content for SEO -->
   <url>
     <loc>https://weathershieldroofers.com/blog/importance-regular-roof-maintenance</loc>
-    <lastmod>2025-09-27</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -107,118 +107,146 @@
     </image:image>
   </url>
 
-  <!-- Critical Service Pages - Very High Priority for Target Keywords -->
+  <!-- Emergency Services Pages - Phase I - Highest Priority -->
   <url>
-    <loc>https://weathershieldroofers.com/services/roof-replacement</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/services/commercial-roofing</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/services/residential-roofing</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/services/roof-repair</loc>
-    <lastmod>2025-01-26</lastmod>
+    <loc>https://weathershieldroofers.com/emergency</loc>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://weathershieldroofers.com/services/emergency-roofing</loc>
-    <lastmod>2025-01-26</lastmod>
+    <loc>https://weathershieldroofers.com/emergency-optimized</loc>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://weathershieldroofers.com/services/storm-damage</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- New Emergency Landing Pages - Phase I SEO Implementation -->
   <url>
     <loc>https://weathershieldroofers.com/emergency-roof-repair</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/24-hour-roofing</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/roof-leak-repair-today</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/storm-damage-repair</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/emergency-tarp-installation</loc>
-    <lastmod>2025-09-28</lastmod>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Critical Service Pages - Very High Priority -->
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-replacement</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/commercial-roofing</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/residential-roofing</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-repair</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/storm-damage</loc>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/services/roof-inspections</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/services/roof-maintenance</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/services/gutter-services</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/services/siding-installation</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/services/weather-protection</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/storm-shield-protection</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/energy-efficient-roofing</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Phase IV Material Service Pages - High SEO Value -->
@@ -250,7 +278,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Roofing Guide Pages -->
+  <!-- Phase V Educational Roofing Guides -->
   <url>
     <loc>https://weathershieldroofers.com/roofing-guide</loc>
     <lastmod>2025-09-30</lastmod>
@@ -265,73 +293,108 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/roof-components</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/choosing-shingle-colors</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/roof-comparison</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/roof-ventilation</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/flat-roof-materials</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Primary Location Pages - Critical for Local SEO -->
   <url>
     <loc>https://weathershieldroofers.com/locations</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/myrtle-beach</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/north-myrtle-beach</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/conway</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/georgetown</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/florence</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/socastee</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/aynor</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/loris</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/hemingway</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -480,79 +543,36 @@
   <!-- State & Regional Pages -->
   <url>
     <loc>https://weathershieldroofers.com/locations/south-carolina</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/north-carolina</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/charleston-sc</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://weathershieldroofers.com/locations/charlotte-nc</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
-
-  <!-- Educational Roofing Guides - Phase V -->
-  <url>
-    <loc>https://weathershieldroofers.com/roofing-guide</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/roofing-guide/roof-components</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/roofing-guide/choosing-shingle-colors</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/roofing-guide/roof-comparison</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/roofing-guide/roof-ventilation</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://weathershieldroofers.com/roofing-guide/flat-roof-materials</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
   <!-- Spanish Language Page -->
   <url>
     <loc>https://weathershieldroofers.com/es</loc>
-    <lastmod>2025-01-26</lastmod>
+    <lastmod>2025-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

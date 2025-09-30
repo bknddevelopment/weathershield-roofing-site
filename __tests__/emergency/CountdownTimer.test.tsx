@@ -64,9 +64,20 @@ describe('CountdownTimer', () => {
   it('shows urgency state for times under 30 minutes', () => {
     render(<CountdownTimer targetTime="20 Minutes" />)
 
-    // Check for urgency styling (border-yellow-400 class or animate-pulse)
-    const container = screen.getByText(/Response Time/i).closest('div')
-    expect(container?.className).toMatch(/border-yellow-400|animate-pulse/)
+    // Wait for the timer to calculate urgency state
+    act(() => {
+      jest.advanceTimersByTime(1000)
+    })
+
+    // Check for urgency styling - find the outermost div with border classes
+    const responseTimeText = screen.getByText(/Response Time/i)
+    const urgentContainer = responseTimeText.closest('div.border-yellow-400, div[class*="animate-pulse"]')
+
+    // If the specific class selector doesn't work, check the parent structure
+    const parentDiv = responseTimeText.parentElement?.parentElement
+    const hasUrgentClass = parentDiv?.className.includes('border-yellow-400') || parentDiv?.className.includes('animate-pulse')
+
+    expect(hasUrgentClass || urgentContainer).toBeTruthy()
   })
 
   it('respects showSeconds prop', () => {

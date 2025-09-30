@@ -333,6 +333,127 @@ export function OrganizationJsonLd() {
   );
 }
 
+interface ArticleProps {
+  headline: string;
+  description: string;
+  image?: string[];
+  datePublished: string;
+  dateModified?: string;
+  author?: {
+    name: string;
+    type?: string;
+  };
+  publisher?: {
+    name: string;
+    logo: string;
+  };
+}
+
+export function ArticleJsonLd({
+  headline,
+  description,
+  image = ['https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png'],
+  datePublished,
+  dateModified,
+  author = {
+    name: 'Weather Shield Roofing',
+    type: 'Organization'
+  },
+  publisher = {
+    name: 'Weather Shield Roofing',
+    logo: 'https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png'
+  }
+}: ArticleProps) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline,
+    description,
+    image,
+    datePublished,
+    dateModified: dateModified || datePublished,
+    author: {
+      '@type': author.type || 'Organization',
+      name: author.name
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: publisher.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: publisher.logo
+      }
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+interface HowToStep {
+  name: string;
+  text: string;
+  image?: string;
+  url?: string;
+}
+
+interface HowToProps {
+  name: string;
+  description: string;
+  image?: string;
+  totalTime?: string;
+  estimatedCost?: {
+    currency: string;
+    value: string;
+  };
+  supply?: string[];
+  tool?: string[];
+  step: HowToStep[];
+}
+
+export function HowToJsonLd({
+  name,
+  description,
+  image,
+  totalTime,
+  estimatedCost,
+  supply,
+  tool,
+  step
+}: HowToProps) {
+  const jsonLd: any = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    description,
+    step: step.map((s, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: s.name,
+      text: s.text,
+      ...(s.image && { image: s.image }),
+      ...(s.url && { url: s.url })
+    }))
+  };
+
+  if (image) jsonLd.image = image;
+  if (totalTime) jsonLd.totalTime = totalTime;
+  if (estimatedCost) jsonLd.estimatedCost = estimatedCost;
+  if (supply) jsonLd.supply = supply;
+  if (tool) jsonLd.tool = tool;
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
 // Export all components for easy access
 export const JsonLd = {
   LocalBusiness: LocalBusinessJsonLd,
@@ -340,7 +461,9 @@ export const JsonLd = {
   FAQ: FAQJsonLd,
   Breadcrumb: BreadcrumbJsonLd,
   Review: ReviewJsonLd,
-  Organization: OrganizationJsonLd
+  Organization: OrganizationJsonLd,
+  Article: ArticleJsonLd,
+  HowTo: HowToJsonLd
 };
 
 export default JsonLd;

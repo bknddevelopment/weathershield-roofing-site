@@ -30,7 +30,9 @@ describe('LiveAvailability', () => {
   it('shows crew count when enabled', () => {
     render(<LiveAvailability showCrewCount={true} />)
 
-    expect(screen.getByText(/Crews/i)).toBeInTheDocument()
+    // Use getAllByText since "Crews" may appear in both message and count display
+    const crewsText = screen.getAllByText(/Crews/i)
+    expect(crewsText.length).toBeGreaterThan(0)
     expect(screen.getByText(/Available/i)).toBeInTheDocument()
   })
 
@@ -95,8 +97,9 @@ describe('LiveAvailability', () => {
     const { rerender } = render(<LiveAvailability showCrewCount={true} />)
 
     // Regular hours - should show 4 crews
-    const regularCrewElement = screen.getByText(/Crews/i).parentElement
-    expect(regularCrewElement?.textContent).toContain('4')
+    // Find the specific crew count element (not just any "Crews" text)
+    const regularCrewDisplay = screen.getByText('4 Crews')
+    expect(regularCrewDisplay).toBeInTheDocument()
 
     // Set to after hours
     jest.setSystemTime(new Date('2024-01-15 22:00:00'))
@@ -107,8 +110,8 @@ describe('LiveAvailability', () => {
     rerender(<LiveAvailability showCrewCount={true} />)
 
     // After hours - should show 5 crews
-    const afterHoursCrewElement = screen.getByText(/Crews/i).parentElement
-    expect(afterHoursCrewElement?.textContent).toContain('5')
+    const afterHoursCrewDisplay = screen.getByText('5 Crews')
+    expect(afterHoursCrewDisplay).toBeInTheDocument()
   })
 
   it('displays pulsing indicator with correct color', () => {

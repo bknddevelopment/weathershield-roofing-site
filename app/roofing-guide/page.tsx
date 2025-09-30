@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Shield, Home, Cloud, Sun, Wind, Droplets, AlertTriangle, CheckCircle, DollarSign, Clock, Award, Phone } from 'lucide-react'
+import { Shield, Home, Cloud, Sun, Wind, Droplets, AlertTriangle, CheckCircle, DollarSign, Clock, Award, Phone, ArrowRight } from 'lucide-react'
 import Section from '../components/ui/Section'
 import CTASection from '../components/CTASection'
 
@@ -69,6 +69,27 @@ export default function RoofingGuidePage() {
               <li><a href="#choosing-contractor" className="text-blue-600 hover:underline">→ Choosing the Right Roofing Contractor</a></li>
               <li><a href="#faqs" className="text-blue-600 hover:underline">→ Frequently Asked Questions</a></li>
             </ul>
+          </div>
+
+          <div className="mt-8 bg-blue-50 border-2 border-blue-200 rounded-lg p-6">
+            <h3 className="text-2xl font-bold mb-4 text-blue-900">Featured Guide</h3>
+            <div className="flex items-start gap-4">
+              <Shield className="w-12 h-12 text-blue-600 flex-shrink-0" />
+              <div>
+                <h4 className="text-xl font-bold mb-2">Complete Guide to Roofing Shingle Types</h4>
+                <p className="text-gray-700 mb-4">
+                  Expert comparison of architectural, dimensional, 3-tab, and composite shingles. Learn about lifespans,
+                  costs, wind ratings, warranties, and which shingles are best for coastal Myrtle Beach homes.
+                </p>
+                <Link
+                  href="/roofing-guide/shingle-types"
+                  className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                >
+                  Read Shingle Types Guide
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </Section>

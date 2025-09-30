@@ -1,13 +1,13 @@
 import { Metadata } from 'next';
 import CTASection from '../components/CTASection';
-import { 
-  Home, 
-  Building2, 
-  Droplets, 
-  Package, 
-  CloudRain, 
-  Search, 
-  AlertTriangle, 
+import {
+  Home,
+  Building2,
+  Droplets,
+  Package,
+  CloudRain,
+  Search,
+  AlertTriangle,
   Wrench,
   CheckCircle,
   FileText,
@@ -16,7 +16,8 @@ import {
   Phone,
   Clock,
   DollarSign,
-  ArrowRight
+  ArrowRight,
+  Sun
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -68,21 +69,52 @@ const additionalServices = [
     icon: CloudRain,
     title: 'Weather & Storm Damage Repair',
     description: 'Weather Shield Roofing responds fast to weather damage. Top roofing companies near me for storm repairs in Myrtle Beach.',
+    link: '/services/storm-damage'
   },
   {
     icon: Search,
     title: 'Roof Inspection',
     description: 'Comprehensive inspections to identify issues before they become major repairs.',
+    link: '/services/roof-inspections'
   },
   {
     icon: AlertTriangle,
     title: 'Emergency Repairs',
     description: '24/7 emergency service to protect your property when you need it most.',
+    link: '/services/emergency-roofing'
   },
   {
     icon: Wrench,
     title: 'Roof Maintenance',
     description: 'Preventive maintenance programs to extend your roof\'s lifespan.',
+    link: '/services/roof-maintenance'
+  }
+];
+
+const materialServices = [
+  {
+    icon: Home,
+    title: 'Metal Roof Installation',
+    description: '50-70 year lifespan. Standing seam, corrugated, and metal shingles. Energy-efficient and hurricane-resistant.',
+    link: '/services/metal-roofing'
+  },
+  {
+    icon: Sun,
+    title: 'Solar Shingles & Solar Roofing',
+    description: 'Integrated solar shingles with 30% federal tax credit. Generate electricity while protecting your home.',
+    link: '/services/solar-roofing'
+  },
+  {
+    icon: Building2,
+    title: 'Flat Roofing (TPO/PVC/EPDM)',
+    description: 'Commercial flat roofing systems. TPO, PVC, and EPDM membranes with 20-30 year warranties.',
+    link: '/services/flat-roofing'
+  },
+  {
+    icon: Shield,
+    title: 'Concrete & Clay Tile Roofing',
+    description: '50-100+ year lifespan. Superior hurricane resistance (150+ mph). Mediterranean elegance.',
+    link: '/services/tile-roofing'
   }
 ];
 
@@ -194,8 +226,43 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* Material-Specific Services */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Premium Roofing Materials
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Specialized roofing systems for every need and budget
+              </p>
+            </div>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {materialServices.map((service, index) => (
+                <div key={index} className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-weather-teal hover:shadow-lg transition-all">
+                  <service.icon className="h-12 w-12 text-weather-teal mb-4" />
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    {service.description}
+                  </p>
+                  <a
+                    href={service.link}
+                    className="inline-flex items-center text-weather-blue font-bold hover:text-weather-teal transition-colors"
+                  >
+                    Learn More
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Additional Services */}
-        <section className="py-20">
+        <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -213,9 +280,18 @@ export default function ServicesPage() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 mb-4">
                     {service.description}
                   </p>
+                  {service.link && (
+                    <a
+                      href={service.link}
+                      className="inline-flex items-center text-weather-blue font-semibold hover:text-weather-teal transition-colors text-sm"
+                    >
+                      Learn More
+                      <ArrowRight className="ml-1 h-3 w-3" />
+                    </a>
+                  )}
                 </div>
               ))}
             </div>

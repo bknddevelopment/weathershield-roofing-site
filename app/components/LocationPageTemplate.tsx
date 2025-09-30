@@ -106,8 +106,9 @@ export default function LocationPageTemplate({
       <HeroSection />
 
       {/* Location Overview */}
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-16 lg:py-24 bg-gradient-to-b from-white via-gray-50/50 to-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-tr from-weather-purple/5 via-transparent to-weather-teal/5 pointer-events-none" />
+        <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Map/Image Section */}
             <motion.div
@@ -178,13 +179,14 @@ export default function LocationPageTemplate({
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   {...getBookingLinkProps()}
-                  className="bg-weather-teal text-white px-8 py-4 rounded-lg font-semibold text-center hover:shadow-lg transition-all duration-300 hover:scale-105"
+                  className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-primary to-weather-secondary hover:from-weather-secondary hover:to-weather-accent text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-primary/50 overflow-hidden focus-visible-ring"
                 >
-                  Get Free {city} Quote
+                  <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+                  <span className="relative">Get Free {city} Quote</span>
                 </a>
                 <a
                   href="tel:+18438775539"
-                  className="border-2 border-weather-teal text-weather-teal px-8 py-4 rounded-lg font-semibold text-center hover:bg-weather-teal hover:text-white transition-all duration-300"
+                  className="border-2 border-weather-teal text-weather-teal px-8 py-4 rounded-lg font-semibold text-center hover:bg-weather-teal hover:text-white transition-all duration-300 focus-visible-ring"
                 >
                   Call Local Team
                 </a>
@@ -195,7 +197,7 @@ export default function LocationPageTemplate({
       </section>
 
       {/* Weather Challenges */}
-      <section className="py-16 bg-weather-light">
+      <section className="py-16 bg-gradient-to-b from-weather-light via-white to-weather-light">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -220,7 +222,7 @@ export default function LocationPageTemplate({
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-white rounded-xl p-6 shadow-elevation-2 hover:shadow-elevation-3 transition-all duration-300 hover:backdrop-blur-xl hover:bg-gradient-to-br hover:from-white/95 hover:to-white/90 border border-transparent hover:border-weather-teal/20"
               >
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-weather-teal/10 rounded-lg mb-4">
                   <div className="text-weather-teal">{challenge.icon}</div>
@@ -237,7 +239,7 @@ export default function LocationPageTemplate({
 
       {/* Service Areas & Neighborhoods */}
       {(neighborhoods.length > 0 || nearbyAreas.length > 0) && (
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-gradient-to-b from-white to-gray-50">
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Neighborhoods */}

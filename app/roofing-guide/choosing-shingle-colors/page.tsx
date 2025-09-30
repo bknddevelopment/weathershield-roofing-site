@@ -52,7 +52,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#2F2F2F',
     description: 'Timeless elegance, works with any architectural style, hides dirt well',
     popularity: 'High',
-    image: '/images/shingles/charcoal-black.jpg'
+    image: '/images/shingles/CharcolBlack.png'
   },
   {
     name: 'Weathered Wood',
@@ -60,7 +60,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#8B7355',
     description: 'Natural wood-shake appearance, warm and inviting, complements earth tones',
     popularity: 'High',
-    image: '/images/shingles/weathered-wood.jpg'
+    image: '/images/shingles/Weathered Wood.png'
   },
   {
     name: 'Slate Gray',
@@ -68,7 +68,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#708090',
     description: 'Sophisticated neutral, pairs well with brick and stone',
     popularity: 'High',
-    image: '/images/shingles/slate-gray.jpg'
+    image: '/images/shingles/Slate Gray.png'
   },
   {
     name: 'Pewter Gray',
@@ -76,7 +76,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#91989F',
     description: 'Light gray with subtle undertones, brightens darker homes',
     popularity: 'Medium',
-    image: '/images/shingles/pewter-gray.jpg'
+    image: '/images/shingles/Pewter Gray.png'
   },
   // Modern Colors
   {
@@ -85,7 +85,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#6B4423',
     description: 'Rich chocolate brown, Mediterranean-inspired, energy efficient',
     popularity: 'High',
-    image: '/images/shingles/mission-brown.jpg'
+    image: '/images/shingles/mission brown.png'
   },
   {
     name: 'Oyster Gray',
@@ -93,7 +93,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#D3D3D3',
     description: 'Contemporary light gray, reflects heat, modern farmhouse favorite',
     popularity: 'High',
-    image: '/images/shingles/oyster-gray.jpg'
+    image: '/images/shingles/Oyster Grey.png'
   },
   {
     name: 'Aged Bronze',
@@ -101,7 +101,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#8C6D50',
     description: 'Warm metallic tones, unique character, trending in modern design',
     popularity: 'Medium',
-    image: '/images/shingles/aged-bronze.jpg'
+    image: '/images/shingles/Aged Bronze.png'
   },
   {
     name: 'Steel Blue',
@@ -109,7 +109,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#4682B4',
     description: 'Bold contemporary choice, complements modern siding',
     popularity: 'Medium',
-    image: '/images/shingles/steel-blue.jpg'
+    image: '/images/shingles/Steel Blue.png'
   },
   // Coastal Colors
   {
@@ -118,7 +118,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#B8A490',
     description: 'Sandy beige-gray, perfect for beach homes, reflects sunlight',
     popularity: 'High',
-    image: '/images/shingles/driftwood.jpg'
+    image: '/images/shingles/driftwood.png'
   },
   {
     name: 'Weathered Teal',
@@ -126,7 +126,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#4A7C7E',
     description: 'Ocean-inspired blue-green, unique coastal aesthetic',
     popularity: 'Medium',
-    image: '/images/shingles/weathered-teal.jpg'
+    image: '/images/shingles/weathered teal.png'
   },
   {
     name: 'Sand Dune',
@@ -134,7 +134,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#C2B280',
     description: 'Soft tan, blends with coastal environments, energy efficient',
     popularity: 'Medium',
-    image: '/images/shingles/sand-dune.jpg'
+    image: '/images/shingles/driftwood.png'
   },
   // Premium Colors
   {
@@ -143,7 +143,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#355E3B',
     description: 'Luxury forest green, complements stone and brick, distinctive curb appeal',
     popularity: 'Low',
-    image: '/images/shingles/hunter-green.jpg'
+    image: '/images/shingles/Hunter Green.png'
   },
   {
     name: 'Copper Penny',
@@ -151,7 +151,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#B87333',
     description: 'Metallic copper tones, premium architectural statement',
     popularity: 'Low',
-    image: '/images/shingles/copper-penny.jpg'
+    image: '/images/shingles/copper penny.png'
   },
   {
     name: 'Estate Gray',
@@ -159,7 +159,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#555D50',
     description: 'Deep sophisticated gray, high-end appearance, luxury homes',
     popularity: 'Medium',
-    image: '/images/shingles/estate-gray.jpg'
+    image: '/images/shingles/Estate Gray.png'
   },
   {
     name: 'Aged Redwood',
@@ -167,7 +167,7 @@ const shingleColors: ShingleColor[] = [
     hexCode: '#A0522D',
     description: 'Rich reddish-brown, rustic elegance, natural wood aesthetic',
     popularity: 'Medium',
-    image: '/images/shingles/aged-redwood.jpg'
+    image: '/images/shingles/Aged Redwood.png'
   }
 ];
 

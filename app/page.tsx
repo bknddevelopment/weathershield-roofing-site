@@ -3,6 +3,7 @@
 import HeroSection from './components/HeroSection'
 import ServiceCards from './components/ServiceCards'
 import AboutSection from './components/AboutSection'
+import RoofingGuideSection from './components/RoofingGuideSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import FAQSection from './components/FAQSection'
 import FAQSchema from './components/FAQSchema'
@@ -22,6 +23,7 @@ export default function HomePage() {
         <ServiceCards />
         <TrustIndicators />
         <AboutSection />
+        <RoofingGuideSection />
         <GAFCertificationSection />
         <TestimonialsSection />
         <FAQSection />

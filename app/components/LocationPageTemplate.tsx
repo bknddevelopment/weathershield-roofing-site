@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getBookingLinkProps } from '../config/booking';
-import { 
-  MapPin, 
-  Phone, 
-  Clock, 
+import {
+  MapPin,
+  Phone,
+  Clock,
   CheckCircle,
   Home,
   Users,
@@ -16,13 +16,54 @@ import {
   Navigation,
   CloudRain,
   Wind,
-  Sun
+  Sun,
+  Thermometer,
+  Droplets,
+  CloudLightning,
+  Snowflake,
+  CloudHail
 } from 'lucide-react';
 import HeroSection from './HeroSection';
 import ServiceShowcase from './ServiceShowcase';
 import TestimonialsSection from './TestimonialsSection';
 import CTASection from './CTASection';
 import { JsonLd } from './JsonLd';
+
+/**
+ * Automatically determines the appropriate weather icon based on challenge text
+ * @param title - The weather challenge title
+ * @param description - The weather challenge description
+ * @returns React element with the appropriate Lucide icon
+ */
+function getWeatherIcon(title: string, description: string): React.ReactNode {
+  const text = `${title} ${description}`.toLowerCase();
+
+  // Check for specific weather conditions (order matters - more specific first)
+  if (text.includes('snow') || text.includes('ice dam')) {
+    return <Snowflake className="w-6 h-6" aria-hidden="true" />;
+  }
+  if (text.includes('hail')) {
+    return <CloudHail className="w-6 h-6" aria-hidden="true" />;
+  }
+  if (text.includes('lightning') || text.includes('thunderstorm')) {
+    return <CloudLightning className="w-6 h-6" aria-hidden="true" />;
+  }
+  if (text.includes('rainfall') || /\brain\b/.test(text) || text.includes('flood') || text.includes('drainage')) {
+    return <CloudRain className="w-6 h-6" aria-hidden="true" />;
+  }
+  if (text.includes('hurricane') || text.includes('wind') || text.includes('storm')) {
+    return <Wind className="w-6 h-6" aria-hidden="true" />;
+  }
+  if (text.includes('humidity') || text.includes('moisture')) {
+    return <Droplets className="w-6 h-6" aria-hidden="true" />;
+  }
+  if (text.includes('heat') || text.includes('temperature') || text.includes('uv') || text.includes('sun')) {
+    return <Sun className="w-6 h-6" aria-hidden="true" />;
+  }
+
+  // Default fallback icon
+  return <Sun className="w-6 h-6" aria-hidden="true" />;
+}
 
 interface LocationPageProps {
   city: string;
@@ -215,24 +256,29 @@ export default function LocationPageTemplate({
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {weatherChallenges.map((challenge, index) => (
-              <motion.div
-                key={challenge.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-xl p-6 shadow-elevation-2 hover:shadow-elevation-3 transition-all duration-300 hover:backdrop-blur-xl hover:bg-gradient-to-br hover:from-white/95 hover:to-white/90 border border-transparent hover:border-weather-teal/20"
-              >
-                <div className="inline-flex items-center justify-center w-12 h-12 bg-weather-teal/10 rounded-lg mb-4">
-                  <div className="text-weather-teal">{challenge.icon}</div>
-                </div>
-                <h3 className="text-xl font-semibold text-weather-black mb-2">
-                  {challenge.title}
-                </h3>
-                <p className="text-weather-dark">{challenge.description}</p>
-              </motion.div>
-            ))}
+            {weatherChallenges.map((challenge, index) => {
+              // Automatically determine icon if not provided
+              const iconElement = challenge.icon || getWeatherIcon(challenge.title, challenge.description);
+
+              return (
+                <motion.div
+                  key={challenge.title}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  className="bg-white rounded-xl p-6 shadow-elevation-2 hover:shadow-elevation-3 transition-all duration-300 hover:backdrop-blur-xl hover:bg-gradient-to-br hover:from-white/95 hover:to-white/90 border border-transparent hover:border-weather-teal/20"
+                >
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-weather-teal/10 rounded-lg mb-4">
+                    <div className="text-weather-teal">{iconElement}</div>
+                  </div>
+                  <h3 className="text-xl font-semibold text-weather-black mb-2">
+                    {challenge.title}
+                  </h3>
+                  <p className="text-weather-dark">{challenge.description}</p>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>

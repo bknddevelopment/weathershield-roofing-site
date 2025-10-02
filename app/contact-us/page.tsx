@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import ContactInfo from './ContactInfo'
 import ContactSchema from './ContactSchema'
 import TrustIndicators from '../components/TrustIndicators'
 import { Phone, Calendar, Mail, MapPin, AlertCircle, Clock, CheckCircle } from 'lucide-react'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Contact Weather Shield Roofing | Myrtle Beach Roofing Companies',
@@ -128,13 +128,15 @@ export default function ContactUsPage() {
                   <Phone className="w-6 h-6" />
                   Call Now: (843) 293-8150
                 </a>
-                <Link
-                  href="/free-inspection"
+                <a
+                  href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-3 bg-white text-weather-secondary px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-xl min-h-[64px]"
                 >
                   <Calendar className="w-6 h-6" />
                   Get Free Inspection
-                </Link>
+                </a>
               </div>
 
               {/* Trust Signals */}
@@ -206,13 +208,15 @@ export default function ContactUsPage() {
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Schedule Free Inspection</h3>
                     <p className="text-gray-600 mb-6">Book your no-obligation roof inspection</p>
-                    <Link
-                      href="/free-inspection"
+                    <a
+                      href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 bg-weather-teal text-white px-6 py-3 rounded-lg font-bold hover:bg-weather-teal/90 transition-colors"
                     >
                       Book Now
                       <Calendar className="w-5 h-5" />
-                    </Link>
+                    </a>
                   </div>
                 </div>
 
@@ -357,13 +361,15 @@ export default function ContactUsPage() {
                     <Phone className="w-5 h-5" />
                     (843) 293-8150
                   </a>
-                  <Link
-                    href="/free-inspection"
+                  <a
+                    href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/20 transition-colors"
                   >
                     <Calendar className="w-5 h-5" />
                     Schedule Inspection
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

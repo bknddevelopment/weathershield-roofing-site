@@ -14,8 +14,14 @@ export default function ContactInfo() {
   return (
     <div className="space-y-6">
       {/* Phone Numbers */}
-      <div className="bg-gradient-to-br from-weather-teal to-weather-blue rounded-xl p-6 text-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
-        <div className="flex items-start gap-4">
+      <div className="bg-gradient-to-br from-weather-teal to-weather-blue rounded-xl p-6 text-white shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 relative overflow-hidden">
+        {/* Pattern overlay */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 20px)'
+          }}></div>
+        </div>
+        <div className="flex items-start gap-4 relative z-10">
           <div className="flex-shrink-0 w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
             <Phone className="w-6 h-6" />
           </div>
@@ -108,7 +114,13 @@ export default function ContactInfo() {
             <Clock className="w-6 h-6 text-weather-teal" />
           </div>
           <div className="flex-1">
-            <h3 className="text-lg font-bold text-gray-900 mb-3">Business Hours</h3>
+            <div className="flex items-center gap-2 mb-3">
+              <h3 className="text-lg font-bold text-gray-900">Business Hours</h3>
+              <div className="flex items-center gap-1.5">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                <span className="text-xs text-green-600 font-semibold">Open Now</span>
+              </div>
+            </div>
             <div className="space-y-2 text-gray-700">
               <div className="flex justify-between">
                 <span className="font-medium">Monday - Friday:</span>

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import ContactInfo from './ContactInfo'
 import ContactSchema from './ContactSchema'
 import TrustIndicators from '../components/TrustIndicators'
+import { GAFBadge } from '../components/GAFCertification'
+import StaticImage from '../components/StaticImage'
 import { Phone, Calendar, Mail, MapPin, AlertCircle, Clock, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -91,18 +93,32 @@ export default function ContactUsPage() {
 
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-weather-secondary via-weather-secondary to-weather-secondary-dark text-white py-20 overflow-hidden">
-          {/* Background Pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute inset-0 bg-pattern"></div>
+        <section className="relative h-[600px] md:h-[700px] flex items-center overflow-hidden">
+          {/* Background Layer */}
+          <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 bg-gradient-to-b from-weather-black/90 via-weather-secondary/85 to-weather-secondary-dark/80 z-10" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-weather-purple/10 via-transparent to-weather-teal/10 z-10" />
+            <StaticImage
+              src="/images/background/residential-roofing-gutter-siding-services.jpg"
+              alt="Contact Weather Shield Roofing"
+              fill
+              className="animate-slow-zoom"
+              style={{ objectFit: 'cover', objectPosition: 'center' }}
+              priority
+            />
           </div>
 
-          {/* Decorative Elements */}
-          <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 right-10 w-40 h-40 bg-weather-teal/20 rounded-full blur-3xl"></div>
+          {/* Decorative floating elements */}
+          <div className="absolute top-10 right-10 w-40 h-40 bg-weather-teal/20 rounded-full blur-3xl animate-float" />
+          <div className="absolute bottom-20 left-10 w-32 h-32 bg-weather-blue/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
 
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
+              {/* GAF Badge */}
+              <div className="mb-6 flex justify-center">
+                <GAFBadge variant="hero" showWarranty={false} />
+              </div>
+
               {/* Badge */}
               <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full px-4 py-2 mb-6">
                 <Phone className="w-4 h-4" />
@@ -110,12 +126,12 @@ export default function ContactUsPage() {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-shadow-hero">
                 Contact Weather Shield Roofing
               </h1>
 
-              {/* Subheading */}
-              <p className="text-xl md:text-2xl mb-10 text-gray-100">
+              {/* Subheading with gradient */}
+              <p className="text-xl md:text-2xl mb-10 bg-gradient-to-r from-weather-teal-light via-white to-weather-blue-light bg-clip-text text-transparent font-semibold">
                 Get in touch with Myrtle Beach's trusted roofing experts
               </p>
 
@@ -183,12 +199,13 @@ export default function ContactUsPage() {
 
               <div className="grid md:grid-cols-3 gap-6 mb-12">
                 {/* Call Us Card */}
-                <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-transparent hover:border-weather-teal transition-all duration-300 group">
+                <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-transparent hover:border-weather-teal transition-all duration-300 group relative overflow-hidden transform hover:-translate-y-2">
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-weather-teal to-weather-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                   <div className="flex flex-col items-center text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-weather-teal to-weather-blue rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <div className="w-20 h-20 bg-gradient-to-br from-weather-teal to-weather-blue rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-3 transition-all duration-300 shadow-lg">
                       <Phone className="w-10 h-10 text-white" />
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Call Us</h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-weather-teal transition-colors">Call Us</h3>
                     <p className="text-gray-600 mb-6">Speak directly with our roofing experts</p>
                     <a
                       href="tel:+18432938150"
@@ -201,12 +218,13 @@ export default function ContactUsPage() {
                 </div>
 
                 {/* Free Inspection Card */}
-                <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-transparent hover:border-weather-teal transition-all duration-300 group">
+                <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-transparent hover:border-weather-teal transition-all duration-300 group relative overflow-hidden transform hover:-translate-y-2">
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-weather-teal to-weather-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                   <div className="flex flex-col items-center text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-weather-blue to-weather-secondary rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <div className="w-20 h-20 bg-gradient-to-br from-weather-blue to-weather-secondary rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-3 transition-all duration-300 shadow-lg">
                       <Calendar className="w-10 h-10 text-white" />
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Schedule Free Inspection</h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-weather-teal transition-colors">Schedule Free Inspection</h3>
                     <p className="text-gray-600 mb-6">Book your no-obligation roof inspection</p>
                     <a
                       href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
@@ -221,12 +239,13 @@ export default function ContactUsPage() {
                 </div>
 
                 {/* Email Card */}
-                <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-transparent hover:border-weather-teal transition-all duration-300 group">
+                <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-transparent hover:border-weather-teal transition-all duration-300 group relative overflow-hidden transform hover:-translate-y-2">
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-weather-teal to-weather-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                   <div className="flex flex-col items-center text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-weather-secondary to-weather-secondary-dark rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <div className="w-20 h-20 bg-gradient-to-br from-weather-secondary to-weather-secondary-dark rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-3 transition-all duration-300 shadow-lg">
                       <Mail className="w-10 h-10 text-white" />
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3">Email Us</h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-weather-teal transition-colors">Email Us</h3>
                     <p className="text-gray-600 mb-6">Send us a detailed message</p>
                     <a
                       href="mailto:roofing@weathershieldroofers.com"
@@ -277,11 +296,14 @@ export default function ContactUsPage() {
                         <Link
                           key={area.name}
                           href={area.link}
-                          className="flex items-center justify-between p-3 rounded-lg hover:bg-weather-teal/5 border border-transparent hover:border-weather-teal/20 transition-all group"
+                          className="flex items-center justify-between p-3 rounded-lg hover:bg-gradient-to-r hover:from-weather-teal/5 hover:to-weather-blue/5 border border-transparent hover:border-weather-teal/20 transition-all group"
                         >
-                          <span className="text-gray-800 font-medium group-hover:text-weather-teal transition-colors">
-                            {area.name}
-                          </span>
+                          <div className="flex items-center gap-2">
+                            <MapPin className="w-4 h-4 text-weather-teal opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <span className="text-gray-800 font-medium group-hover:text-weather-teal transition-colors">
+                              {area.name}
+                            </span>
+                          </div>
                           <span className="text-weather-teal opacity-0 group-hover:opacity-100 transition-opacity">
                             →
                           </span>
@@ -328,10 +350,10 @@ export default function ContactUsPage() {
                 {faqItems.map((item, index) => (
                   <div
                     key={index}
-                    className="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition-shadow duration-300"
+                    className="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl hover:border-weather-teal/30 transition-all duration-300 group"
                   >
                     <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-weather-teal/10 rounded-lg flex items-center justify-center">
+                      <div className="flex-shrink-0 w-10 h-10 bg-weather-teal/10 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                         <CheckCircle className="w-6 h-6 text-weather-teal" />
                       </div>
                       <div className="flex-1">

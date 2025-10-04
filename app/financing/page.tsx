@@ -1,17 +1,15 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {
   Calculator,
   CreditCard,
   Shield,
-  Clock,
   CheckCircle2,
   FileText,
   Home,
   Percent,
   DollarSign,
-  Calendar,
   ChevronDown,
   ChevronUp,
   User,
@@ -19,19 +17,10 @@ import {
   Phone,
   MapPin,
   AlertCircle,
-  TrendingUp,
   Zap,
   Award,
   ArrowRight
 } from 'lucide-react';
-import { roofingMaterials, homeSizePricing } from '../data/pricing';
-
-interface FinancingPlan {
-  months: number;
-  apr: number;
-  monthlyPayment: number;
-  totalCost: number;
-}
 
 interface FAQ {
   question: string;
@@ -39,12 +28,7 @@ interface FAQ {
 }
 
 export default function FinancingPage() {
-  const [projectCost, setProjectCost] = useState(15000);
-  const [downPayment, setDownPayment] = useState(1500);
-  const [selectedTerm, setSelectedTerm] = useState(36);
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
-  const [selectedMaterial, setSelectedMaterial] = useState('asphalt-architectural');
-  const [homeSize, setHomeSize] = useState('1500');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -56,81 +40,46 @@ export default function FinancingPage() {
     additionalInfo: ''
   });
 
-  // Update project cost based on material and home size
-  useEffect(() => {
-    const material = roofingMaterials.find(m => m.id === selectedMaterial);
-    if (material) {
-      const homeSq = parseFloat(homeSize);
-      const roofSq = homeSq * 1.2; // Rough estimate
-      const squares = roofSq / 100;
-      const estimatedCost = squares * material.pricePerSquareFoot.mid * 100;
-      setProjectCost(Math.round(estimatedCost));
-    }
-  }, [selectedMaterial, homeSize]);
-
-  const financingPlans = [
-    { months: 12, apr: 0, label: '12 Months', promo: '0% APR' },
-    { months: 24, apr: 4.99, label: '24 Months', promo: 'Low APR' },
-    { months: 36, apr: 6.99, label: '36 Months', promo: 'Popular' },
-    { months: 60, apr: 8.99, label: '60 Months', promo: 'Lowest Payment' }
-  ];
-
-  const calculateMonthlyPayment = (principal: number, apr: number, months: number): number => {
-    if (apr === 0) {
-      return principal / months;
-    }
-    const monthlyRate = apr / 100 / 12;
-    const payment = principal * (monthlyRate * Math.pow(1 + monthlyRate, months)) / 
-                   (Math.pow(1 + monthlyRate, months) - 1);
-    return payment;
-  };
-
-  const getFinancingDetails = (): FinancingPlan => {
-    const principal = projectCost - downPayment;
-    const plan = financingPlans.find(p => p.months === selectedTerm) || financingPlans[2];
-    const monthlyPayment = calculateMonthlyPayment(principal, plan.apr, plan.months);
-    const totalCost = monthlyPayment * plan.months + downPayment;
-    
-    return {
-      months: plan.months,
-      apr: plan.apr,
-      monthlyPayment,
-      totalCost
-    };
-  };
-
-  const financingDetails = getFinancingDetails();
-
   const benefits = [
     {
+      icon: <DollarSign className="w-6 h-6" />,
+      title: 'Zero Down Payment',
+      description: '100% financing available - no money down required for qualified applicants'
+    },
+    {
+      icon: <Award className="w-6 h-6" />,
+      title: 'Bad Credit Welcome',
+      description: 'We approve all credit types - poor credit, fair credit, or no credit history'
+    },
+    {
       icon: <Percent className="w-6 h-6" />,
-      title: 'Competitive Rates',
-      description: 'Competitive APR options with special promotions for qualified buyers'
+      title: '0% APR Available',
+      description: 'Promotional 0% APR financing for 12 months on approved credit'
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      title: 'Quick Approval',
-      description: 'Get approved in minutes with instant decision'
+      title: 'Same Day Approval',
+      description: 'Get approved in 60 seconds with instant financing decision'
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: 'Flexible Terms',
-      description: 'Choose from 12 to 60 month payment plans'
+      title: 'Flexible Payment Plans',
+      description: 'Choose from 12 to 60 month terms with low monthly payments'
     },
     {
       icon: <CreditCard className="w-6 h-6" />,
       title: 'No Prepayment Penalty',
-      description: 'Pay off your loan early without any fees'
-    },
-    {
-      icon: <Award className="w-6 h-6" />,
-      title: 'All Credit Welcome',
-      description: 'Multiple financing options for all credit types'
+      description: 'Pay off your loan early without any fees or penalties'
     },
     {
       icon: <Home className="w-6 h-6" />,
       title: 'Increase Home Value',
-      description: 'Invest in improvements that boost property value'
+      description: 'Invest in improvements that boost property value and curb appeal'
+    },
+    {
+      icon: <CheckCircle2 className="w-6 h-6" />,
+      title: 'Guaranteed Approval Options',
+      description: 'Special programs for those previously denied financing elsewhere'
     }
   ];
 
@@ -162,6 +111,18 @@ export default function FinancingPage() {
   ];
 
   const faqs: FAQ[] = [
+    {
+      question: 'Do you offer zero down payment roof financing?',
+      answer: 'Yes! We offer 100% financing with zero down payment for qualified applicants. This means you can get your roof replaced or repaired without paying anything upfront. Our $0 down payment programs are available for applicants with good to excellent credit. Contact us at (843) 293-8150 to see if you qualify for no money down financing.'
+    },
+    {
+      question: 'Can I get approved for roof financing with bad credit?',
+      answer: 'Absolutely! We specialize in bad credit roof financing and work with multiple lenders who approve all credit types. Even if you have poor credit (scores as low as 580), fair credit, or have been denied financing elsewhere, we have programs designed specifically for your situation. Our bad credit financing options include flexible terms and competitive rates. We believe everyone deserves a safe, quality roof regardless of credit history.'
+    },
+    {
+      question: 'What if I was denied roof financing at other companies?',
+      answer: 'Don\'t give up! We have guaranteed approval programs for applicants who were previously denied financing. Our network of specialty lenders focuses on your ability to repay rather than just your credit score. We also offer co-signer options and secured loan programs as alternatives. Call us at (843) 293-8150 and we\'ll find a financing solution that works for your unique situation.'
+    },
     {
       question: 'What credit score do I need to qualify?',
       answer: 'We work with multiple lenders to provide financing options for all credit types. While better credit scores qualify for lower rates, we have programs available for scores as low as 580. Each application is reviewed individually.'
@@ -223,178 +184,20 @@ export default function FinancingPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3">
-                <span className="text-2xl font-bold">0%</span>
-                <span className="ml-2">APR Available</span>
+                <span className="text-2xl font-bold">100%</span>
+                <span className="ml-2">Financing Available</span>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3">
-                <span className="text-2xl font-bold">60</span>
-                <span className="ml-2">Second Approval</span>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3">
-                <span className="text-2xl font-bold">Flexible</span>
+                <span className="text-2xl font-bold">$0</span>
                 <span className="ml-2">Down Payment Options</span>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Payment Calculator */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Payment Calculator</h2>
-
-            <div className="bg-gray-50 rounded-2xl p-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                {/* Calculator Inputs */}
-                <div className="space-y-6">
-                  {/* Quick Estimate Section */}
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <h3 className="font-semibold text-blue-900 mb-3">Quick Project Estimate</h3>
-                    <div className="space-y-3">
-                      <div>
-                        <label className="text-sm font-medium text-blue-800">Home Size (sq ft)</label>
-                        <input
-                          type="range"
-                          min="800"
-                          max="4000"
-                          step="100"
-                          value={homeSize}
-                          onChange={(e) => setHomeSize(e.target.value)}
-                          className="w-full h-2 bg-blue-200 rounded-lg appearance-none cursor-pointer mt-1"
-                        />
-                        <div className="text-right text-sm text-blue-700 mt-1">{parseInt(homeSize).toLocaleString()} sq ft</div>
-                      </div>
-                      <div>
-                        <label className="text-sm font-medium text-blue-800">Roofing Material</label>
-                        <select
-                          value={selectedMaterial}
-                          onChange={(e) => setSelectedMaterial(e.target.value)}
-                          className="w-full mt-1 px-3 py-2 border border-blue-200 rounded-lg focus:outline-none focus:border-blue-400"
-                        >
-                          {roofingMaterials.slice(0, 5).map((material) => (
-                            <option key={material.id} value={material.id}>
-                              {material.name} (${material.pricePerSquareFoot.mid}/sq ft)
-                            </option>
-                          ))}
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="flex justify-between mb-2">
-                      <span className="font-semibold">Project Cost</span>
-                      <span className="text-weather-teal font-bold">
-                        ${projectCost.toLocaleString()}
-                      </span>
-                    </label>
-                    <input
-                      type="range"
-                      min="5000"
-                      max="50000"
-                      step="1000"
-                      value={projectCost}
-                      onChange={(e) => setProjectCost(Number(e.target.value))}
-                      className="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
-                    />
-                    <div className="flex justify-between text-sm text-gray-500 mt-1">
-                      <span>$5K</span>
-                      <span>$25K</span>
-                      <span>$50K</span>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="flex justify-between mb-2">
-                      <span className="font-semibold">Down Payment</span>
-                      <span className="text-weather-teal font-bold">
-                        ${downPayment.toLocaleString()} ({Math.round((downPayment/projectCost)*100)}%)
-                      </span>
-                    </label>
-                    <input
-                      type="range"
-                      min="0"
-                      max={projectCost * 0.5}
-                      step="100"
-                      value={downPayment}
-                      onChange={(e) => setDownPayment(Number(e.target.value))}
-                      className="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
-                    />
-                    <div className="flex justify-between text-sm text-gray-500 mt-1">
-                      <span>0%</span>
-                      <span>50%</span>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="font-semibold mb-3 block">Loan Term</label>
-                    <div className="grid grid-cols-2 gap-3">
-                      {financingPlans.map((plan) => (
-                        <button
-                          key={plan.months}
-                          onClick={() => setSelectedTerm(plan.months)}
-                          className={`relative p-4 rounded-lg border-2 transition-all ${
-                            selectedTerm === plan.months
-                              ? 'border-weather-teal bg-weather-teal/5'
-                              : 'border-gray-200 hover:border-gray-300'
-                          }`}
-                        >
-                          {plan.promo && (
-                            <span className="absolute -top-2 right-2 bg-weather-teal text-white text-xs px-2 py-1 rounded">
-                              {plan.promo}
-                            </span>
-                          )}
-                          <div className="font-bold">{plan.label}</div>
-                          <div className="text-sm text-gray-600">{plan.apr}% APR</div>
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Calculator Results */}
-                <div className="bg-gradient-to-br from-weather-teal to-weather-blue text-white rounded-xl p-6">
-                  <h3 className="text-xl font-bold mb-6">Your Financing Details</h3>
-                  
-                  <div className="space-y-4">
-                    <div className="flex justify-between items-center pb-4 border-b border-white/20">
-                      <span>Amount Financed</span>
-                      <span className="text-2xl font-bold">
-                        ${(projectCost - downPayment).toLocaleString()}
-                      </span>
-                    </div>
-                    
-                    <div className="flex justify-between items-center pb-4 border-b border-white/20">
-                      <span>Monthly Payment</span>
-                      <span className="text-3xl font-bold">
-                        ${financingDetails.monthlyPayment.toFixed(2)}
-                      </span>
-                    </div>
-                    
-                    <div className="flex justify-between items-center">
-                      <span>APR</span>
-                      <span className="text-xl font-bold">{financingDetails.apr}%</span>
-                    </div>
-                    
-                    <div className="flex justify-between items-center">
-                      <span>Term Length</span>
-                      <span className="text-xl font-bold">{financingDetails.months} months</span>
-                    </div>
-                    
-                    <div className="flex justify-between items-center pt-4 border-t border-white/20">
-                      <span>Total Cost</span>
-                      <span className="text-xl font-bold">
-                        ${financingDetails.totalCost.toFixed(2)}
-                      </span>
-                    </div>
-                  </div>
-
-                  <button className="w-full mt-6 bg-white text-weather-teal font-bold py-3 rounded-lg hover:bg-gray-100 transition-colors">
-                    Apply Now
-                  </button>
-                </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3">
+                <span className="text-2xl font-bold">All Credit</span>
+                <span className="ml-2">Types Approved</span>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-6 py-3">
+                <span className="text-2xl font-bold">60 Sec</span>
+                <span className="ml-2">Instant Approval</span>
               </div>
             </div>
           </div>
@@ -655,26 +458,6 @@ export default function FinancingPage() {
         </div>
       </section>
 
-      
-      <style jsx>{`
-        .slider::-webkit-slider-thumb {
-          appearance: none;
-          width: 20px;
-          height: 20px;
-          background: rgb(0, 180, 184); /* weather-teal */
-          cursor: pointer;
-          border-radius: 50%;
-        }
-
-        .slider::-moz-range-thumb {
-          width: 20px;
-          height: 20px;
-          background: rgb(0, 180, 184); /* weather-teal */
-          cursor: pointer;
-          border-radius: 50%;
-          border: none;
-        }
-      `}</style>
     </div>
   );
 }

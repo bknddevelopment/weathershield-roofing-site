@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import CTASection from '../components/CTASection';
 import {
   Home,
@@ -393,13 +394,13 @@ export default function ServicesPage() {
                     <p className="text-gray-600">Payment terms</p>
                   </div>
                 </div>
-                <a
+                <Link
                   href="/financing"
                   className="inline-flex items-center justify-center px-8 py-4 bg-weather-blue text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all"
                 >
                   Learn About Financing
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

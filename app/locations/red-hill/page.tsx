@@ -79,7 +79,7 @@ export default function RedHillPage() {
         { name: 'Little River', distance: '10 miles', href: '/locations/little-river' },
         { name: 'Conway', distance: '18 miles', href: '/locations/conway' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Homeowner Mary T.',
@@ -88,7 +88,7 @@ export default function RedHillPage() {
         },
         {
           name: 'John W.',
-          review: 'Storm damage tree fell on our roof and Weather Shield was there within 30 minutes. Emergency tarps saved our home and repairs were completed quickly. Highly recommend!',
+          review: 'Storm damage tree fell on our roof and Weather Shield was there rapidly. Emergency tarps saved our home and repairs were completed quickly. Highly recommend!',
           rating: 5
         },
         {

@@ -79,7 +79,7 @@ export default function CalabashPage() {
         { name: 'Ocean Isle Beach, NC', distance: '8 miles', href: '/locations/ocean-isle-nc' },
         { name: 'North Myrtle Beach', distance: '15 miles', href: '/locations/north-myrtle-beach' }
       ]}
-      emergencyResponse="45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Restaurant Owner Antonio M.',

@@ -87,7 +87,7 @@ export default function SouthCarolinaPage() {
         { name: 'Greenville', distance: 'Upstate', href: '/locations/greenville' },
         { name: 'North Carolina', distance: 'Neighboring State', href: '/locations/north-carolina' }
       ]}
-      emergencyResponse="1-3 hours depending on location"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'William S.',

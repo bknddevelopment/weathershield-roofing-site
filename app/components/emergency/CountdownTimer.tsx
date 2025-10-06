@@ -15,7 +15,7 @@ export default function CountdownTimer({ targetTime, message = "Response Time", 
 
   useEffect(() => {
     // Parse target time to minutes
-    let targetMinutes = 120 // Default 2 hours
+    let targetMinutes = 60 // Default 1 hour
     if (targetTime.includes('Hour')) {
       const hours = parseInt(targetTime.match(/\d+/)?.[0] || '2')
       targetMinutes = hours * 60

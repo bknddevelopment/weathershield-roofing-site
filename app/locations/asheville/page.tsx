@@ -84,7 +84,7 @@ export default function AshevillePage() {
         { name: 'Charlotte', distance: '125 miles', href: '/locations/charlotte-nc' },
         { name: 'Raleigh', distance: '250 miles', href: '/locations/raleigh' }
       ]}
-      emergencyResponse="3-4 hours"
+      emergencyResponse="same day"
       localTestimonials={[
         {
           name: 'Laura M.',

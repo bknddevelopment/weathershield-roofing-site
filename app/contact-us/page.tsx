@@ -67,7 +67,7 @@ export default function ContactUsPage() {
   const faqItems = [
     {
       question: 'How quickly will you respond to my inquiry?',
-      answer: 'We respond to all inquiries within 1 hour during business hours (Monday-Friday 7AM-7PM, Saturday 8AM-5PM). For emergency services, we\'re available 24/7 and can dispatch a team immediately.'
+      answer: 'We respond to all inquiries promptly during business hours (Monday-Friday 7AM-7PM, Saturday 8AM-5PM). For emergency services, we\'re available 24/7 and can dispatch a team immediately.'
     },
     {
       question: 'Do you offer free estimates?',
@@ -163,7 +163,7 @@ export default function ContactUsPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full"></div>
-                  <span>Response within 1 hour</span>
+                  <span>Prompt Response</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full"></div>

@@ -64,7 +64,7 @@ export default function GeorgetownPage() {
         }
       ]}
       localStats={[
-        { value: '2-3 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '200+', label: 'Georgetown Homes Serviced' },
         { value: '10 Years', label: 'Serving Georgetown' },
         { value: '5.0 Stars', label: 'Average Rating' }
@@ -75,7 +75,7 @@ export default function GeorgetownPage() {
         { name: 'Andrews', distance: '20 miles', href: '/locations/andrews' },
         { name: 'Hemingway', distance: '25 miles', href: '/locations/hemingway' }
       ]}
-      emergencyResponse="2-3 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'William H. - Historic District',

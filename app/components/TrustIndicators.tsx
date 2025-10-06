@@ -234,7 +234,7 @@ export default function TrustIndicators({ variant = 'default' }: TrustIndicators
                 Your Trusted Emergency Roofing Team
               </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                Available 24/7 with guaranteed 2-hour response. Licensed, insured, and ready to protect your home immediately.
+                Available 24/7 with guaranteed rapid response. Licensed, insured, and ready to protect your home immediately.
               </p>
             </>
           ) : (

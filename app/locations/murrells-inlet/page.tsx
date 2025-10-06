@@ -80,7 +80,7 @@ export default function MurrellsInletPage() {
         { name: 'Surfside Beach', distance: '10 miles', href: '/locations/surfside-beach' },
         { name: 'Georgetown', distance: '15 miles', href: '/locations/georgetown' }
       ]}
-      emergencyResponse="45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Restaurant Owner Chris M.',

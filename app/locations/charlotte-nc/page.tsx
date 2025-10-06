@@ -74,7 +74,7 @@ export default function CharlottePage() {
         }
       ]}
       localStats={[
-        { value: '2-3 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '500+', label: 'Charlotte Homes Protected' },
         { value: '10+ Years', label: 'Serving Charlotte' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -87,7 +87,7 @@ export default function CharlottePage() {
         { name: 'Fort Mill', distance: '20 miles', href: '/locations/fort-mill' },
         { name: 'Indian Trail', distance: '15 miles', href: '/locations/indian-trail' }
       ]}
-      emergencyResponse="2-3 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Robert M.',

@@ -71,7 +71,7 @@ export default function ConcordPage() {
         }
       ]}
       localStats={[
-        { value: '2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '300+', label: 'Concord Homes Protected' },
         { value: '10+ Years', label: 'Serving Concord' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -81,7 +81,7 @@ export default function ConcordPage() {
         { name: 'Huntersville', distance: '12 miles', href: '/locations/huntersville' },
         { name: 'Indian Trail', distance: '18 miles', href: '/locations/indian-trail' }
       ]}
-      emergencyResponse="2 hours"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Michael R.',

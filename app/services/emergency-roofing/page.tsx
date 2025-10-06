@@ -4,14 +4,14 @@ import { Phone, Clock, Shield, AlertTriangle, Zap, Home } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Emergency Roofer Available NOW | 24 Hour Roof Repair Near Me | Call Today!',
-  description: '🚨 ROOF LEAK REPAIR TODAY! Emergency roofer available now - Weather Shield responds in 2 HOURS! Storm damage repair same day, emergency roof tarp service. Urgent roof repair Myrtle Beach 24/7. CALL NOW!',
+  description: '🚨 ROOF LEAK REPAIR TODAY! Emergency roofer available now - Weather Shield responds RAPIDLY! Storm damage repair same day, emergency roof tarp service. Urgent roof repair Myrtle Beach 24/7. CALL NOW!',
   keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, emergency roofing myrtle beach, 24/7 roof repair myrtle beach, immediate roof repair, same day roofing, weathershield roofing emergency, weather shield roofing, after hours roofing, hurricane damage repair, emergency tarping services',
   alternates: {
     canonical: 'https://weathershieldroofers.com/services/emergency-roofing',
   },
   openGraph: {
     title: 'Emergency Roofer Available NOW | Roof Leak Repair Today | 24/7',
-    description: '🚨 ROOF EMERGENCY? Emergency roofer available now! 24 hour roof repair near me with 2-hour response. Storm damage repair same day. Emergency roof tarp service. Urgent roof repair Myrtle Beach - CALL NOW!',
+    description: '🚨 ROOF EMERGENCY? Emergency roofer available now! 24 hour roof repair near me with rapid response. Storm damage repair same day. Emergency roof tarp service. Urgent roof repair Myrtle Beach - CALL NOW!',
     url: 'https://weathershieldroofers.com/services/emergency-roofing',
     type: 'website',
   },
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
 
 const emergencyRoofingData = {
   title: 'Emergency Roofing Services Myrtle Beach - Weather Shield 24/7',
-  description: 'Weather Shield Roofing provides 24/7 emergency roofing Myrtle Beach residents trust. Immediate weathershield roofing response for storm damage, leaks, and urgent repairs with 2-hour guaranteed arrival.',
+  description: 'Weather Shield Roofing provides 24/7 emergency roofing Myrtle Beach residents trust. Immediate weathershield roofing response for storm damage, leaks, and urgent repairs with rapid guaranteed arrival.',
   longDescription: [
-    'When roofing emergencies strike Myrtle Beach, Weather Shield Roofing responds faster than any other contractor. Our 24/7 emergency roofing Myrtle Beach service has protected thousands of homes from storm damage, sudden leaks, and hurricane impacts. As the leading emergency roofing contractors in coastal South Carolina, our weathershield roofing emergency teams are strategically positioned throughout the Grand Strand for rapid 2-hour guaranteed response.',
+    'When roofing emergencies strike Myrtle Beach, Weather Shield Roofing responds faster than any other contractor. Our 24/7 emergency roofing Myrtle Beach service has protected thousands of homes from storm damage, sudden leaks, and hurricane impacts. As the leading emergency roofing contractors in coastal South Carolina, our weathershield roofing emergency teams are strategically positioned throughout the Grand Strand for rapid guaranteed response.',
     'Weather Shield Roofing\'s emergency crews are specially trained in storm damage assessment and immediate protection techniques specific to Myrtle Beach\'s severe weather patterns. We arrive fully equipped with professional-grade tarps, emergency sealants, and temporary roofing materials to stop water intrusion immediately. Our teams have extensive experience with hurricane damage, tornado impacts, severe thunderstorm damage, and the unique challenges of coastal emergency roofing.',
     'What sets Weather Shield Roofing apart in emergency situations is our comprehensive approach. Beyond immediate protection, we document all damage for insurance claims, provide detailed repair estimates, and schedule permanent solutions quickly. Our emergency roofing Myrtle Beach services have saved homeowners millions in prevented water damage. We work directly with all major insurance companies and can bill insurance directly for covered emergency services.',
     'Living in Myrtle Beach means being prepared for severe weather year-round. From hurricane season (June through November) to winter nor\'easters and spring thunderstorms, Weather Shield Roofing stands ready 24/7/365. Our emergency response isn\'t just about fixing problems—it\'s about protecting your family, your home, and your peace of mind when you need it most. One call to our emergency hotline connects you immediately with local, experienced professionals who understand the urgency of your situation.',
@@ -29,7 +29,7 @@ const emergencyRoofingData = {
   ],
   benefits: [
     '24/7/365 emergency roofing Myrtle Beach availability',
-    'Guaranteed 2-hour response time throughout Grand Strand',
+    'Guaranteed rapid response time throughout Grand Strand',
     'Professional emergency tarping and storm protection',
     'Immediate water damage prevention and mitigation',
     'Direct insurance billing for covered emergencies',
@@ -74,8 +74,8 @@ const emergencyRoofingData = {
     },
     {
       icon: <Clock className="w-8 h-8" />,
-      title: '2-Hour Response',
-      description: 'Guaranteed arrival within 2 hours of your call'
+      title: 'Rapid Response',
+      description: 'Guaranteed rapid arrival after your call'
     },
     {
       icon: <AlertTriangle className="w-8 h-8" />,
@@ -105,7 +105,7 @@ const emergencyRoofingData = {
     },
     {
       question: 'How quickly can you respond to an emergency?',
-      answer: 'We guarantee response within 2 hours of your call, 24/7/365. Our emergency crews are strategically located throughout the Grand Strand area to ensure rapid response. Most calls receive on-site assistance within 60-90 minutes.'
+      answer: 'We provide rapid emergency response to your call, 24/7/365. Our emergency crews are strategically located throughout the Grand Strand area to ensure the fastest possible response. Most calls receive on-site assistance rapidly.'
     },
     {
       question: 'What should I do while waiting for emergency service?',
@@ -129,7 +129,7 @@ const emergencyRoofingData = {
     { name: 'Insurance Claims', href: '/services/roof-inspections' }
   ],
   emergencyService: true,
-  responseTime: 'within 2 hours'
+  responseTime: 'rapid'
 }
 
 export default function EmergencyRoofingPage() {

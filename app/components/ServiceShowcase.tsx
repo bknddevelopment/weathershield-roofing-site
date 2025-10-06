@@ -62,7 +62,7 @@ const services: Service[] = [
       'Same-day service available'
     ],
     priceRange: 'Contact us for pricing',
-    timeframe: '2-4 hours',
+    timeframe: 'rapid',
     rating: 4.8
   },
   {

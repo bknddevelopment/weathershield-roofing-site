@@ -72,7 +72,7 @@ const faqCategories = [
     faqs: [
       {
         question: 'Does Weather Shield Roofing respond to weather emergencies?',
-        answer: 'Yes! Weather Shield Roofing offers 24/7 weather emergency services - fastest among roofing companies near me. When weather in Myrtle Beach causes damage, WeatherShield roofing crews respond within 1 hour. Call (843) 877-5539 for immediate weather protection.'
+        answer: 'Yes! Weather Shield Roofing offers 24/7 weather emergency services - fastest among roofing companies near me. When weather in Myrtle Beach causes damage, WeatherShield roofing crews respond rapidly. Call (843) 877-5539 for immediate weather protection.'
       },
       {
         question: 'How often should Weather Shield Roofing inspect for weather damage?',

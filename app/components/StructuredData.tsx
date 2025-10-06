@@ -216,7 +216,7 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
           "@type": "Service",
           "@id": "https://weathershieldroofers.com/services#storm-damage",
           "name": "Storm Damage Repair",
-          "description": "24/7 emergency storm damage repair services. Weather Shield Roofing responds within 1 hour for weather-related roof damage.",
+          "description": "24/7 emergency storm damage repair services. Weather Shield Roofing responds rapidly for weather-related roof damage.",
           "provider": {
             "@id": "https://weathershieldroofers.com/#organization"
           },

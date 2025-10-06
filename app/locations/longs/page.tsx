@@ -80,7 +80,7 @@ export default function LongsPage() {
         { name: 'Loris', distance: '10 miles', href: '/locations/loris' },
         { name: 'Conway', distance: '15 miles', href: '/locations/conway' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Homeowner Sarah B.',

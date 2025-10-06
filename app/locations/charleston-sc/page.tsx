@@ -74,7 +74,7 @@ export default function CharlestonPage() {
         }
       ]}
       localStats={[
-        { value: '1-2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '1,000+', label: 'Charleston Homes Protected' },
         { value: '12+ Years', label: 'Serving Charleston' },
         { value: '5.0 Stars', label: 'Customer Rating' }
@@ -87,7 +87,7 @@ export default function CharlestonPage() {
         { name: 'Moncks Corner', distance: '30 miles', href: '/locations/moncks-corner' },
         { name: 'Walterboro', distance: '45 miles', href: '/locations/walterboro' }
       ]}
-      emergencyResponse="1-2 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Elizabeth H.',

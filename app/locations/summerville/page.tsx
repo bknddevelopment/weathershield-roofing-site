@@ -69,7 +69,7 @@ export default function SummervillePage() {
         }
       ]}
       localStats={[
-        { value: '1-2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '500+', label: 'Summerville Homes Protected' },
         { value: '10+ Years', label: 'Serving Summerville' },
         { value: '5.0 Stars', label: 'Customer Rating' }
@@ -81,7 +81,7 @@ export default function SummervillePage() {
         { name: 'Mount Pleasant', distance: '30 miles', href: '/locations/mount-pleasant' },
         { name: 'Moncks Corner', distance: '20 miles', href: '/locations/moncks-corner' }
       ]}
-      emergencyResponse="1-2 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Jennifer M.',
@@ -90,7 +90,7 @@ export default function SummervillePage() {
         },
         {
           name: 'David L.',
-          review: 'Our Cane Bay home needed emergency repairs after a tree fell during a storm. Weather Shield responded within 90 minutes and had it secured the same day. Outstanding service!',
+          review: 'Our Cane Bay home needed emergency repairs after a tree fell during a storm. Weather Shield responded rapidly and had it secured the same day. Outstanding service!',
           rating: 5
         },
         {

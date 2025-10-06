@@ -74,7 +74,7 @@ export default function NorthCarolinaPage() {
         }
       ]}
       localStats={[
-        { value: '2-4 Hours', label: 'Average Response' },
+        { value: '24/7', label: 'Average Response' },
         { value: '2,000+', label: 'NC Homes Protected' },
         { value: '15+ Years', label: 'Serving North Carolina' },
         { value: '4.9 Stars', label: 'Statewide Rating' }
@@ -87,7 +87,7 @@ export default function NorthCarolinaPage() {
         { name: 'Asheville', distance: 'Western NC', href: '/locations/asheville' },
         { name: 'South Carolina', distance: 'Neighboring State', href: '/locations/south-carolina' }
       ]}
-      emergencyResponse="2-4 hours depending on location"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'David K.',

@@ -71,7 +71,7 @@ export default function GastoniaPage() {
         }
       ]}
       localStats={[
-        { value: '2-3 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '250+', label: 'Gastonia Homes Protected' },
         { value: '10+ Years', label: 'Serving Gastonia' },
         { value: '4.8 Stars', label: 'Customer Rating' }
@@ -81,7 +81,7 @@ export default function GastoniaPage() {
         { name: 'Huntersville', distance: '30 miles', href: '/locations/huntersville' },
         { name: 'Rock Hill', distance: '35 miles', href: '/locations/rock-hill' }
       ]}
-      emergencyResponse="2-3 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Patricia S.',

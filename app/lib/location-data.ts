@@ -350,7 +350,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     stats: {
       projectsCompleted: 142,
       approvalRate: 89,
-      averageApprovalTime: '2 hours'
+      averageApprovalTime: 'same day'
     },
     neighborhoods: ['Pawleys Island Beach', 'Litchfield Beach', 'DeBordieu', 'Prince George'],
     faqs: [

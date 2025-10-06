@@ -79,7 +79,7 @@ export default function GardenCityPage() {
         { name: 'Myrtle Beach', distance: '8 miles', href: '/locations/myrtle-beach' },
         { name: 'Pawleys Island', distance: '12 miles', href: '/locations/pawleys-island' }
       ]}
-      emergencyResponse="1 hour"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Karen B.',

@@ -74,7 +74,7 @@ export default function EmergencyServices() {
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
             Professional emergency roofer available now throughout Myrtle Beach.
-            We handle all urgent roof repairs with guaranteed 2-hour response.
+            We handle all urgent roof repairs with rapid 24/7 response.
           </p>
 
           {/* Quick Stats Bar */}
@@ -82,7 +82,7 @@ export default function EmergencyServices() {
             <div className="bg-white rounded-lg px-6 py-3 shadow-md">
               <div className="flex items-center gap-2">
                 <Clock className="w-5 h-5 text-weather-teal" />
-                <span className="font-bold text-gray-900">2-Hour Response</span>
+                <span className="font-bold text-gray-900">Rapid Response</span>
               </div>
             </div>
             <div className="bg-white rounded-lg px-6 py-3 shadow-md">
@@ -174,7 +174,7 @@ export default function EmergencyServices() {
             </a>
           </div>
           <p className="mt-4 text-white/90">
-            Average response time: <span className="font-bold text-yellow-300">47 minutes</span>
+            Emergency Service: <span className="font-bold text-yellow-300">Available 24/7</span>
           </p>
         </div>
       </div>

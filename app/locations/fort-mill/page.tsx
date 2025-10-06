@@ -71,7 +71,7 @@ export default function FortMillPage() {
         }
       ]}
       localStats={[
-        { value: '1-2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '300+', label: 'Fort Mill Homes Protected' },
         { value: '10+ Years', label: 'Serving Fort Mill' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -81,7 +81,7 @@ export default function FortMillPage() {
         { name: 'Charlotte', distance: '20 miles', href: '/locations/charlotte-nc' },
         { name: 'Indian Trail', distance: '12 miles', href: '/locations/indian-trail' }
       ]}
-      emergencyResponse="1-2 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Jessica M.',

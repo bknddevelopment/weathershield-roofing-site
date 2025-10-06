@@ -79,7 +79,7 @@ export default function MarketCommonPage() {
         { name: 'Socastee', distance: '8 miles', href: '/locations/socastee' },
         { name: 'Surfside Beach', distance: '10 miles', href: '/locations/surfside-beach' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Retail Manager Sarah K.',
@@ -93,7 +93,7 @@ export default function MarketCommonPage() {
         },
         {
           name: 'Emma R.',
-          review: 'Emergency leak during a storm could have damaged our shop. Weather Shield was on-site in 30 minutes with tarps and completed permanent repairs the next day. Outstanding emergency response!',
+          review: 'Emergency leak during a storm could have damaged our shop. Weather Shield was on-site rapidly with tarps and completed permanent repairs the next day. Outstanding emergency response!',
           rating: 5
         }
       ]}

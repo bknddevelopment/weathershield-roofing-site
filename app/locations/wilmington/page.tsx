@@ -74,7 +74,7 @@ export default function WilmingtonPage() {
         }
       ]}
       localStats={[
-        { value: '2-3 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '500+', label: 'Coastal Homes Protected' },
         { value: '10+ Years', label: 'Serving Wilmington' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -84,7 +84,7 @@ export default function WilmingtonPage() {
         { name: 'Charlotte', distance: '200 miles', href: '/locations/charlotte-nc' },
         { name: 'Myrtle Beach', distance: '70 miles', href: '/locations/myrtle-beach' }
       ]}
-      emergencyResponse="2-3 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Thomas R.',

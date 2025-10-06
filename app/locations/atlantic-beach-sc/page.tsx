@@ -79,7 +79,7 @@ export default function AtlanticBeachPage() {
         { name: 'Cherry Grove', distance: '5 miles', href: '/locations/cherry-grove' },
         { name: 'Myrtle Beach', distance: '10 miles', href: '/locations/myrtle-beach' }
       ]}
-      emergencyResponse="45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Beach Property Owner Gloria H.',

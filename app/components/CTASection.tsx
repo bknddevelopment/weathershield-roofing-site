@@ -115,7 +115,7 @@ export default function CTASection() {
                       <h4 className="font-semibold text-base">Emergency Service Available</h4>
                     </div>
                     <p className="text-gray-300">
-                      Storm damage? Sudden leak? We respond within 1 hour for emergency calls, 24 hours a day, 7 days a week.
+                      Storm damage? Sudden leak? We respond rapidly for emergency calls, 24 hours a day, 7 days a week.
                     </p>
                   </div>
                 </div>

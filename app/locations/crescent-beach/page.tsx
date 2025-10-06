@@ -79,7 +79,7 @@ export default function CrescentBeachPage() {
         { name: 'Cherry Grove', distance: '4 miles', href: '/locations/cherry-grove' },
         { name: 'Atlantic Beach', distance: '3 miles', href: '/locations/atlantic-beach-sc' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Vacation Rental Owner Paula D.',
@@ -88,7 +88,7 @@ export default function CrescentBeachPage() {
         },
         {
           name: 'Beach Home Owner Michael R.',
-          review: 'Storm damage during summer season was a nightmare until Weather Shield arrived. Emergency response in 30 minutes and full repair completed in days. Outstanding service!',
+          review: 'Storm damage during summer season was a nightmare until Weather Shield arrived. Emergency response rapidly and full repair completed in days. Outstanding service!',
           rating: 5
         },
         {

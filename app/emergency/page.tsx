@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'EMERGENCY Roof Repair Available NOW | 24/7 WeatherShield Response',
-    description: 'Roof leak? Storm damage? We respond in 2 hours or less. 24/7 emergency roof repair in Myrtle Beach. Call NOW: (843) 293-8150',
+    description: 'Roof leak? Storm damage? We respond rapidly. 24/7 emergency roof repair in Myrtle Beach. Call NOW: (843) 293-8150',
     url: 'https://weathershieldroofers.com/emergency',
     type: 'website',
     images: [
@@ -53,7 +53,7 @@ export default function EmergencyPage() {
     <>
       <EmergencySchema
         serviceName="24/7 Emergency Roof Repair Myrtle Beach"
-        description="Immediate emergency roof repair service in Myrtle Beach. Available 24/7 for roof leaks, storm damage, hurricane damage, and urgent repairs with guaranteed 2-hour response time."
+        description="Immediate emergency roof repair service in Myrtle Beach. Available 24/7 for roof leaks, storm damage, hurricane damage, and urgent repairs with rapid response."
         keywords={[
           'emergency roof repair myrtle beach',
           '24 hour roofing service near me',
@@ -75,7 +75,7 @@ export default function EmergencyPage() {
           'Pawleys Island'
         ]}
         schemaType="emergency"
-        responseTime="2 hours"
+        responseTime="rapid"
         availability="24/7"
       />
 
@@ -101,7 +101,7 @@ export default function EmergencyPage() {
           <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-center">
             <div className="flex items-center gap-2">
               <span className="text-2xl">⚡</span>
-              <span className="font-bold text-gray-800">2-Hour Response</span>
+              <span className="font-bold text-gray-800">Rapid Response</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl">🛡️</span>

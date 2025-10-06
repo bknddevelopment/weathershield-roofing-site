@@ -70,7 +70,7 @@ export default function SocasteePage() {
         { name: 'Surfside Beach', distance: '8 miles', href: '/locations/surfside-beach' },
         { name: 'Garden City', distance: '10 miles', href: '/locations/garden-city' }
       ]}
-      emergencyResponse="30-45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Karen M.',

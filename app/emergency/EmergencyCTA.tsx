@@ -37,8 +37,8 @@ export default function EmergencyCTA() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-10 max-w-3xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
               <Clock className="w-8 h-8 text-yellow-400 mx-auto mb-2" />
-              <p className="text-white font-semibold text-sm">2-Hour</p>
-              <p className="text-white/70 text-xs">Response Time</p>
+              <p className="text-white font-semibold text-sm">24/7</p>
+              <p className="text-white/70 text-xs">Available Now</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
               <Shield className="w-8 h-8 text-yellow-400 mx-auto mb-2" />

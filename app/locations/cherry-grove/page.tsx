@@ -79,7 +79,7 @@ export default function CherryGrovePage() {
         { name: 'Barefoot Resort', distance: '5 miles', href: '/locations/barefoot-resort' },
         { name: 'Windy Hill', distance: '8 miles', href: '/locations/windy-hill' }
       ]}
-      emergencyResponse="45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Beach Rental Owner Mike S.',

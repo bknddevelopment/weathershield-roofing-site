@@ -74,7 +74,7 @@ export default function ColumbiaPage() {
         }
       ]}
       localStats={[
-        { value: '2-3 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '600+', label: 'Midlands Homes Protected' },
         { value: '10+ Years', label: 'Serving Columbia' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -84,7 +84,7 @@ export default function ColumbiaPage() {
         { name: 'Charleston', distance: '115 miles', href: '/locations/charleston-sc' },
         { name: 'Charlotte', distance: '95 miles', href: '/locations/charlotte-nc' }
       ]}
-      emergencyResponse="2-3 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'William H.',

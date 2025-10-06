@@ -74,7 +74,7 @@ export default function RaleighPage() {
         }
       ]}
       localStats={[
-        { value: '2-3 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '800+', label: 'Triangle Homes Protected' },
         { value: '10+ Years', label: 'Serving Raleigh' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -84,7 +84,7 @@ export default function RaleighPage() {
         { name: 'Charlotte', distance: '165 miles', href: '/locations/charlotte-nc' },
         { name: 'Wilmington', distance: '130 miles', href: '/locations/wilmington' }
       ]}
-      emergencyResponse="2-3 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Michael T.',

@@ -1,0 +1,75 @@
+import { Metadata } from 'next'
+import LocationPageTemplate from '@/app/components/LocationPageTemplate'
+
+export const metadata: Metadata = {
+  title: 'Park West Mount Pleasant Roofing | Master-Planned Community | WeatherShield',
+  description: 'Park West Mount Pleasant roofing specialists. New home roofing, HOA-approved materials, storm damage repair. Licensed, insured, A+ rated. Call (843) 877-5539 for service.',
+  keywords: 'Park West roofing, Mount Pleasant roofing, HOA approved roofing, master planned community roofing, new home roofing SC',
+  openGraph: {
+    title: 'Park West Mount Pleasant Roofing Contractor | WeatherShield Roofing',
+    description: 'Expert roofing for Park West homes. HOA compliance, quality installations, storm protection.',
+    url: 'https://weathershieldroofers.com/locations/park-west',
+    type: 'website',
+  },
+}
+
+export default function ParkWestPage() {
+  return (
+    <LocationPageTemplate
+      city="Park West"
+      state="SC"
+      zipCodes={['29466']}
+      population="12,000+"
+      description="In Mount Pleasant\'s premier Park West master-planned community, where family-friendly neighborhoods, strict HOA standards, and modern architecture create a thriving residential environment, WeatherShield Roofing delivers quality installations that meet community guidelines. Our expertise with HOA requirements and new construction makes us Park West\'s trusted roofing contractor."
+
+      neighborhoods={[
+        'Dunes West',
+        'Park West',
+        'Greystone',
+        'Belle Hall',
+        'Seaside Farms',
+        'Tidal Walk',
+        'Longpoint',
+        'Rivertowne'
+      ]}
+
+      weatherChallenges={[
+        {
+          icon: null,
+          title: 'HOA Architectural Requirements',
+          description: 'Park West maintains active HOAs with specific roofing material and color requirements. We expertly navigate architectural review processes, ensuring your project uses approved shingles, proper installation methods, and meets all community standards while delivering superior quality.'
+        },
+        {
+          icon: null,
+          title: 'Hurricane & Coastal Storm Protection',
+          description: 'Park West\'s proximity to Charleston Harbor creates hurricane exposure. We install wind-rated roofing systems engineered for 120+ mph winds with advanced fastening, sealed construction, and impact-resistant materials that protect your family and investment.'
+        },
+        {
+          icon: null,
+          title: 'New Construction Standards',
+          description: 'Park West features modern homes with contemporary expectations for energy efficiency and durability. We install architectural shingles with advanced ventilation, reflective granules, and comprehensive warranties that meet new home buyer standards.'
+        },
+        {
+          icon: null,
+          title: 'Severe Weather Events',
+          description: 'Spring and summer bring intense thunderstorms with hail and wind damage. Our Class 4 impact-resistant shingles with enhanced wind ratings provide superior protection while often qualifying for homeowner insurance discounts.'
+        }
+      ]}
+
+      localStats={[
+        { value: '120+ MPH', label: 'Wind Rating' },
+        { value: 'HOA', label: 'Approval Experts' },
+        { value: 'Class 4', label: 'Impact Resistant' },
+        { value: '24/7', label: 'Storm Response' }
+      ]}
+
+      nearbyAreas={[
+        { name: 'Mount Pleasant', distance: '3 miles', href: '/locations/mount-pleasant' },
+        { name: 'Daniel Island', distance: '5 miles', href: '/locations/daniel-island' },
+        { name: 'Charleston (Downtown)', distance: '12 miles', href: '/locations/charleston-downtown' },
+        { name: 'Isle of Palms', distance: '8 miles', href: '/locations/isle-of-palms' },
+        { name: 'Sullivan\'s Island', distance: '10 miles', href: '/locations/sullivans-island' }
+      ]}
+    />
+  )
+}

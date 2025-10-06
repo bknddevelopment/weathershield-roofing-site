@@ -70,7 +70,7 @@ export default function AynorPage() {
         { name: 'Marion', distance: '20 miles', href: '/locations/marion' },
         { name: 'Mullins', distance: '25 miles', href: '/locations/mullins' }
       ]}
-      emergencyResponse="45-60 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Tom B.',

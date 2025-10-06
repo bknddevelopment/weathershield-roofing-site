@@ -79,7 +79,7 @@ export default function LittleRiverPage() {
         { name: 'Conway', distance: '18 miles', href: '/locations/conway' },
         { name: 'Socastee', distance: '20 miles', href: '/locations/socastee' }
       ]}
-      emergencyResponse="1 hour"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Captain Mike D.',

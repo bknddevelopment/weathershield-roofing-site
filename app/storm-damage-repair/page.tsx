@@ -92,7 +92,7 @@ const pageConfig = {
   faq: [
     {
       question: 'How quickly can you respond to storm damage in Myrtle Beach?',
-      answer: 'Our storm damage response teams are on standby during severe weather events. We typically arrive within 1-2 hours of your call, even during active storms. We monitor weather patterns to pre-position crews for fastest response.'
+      answer: 'Our storm damage response teams are on standby during severe weather events. We arrive rapidly after your call, even during active storms. We monitor weather patterns to pre-position crews for fastest response.'
     },
     {
       question: 'Do you work with insurance companies for storm damage claims?',

@@ -92,7 +92,7 @@ const pageConfig = {
   faq: [
     {
       question: 'How quickly can you install an emergency tarp in Myrtle Beach?',
-      answer: 'We typically arrive within 90 minutes for emergency tarp installation. Our crews carry professional-grade tarps and all necessary equipment, allowing us to protect your roof immediately upon arrival.'
+      answer: 'We arrive rapidly for emergency tarp installation. Our crews carry professional-grade tarps and all necessary equipment, allowing us to protect your roof immediately upon arrival.'
     },
     {
       question: 'How long will an emergency roof tarp last?',

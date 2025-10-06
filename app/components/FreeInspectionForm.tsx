@@ -369,7 +369,7 @@ export default function FreeInspectionForm() {
                     <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5" />
                     <div>
                       <h3 className="font-semibold text-green-900">Success!</h3>
-                      <p className="text-green-700">Your free inspection has been scheduled. We'll contact you within 1 hour to confirm.</p>
+                      <p className="text-green-700">Your free inspection has been scheduled. We'll contact you shortly to confirm.</p>
                     </div>
                   </div>
                 </div>

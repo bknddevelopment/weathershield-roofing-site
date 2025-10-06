@@ -80,7 +80,7 @@ export default function MyrtleBeachPage() {
         { name: 'Conway', distance: '15 miles', href: '/locations/conway' },
         { name: 'Georgetown', distance: '30 miles', href: '/locations/georgetown' }
       ]}
-      emergencyResponse="30 minutes or less"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'John D.',

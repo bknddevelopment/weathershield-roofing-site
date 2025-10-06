@@ -64,7 +64,7 @@ export default function ConwayPage() {
         }
       ]}
       localStats={[
-        { value: '1-2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '500+', label: 'Conway Homes Serviced' },
         { value: '15 Years', label: 'Serving Conway' },
         { value: '5.0 Stars', label: 'Average Rating' }
@@ -75,7 +75,7 @@ export default function ConwayPage() {
         { name: 'Loris', distance: '20 miles', href: '/locations/loris' },
         { name: 'Socastee', distance: '10 miles', href: '/locations/socastee' }
       ]}
-      emergencyResponse="1-2 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Sarah M. - Downtown Conway',

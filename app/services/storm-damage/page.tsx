@@ -4,14 +4,14 @@ import { CloudLightning, Shield, FileText, Clock, AlertTriangle, Home } from 'lu
 
 export const metadata: Metadata = {
   title: 'Storm Damage Repair Same Day | Emergency Roof Tarp Service NOW',
-  description: '🌪️ STORM DAMAGE? Get storm damage repair same day! Emergency roof tarp service available NOW. 24 hour roof repair near me with 2-hour response. Urgent roof repair Myrtle Beach - CALL TODAY!',
+  description: '🌪️ STORM DAMAGE? Get storm damage repair same day! Emergency roof tarp service available NOW. 24 hour roof repair near me with rapid response. Urgent roof repair Myrtle Beach - CALL TODAY!',
   keywords: 'storm damage repair same day, emergency roof tarp service, 24 hour roof repair near me, urgent roof repair myrtle beach, emergency roofer available now, roof leak repair today, hurricane damage repair, immediate storm response, same day tarp service, emergency roofing myrtle beach, weather damage repair',
   alternates: {
     canonical: 'https://weathershieldroofers.com/services/storm-damage',
   },
   openGraph: {
     title: 'Storm Damage Repair Same Day | Emergency Service Available NOW',
-    description: '🌪️ STORM HIT? Storm damage repair same day! Emergency roof tarp service with 2-hour response. 24 hour roof repair near me. Weather Shield Roofing - CALL NOW!',
+    description: '🌪️ STORM HIT? Storm damage repair same day! Emergency roof tarp service with rapid response. 24 hour roof repair near me. Weather Shield Roofing - CALL NOW!',
     url: 'https://weathershieldroofers.com/services/storm-damage',
     type: 'website',
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const stormDamageData = {
   title: 'Storm Damage Repair Same Day - Emergency Roof Tarp Service',
-  description: 'Storm damage repair same day! Emergency roof tarp service available NOW. 24 hour roof repair near me with 2-hour response. Emergency roofer available now for urgent roof repair Myrtle Beach.',
+  description: 'Storm damage repair same day! Emergency roof tarp service available NOW. 24 hour roof repair near me with rapid response. Emergency roofer available now for urgent roof repair Myrtle Beach.',
   longDescription: [
     'When severe weather strikes Myrtle Beach, your roof is your first line of defense. Weather Shield Roofing provides immediate emergency response for storm-damaged roofs, offering temporary protection to prevent further damage and complete restoration services to get your home back to normal.',
     'Our storm damage specialists are available 24/7 to respond to emergencies. We understand the stress and urgency of storm damage, which is why we act fast to secure your property and begin the restoration process. Our team is experienced in handling all types of storm damage, from hurricane winds to hail impacts.',
@@ -105,7 +105,7 @@ const stormDamageData = {
     },
     {
       question: 'How quickly can you respond to storm damage?',
-      answer: 'We maintain a 24/7 emergency response team and typically arrive within 2 hours of your call. Our first priority is securing your property to prevent further damage, then we begin the assessment and restoration process.'
+      answer: 'We maintain a 24/7 emergency response team and arrive rapidly after your call. Our first priority is securing your property to prevent further damage, then we begin the assessment and restoration process.'
     },
     {
       question: 'What types of storm damage do you repair?',
@@ -125,7 +125,7 @@ const stormDamageData = {
     { name: 'Roof Replacement', href: '/services/residential-roofing' }
   ],
   emergencyService: true,
-  responseTime: 'within 2 hours'
+  responseTime: 'rapid'
 }
 
 export default function StormDamagePage() {

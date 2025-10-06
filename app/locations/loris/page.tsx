@@ -70,7 +70,7 @@ export default function LorisPage() {
         { name: 'Aynor', distance: '15 miles', href: '/locations/aynor' },
         { name: 'Tabor City, NC', distance: '10 miles', href: '/locations/tabor-city' }
       ]}
-      emergencyResponse="45-75 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Randy S.',

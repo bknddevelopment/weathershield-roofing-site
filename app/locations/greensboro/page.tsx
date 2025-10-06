@@ -74,7 +74,7 @@ export default function GreensboroPage() {
         }
       ]}
       localStats={[
-        { value: '2-3 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '600+', label: 'Triad Homes Protected' },
         { value: '10+ Years', label: 'Serving Greensboro' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -84,7 +84,7 @@ export default function GreensboroPage() {
         { name: 'Charlotte', distance: '90 miles', href: '/locations/charlotte-nc' },
         { name: 'Asheville', distance: '180 miles', href: '/locations/asheville' }
       ]}
-      emergencyResponse="2-3 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Patricia S.',

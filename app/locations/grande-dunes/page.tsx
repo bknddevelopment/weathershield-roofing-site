@@ -79,7 +79,7 @@ export default function GrandeDunesPage() {
         { name: 'Market Common', distance: '5 miles', href: '/locations/market-common' },
         { name: 'Carolina Forest', distance: '10 miles', href: '/locations/carolina-forest' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Richard H.',

@@ -104,13 +104,13 @@ const faqs: FAQ[] = [
   {
     id: '9',
     question: 'Do you offer emergency services?',
-    answer: 'Yes, we provide 24/7 emergency roofing services throughout the Grand Strand area. Our emergency response team is always ready to handle storm damage, severe leaks, fallen trees, and other urgent roofing issues. We understand that roofing emergencies can\'t wait, especially during hurricane season. Our rapid response typically arrives within 2-4 hours to provide temporary protection and prevent further damage to your property. We carry tarps, emergency patches, and all necessary equipment to secure your home or business immediately.',
+    answer: 'Yes, we provide 24/7 emergency roofing services throughout the Grand Strand area. Our emergency response team is always ready to handle storm damage, severe leaks, fallen trees, and other urgent roofing issues. We understand that roofing emergencies can\'t wait, especially during hurricane season. Our rapid response team arrives quickly to provide temporary protection and prevent further damage to your property. We carry tarps, emergency patches, and all necessary equipment to secure your home or business immediately.',
     category: 'emergency'
   },
   {
     id: '10',
     question: 'How quickly can you respond to storm damage?',
-    answer: 'During normal conditions, we respond to emergency calls within 2-4 hours. After major storms, we prioritize responses based on severity, typically addressing active leaks and structural damage first. We maintain a large crew and emergency supply inventory to handle increased demand after hurricanes or severe weather. Even during peak times, we strive to provide temporary protection within 24 hours and schedule permanent repairs as quickly as possible. Our 24/7 hotline ensures you always reach a real person who can dispatch help immediately.',
+    answer: 'We respond to emergency calls rapidly, dispatching our team as quickly as possible. After major storms, we prioritize responses based on severity, typically addressing active leaks and structural damage first. We maintain a large crew and emergency supply inventory to handle increased demand after hurricanes or severe weather. Our dedicated emergency team works around the clock to provide temporary protection and schedule permanent repairs as quickly as possible. Our 24/7 hotline ensures you always reach a real person who can dispatch help immediately.',
     category: 'emergency'
   },
   {

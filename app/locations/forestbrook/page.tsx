@@ -79,7 +79,7 @@ export default function ForestbrookPage() {
         { name: 'Socastee', distance: '6 miles', href: '/locations/socastee' },
         { name: 'Conway', distance: '8 miles', href: '/locations/conway' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Homeowner Jennifer M.',
@@ -93,7 +93,7 @@ export default function ForestbrookPage() {
         },
         {
           name: 'Tree Damage Victim Carol B.',
-          review: 'Storm tree fell on our roof and Weather Shield responded in 30 minutes. Emergency protection saved our home and repairs were completed beautifully. Cannot thank them enough!',
+          review: 'Storm tree fell on our roof and Weather Shield responded rapidly. Emergency protection saved our home and repairs were completed beautifully. Cannot thank them enough!',
           rating: 5
         }
       ]}

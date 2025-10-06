@@ -79,7 +79,7 @@ export default function WindyHillPage() {
         { name: 'Barefoot Resort', distance: '3 miles', href: '/locations/barefoot-resort' },
         { name: 'Briarcliffe Acres', distance: '6 miles', href: '/locations/briarcliffe-acres' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Condo Association President Maria G.',
@@ -88,7 +88,7 @@ export default function WindyHillPage() {
         },
         {
           name: 'Beach House Owner Tom K.',
-          review: 'Storm damage during peak season was handled expertly. Emergency response within 30 minutes and permanent repairs completed quickly. They truly understand beach area emergencies!',
+          review: 'Storm damage during peak season was handled expertly. Emergency response rapidly and permanent repairs completed quickly. They truly understand beach area emergencies!',
           rating: 5
         },
         {

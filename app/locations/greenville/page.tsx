@@ -74,7 +74,7 @@ export default function GreenvillePage() {
         }
       ]}
       localStats={[
-        { value: '1-2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '700+', label: 'Upstate Homes Protected' },
         { value: '10+ Years', label: 'Serving Greenville' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -84,7 +84,7 @@ export default function GreenvillePage() {
         { name: 'Charleston', distance: '210 miles', href: '/locations/charleston-sc' },
         { name: 'Charlotte', distance: '100 miles', href: '/locations/charlotte-nc' }
       ]}
-      emergencyResponse="1-2 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Karen S.',

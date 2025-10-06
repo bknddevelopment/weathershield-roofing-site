@@ -81,7 +81,7 @@ export default function CarolinaForestPage() {
         { name: 'Conway', distance: '8 miles', href: '/locations/conway' },
         { name: 'The Market Common', distance: '12 miles', href: '/locations/market-common' }
       ]}
-      emergencyResponse="45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Michael B.',

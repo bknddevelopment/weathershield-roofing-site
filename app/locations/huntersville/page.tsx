@@ -71,7 +71,7 @@ export default function HuntersvillePage() {
         }
       ]}
       localStats={[
-        { value: '1-2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '400+', label: 'Huntersville Homes Protected' },
         { value: '10+ Years', label: 'Serving Huntersville' },
         { value: '4.9 Stars', label: 'Customer Rating' }
@@ -81,7 +81,7 @@ export default function HuntersvillePage() {
         { name: 'Concord', distance: '12 miles', href: '/locations/concord' },
         { name: 'Gastonia', distance: '30 miles', href: '/locations/gastonia' }
       ]}
-      emergencyResponse="1-2 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'Andrew W.',

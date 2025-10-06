@@ -79,7 +79,7 @@ export default function PawleysIslandPage() {
         { name: 'Surfside Beach', distance: '12 miles', href: '/locations/surfside-beach' },
         { name: 'Myrtle Beach', distance: '18 miles', href: '/locations/myrtle-beach' }
       ]}
-      emergencyResponse="45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Margaret S.',

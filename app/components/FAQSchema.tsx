@@ -40,7 +40,7 @@ export default function FAQSchema() {
         "name": "How quickly can roofers in Myrtle Beach respond to storm damage?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Weather Shield Roofing offers the fastest emergency response among roofers in Myrtle Beach - typically within 1 hour. As leading roofing contractors Myrtle Beach, we provide 24/7 storm shield roofing services with immediate temporary protection and permanent repairs."
+          "text": "Weather Shield Roofing offers the fastest emergency response among roofers in Myrtle Beach - rapidly. As leading roofing contractors Myrtle Beach, we provide 24/7 storm shield roofing services with immediate temporary protection and permanent repairs."
         }
       },
       {

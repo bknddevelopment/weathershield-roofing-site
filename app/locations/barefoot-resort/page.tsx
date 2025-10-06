@@ -80,7 +80,7 @@ export default function BarefootResortPage() {
         { name: 'Myrtle Beach', distance: '15 miles', href: '/locations/myrtle-beach' },
         { name: 'Briarcliffe Acres', distance: '8 miles', href: '/locations/briarcliffe-acres' }
       ]}
-      emergencyResponse="45 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Property Manager Lisa D.',

@@ -75,7 +75,7 @@ export default function NorthMyrtleBeachPage() {
         { name: 'Loris', distance: '15 miles', href: '/locations/loris' },
         { name: 'Conway', distance: '20 miles', href: '/locations/conway' }
       ]}
-      emergencyResponse="30-60 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'David R. - Cherry Grove Beach',
@@ -84,7 +84,7 @@ export default function NorthMyrtleBeachPage() {
         },
         {
           name: 'Linda S. - Ocean Drive',
-          review: 'After Hurricane Ian damaged our roof, Weather Shield responded within 30 minutes! Their weathershield roofing system with enhanced salt protection is perfect for beachfront properties. Exceptional North Myrtle Beach roofing expertise.',
+          review: 'After Hurricane Ian damaged our roof, Weather Shield responded rapidly! Their weathershield roofing system with enhanced salt protection is perfect for beachfront properties. Exceptional North Myrtle Beach roofing expertise.',
           rating: 5
         },
         {

@@ -67,7 +67,7 @@ export default function ContactInfo() {
               roofing@weathershieldroofers.com
             </a>
             <p className="text-sm text-gray-600 mt-2">
-              We typically respond within 2 hours
+              We respond rapidly
             </p>
           </div>
         </div>

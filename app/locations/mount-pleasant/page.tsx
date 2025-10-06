@@ -81,7 +81,7 @@ export default function MountPleasantPage() {
         { name: 'Goose Creek', distance: '18 miles', href: '/locations/goose-creek' },
         { name: 'Moncks Corner', distance: '25 miles', href: '/locations/moncks-corner' }
       ]}
-      emergencyResponse="1 hour"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Michelle R.',

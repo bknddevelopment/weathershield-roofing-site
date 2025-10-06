@@ -4,14 +4,14 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Emergency Roof Repair Myrtle Beach | 24/7 Service | WeatherShield',
-  description: 'Emergency roof repair Myrtle Beach - Available NOW! 2-hour response time guaranteed. Licensed & insured emergency roofers. Call (843) 293-8150 for immediate help!',
+  description: 'Emergency roof repair Myrtle Beach - Available NOW! Rapid response guaranteed. Licensed & insured emergency roofers. Call (843) 293-8150 for immediate help!',
   keywords: 'emergency roof repair myrtle beach, emergency roofer myrtle beach, 24 hour roof repair myrtle beach, urgent roof repair myrtle beach, emergency roofing contractor myrtle beach',
   alternates: {
     canonical: 'https://weathershieldroofers.com/emergency-roof-repair',
   },
   openGraph: {
     title: 'Emergency Roof Repair Myrtle Beach - 24/7 Response Available NOW',
-    description: 'Emergency roof leak? Storm damage? We respond in 2 hours or less. Professional emergency roof repair in Myrtle Beach. Call NOW: (843) 293-8150',
+    description: 'Emergency roof leak? Storm damage? We respond quickly. Professional emergency roof repair in Myrtle Beach. Call NOW: (843) 293-8150',
     url: 'https://weathershieldroofers.com/emergency-roof-repair',
     type: 'website',
     images: [
@@ -92,7 +92,7 @@ const pageConfig = {
   faq: [
     {
       question: 'How fast can you respond to an emergency roof repair in Myrtle Beach?',
-      answer: 'We guarantee response within 2 hours of your call in the Myrtle Beach area. Our emergency crews are strategically positioned throughout Horry County to ensure rapid response. Most customers see us on-site within 60-90 minutes.'
+      answer: 'We provide rapid emergency response to your call in the Myrtle Beach area. Our emergency crews are strategically positioned throughout Horry County to ensure the fastest possible response. We dispatch immediately upon receiving your call.'
     },
     {
       question: 'What types of emergency roof repairs do you handle?',

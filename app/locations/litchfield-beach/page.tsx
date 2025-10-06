@@ -79,7 +79,7 @@ export default function LitchfieldBeachPage() {
         { name: 'Georgetown', distance: '12 miles', href: '/locations/georgetown' },
         { name: 'Garden City', distance: '15 miles', href: '/locations/garden-city' }
       ]}
-      emergencyResponse="1 hour"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Beach Owner Susan M.',

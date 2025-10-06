@@ -69,7 +69,7 @@ export default function MoncksCornerPage() {
         }
       ]}
       localStats={[
-        { value: '1-2 Hours', label: 'Response Time' },
+        { value: '24/7', label: 'Response Time' },
         { value: '250+', label: 'Moncks Corner Homes Protected' },
         { value: '10+ Years', label: 'Serving Moncks Corner' },
         { value: '5.0 Stars', label: 'Customer Rating' }
@@ -81,7 +81,7 @@ export default function MoncksCornerPage() {
         { name: 'Hanahan', distance: '18 miles', href: '/locations/hanahan' },
         { name: 'Mount Pleasant', distance: '25 miles', href: '/locations/mount-pleasant' }
       ]}
-      emergencyResponse="1-2 hours"
+      emergencyResponse="24/7"
       localTestimonials={[
         {
           name: 'William T.',

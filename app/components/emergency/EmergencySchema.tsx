@@ -23,7 +23,7 @@ export default function EmergencySchema({
   localAreas,
   schemaType,
   faq = [],
-  responseTime = '2 hours',
+  responseTime = 'rapid',
   availability = '24/7',
   rating = { value: '5.0', count: '127' }
 }: EmergencySchemaProps) {
@@ -90,14 +90,14 @@ export default function EmergencySchema({
           availableLanguage: ['en', 'es'],
           processingTime: {
             '@type': 'Duration',
-            value: `PT${responseTime.replace(/\D/g, '')}H`
+            value: 'PT1H'
           }
         },
         serviceType: keywords,
         offers: {
           '@type': 'Offer',
           name: serviceName,
-          description: `${availability} ${serviceName} with ${responseTime} response time`,
+          description: `${availability} ${serviceName} with rapid response`,
           price: '0',
           priceCurrency: 'USD',
           availability: 'https://schema.org/InStock',
@@ -202,7 +202,7 @@ export default function EmergencySchema({
         },
         knowsAbout: keywords,
         actionableFeedbackPolicy: 'https://weathershieldroofers.com/reviews',
-        slogan: `${responseTime} Response Time • ${availability} Emergency Service`,
+        slogan: `Rapid Response • ${availability} Emergency Service`,
         paymentAccepted: ['Cash', 'Check', 'Credit Card', 'Insurance'],
         currenciesAccepted: 'USD'
       },

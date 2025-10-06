@@ -79,7 +79,7 @@ export default function BriarcliffeAcresPage() {
         { name: 'Grande Dunes', distance: '2 miles', href: '/locations/grande-dunes' },
         { name: 'Barefoot Resort', distance: '8 miles', href: '/locations/barefoot-resort' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Oceanfront Owner Charles R.',
@@ -88,7 +88,7 @@ export default function BriarcliffeAcresPage() {
         },
         {
           name: 'Linda P.',
-          review: 'Emergency storm damage was handled with incredible speed. Tarps within 30 minutes, full assessment the next day, and complete repair within a week. Outstanding emergency service!',
+          review: 'Emergency storm damage was handled with incredible speed. Tarps rapidly, full assessment the next day, and complete repair within a week. Outstanding emergency service!',
           rating: 5
         },
         {

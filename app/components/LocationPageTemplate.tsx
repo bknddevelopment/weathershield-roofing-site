@@ -127,7 +127,7 @@ export default function LocationPageTemplate({
     { value: '5 Stars', label: 'Local Rating' }
   ],
   nearbyAreas = [],
-  emergencyResponse = '2 hours',
+  emergencyResponse = 'rapid',
   localTestimonials = []
 }: LocationPageProps) {
   return (

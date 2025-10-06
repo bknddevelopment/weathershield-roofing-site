@@ -3,6 +3,7 @@ import { Inter, Montserrat, Source_Sans_3, Bebas_Neue } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import PromotionBanner from './components/PromotionBanner'
 
 // Primary font for body text - clean readability
 const inter = Inter({
@@ -50,7 +51,7 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   title: 'Emergency Roofer Available NOW | WeatherShield Roofing Myrtle Beach 24/7',
-  description: '🚨 ROOF LEAK? Call Now! Weather Shield Roofing - 24 hour roof repair near me. Emergency roofer available now for storm damage repair same day. Urgent roof repair Myrtle Beach with 2-hour response. Emergency roof tarp service today!',
+  description: '🚨 ROOF LEAK? Call Now! Weather Shield Roofing - 24 hour roof repair near me. Emergency roofer available now for storm damage repair same day. Urgent roof repair Myrtle Beach available 24/7. Emergency roof tarp service today!',
   keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, weathershield roofing, weather shield roofing, emergency roofing myrtle beach, 24/7 roof repair, immediate roof repair, emergency leak repair, same day roofing service, roofing contractors myrtle beach, emergency roofing service',
   authors: [{ name: 'Weather Shield Roofing' }],
   creator: 'Weather Shield Roofing',
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Emergency Roofer Available NOW | 24/7 Roof Leak Repair Today',
-    description: '🚨 ROOF EMERGENCY? Call Weather Shield Roofing NOW! 24 hour roof repair near me with 2-hour response. Storm damage repair same day. Emergency roof tarp service. Urgent roof repair Myrtle Beach available 24/7/365.',
+    description: '🚨 ROOF EMERGENCY? Call Weather Shield Roofing NOW! 24 hour roof repair near me available immediately. Storm damage repair same day. Emergency roof tarp service. Urgent roof repair Myrtle Beach available 24/7/365.',
     url: 'https://weathershieldroofers.com',
     siteName: 'Weather Shield Roofing',
     images: [
@@ -97,7 +98,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Emergency Roofer Available NOW | 24 Hour Roof Repair Near Me',
-    description: '🚨 ROOF LEAK EMERGENCY? Weather Shield Roofing responds in 2 hours! 24/7 emergency roof repair, storm damage repair same day. Call NOW for urgent roof repair Myrtle Beach.',
+    description: '🚨 ROOF LEAK EMERGENCY? Weather Shield Roofing responds quickly! 24/7 emergency roof repair, storm damage repair same day. Call NOW for urgent roof repair Myrtle Beach.',
     images: [
       {
         url: '/images/logo/weather_shield_roofing_transparent.png',
@@ -158,6 +159,19 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable} ${sourceSans.variable} ${bebasNeue.variable}`}>
       <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XXWKT1X8X"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-8XXWKT1X8X');
+            `,
+          }}
+        />
+
         {/* Critical Resource Hints */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -238,7 +252,7 @@ export default function RootLayout({
                 "@id": "https://weathershieldroofers.com/#organization",
                 "name": "Weather Shield Roofing",
                 "alternateName": "WeatherShield Roofing",
-                "description": "Emergency roofer available now! Weather Shield Roofing provides 24 hour roof repair near me in Myrtle Beach SC. Roof leak repair today, storm damage repair same day, emergency roof tarp service. Urgent roof repair with 2-hour response guaranteed.",
+                "description": "Emergency roofer available now! Weather Shield Roofing provides 24 hour roof repair near me in Myrtle Beach SC. Roof leak repair today, storm damage repair same day, emergency roof tarp service. Urgent roof repair available 24/7.",
                 "image": "https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png",
                 "logo": {
                   "@type": "ImageObject",
@@ -336,7 +350,7 @@ export default function RootLayout({
                       "itemOffered": {
                         "@type": "Service",
                         "name": "Emergency Roof Leak Repair Today",
-                        "description": "24 hour roof repair near me - Emergency roofer available now with 2-hour response",
+                        "description": "24 hour roof repair near me - Emergency roofer available now 24/7",
                         "availableChannel": {
                           "@type": "ServiceChannel",
                           "serviceUrl": "https://weathershieldroofers.com/services/emergency-roofing",
@@ -430,6 +444,7 @@ export default function RootLayout({
           }}
         />
         <Header />
+        <PromotionBanner />
         <main id="main-content" role="main" aria-label="Main content">
           {children}
         </main>

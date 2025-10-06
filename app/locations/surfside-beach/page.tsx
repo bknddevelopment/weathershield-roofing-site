@@ -79,7 +79,7 @@ export default function SurfsideBeachPage() {
         { name: 'Pawleys Island', distance: '15 miles', href: '/locations/pawleys-island' },
         { name: 'Murrells Inlet', distance: '10 miles', href: '/locations/murrells-inlet' }
       ]}
-      emergencyResponse="1 hour"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Robert M.',

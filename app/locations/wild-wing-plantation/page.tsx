@@ -79,7 +79,7 @@ export default function WildWingPlantationPage() {
         { name: 'Socastee', distance: '10 miles', href: '/locations/socastee' },
         { name: 'Myrtle Beach', distance: '15 miles', href: '/locations/myrtle-beach' }
       ]}
-      emergencyResponse="30 minutes"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'HOA Board Member Patricia R.',

@@ -81,7 +81,7 @@ export default function HanahanPage() {
         { name: 'Mount Pleasant', distance: '12 miles', href: '/locations/mount-pleasant' },
         { name: 'Moncks Corner', distance: '18 miles', href: '/locations/moncks-corner' }
       ]}
-      emergencyResponse="1 hour"
+      emergencyResponse="rapid"
       localTestimonials={[
         {
           name: 'Carol B.',

@@ -77,7 +77,7 @@ export default function EmergencyHero() {
             </p>
             <p className="text-lg text-white/90">
               Current Time: <span className="font-bold text-yellow-300">{timeString}</span> •
-              Response Time: <span className="font-bold text-yellow-300">2 Hours or Less</span>
+              Emergency Service: <span className="font-bold text-yellow-300">Available 24/7</span>
             </p>
           </div>
 

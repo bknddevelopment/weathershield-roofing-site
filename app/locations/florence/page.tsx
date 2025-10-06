@@ -70,7 +70,7 @@ export default function FlorencePage() {
         { name: 'Marion', distance: '30 miles', href: '/locations/marion' },
         { name: 'Dillon', distance: '35 miles', href: '/locations/dillon' }
       ]}
-      emergencyResponse="3-4 hours"
+      emergencyResponse="same day"
       localTestimonials={[
         {
           name: 'Michael D.',

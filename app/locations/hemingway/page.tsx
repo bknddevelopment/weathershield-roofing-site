@@ -70,7 +70,7 @@ export default function HemingwayPage() {
         { name: 'Johnsonville', distance: '12 miles', href: '/locations/johnsonville' },
         { name: 'Kingstree', distance: '20 miles', href: '/locations/kingstree' }
       ]}
-      emergencyResponse="60-90 minutes"
+      emergencyResponse="quickly"
       localTestimonials={[
         {
           name: 'Earl W.',

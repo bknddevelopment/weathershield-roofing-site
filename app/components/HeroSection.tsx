@@ -10,7 +10,7 @@ const heroSlides = [
   {
     title: "Emergency Roofer Available NOW in Myrtle Beach",
     subtitle: "24 Hour Roof Repair Near Me - Call Today!",
-    description: "Roof leak repair today? Weather Shield Roofing responds in 2 hours! Emergency roof tarp service, storm damage repair same day. Urgent roof repair Myrtle Beach available 24/7.",
+    description: "Roof leak repair today? Weather Shield Roofing responds rapidly! Emergency roof tarp service, storm damage repair same day. Urgent roof repair Myrtle Beach available 24/7.",
     image: "/images/background/roof-replacement-services.jpg",
     stats: ["2-Hour Emergency Response", "24/7 Available NOW", "Same Day Repairs"]
   },
@@ -24,7 +24,7 @@ const heroSlides = [
   {
     title: "Roof Leak Repair Today - Don't Wait!",
     subtitle: "Urgent Roof Repair Myrtle Beach 24/7",
-    description: "Emergency roofer available now! Weather Shield Roofing: your 24 hour roof repair near me solution. Storm damage repair same day, emergency roof tarp service with 2-hour response.",
+    description: "Emergency roofer available now! Weather Shield Roofing: your 24 hour roof repair near me solution. Storm damage repair same day, emergency roof tarp service with rapid response.",
     image: "/images/background/home-exterior-improvement-services.jpg",
     stats: ["24/7 Emergency Hotline", "2-Hour Guaranteed Response", "No Emergency Fees"]
   }

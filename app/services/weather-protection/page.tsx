@@ -150,7 +150,7 @@ const weatherProtectionData = {
     { name: 'Complete Roof Replacement', href: '/services/residential-roofing' }
   ],
   emergencyService: true,
-  responseTime: 'within 1-2 hours for weather emergencies'
+  responseTime: 'quickly for weather emergencies'
 }
 
 // Custom Weather Section Component

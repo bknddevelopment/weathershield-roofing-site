@@ -132,7 +132,7 @@ const commercialRoofingData = {
     { name: 'Storm Damage', href: '/services/storm-damage' }
   ],
   emergencyService: true,
-  responseTime: 'within 4 hours'
+  responseTime: 'same day'
 }
 
 export default function CommercialRoofingPage() {

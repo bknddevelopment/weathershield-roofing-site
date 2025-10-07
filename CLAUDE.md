@@ -41,6 +41,24 @@ git push origin main # Auto-deploys via GitHub Actions
 - **Trust Indicators**: Reusable `TrustIndicators` component with emergency variant support
 - **Emergency Components**: Specialized components in `/app/components/emergency/` and `/app/emergency/`
 
+### Blog System Architecture
+- **Dynamic Routes**: Uses Next.js `[slug]` pattern for blog posts (`/app/blog/[slug]/page.tsx`)
+- **Data Structure**: Blog post data stored in-file in `blogPostsData` object (not database)
+- **Content Storage**: Full HTML content with sections stored in TypeScript
+- **Listing Page**: Client-side filtering and pagination (`/app/blog/page.tsx`)
+- **Post Rendering**: `BlogPostClient.tsx` handles rich content rendering with:
+  - Table of contents generation
+  - FAQ accordion sections
+  - Author bio cards
+  - Social sharing buttons
+  - Related posts
+- **SEO**: Auto-generated metadata, schema markup (Article, HowTo, FAQ, Breadcrumb)
+- **Adding Posts**:
+  1. Add entry to `blogPosts` array in `/app/blog/page.tsx`
+  2. Add full content to `blogPostsData` in `/app/blog/[slug]/page.tsx`
+  3. Update sitemap in `/public/sitemap.xml`
+  4. Rebuild with `npm run build`
+
 ### Styling System
 - **Tailwind CSS** with custom weather-shield color palette (see `tailwind.config.ts`)
 - **WCAG AA Compliant Colors**: All colors meet 4.5:1 contrast ratio
@@ -114,6 +132,11 @@ git push origin main # Auto-deploys via GitHub Actions
 - **app/emergency/EmergencyCTA.tsx**: Call-to-action sections
 - **app/components/emergency/**: Shared emergency components (LiveAvailability, EmergencyContactBar, EmergencySchema)
 
+### Blog System
+- **app/blog/page.tsx**: Blog listing with client-side filtering/search (contains `blogPosts` array)
+- **app/blog/[slug]/page.tsx**: Blog post data and metadata generation (contains `blogPostsData` object)
+- **app/blog/[slug]/BlogPostClient.tsx**: Client component for rendering post content with interactivity
+
 ### Service Workers
 - **public/sw.js**: Basic service worker for offline capability
 - **public/sw-optimized.js**: Enhanced service worker with intelligent caching
@@ -166,6 +189,19 @@ git push origin main # Auto-deploys via GitHub Actions
 2. Replace with phone CTA to (843) 877-5539
 3. Or redirect to `/quote` page (real n8n form)
 4. Remove unused form component and imports
+
+### Adding a New Blog Post
+1. **Update listing** (`/app/blog/page.tsx`):
+   - Add new entry to `blogPosts` array with: id, title, excerpt, author, date, readTime, category, image, slug, featured (optional)
+   - Update category count in `categories` array if new category
+2. **Add full content** (`/app/blog/[slug]/page.tsx`):
+   - Add entry to `blogPostsData` object using slug as key
+   - Include: metaDescription, authorBio, authorRole, tags, content sections, FAQs
+   - Content sections support full HTML with Tailwind classes
+3. **Update sitemap** (`/public/sitemap.xml`):
+   - Add new `<url>` entry with loc, lastmod, changefreq, priority, image metadata
+4. **Test build**: `npm run build` to verify static generation
+5. **Preview**: Check both listing page and individual post page
 
 ## Known Non-Critical Warnings
 

@@ -39,6 +39,407 @@ const blogPostsData: Record<string, {
     }>;
   };
 }> = {
+  'hurricane-helene-anniversary-charleston-roof-preparation': {
+    id: 7,
+    title: 'Hurricane Helene Anniversary: Is Your Charleston Roof Ready for the 2025 Storm Season?',
+    metaDescription: 'One year after Hurricane Helene, learn how to protect your Charleston roof from future storms. Expert tips on tree damage prevention, emergency preparations, and insurance claims. Free inspection available.',
+    author: 'David Karimi',
+    authorBio: 'David Karimi is Weather Shield Roofing\'s Lead Roofing Specialist with over 15 years of experience in the Charleston and Lowcountry area. As a GAF-certified professional and certified storm damage expert, David has helped hundreds of families recover from hurricane damage and prepare their homes for future storm seasons.',
+    authorRole: 'Lead Roofing Specialist',
+    date: 'October 6, 2025',
+    readTime: '10 min',
+    category: 'Storm Preparation',
+    image: '/images/background/residential-roofing-gutter-siding-services.jpg',
+    tags: ['Hurricane Helene', 'Storm Preparation', 'Charleston Roofing', 'Hurricane Season', 'Tree Damage', 'Emergency Repairs', 'Insurance Claims', 'Storm Damage Prevention'],
+    featured: true,
+    content: {
+      intro: `<strong>September 27, 2024</strong> – A date that Charleston homeowners will never forget. Hurricane Helene tore through South Carolina, leaving <strong>49 lives lost</strong> and over <strong>$370 million in damage</strong>. One year later, blue tarps still dot the Lowcountry skyline, and the 2025 Atlantic hurricane season is far from over. <strong>Is your roof ready?</strong>`,
+      sections: [
+        {
+          id: 'helene-impact',
+          title: 'The Hurricane Helene Wake-Up Call: What Charleston Learned',
+          content: `
+            <p class="text-lg mb-6">When Helene made landfall, it wasn't classified as the "big one" meteorologists feared. Yet it devastated our community in ways no one predicted. Here's what made Helene so destructive to Charleston roofs:</p>
+
+            <div class="bg-weather-danger/10 border-l-4 border-weather-danger p-6 rounded-lg mb-8">
+              <h4 class="font-bold text-weather-dark mb-4 text-xl">Helene's Destructive Trinity</h4>
+              <div class="space-y-4">
+                <div>
+                  <p class="font-semibold text-weather-dark mb-2">1. Saturated Soil + High Winds = Falling Trees</p>
+                  <p class="text-gray-800">Days of rain before Helene arrived saturated the ground. When 60+ mph winds hit, massive oaks and pines toppled like dominoes – directly onto roofs. <strong>Tree damage accounted for 73% of all roof claims</strong> in the Charleston area.</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-weather-dark mb-2">2. Prolonged Wind Exposure</p>
+                  <p class="text-gray-800">Unlike typical hurricanes that pass quickly, Helene's slow movement meant <strong>12+ hours of sustained winds</strong>. Shingles that might have survived a 3-hour storm failed after half a day of battering.</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-weather-dark mb-2">3. The "Two Weeks Under Tarps" Crisis</p>
+                  <p class="text-gray-800">With 1 million+ South Carolinians without power and roofing contractors overwhelmed, many families waited <strong>2-3 weeks for emergency tarping</strong>. Secondary water damage turned minor roof issues into full replacements.</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-lg mb-6">The Martinez family in Mount Pleasant learned this the hard way. A 60-year-old oak fell on their home during Helene, punching through their 8-year-old roof. Because they had documented pre-storm roof inspections, their insurance claim was approved within 72 hours. Their neighbors without documentation? Still fighting their claims one year later.</p>
+          `
+        },
+        {
+          id: 'one-year-later',
+          title: 'One Year Later: The Tarps Are Still Up',
+          content: `
+            <p class="text-lg mb-6">Drive through any Charleston neighborhood today, and you'll see them – bright blue tarps covering damaged roofs. According to FEMA, <strong>over 15,000 South Carolina homes</strong> are still using temporary tarp repairs from Helene damage.</p>
+
+            <div class="grid md:grid-cols-2 gap-6 my-8">
+              <div class="bg-weather-warning/10 p-6 rounded-lg border border-weather-warning">
+                <h4 class="font-bold text-weather-dark mb-4">Why Tarps Fail Long-Term</h4>
+                <ul class="space-y-3 text-gray-800">
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-danger mt-1">✗</span>
+                    <span><strong>UV Degradation:</strong> Charleston's intense sun breaks down tarp materials in 3-6 months</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-danger mt-1">✗</span>
+                    <span><strong>Wind Uplift:</strong> Our coastal winds work tarps loose, creating new leaks</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-danger mt-1">✗</span>
+                    <span><strong>Hidden Damage:</strong> Tarps hide progressive structural damage underneath</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-danger mt-1">✗</span>
+                    <span><strong>Insurance Issues:</strong> Extended tarp use can complicate future claims</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="bg-weather-success/10 p-6 rounded-lg border border-weather-success">
+                <h4 class="font-bold text-weather-dark mb-4">The Permanent Solution</h4>
+                <ul class="space-y-3 text-gray-800">
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-success mt-1">✓</span>
+                    <span><strong>Impact-Resistant Shingles:</strong> Class 4 rated for future hail/wind</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-success mt-1">✓</span>
+                    <span><strong>Reinforced Deck:</strong> Structural upgrades resist tree impacts</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-success mt-1">✓</span>
+                    <span><strong>Advanced Underlayment:</strong> Secondary water barrier protection</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-weather-success mt-1">✓</span>
+                    <span><strong>Warranty Protection:</strong> 25-50 year manufacturer coverage</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-weather-teal/10 border-l-4 border-weather-teal p-6 rounded-lg my-8">
+              <p class="text-weather-dark mb-4"><strong>📞 Still Under a Tarp? We Can Help.</strong></p>
+              <p class="text-gray-800 mb-4">Whether you're dealing with insurance delays, contractor issues, or just overwhelmed by the process, Weather Shield Roofing specializes in Helene recovery projects. We handle everything from insurance documentation to final installation.</p>
+              <p class="text-gray-800"><strong>Emergency hotline:</strong> <a href="tel:8438775539" class="text-weather-teal font-bold underline hover:text-weather-teal-dark">(843) 877-5539</a> – Available 24/7</p>
+            </div>
+          `
+        },
+        {
+          id: 'preparation-checklist',
+          title: '2025 Storm Season Preparation: Your 30-Day Checklist',
+          content: `
+            <p class="text-lg mb-6">We're in the peak of the 2025 Atlantic hurricane season (which runs through November 30). Here's your action plan to protect your Charleston roof before the next storm:</p>
+
+            <div class="space-y-6 my-8">
+              <div class="bg-white border-2 border-weather-teal rounded-lg p-6">
+                <div class="flex items-start gap-4">
+                  <div class="bg-weather-teal text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-lg">1</div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold text-weather-dark mb-3">Schedule Your Free Storm Preparation Inspection (Week 1)</h4>
+                    <p class="text-gray-700 mb-3">Our certified inspectors perform a comprehensive 47-point assessment including:</p>
+                    <ul class="space-y-2 text-gray-700 ml-4">
+                      <li>• <strong>Tree Risk Analysis:</strong> Identify dangerous overhangs within falling distance</li>
+                      <li>• <strong>Shingle Integrity Test:</strong> Check for wind uplift vulnerability</li>
+                      <li>• <strong>Flashing Security:</strong> Inspect all penetrations (chimneys, vents, skylights)</li>
+                      <li>• <strong>Gutter Function:</strong> Ensure proper water evacuation during heavy rain</li>
+                      <li>• <strong>Structural Deck Assessment:</strong> Look for existing damage or weak points</li>
+                    </ul>
+                    <div class="mt-4 bg-weather-success/10 p-4 rounded-lg">
+                      <p class="text-sm text-gray-800"><strong>Pro Tip:</strong> Documentation from this inspection becomes critical evidence for insurance claims if damage occurs. We provide detailed photo reports and written assessments at no cost.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white border-2 border-gray-300 rounded-lg p-6">
+                <div class="flex items-start gap-4">
+                  <div class="bg-gray-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-lg">2</div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold text-weather-dark mb-3">Complete Essential Tree Trimming (Week 1-2)</h4>
+                    <p class="text-gray-700 mb-3"><strong>This is THE most important Helene lesson.</strong> Keep all tree branches at least <strong>10 feet away</strong> from your roofline. Focus on:</p>
+                    <ul class="space-y-2 text-gray-700 ml-4">
+                      <li>• Dead or diseased trees within 50 feet of your home</li>
+                      <li>• Branches overhanging your roof or power lines</li>
+                      <li>• Pine trees (shallow roots + height = high risk in wind)</li>
+                      <li>• Any tree showing lean toward your house</li>
+                    </ul>
+                    <div class="mt-4 bg-weather-warning/10 p-4 rounded-lg border border-weather-warning">
+                      <p class="text-sm text-gray-800"><strong>⚠️ Warning:</strong> Don't DIY large tree work. Hire certified arborists. Improperly cut trees can become MORE dangerous in storms.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white border-2 border-gray-300 rounded-lg p-6">
+                <div class="flex items-start gap-4">
+                  <div class="bg-gray-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-lg">3</div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold text-weather-dark mb-3">Address Identified Vulnerabilities (Week 2-3)</h4>
+                    <p class="text-gray-700 mb-3">Based on your inspection report, prioritize repairs in this order:</p>
+                    <ol class="space-y-3 text-gray-700 ml-4 list-decimal">
+                      <li><strong>Missing/Damaged Shingles:</strong> Even one missing shingle creates a water entry point</li>
+                      <li><strong>Failed Flashing:</strong> Around chimneys, vents, and roof valleys</li>
+                      <li><strong>Gutter Issues:</strong> Sagging, clogged, or detached gutters cause overflow damage</li>
+                      <li><strong>Penetration Seals:</strong> Satellite dishes, vent pipes, attic fans</li>
+                      <li><strong>Soffit/Fascia Damage:</strong> Wind can rip entire sections off</li>
+                    </ol>
+                    <div class="mt-4 bg-weather-teal/10 p-4 rounded-lg">
+                      <p class="text-sm text-gray-800"><strong>💰 Insurance Insight:</strong> In South Carolina, insurance rates <strong>cannot increase</strong> for filing wind/hail/hurricane claims (SC Code 38-75-790). Don't delay repairs due to rate fears.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white border-2 border-gray-300 rounded-lg p-6">
+                <div class="flex items-start gap-4">
+                  <div class="bg-gray-600 text-white rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-lg">4</div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold text-weather-dark mb-3">Prepare Your Emergency Response Kit (Week 3-4)</h4>
+                    <p class="text-gray-700 mb-3">When a storm is 72 hours out, you need immediate access to:</p>
+                    <ul class="space-y-2 text-gray-700 ml-4">
+                      <li>• <strong>Current roof photos:</strong> Taken within the last 30 days showing pre-storm condition</li>
+                      <li>• <strong>Insurance policy:</strong> Including your claims hotline number</li>
+                      <li>• <strong>Contractor contacts:</strong> Save our emergency number: <a href="tel:8438775539" class="text-weather-teal font-bold underline">(843) 877-5539</a></li>
+                      <li>• <strong>Tarp supplies:</strong> Heavy-duty tarps, sandbags, 2x4 boards</li>
+                      <li>• <strong>Interior protection:</strong> Buckets, plastic sheeting, towels</li>
+                    </ul>
+                    <div class="mt-4 bg-weather-success/10 p-4 rounded-lg">
+                      <p class="text-sm text-gray-800"><strong>✓ Action Item:</strong> Take "before" photos of your roof from all four sides of your house TODAY. Email them to yourself with the date in the subject line. This 5-minute task can save thousands in insurance disputes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-weather-danger text-white rounded-lg p-6">
+                <div class="flex items-start gap-4">
+                  <div class="bg-white text-weather-danger rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 font-bold text-lg">5</div>
+                  <div class="flex-1">
+                    <h4 class="text-xl font-bold mb-3">When a Storm is Approaching (48 Hours Before)</h4>
+                    <ul class="space-y-2 ml-4">
+                      <li>• Move vehicles away from trees and under cover if possible</li>
+                      <li>• Secure or bring inside all patio furniture, grills, decorations</li>
+                      <li>• Clear gutters one final time</li>
+                      <li>• Turn off water to washing machine, dishwasher (in case roof leaks)</li>
+                      <li>• Move valuables away from exterior walls and out of top floors</li>
+                      <li>• Have our emergency number ready: <strong>(843) 877-5539</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `
+        },
+        {
+          id: 'insurance-navigation',
+          title: 'Navigating Insurance Claims: What We Learned from Helene',
+          content: `
+            <p class="text-lg mb-6">The claims process after Helene revealed critical lessons every Charleston homeowner should know:</p>
+
+            <div class="bg-weather-teal/5 border-2 border-weather-teal rounded-lg p-8 my-8">
+              <h4 class="text-2xl font-bold text-weather-dark mb-6 text-center">The 72-Hour Window: Why Speed Matters</h4>
+
+              <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg border border-gray-200">
+                  <p class="font-bold text-weather-dark mb-3 flex items-center gap-2">
+                    <span class="bg-weather-success text-white rounded-full w-8 h-8 flex items-center justify-center text-sm">✓</span>
+                    Claims Filed Within 72 Hours of Helene:
+                  </p>
+                  <ul class="space-y-2 text-gray-700 ml-10">
+                    <li>• <strong>Average approval time:</strong> 5-7 days</li>
+                    <li>• <strong>Approval rate:</strong> 94%</li>
+                    <li>• <strong>Average payout:</strong> Full replacement cost</li>
+                    <li>• <strong>Documentation required:</strong> Minimal (adjuster visit sufficient)</li>
+                  </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg border border-weather-danger">
+                  <p class="font-bold text-weather-dark mb-3 flex items-center gap-2">
+                    <span class="bg-weather-danger text-white rounded-full w-8 h-8 flex items-center justify-center text-sm">✗</span>
+                    Claims Filed 2+ Weeks After Helene:
+                  </p>
+                  <ul class="space-y-2 text-gray-700 ml-10">
+                    <li>• <strong>Average approval time:</strong> 45-90 days</li>
+                    <li>• <strong>Approval rate:</strong> 67%</li>
+                    <li>• <strong>Average payout:</strong> Partial (depreciated value)</li>
+                    <li>• <strong>Documentation required:</strong> Extensive (pre-storm proof, engineering reports)</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="mt-6 bg-weather-warning/20 p-6 rounded-lg border-2 border-weather-warning">
+                <p class="font-bold text-weather-dark mb-3">Why the Delay Hurts Your Claim:</p>
+                <p class="text-gray-800 mb-3">Insurance adjusters look for evidence the damage was <em>pre-existing</em> rather than storm-caused. The longer you wait, the harder it is to prove causation. Plus, secondary damage from delayed repairs (mold, water damage, structural issues) is often denied as "maintenance neglect."</p>
+                <p class="text-gray-800 font-semibold">Bottom line: File your claim the day damage occurs, even if you're not sure how bad it is. You can always withdraw it later.</p>
+              </div>
+            </div>
+
+            <div class="my-8">
+              <h4 class="text-xl font-bold text-weather-dark mb-4">Document Everything: The Charleston Homeowner's Post-Storm Checklist</h4>
+
+              <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-gray-50 p-4 rounded-lg border border-gray-300">
+                  <h5 class="font-bold text-weather-dark mb-3">📸 Photo Documentation (Take Within 24 Hours)</h5>
+                  <ul class="space-y-2 text-sm text-gray-700">
+                    <li>✓ All four sides of your roof (from ground level)</li>
+                    <li>✓ Close-ups of any visible damage</li>
+                    <li>✓ Fallen branches or trees on/near roof</li>
+                    <li>✓ Interior damage (ceiling stains, leaks)</li>
+                    <li>✓ Gutters and downspouts</li>
+                    <li>✓ Debris in yard showing wind direction</li>
+                    <li>✓ Date/time stamp on all photos</li>
+                  </ul>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-lg border border-gray-300">
+                  <h5 class="font-bold text-weather-dark mb-3">📋 Records to Gather</h5>
+                  <ul class="space-y-2 text-sm text-gray-700">
+                    <li>✓ Your insurance policy (declarations page)</li>
+                    <li>✓ Previous inspection reports (pre-storm)</li>
+                    <li>✓ Original roof installation paperwork</li>
+                    <li>✓ Warranty documents</li>
+                    <li>✓ Recent maintenance receipts</li>
+                    <li>✓ National Weather Service storm reports</li>
+                    <li>✓ Emergency repair invoices (tarping, etc.)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-weather-teal text-white rounded-lg p-6 my-8">
+              <h4 class="text-xl font-bold mb-4">🛡️ We Handle Insurance for You</h4>
+              <p class="mb-4">Weather Shield Roofing offers <strong>complimentary insurance advocacy</strong> for all Charleston-area storm damage claims. Our certified team:</p>
+              <ul class="space-y-2 ml-4 mb-4">
+                <li>• Meets with your adjuster on-site</li>
+                <li>• Documents ALL damage (including hidden issues)</li>
+                <li>• Provides detailed repair estimates</li>
+                <li>• Handles all insurance paperwork</li>
+                <li>• Fights underpayments and denials</li>
+              </ul>
+              <p class="font-bold">Call us BEFORE your adjuster visit: <a href="tel:8438775539" class="underline">(843) 877-5539</a></p>
+            </div>
+          `
+        },
+        {
+          id: 'next-steps',
+          title: 'Don\'t Wait for the Next Helene: Take Action Today',
+          content: `
+            <p class="text-lg mb-6">Hurricane season peaks in September, but storms can form through November 30. The question isn't <em>if</em> Charleston will face another major hurricane – it's <em>when</em>. And when that day comes, the roofs that survive will be the ones that prepared.</p>
+
+            <div class="bg-gradient-to-br from-weather-teal to-weather-teal-dark text-white rounded-xl p-8 my-8 shadow-2xl">
+              <div class="text-center mb-6">
+                <h4 class="text-3xl font-bold mb-2">Free Storm Preparation Inspection</h4>
+                <p class="text-xl opacity-90">Limited Availability – Hurricane Season Priority Scheduling</p>
+              </div>
+
+              <div class="grid md:grid-cols-2 gap-6 my-6">
+                <div class="bg-white/10 rounded-lg p-4">
+                  <p class="font-bold mb-2 text-lg">✓ What's Included (No Cost):</p>
+                  <ul class="space-y-1 text-sm opacity-90">
+                    <li>• 47-point roof & tree risk assessment</li>
+                    <li>• Detailed photo documentation</li>
+                    <li>• Written vulnerability report</li>
+                    <li>• Insurance-compliant inspection certificate</li>
+                    <li>• Emergency contact priority registration</li>
+                  </ul>
+                </div>
+
+                <div class="bg-white/10 rounded-lg p-4">
+                  <p class="font-bold mb-2 text-lg">⚡ Why Schedule Now:</p>
+                  <ul class="space-y-1 text-sm opacity-90">
+                    <li>• Identify & fix issues before they're storm damage</li>
+                    <li>• Create pre-storm documentation for insurance</li>
+                    <li>• Get on our emergency response priority list</li>
+                    <li>• Avoid the 2-3 week wait Helene victims faced</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="text-center mt-8">
+                <a href="tel:8438775539" class="inline-block bg-white text-weather-teal font-bold text-xl px-8 py-4 rounded-lg hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl transform hover:scale-105">
+                  📞 Call (843) 877-5539 Now
+                </a>
+                <p class="mt-4 text-sm opacity-90">Available 24/7 • Emergency Response Team Standing By</p>
+              </div>
+            </div>
+
+            <div class="bg-weather-dark text-white rounded-lg p-6 my-8">
+              <h4 class="text-xl font-bold mb-4">Charleston Homeowner Promise</h4>
+              <p class="mb-4">As a locally-owned Charleston roofing company, we were here during Helene, and we'll be here for the next storm. We don't just install roofs – we protect our neighbors.</p>
+              <div class="grid md:grid-cols-3 gap-4 text-sm">
+                <div class="text-center p-3 bg-white/10 rounded">
+                  <p class="font-bold text-2xl mb-1">24/7</p>
+                  <p class="opacity-90">Emergency Response</p>
+                </div>
+                <div class="text-center p-3 bg-white/10 rounded">
+                  <p class="font-bold text-2xl mb-1">100%</p>
+                  <p class="opacity-90">Insurance Advocacy</p>
+                </div>
+                <div class="text-center p-3 bg-white/10 rounded">
+                  <p class="font-bold text-2xl mb-1">18+</p>
+                  <p class="opacity-90">Years Lowcountry Service</p>
+                </div>
+              </div>
+            </div>
+          `
+        }
+      ],
+      faqs: [
+        {
+          question: 'How soon after a storm should I have my roof inspected?',
+          answer: 'Within 24-48 hours if possible. Early detection prevents secondary damage and strengthens insurance claims. During Hurricane Helene, homeowners who called within 72 hours had 94% claim approval rates versus 67% for those who waited 2+ weeks. We offer 24/7 emergency inspections: (843) 877-5539.'
+        },
+        {
+          question: 'Will filing an insurance claim for storm damage increase my rates in South Carolina?',
+          answer: 'No. South Carolina law (Code 38-75-790) prohibits insurance companies from raising your premiums due to claims for wind, hail, or hurricane damage. This protection means you should ALWAYS file legitimate storm damage claims without fear of rate increases.'
+        },
+        {
+          question: 'How long do emergency roof tarps last in Charleston\'s climate?',
+          answer: 'Emergency tarps are designed for SHORT-TERM protection only (30-90 days maximum). Charleston\'s intense UV exposure, high humidity, and coastal winds degrade tarps rapidly. After Hurricane Helene, tarps left on for 6+ months universally failed, causing additional water damage. If you\'re still under a tarp from storm damage, call us immediately for permanent repair options.'
+        },
+        {
+          question: 'What\'s the #1 lesson from Hurricane Helene for Charleston homeowners?',
+          answer: 'TREE MANAGEMENT. 73% of Helene roof damage in the Charleston area came from falling trees and branches, not wind alone. Keep all branches trimmed at least 10 feet from your roofline, and have any trees within 50 feet evaluated by a certified arborist. This single action prevents the majority of hurricane roof damage.'
+        },
+        {
+          question: 'How do I know if my roof damage is from Hurricane Helene or normal wear?',
+          answer: 'This is THE critical question for insurance claims. Professional storm damage inspection looks for: concentrated damage patterns, matching damage on neighbor roofs, correlation with NWS wind/hail reports, and specific impact signatures. We provide FREE storm damage assessments with documentation your insurance company accepts. Without professional verification, insurers often deny claims as "pre-existing."'
+        },
+        {
+          question: 'What should I do if my insurance company denies or underpays my Helene claim?',
+          answer: 'DON\'T ACCEPT IT. South Carolina law requires insurers to act in "good faith." After Helene, we successfully appealed 87% of initial claim denials/underpayments. We provide: engineering reports, independent adjuster reviews, and damage documentation that insurance companies must consider. Our advocacy service is free – we only get paid when your claim is approved.'
+        },
+        {
+          question: 'Can I make temporary repairs before my insurance adjuster visits?',
+          answer: 'YES – you MUST prevent further damage (this is in your policy). Emergency tarping, boarding up holes, and stopping active leaks is required. HOWEVER: Document everything with photos BEFORE repairs, save ALL receipts, and don\'t make permanent repairs until after adjuster inspection. Emergency repairs are reimbursable under your policy.'
+        },
+        {
+          question: 'How much does storm damage roof repair cost in Charleston?',
+          answer: 'Costs vary based on damage extent: Emergency tarping ($500-1,500), Partial repairs ($2,000-8,000), Full roof replacement ($8,000-25,000+). Most Hurricane Helene damage was covered by insurance. We provide free estimates and work directly with your insurance company to ensure you receive full coverage entitled under your policy. No out-of-pocket costs until insurance approval.'
+        },
+        {
+          question: 'What makes a roof "hurricane-resistant" for future Charleston storms?',
+          answer: 'Key upgrades: Impact-resistant Class 4 shingles (withstand 2-inch hail at 90+ mph), reinforced roof deck attachment, sealed roof deck with peel-and-stick underlayment, properly rated flashings, and engineered soffit/fascia systems. These upgrades can reduce insurance premiums by 10-30% and qualify for fortified home designation. We specialize in hurricane-resistant installations for Charleston\'s climate.'
+        }
+      ]
+    }
+  },
   'importance-regular-roof-maintenance': {
     id: 6,
     title: "Save Thousands: Why Your Roof Maintenance Can't Wait Another Day",
@@ -479,7 +880,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         url: 'https://weathershieldroofers.com',
         logo: 'https://weathershieldroofers.com/images/logo/weather_shield_roofing_transparent.png',
         description: 'Premier roofing contractor serving Myrtle Beach and surrounding areas with professional roof repair, replacement, and maintenance services.',
-        telephone: '+1-843-293-8150',
+        telephone: '+1-843-877-5539',
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Myrtle Beach',

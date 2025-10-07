@@ -17,6 +17,18 @@ import {
 
 const blogPosts = [
   {
+    id: 7,
+    title: 'Hurricane Helene Anniversary: Is Your Charleston Roof Ready for the 2025 Storm Season?',
+    excerpt: 'One year after Hurricane Helene devastated South Carolina, learn critical lessons to protect your Charleston roof from future storms. Free inspection available.',
+    author: 'David Karimi',
+    date: 'October 6, 2025',
+    readTime: '10 min read',
+    category: 'Storm Preparation',
+    image: '/images/background/residential-roofing-gutter-siding-services.jpg',
+    slug: 'hurricane-helene-anniversary-charleston-roof-preparation',
+    featured: true
+  },
+  {
     id: 1,
     title: 'Hurricane Season Prep: Protecting Your Roof from Storm Damage',
     excerpt: 'Learn essential steps to prepare your roof for hurricane season and minimize potential storm damage to your home.',
@@ -87,7 +99,7 @@ const blogPosts = [
 
 const categories = [
   { name: 'All Posts', count: blogPosts.length },
-  { name: 'Storm Preparation', count: 2 },
+  { name: 'Storm Preparation', count: 3 },
   { name: 'Roof Maintenance', count: 3 },
   { name: 'Warranties', count: 1 },
   { name: 'Roofing Materials', count: 2 },

@@ -103,6 +103,18 @@
 
   <!-- High-Value Blog Content for SEO -->
   <url>
+    <loc>https://weathershieldroofers.com/blog/hurricane-helene-anniversary-charleston-roof-preparation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Hurricane Helene anniversary - Storm preparation guide for Charleston homeowners</image:caption>
+      <image:title>Hurricane Helene Anniversary: Is Your Charleston Roof Ready for the 2025 Storm Season?</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://weathershieldroofers.com/blog/importance-regular-roof-maintenance</loc>
     <lastmod>2025-09-30</lastmod>
     <changefreq>monthly</changefreq>

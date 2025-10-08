@@ -22,56 +22,56 @@ import {
 const services = [
   {
     icon: Home,
-    title: "WeatherShield Roof Replacement",
-    description: "Weather Shield Roofing replacement with weatherproof materials and lifetime weather warranties",
-    features: ["Premium Materials", "50-Year Warranty", "Free Professional Inspection"],
+    title: "Roof Replacement",
+    description: "Complete roof replacement with premium materials and industry-leading warranties from GAF",
+    features: ["GAF Certified Installation", "Lifetime Warranty Available", "Free Inspection"],
     image: "/images/gallery/roof-installation-repair-services-1-400x300.jpg",
     href: "/services/roof-replacement",
     color: "bg-weather-teal"
   },
   {
     icon: Hammer,
-    title: "Weather Damage Repair",
-    description: "Weather Shield Roofing repairs weather damage, leaks, and wear - leading roofing companies near me 24/7",
-    features: ["Emergency Service", "Insurance Claims", "Same-Day Service"],
+    title: "Roof Repair",
+    description: "Expert roof repair for leaks, damage, and wear. Fast response and quality workmanship guaranteed",
+    features: ["24/7 Emergency Service", "Insurance Assistance", "Licensed & Insured"],
     image: "/images/gallery/roof-repair-services-1-400x300.jpg",
     href: "/services/roof-repair",
     color: "bg-weather-blue"
   },
   {
     icon: CloudRain,
-    title: "Weather & Storm Damage",
-    description: "Weather Shield Roofing rapid response for weather in Myrtle Beach storm damage",
-    features: ["24/7 Response", "Insurance Experts", "Temporary Covers"],
+    title: "Storm Damage Repair",
+    description: "Rapid storm damage response for Charleston area. We handle insurance claims from start to finish",
+    features: ["Emergency Tarping", "Insurance Specialists", "Full Restoration"],
     image: "/images/background/residential-roofing-gutter-siding-services.jpg",
     href: "/services/storm-damage",
     color: "bg-weather-purple"
   },
   {
     icon: Search,
-    title: "Weather Assessments",
-    description: "WeatherShield roofing inspections for weather damage - top roofing companies Myrtle Beach reports",
-    features: ["Professional Estimates", "Drone Technology", "Detailed Reports"],
+    title: "Roof Inspections",
+    description: "Professional roof inspections with detailed reports and honest recommendations",
+    features: ["Free Estimates", "Drone Technology", "Detailed Reports"],
     image: "/images/gallery/residential-roof-installation-repair-services-1-225x300.jpg",
     href: "/services/roof-inspections",
     color: "bg-weather-teal"
   },
   {
     icon: Droplets,
-    title: "Weather Protection Gutters",
-    description: "Weather Shield Roofing gutter systems for weather in Myrtle Beach protection",
-    features: ["Seamless Gutters", "Gutter Guards", "Annual Maintenance"],
+    title: "Gutter Services",
+    description: "Professional gutter installation, repair, and maintenance to protect your home's foundation",
+    features: ["Seamless Gutters", "Gutter Guards", "Maintenance Plans"],
     image: "/images/gallery/roofing-gutter-services-1-400x300.jpg",
     href: "/services/gutter-services",
     color: "bg-weather-blue"
   },
   {
     icon: Building2,
-    title: "Commercial WeatherShield",
-    description: "Weather Shield Roofing commercial solutions - leading business roofing companies near me",
-    features: ["TPO & EPDM", "Minimal Disruption", "Maintenance Plans"],
+    title: "Commercial Roofing",
+    description: "Commercial roofing solutions for businesses throughout Charleston and the Lowcountry",
+    features: ["TPO & EPDM Systems", "Minimal Disruption", "Maintenance Programs"],
     image: "/images/background/home-exterior-improvement-services.jpg",
-    href: "/services/commercial",
+    href: "/services/commercial-roofing",
     color: "bg-weather-purple"
   }
 ];
@@ -92,11 +92,11 @@ export default function ServiceCards() {
             <GAFBadge variant="inline" className="bg-weather-amber/10 rounded-full px-5 py-3" />
           </div>
           <h2 className="section-title text-weather-dark mb-6">
-            Weather Shield Roofing - Professional Weather Protection Solutions
+            Professional Roofing Services for Charleston & the Lowcountry
           </h2>
           <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-normal leading-relaxed">
-            Weather Shield Roofing leads all roofing companies Myrtle Beach with comprehensive weatherproof services.
-            From weather emergency repairs to complete WeatherShield replacements, we're the top roofing companies near me.
+            From emergency repairs to complete roof replacements, Weather Shield Roofing provides expert solutions
+            for residential and commercial properties throughout Charleston, Mount Pleasant, Summerville, and beyond.
           </p>
         </div>
 

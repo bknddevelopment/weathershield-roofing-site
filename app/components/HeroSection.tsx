@@ -3,30 +3,30 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import StaticImage from './StaticImage';
-import { GAFBadge } from './GAFCertification';
-import { Phone, Shield, Clock, Award, ChevronRight, CheckCircle } from 'lucide-react';
+import LiveReviewWidget from './LiveReviewWidget';
+import { Phone, Shield, Clock, Award, ChevronRight, CheckCircle, MapPin } from 'lucide-react';
 
 const heroSlides = [
   {
-    title: "Emergency Roofer Available NOW in Myrtle Beach",
-    subtitle: "24 Hour Roof Repair Near Me - Call Today!",
-    description: "Roof leak repair today? Weather Shield Roofing responds rapidly! Emergency roof tarp service, storm damage repair same day. Urgent roof repair Myrtle Beach available 24/7.",
+    title: "Myrtle Beach's #1 Rated Roofing Contractor - 5.0★ Google Rating",
+    subtitle: "Expert Roofing Services • 15+ Years in Myrtle Beach",
+    description: "Myrtle Beach's highest-rated roofing company serving Myrtle Beach, North Myrtle Beach, Conway & Carolina Coast. GAF Certified • BBB A+ • Lifetime Warranties.",
     image: "/images/background/roof-replacement-services.jpg",
-    stats: ["2-Hour Emergency Response", "24/7 Available NOW", "Same Day Repairs"]
+    stats: ["5.0★ Rating", "73 Google Reviews", "Licensed & Insured"]
   },
   {
-    title: "Storm Damage Repair Same Day - Act Fast!",
-    subtitle: "Emergency Roof Tarp Service Available Today",
-    description: "Urgent roof repair Myrtle Beach! WeatherShield roofing provides emergency roofer available now for roof leak repair today. 24 hour roof repair near me with immediate response.",
+    title: "Emergency Roofer Available 24/7",
+    subtitle: "Storm Damage? We're Here to Help Immediately",
+    description: "Rapid emergency response for roof leaks, storm damage, and urgent repairs. Available 24/7 across Myrtle Beach & Carolina Coast with fast response time.",
     image: "/images/background/residential-roofing-gutter-siding-services.jpg",
-    stats: ["Emergency Service TODAY", "Insurance Direct Billing", "Immediate Protection"]
+    stats: ["24/7 Emergency Service", "Fast Response", "Insurance Claims Help"]
   },
   {
-    title: "Roof Leak Repair Today - Don't Wait!",
-    subtitle: "Urgent Roof Repair Myrtle Beach 24/7",
-    description: "Emergency roofer available now! Weather Shield Roofing: your 24 hour roof repair near me solution. Storm damage repair same day, emergency roof tarp service with rapid response.",
+    title: "Premium Roof Replacement & Repair",
+    subtitle: "Quality Craftsmanship • Competitive Pricing",
+    description: "From minor repairs to complete replacements, we deliver superior roofing solutions with GAF certified materials and lifetime warranty protection.",
     image: "/images/background/home-exterior-improvement-services.jpg",
-    stats: ["24/7 Emergency Hotline", "2-Hour Guaranteed Response", "No Emergency Fees"]
+    stats: ["Lifetime Warranty", "GAF Certified", "Financing Available"]
   }
 ];
 
@@ -36,24 +36,28 @@ export default function HeroSection() {
 
   useEffect(() => {
     setIsVisible(true);
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-    }, 6000);
-    return () => clearInterval(interval);
+    // Disable auto-rotation to keep SEO-optimized H1 visible
+    // const interval = setInterval(() => {
+    //   setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
+    // }, 6000);
+    // return () => clearInterval(interval);
   }, []);
 
   const slide = heroSlides[currentSlide];
 
   return (
     <section className="relative h-screen min-h-[700px] flex items-center overflow-hidden" aria-label="Hero section">
-      {/* Background with parallax effect */}
+      {/* Video-style background with animated overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-weather-black/95 via-weather-black/75 to-weather-black/60 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-tr from-weather-purple/10 via-transparent to-weather-teal/10 z-10" />
+        {/* Darker, more professional overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-weather-black/90 via-weather-black/80 to-weather-black/70 z-10" />
+        {/* Subtle animated gradient for video effect */}
+        <div className="absolute inset-0 bg-gradient-to-tr from-weather-teal/5 via-transparent to-weather-amber/5 z-10 animate-gradient" />
+        {/* Image with Ken Burns zoom effect */}
         <div className="relative w-full h-full">
           <StaticImage
             src={slide.image}
-            alt={`${slide.title} - Emergency roofer available now - 24 hour roof repair near me - Weather Shield Roofing Myrtle Beach`}
+            alt={`${slide.title} - Weather Shield Roofing serving Myrtle Beach and Carolina Coast SC`}
             fill
             className="animate-slow-zoom"
             style={{
@@ -69,27 +73,27 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 relative z-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className={`space-y-8 transition-all duration-1000 transform ${
+          <div className={`space-y-6 transition-all duration-1000 transform ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
-            {/* Trust Badges */}
-            <div className="flex flex-wrap gap-3">
-              <GAFBadge variant="hero" showWarranty={true} />
-              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-weather-primary/30 to-weather-secondary/30 backdrop-blur-md border border-weather-primary/40 rounded-full px-4 py-2 shadow-lg">
-                <Shield className="w-5 h-5 text-weather-primary-on-dark animate-pulse" aria-hidden="true" />
-                <span className="text-weather-primary-on-dark font-semibold text-sm uppercase tracking-wide">Licensed & Insured</span>
+            {/* Live Review Widget & Location Badge */}
+            <div className="flex flex-wrap gap-3 items-center">
+              <LiveReviewWidget />
+              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2">
+                <MapPin className="w-4 h-4 text-weather-teal" />
+                <span className="text-white font-medium text-sm">Myrtle Beach & Carolina Coast, SC</span>
               </div>
             </div>
 
-            {/* Main Heading - Professional & Impactful */}
-            <div className="space-y-4">
-              <h1 className="hero-title text-white text-shadow-hero">
+            {/* Main Heading */}
+            <div className="space-y-5">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold text-white leading-tight text-shadow-hero">
                 {slide.title}
-                <span className="block gradient-text-hero text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-3 tracking-tight">
-                  {slide.subtitle}
-                </span>
               </h1>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 max-w-2xl font-normal leading-relaxed text-shadow-soft">
+              <p className="text-lg sm:text-xl md:text-2xl font-bold gradient-text-hero tracking-tight leading-tight">
+                {slide.subtitle}
+              </p>
+              <p className="text-base sm:text-lg md:text-xl text-gray-200 max-w-3xl leading-relaxed">
                 {slide.description}
               </p>
             </div>
@@ -104,38 +108,25 @@ export default function HeroSection() {
               ))}
             </div>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* CTA Buttons - BIGGER & More Prominent */}
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link
                 href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
-                className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-primary to-weather-secondary hover:from-weather-secondary hover:to-weather-accent text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-weather-primary/50 overflow-hidden focus-visible-ring"
-                aria-label="Request a free professional roof inspection"
+                className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-orange-600 to-orange-500 hover:from-orange-500 hover:to-orange-400 text-white px-10 py-5 rounded-xl font-bold text-xl uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-orange-600/50 overflow-hidden"
+                aria-label="Schedule your free roof inspection"
               >
                 <span className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-                <span className="relative">Request Free Inspection</span>
-                <ChevronRight className="relative w-6 h-6 group-hover:translate-x-2 transition-transform" />
+                <span className="relative">Schedule Free Inspection</span>
+                <ChevronRight className="relative w-7 h-7 group-hover:translate-x-2 transition-transform" />
               </Link>
               <a
                 href="tel:+18438775539"
-                className="group inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md border-2 border-white/50 hover:bg-white hover:text-weather-black hover:border-white text-white px-8 py-4 rounded-xl font-semibold text-base sm:text-lg tracking-wide transition-all duration-300 shadow-xl hover:shadow-white/20 focus-visible-ring"
-                aria-label="Call Weather Shield Roofing at (843) 877-5539"
+                className="group inline-flex items-center justify-center gap-3 bg-white text-weather-black hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-xl tracking-wide transition-all duration-300 shadow-xl hover:shadow-white/30 hover:scale-105"
+                aria-label="Call Weather Shield Roofing now at (843) 877-5539"
               >
-                <Phone className="w-6 h-6 group-hover:animate-pulse" />
-                <span>Call (843) 877-5539</span>
+                <Phone className="w-7 h-7 group-hover:animate-pulse" />
+                <span>(843) 877-5539</span>
               </a>
-            </div>
-
-            {/* Emergency Banner */}
-            <div className="bg-gradient-to-r from-weather-accent/30 to-weather-secondary/30 backdrop-blur-md border border-white/20 rounded-xl p-4 shadow-lg hover:shadow-weather-accent/30 transition-all duration-300">
-              <div className="flex items-center gap-3">
-                <div className="p-2 bg-weather-accent/20 rounded-lg">
-                  <Clock className="w-6 h-6 text-weather-accent-light animate-pulse" aria-hidden="true" />
-                </div>
-                <div>
-                  <p className="text-white font-semibold text-base uppercase tracking-wide">24/7 Emergency Service</p>
-                  <p className="text-gray-200 text-sm font-normal">Storm damage? We're here to help immediately.</p>
-                </div>
-              </div>
             </div>
           </div>
 

@@ -15,17 +15,10 @@ import {
 
 const stats = [
   {
-    icon: Home,
-    value: 5000,
-    suffix: '+',
-    label: 'Roofs Installed',
-    color: 'text-weather-teal'
-  },
-  {
     icon: Users,
     value: 15,
     suffix: '+',
-    label: 'Years Experience',
+    label: 'Years in Business',
     color: 'text-weather-blue'
   },
   {
@@ -37,41 +30,48 @@ const stats = [
     decimal: true
   },
   {
+    icon: ThumbsUp,
+    value: 73,
+    suffix: '',
+    label: 'Google Reviews',
+    color: 'text-weather-teal'
+  },
+  {
     icon: Clock,
     value: 24,
     suffix: '/7',
     label: 'Emergency Service',
-    color: 'text-weather-teal'
+    color: 'text-weather-blue'
   }
 ];
 
 const certifications = [
   {
-    name: 'GAF Preferred Contractor',
-    description: 'North America\'s largest roofing manufacturer',
+    name: 'GAF Certified Contractor',
+    description: 'Elite certification from North America\'s #1 roofing manufacturer',
     icon: Award,
     badge: '/images/gaf-preferred.png',
     featured: true,
     color: 'weather-amber'
   },
   {
-    name: 'BBB Accredited',
-    description: 'A+ Rating with Better Business Bureau',
+    name: 'BBB Accredited Business',
+    description: 'A+ Rating - Accredited since 2023',
     icon: Shield,
     badge: '/images/bbb-accredited.png',
     color: 'weather-teal'
   },
   {
-    name: 'Angi Certified',
-    description: 'Background checked and verified professionals',
+    name: 'Licensed & Insured',
+    description: 'Fully licensed in North & South Carolina',
     icon: CheckCircle,
     badge: '/images/angi-certified.png',
     color: 'weather-blue'
   },
   {
-    name: 'Google Guaranteed',
-    description: 'Screened & backed by Google',
-    icon: ThumbsUp,
+    name: '5.0 Star Rating',
+    description: '73 verified Google reviews',
+    icon: Star,
     badge: '/images/google-guaranteed.png',
     color: 'weather-purple'
   }

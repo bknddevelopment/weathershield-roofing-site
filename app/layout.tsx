@@ -50,9 +50,9 @@ const bebasNeue = Bebas_Neue({
 })
 
 export const metadata: Metadata = {
-  title: 'Emergency Roofer Available NOW | WeatherShield Roofing Myrtle Beach 24/7',
-  description: '🚨 ROOF LEAK? Call Now! Weather Shield Roofing - 24 hour roof repair near me. Emergency roofer available now for storm damage repair same day. Urgent roof repair Myrtle Beach available 24/7. Emergency roof tarp service today!',
-  keywords: 'roof leak repair today, emergency roofer available now, 24 hour roof repair near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, weathershield roofing, weather shield roofing, emergency roofing myrtle beach, 24/7 roof repair, immediate roof repair, emergency leak repair, same day roofing service, roofing contractors myrtle beach, emergency roofing service',
+  title: 'Roofing Contractor Myrtle Beach SC | Weather Shield Roofing - 5.0★ Rated',
+  description: 'Myrtle Beach\'s #1 Rated Roofing Contractor - 5.0★ with 73 Google Reviews (Highest in Myrtle Beach). GAF Certified • BBB A+ • 15+ Years Experience. Expert roof replacement, repair & 24/7 emergency service. Call (843) 877-5539.',
+  keywords: 'roofing contractor myrtle beach, myrtle beach roofing, roofing myrtle beach sc, roofer myrtle beach, myrtle beach roofer, roofing companies myrtle beach, roof replacement myrtle beach, roofing contractors myrtle beach, gaf certified myrtle beach, weather shield roofing, weathershield roofing, emergency roofer myrtle beach, 24/7 roof repair myrtle beach, storm damage repair myrtle beach',
   authors: [{ name: 'Weather Shield Roofing' }],
   creator: 'Weather Shield Roofing',
   publisher: 'Weather Shield Roofing',
@@ -70,8 +70,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Emergency Roofer Available NOW | 24/7 Roof Leak Repair Today',
-    description: '🚨 ROOF EMERGENCY? Call Weather Shield Roofing NOW! 24 hour roof repair near me available immediately. Storm damage repair same day. Emergency roof tarp service. Urgent roof repair Myrtle Beach available 24/7/365.',
+    title: 'Roofing Contractor Myrtle Beach SC | Weather Shield Roofing - 5.0★',
+    description: 'Myrtle Beach\'s Highest Rated Roofing Contractor - 5.0★ with 73 Reviews. GAF Certified • BBB A+ • 15+ Years in Myrtle Beach. Expert roof replacement, repair & emergency service. (843) 877-5539.',
     url: 'https://weathershieldroofers.com',
     siteName: 'Weather Shield Roofing',
     images: [
@@ -97,8 +97,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Emergency Roofer Available NOW | 24 Hour Roof Repair Near Me',
-    description: '🚨 ROOF LEAK EMERGENCY? Weather Shield Roofing responds quickly! 24/7 emergency roof repair, storm damage repair same day. Call NOW for urgent roof repair Myrtle Beach.',
+    title: 'Roofing Contractor Myrtle Beach SC | Weather Shield - 5.0★ Rated',
+    description: 'Myrtle Beach\'s Highest Rated Roofing Contractor - 5.0★ with 73 Google Reviews. GAF Certified • BBB A+ • 15+ Years Experience. Expert roofing for Myrtle Beach & Carolina Coast.',
     images: [
       {
         url: '/images/logo/weather_shield_roofing_transparent.png',
@@ -381,8 +381,8 @@ export default function RootLayout({
                 },
                 "aggregateRating": {
                   "@type": "AggregateRating",
-                  "ratingValue": "4.9",
-                  "reviewCount": "327",
+                  "ratingValue": "5.0",
+                  "reviewCount": "73",
                   "bestRating": "5"
                 },
                 "review": [

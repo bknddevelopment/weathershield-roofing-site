@@ -1,6 +1,9 @@
 'use client'
 
 import HeroSection from './components/HeroSection'
+import CertificationBar from './components/CertificationBar'
+import WhyChooseUs from './components/WhyChooseUs'
+import FinancingCallout from './components/FinancingCallout'
 import ServiceCards from './components/ServiceCards'
 import AboutSection from './components/AboutSection'
 import RoofingGuideSection from './components/RoofingGuideSection'
@@ -10,7 +13,7 @@ import FAQSchema from './components/FAQSchema'
 import StructuredData from './components/StructuredData'
 import BlogsSection from './components/BlogsSection'
 import TrustIndicators from './components/TrustIndicators'
-import { GAFTrustBar, GAFCertificationSection } from './components/GAFCertification'
+import { GAFCertificationSection } from './components/GAFCertification'
 
 export default function HomePage() {
   return (
@@ -19,8 +22,10 @@ export default function HomePage() {
       <StructuredData type="home" />
       <main>
         <HeroSection />
-        <GAFTrustBar />
+        <CertificationBar />
+        <WhyChooseUs />
         <ServiceCards />
+        <FinancingCallout />
         <TrustIndicators />
         <AboutSection />
         <RoofingGuideSection />

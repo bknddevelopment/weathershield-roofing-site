@@ -55,17 +55,7 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
       "https://www.youtube.com/@weathershieldroofing",
       "https://twitter.com/weathershield"
     ],
-    "founder": {
-      "@type": "Person",
-      "name": "John Anderson",
-      "jobTitle": "CEO & Founder"
-    },
-    "foundingDate": "2008",
-    "numberOfEmployees": {
-      "@type": "QuantitativeValue",
-      "minValue": 25,
-      "maxValue": 50
-    }
+    "foundingDate": "2010"
   }
 
   // Enhanced LocalBusiness schema with RoofingContractor
@@ -182,25 +172,9 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
           "areaServed": {
             "@id": "https://en.wikipedia.org/wiki/Myrtle_Beach,_South_Carolina"
           },
-          "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "itemListElement": [
-              {
-                "@type": "Offer",
-                "name": "Asphalt Shingle Replacement",
-                "priceRange": "$5,000-$12,000"
-              },
-              {
-                "@type": "Offer",
-                "name": "Metal Roof Installation",
-                "priceRange": "$8,000-$20,000"
-              },
-              {
-                "@type": "Offer",
-                "name": "Tile Roof Replacement",
-                "priceRange": "$10,000-$25,000"
-              }
-            ]
+          "brand": {
+            "@type": "Brand",
+            "name": "GAF"
           }
         },
         {
@@ -254,8 +228,8 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "527",
+      "ratingValue": "5.0",
+      "reviewCount": "73",
       "bestRating": "5",
       "worstRating": "1"
     },
@@ -330,10 +304,8 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
       "GAF Certified Installation"
     ],
     "award": [
-      "GAF Preferred Contractor 2024",
-      "BBB A+ Rating",
-      "Best Roofing Contractor Myrtle Beach 2023",
-      "Angie's List Super Service Award"
+      "GAF Certified Contractor",
+      "BBB A+ Rating (Accredited since 2023)"
     ],
     "memberOf": [
       {
@@ -445,21 +417,10 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
     "description": "Professional roof replacement process by Weather Shield Roofing contractors Myrtle Beach",
     "image": "https://weathershieldroofers.com/images/services/roof-replacement.jpg",
     "totalTime": "P2D",
-    "estimatedCost": {
-      "@type": "MonetaryAmount",
-      "currency": "USD",
-      "minValue": "5000",
-      "maxValue": "15000"
-    },
     "supply": [
       {
         "@type": "HowToSupply",
-        "name": "Roofing Materials",
-        "estimatedCost": {
-          "@type": "MonetaryAmount",
-          "currency": "USD",
-          "value": "3000"
-        }
+        "name": "Premium Roofing Materials (GAF Certified)"
       }
     ],
     "tool": [
@@ -509,34 +470,42 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
     ]
   }
 
-  // Event Schema for promotions
-  const eventSchema = {
+  // Service Area Schema for local SEO
+  const serviceAreaSchema = {
     "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "Winter Roofing Special - Save 15% on Roof Replacement",
-    "description": "Weather Shield Roofing winter promotion - Save 15% on complete roof replacement services in Myrtle Beach",
-    "startDate": "2024-12-01",
-    "endDate": "2025-02-28",
-    "location": {
-      "@type": "Place",
-      "name": "Weather Shield Roofing Service Area",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Myrtle Beach",
-        "addressRegion": "SC"
-      }
-    },
-    "offers": {
-      "@type": "Offer",
-      "url": "https://weathershieldroofers.com/winter-special",
-      "price": "15% OFF",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock",
-      "validFrom": "2024-12-01",
-      "validThrough": "2025-02-28"
-    },
-    "performer": {
+    "@type": "Service",
+    "serviceType": "Roofing Contractor",
+    "provider": {
       "@id": "https://weathershieldroofers.com/#organization"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Myrtle Beach",
+        "sameAs": "https://en.wikipedia.org/wiki/Myrtle_Beach,_South_Carolina"
+      },
+      {
+        "@type": "City",
+        "name": "North Myrtle Beach"
+      },
+      {
+        "@type": "City",
+        "name": "Conway"
+      },
+      {
+        "@type": "City",
+        "name": "Surfside Beach"
+      },
+      {
+        "@type": "City",
+        "name": "Georgetown"
+      }
+    ],
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://weathershieldroofers.com",
+      "servicePhone": "+1-843-877-5539",
+      "availableLanguage": ["English", "Spanish"]
     }
   }
 
@@ -591,7 +560,7 @@ export default function StructuredData({ type = 'home', serviceName, serviceDesc
     localBusinessSchema,
     getBreadcrumbSchema(),
     howToSchema,
-    eventSchema,
+    serviceAreaSchema,
     speakableSchema,
     searchActionSchema,
     videoSchema

@@ -71,11 +71,13 @@ git push origin main # Auto-deploys via GitHub Actions
 
 ### SEO & Performance Strategy
 - **Schema Markup**: Comprehensive JSON-LD for LocalBusiness, Organization, Services
-- **Meta Tags**: Dynamic generation in each page.tsx with emergency keyword optimization
+- **Meta Tags**: Dynamic generation in each page.tsx with Myrtle Beach keyword optimization
+- **Competitive SEO**: Positioned to compete against Monarch Roofing using 5.0★ perfect rating advantage
 - **Sitemaps**: Multiple sitemaps including `sitemap-emergency.xml`
 - **Core Web Vitals**: `WebVitalsMonitor` component tracks LCP, CLS, INP
 - **Service Workers**: Progressive enhancement (`sw.js` and `sw-optimized.js`)
 - **Code Splitting**: Dynamic imports reduce initial bundle size
+- **Hero Section**: H1 optimized at `text-3xl/4xl/5xl` (not 8xl) for readability and SEO
 
 ## Form & Contact Integration
 
@@ -95,18 +97,20 @@ git push origin main # Auto-deploys via GitHub Actions
    - ✅ Correct: "Special Offer", "Competitive Pricing", "Contact for Quote"
    - Reason: Pricing creates legal liability if customers expect website prices
 
-3. **NO RESPONSE TIME PROMISES**: Never promise specific response times
-   - ❌ Wrong: "2-hour response guaranteed", "47-minute average", "same-day service"
-   - ✅ Correct: "Rapid response", "24/7 availability", "Emergency service"
+3. **NO RESPONSE TIME PROMISES**: Never promise specific response times or same-day service
+   - ❌ Wrong: "2-hour response guaranteed", "47-minute average", "same-day service", "same-day estimates"
+   - ✅ Correct: "Rapid response", "Fast response", "24/7 availability", "Emergency service"
    - Reason: Overpromising creates service expectations that may not be met
 
 4. **CONSISTENT PHONE NUMBER**: Always use **(843) 877-5539**
    - Check all: CTAs, headers, footers, emergency components, promotional banners
    - Never use (843) 293-8150 - this is an old/incorrect number
 
-5. **CHARLESTON FOCUS**: Service area is Charleston, SC (not Myrtle Beach)
-   - Update location references in metadata, schema, content
-   - Target cities: Charleston, Mount Pleasant, Summerville, North Charleston, etc.
+5. **MYRTLE BEACH FOCUS**: Primary service area is Myrtle Beach, SC (NOT Charleston)
+   - Target keywords: "roofing myrtle beach", "myrtle beach roofing contractor", "roofing contractor myrtle beach sc"
+   - Target cities: Myrtle Beach, North Myrtle Beach, Conway, Surfside Beach, Carolina Coast
+   - Homepage H1: "Myrtle Beach's #1 Rated Roofing Contractor - 5.0★ Google Rating"
+   - SEO Strategy: Leverage 5.0★ rating (73 reviews) to compete against Monarch Roofing (4.9★, 1,600+ reviews)
 
 ## Critical Files & Their Purpose
 
@@ -145,6 +149,11 @@ git push origin main # Auto-deploys via GitHub Actions
 
 - `/same-day-roof-repair-charleston` - We don't offer same-day service
 - `/roof-replacement-cost-charleston` - Contained pricing information
+
+## Components Removed (Do Not Re-Add)
+
+- **EmergencyBanner** - Removed from homepage (previously displayed "🚨 Emergency 24/7 Service Available | Call Now: (843) 877-5539")
+- Any "same-day" service promises across all components
 
 ## Deployment & CI/CD
 
@@ -214,6 +223,7 @@ git push origin main # Auto-deploys via GitHub Actions
 1. ✅ Run `npm run build` - verify 0 errors
 2. ✅ Check phone numbers are (843) 877-5539
 3. ✅ Verify no pricing information displayed
-4. ✅ Confirm no response time promises
+4. ✅ Confirm no response time promises (including no "same-day" service)
 5. ✅ Test forms submit to n8n or redirect to phone/quote
-6. ✅ Review emergency pages for Charleston (not Myrtle Beach)
+6. ✅ Verify Myrtle Beach location focus in metadata and content
+7. ✅ Confirm 5.0★ rating and 73 reviews are accurately displayed

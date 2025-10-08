@@ -31,7 +31,7 @@ const reasons: Reason[] = [
   {
     icon: Users,
     title: '15+ Years of Excellence',
-    description: 'Serving Charleston & Myrtle Beach since 2010. Over 1,000 satisfied customers.',
+    description: 'Serving Myrtle Beach & the Carolina Coast since 2010. Over 1,000 satisfied customers.',
     highlight: false
   },
   {
@@ -79,7 +79,7 @@ const reasons: Reason[] = [
   {
     icon: Phone,
     title: 'Local Family-Owned',
-    description: 'Charleston born and raised. We live here, work here, and care about our neighbors.',
+    description: 'Myrtle Beach born and raised. We live here, work here, and care about our neighbors.',
     highlight: false
   }
 ];
@@ -102,7 +102,7 @@ export default function WhyChooseUs() {
             The Weather Shield Difference
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-4">
-            Why Charleston Chooses Us
+            Why Myrtle Beach Chooses Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We don't just install roofs - we protect families, preserve investments, and deliver peace of mind.
@@ -160,7 +160,7 @@ export default function WhyChooseUs() {
             Ready to Experience the Difference?
           </h3>
           <p className="text-gray-300 text-xl mb-8 max-w-2xl mx-auto">
-            Join 1,000+ Charleston homeowners who chose quality, reliability, and peace of mind.
+            Join 1,000+ Myrtle Beach homeowners who chose quality, reliability, and peace of mind.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

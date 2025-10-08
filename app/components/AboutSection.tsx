@@ -60,11 +60,11 @@ export default function AboutSection() {
             <span className="text-weather-teal font-semibold uppercase tracking-wide text-sm">About Weather Shield Roofing</span>
           </div>
           <h2 className="section-title text-weather-dark mb-6">
-            Charleston's Trusted Roofing Partner Since 2010
+            Myrtle Beach's Trusted Roofing Partner Since 2010
           </h2>
           <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-normal leading-relaxed">
-            For over 15 years, Weather Shield Roofing has been protecting homes and businesses throughout Charleston,
-            Mount Pleasant, Summerville, and the entire Lowcountry with expert craftsmanship and exceptional service.
+            For over 15 years, Weather Shield Roofing has been protecting homes and businesses throughout Myrtle Beach,
+            North Myrtle Beach, Conway, Surfside Beach, and the entire Carolina Coast with expert craftsmanship and exceptional service.
           </p>
         </div>
 
@@ -79,12 +79,12 @@ export default function AboutSection() {
                   Your Local Roofing Experts
                 </h3>
                 <p className="text-base text-gray-600 mb-4 leading-relaxed font-normal">
-                  As a locally-owned and operated company, we understand the unique challenges that Charleston's coastal
+                  As a locally-owned and operated company, we understand the unique challenges that Myrtle Beach's coastal
                   climate presents. From hurricane season to intense summer heat and humidity, your roof faces constant stress.
                 </p>
                 <p className="text-gray-600 mb-4 leading-relaxed">
                   That's why we use only premium, weather-resistant materials and proven installation techniques that are
-                  designed specifically for our Lowcountry climate. Every member of our team is GAF-certified and trained
+                  designed specifically for our Carolina Coast climate. Every member of our team is GAF-certified and trained
                   to deliver exceptional results.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
@@ -217,7 +217,7 @@ export default function AboutSection() {
             Ready to Protect Your Home?
           </h3>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Join hundreds of satisfied Charleston homeowners who trust Weather Shield Roofing for quality
+            Join hundreds of satisfied Myrtle Beach homeowners who trust Weather Shield Roofing for quality
             craftsmanship and exceptional service. Get your free inspection today.
           </p>
           <Link

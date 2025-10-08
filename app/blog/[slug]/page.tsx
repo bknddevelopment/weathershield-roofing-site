@@ -39,6 +39,400 @@ const blogPostsData: Record<string, {
     }>;
   };
 }> = {
+  'myrtle-beach-roof-hurricane-season-2025-preparation': {
+    id: 8,
+    title: 'Is Your Myrtle Beach Roof Ready for the Rest of Hurricane Season 2025? 6 Critical Steps',
+    metaDescription: 'NOAA forecasts 13-19 named storms for 2025 hurricane season ending November 30th. Protect your Myrtle Beach home with these 6 critical roof preparation steps. Free hurricane preparedness inspection available from Weather Shield Roofing.',
+    author: 'David Karimi',
+    authorBio: 'David Karimi is Weather Shield Roofing\'s Lead Roofing Specialist with over 15 years of experience protecting homes along the South Carolina coast. As a GAF-certified professional and certified storm damage expert, David has helped hundreds of Myrtle Beach families prepare for and recover from hurricane seasons.',
+    authorRole: 'Lead Roofing Specialist & Storm Preparation Expert',
+    date: 'October 8, 2025',
+    readTime: '11 min',
+    category: 'Storm Preparation',
+    image: '/images/background/residential-roofing-gutter-siding-services.jpg',
+    tags: ['Hurricane Preparation', 'Storm Damage Prevention', 'Myrtle Beach Roofing', 'Roof Inspection', 'Emergency Preparedness', 'Coastal Roofing', '2025 Hurricane Season'],
+    featured: true,
+    content: {
+      intro: '<p class="text-xl text-gray-700 leading-relaxed mb-6">We\'re only halfway through the 2025 Atlantic hurricane season, and NOAA is forecasting <strong>13-19 named storms</strong> before it ends on November 30th. As a coastal city, Myrtle Beach remains in the crosshairs for the remainder of this above-average season.</p><p class="text-xl text-gray-700 leading-relaxed mb-6">October and early November are historically <strong>peak hurricane months</strong> for South Carolina. The devastating impacts of past storms like Hurricane Hugo (1989), Hurricane Florence (2018), and Hurricane Helene (2024) remind us that <strong>preparation cannot wait</strong>.</p><p class="text-xl text-gray-700 leading-relaxed">Your roof is your home\'s first line of defense. Here are 6 critical steps you must take <em>right now</em> to protect your Myrtle Beach property before the next storm hits.</p>',
+      sections: [
+        {
+          id: 'noaa-2025-forecast',
+          title: 'Why 2025 is an Above-Average Hurricane Season',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">The National Oceanic and Atmospheric Administration (NOAA) issued an <strong>above-average forecast</strong> for the 2025 Atlantic hurricane season:</p>
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 my-6">
+              <h4 class="text-xl font-bold text-red-900 mb-3">2025 Hurricane Season Forecast</h4>
+              <ul class="space-y-2 text-red-900">
+                <li class="flex items-start gap-2"><span class="text-red-600 font-bold">•</span> <strong>13-19 Named Storms</strong> (winds 39+ mph)</li>
+                <li class="flex items-start gap-2"><span class="text-red-600 font-bold">•</span> <strong>6-10 Hurricanes</strong> (winds 74+ mph)</li>
+                <li class="flex items-start gap-2"><span class="text-red-600 font-bold">•</span> <strong>3-5 Major Hurricanes</strong> (Category 3+, winds 111+ mph)</li>
+                <li class="flex items-start gap-2"><span class="text-red-600 font-bold">•</span> <strong>Season Ends: November 30, 2025</strong></li>
+              </ul>
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">The elevated forecast is driven by <strong>above-average ocean temperatures</strong> and favorable atmospheric conditions. Historically, October and early November produce some of the most intense storms, as water temperatures remain warm while upper-level wind patterns become more conducive to storm development.</p>
+            <p class="text-lg text-gray-700 leading-relaxed"><strong>Bottom Line:</strong> We still have 8 weeks of hurricane season remaining, and the most dangerous storms often form late in the season. Your window to prepare is closing fast.</p>
+          `
+        },
+        {
+          id: 'myrtle-beach-vulnerability',
+          title: 'Why Myrtle Beach is Especially Vulnerable',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">Myrtle Beach's coastal location makes it one of South Carolina's most hurricane-vulnerable cities:</p>
+            <ul class="space-y-3 text-lg text-gray-700 mb-6">
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold text-xl">1.</span>
+                <div><strong>Direct Coastal Exposure:</strong> Located directly on the Atlantic Ocean with no barrier islands for protection</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold text-xl">2.</span>
+                <div><strong>Storm Surge Risk:</strong> Low-lying elevation makes Myrtle Beach extremely susceptible to devastating storm surge flooding</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold text-xl">3.</span>
+                <div><strong>Wind Tunnel Effect:</strong> Flat coastal terrain creates minimal wind resistance, allowing hurricane-force winds to maintain intensity</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold text-xl">4.</span>
+                <div><strong>Historical Impact:</strong> South Carolina ranks among the most hurricane-impacted states in the U.S., with Myrtle Beach in the direct strike zone</div>
+              </li>
+            </ul>
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 my-6">
+              <p class="text-lg text-blue-900"><strong>Hurricane Reminder:</strong> Hurricane Hugo (1989) made landfall near Charleston as a Category 4 storm with sustained winds of 140 mph, causing over $7 billion in damage. Myrtle Beach experienced catastrophic destruction from wind and storm surge.</p>
+            </div>
+          `
+        },
+        {
+          id: 'step-1-professional-inspection',
+          title: 'Step 1: Schedule a Professional Hurricane Preparedness Roof Inspection',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4"><strong>Most Important Step:</strong> A professional roof inspection is the foundation of hurricane preparedness. Roofing experts can identify vulnerabilities you cannot see from the ground.</p>
+            <h4 class="text-xl font-bold text-gray-900 mt-6 mb-4">What Inspectors Look For:</h4>
+            <ul class="space-y-3 text-lg text-gray-700 mb-6">
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">✓</span>
+                <div><strong>Loose or Missing Shingles:</strong> Even one missing shingle creates an entry point for wind-driven rain</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">✓</span>
+                <div><strong>Damaged Flashing:</strong> Compromised flashing around chimneys, vents, and valleys is a major leak risk</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">✓</span>
+                <div><strong>Weakened Roof Deck:</strong> Soft spots or sagging indicate structural vulnerabilities that storms will exploit</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">✓</span>
+                <div><strong>Deteriorated Sealants:</strong> Dried-out caulking and sealants allow water infiltration</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">✓</span>
+                <div><strong>Inadequate Ventilation:</strong> Poor attic ventilation creates moisture buildup that weakens your roof system</div>
+              </li>
+            </ul>
+            <div class="bg-weather-secondary text-white p-8 rounded-lg my-8">
+              <h4 class="text-2xl font-bold mb-4">🛡️ Weather Shield's FREE Hurricane Preparedness Inspection</h4>
+              <p class="text-lg mb-4">Our certified roofing specialists will conduct a comprehensive 25-point inspection of your roof system, identify vulnerabilities, and provide a detailed preparedness report—completely free with no obligation.</p>
+              <p class="text-lg font-semibold">Call now: <a href="tel:8438775539" class="text-weather-amber hover:underline">(843) 877-5539</a></p>
+            </div>
+          `
+        },
+        {
+          id: 'step-2-reinforce-roof-structure',
+          title: 'Step 2: Reinforce Your Roof Structure',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">Modern building codes require hurricane straps and clips, but older Myrtle Beach homes may lack proper reinforcement. <strong>Roof-to-wall connections</strong> are critical for preventing catastrophic roof failure during high winds.</p>
+            <h4 class="text-xl font-bold text-gray-900 mt-6 mb-4">Key Reinforcement Options:</h4>
+            <div class="grid md:grid-cols-2 gap-6 my-6">
+              <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h5 class="text-lg font-bold text-gray-900 mb-3">Hurricane Straps/Clips</h5>
+                <p class="text-gray-700">Metal connectors that anchor your roof to the walls, preventing uplift during extreme winds. Required by modern building codes but often missing in pre-2000 homes.</p>
+              </div>
+              <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h5 class="text-lg font-bold text-gray-900 mb-3">Roof Deck Reinforcement</h5>
+                <p class="text-gray-700">Stronger fastening (ring-shank nails or screws) and proper spacing prevent sheathing from tearing away during hurricanes.</p>
+              </div>
+              <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h5 class="text-lg font-bold text-gray-900 mb-3">Wind-Resistant Shingles</h5>
+                <p class="text-gray-700">Impact-rated shingles with enhanced adhesive and wind ratings of 110+ mph dramatically improve hurricane performance.</p>
+              </div>
+              <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h5 class="text-lg font-bold text-gray-900 mb-3">Secondary Water Barrier</h5>
+                <p class="text-gray-700">High-quality underlayment provides a critical backup layer if shingles are compromised, preventing interior water damage.</p>
+              </div>
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed"><strong>Pro Tip:</strong> Reinforcements must be done BEFORE hurricane season. Once a storm is approaching, contractors are booked solid and materials become scarce. Act now while professionals are available.</p>
+          `
+        },
+        {
+          id: 'step-3-tree-maintenance',
+          title: 'Step 3: Trim Trees Within 10 Feet of Your Roof',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">Overhanging branches become <strong>battering rams during hurricanes</strong>, punching holes in roofs and allowing catastrophic water infiltration. Tree debris also clogs gutters, creating ice dams and roof ponding.</p>
+            <h4 class="text-xl font-bold text-gray-900 mt-6 mb-4">Tree Maintenance Checklist:</h4>
+            <ul class="space-y-3 text-lg text-gray-700 mb-6">
+              <li class="flex items-start gap-3">
+                <span class="text-red-600 font-bold">⚠️</span>
+                <div><strong>Trim ALL branches within 10 feet of your roof</strong> — Hurricane winds can whip branches 20+ feet</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-red-600 font-bold">⚠️</span>
+                <div><strong>Remove dead or diseased trees entirely</strong> — These are most likely to fall during storms</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-red-600 font-bold">⚠️</span>
+                <div><strong>Inspect for cracks in trunks and weak branch connections</strong> — Signs of structural instability</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-red-600 font-bold">⚠️</span>
+                <div><strong>Hire certified arborists for large trees</strong> — Improper trimming weakens trees and increases fall risk</div>
+              </li>
+            </ul>
+            <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-6">
+              <p class="text-lg text-yellow-900"><strong>⚠️ Legal Note:</strong> If your neighbor's tree threatens your property, document it with photos and send written notice. In South Carolina, property owners are responsible for trees on their land that damage neighboring homes.</p>
+            </div>
+          `
+        },
+        {
+          id: 'step-4-gutter-drainage',
+          title: 'Step 4: Clean Gutters and Verify Drainage Systems',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">Clogged gutters are a hidden disaster waiting to happen during hurricanes. <strong>Water backup from blocked gutters</strong> infiltrates under shingles, saturates roof decking, and causes interior ceiling collapse.</p>
+            <h4 class="text-xl font-bold text-gray-900 mt-6 mb-4">Gutter System Preparation:</h4>
+            <div class="space-y-6 my-6">
+              <div class="border-l-4 border-weather-secondary pl-6">
+                <h5 class="text-lg font-bold text-gray-900 mb-2">1. Clear All Debris</h5>
+                <p class="text-gray-700">Remove leaves, twigs, pine needles, and granules from shingles. Even small blockages cause overflow during heavy rainfall.</p>
+              </div>
+              <div class="border-l-4 border-weather-secondary pl-6">
+                <h5 class="text-lg font-bold text-gray-900 mb-2">2. Check Downspout Flow</h5>
+                <p class="text-gray-700">Run water through gutters and verify downspouts are directing water at least 6 feet away from your foundation.</p>
+              </div>
+              <div class="border-l-4 border-weather-secondary pl-6">
+                <h5 class="text-lg font-bold text-gray-900 mb-2">3. Secure Loose Gutters</h5>
+                <p class="text-gray-700">Inspect gutter hangers and brackets. Hurricane winds will rip away improperly secured gutters, creating additional roof damage.</p>
+              </div>
+              <div class="border-l-4 border-weather-secondary pl-6">
+                <h5 class="text-lg font-bold text-gray-900 mb-2">4. Install Gutter Guards (Optional)</h5>
+                <p class="text-gray-700">Quality gutter guards reduce debris accumulation, but they must be professionally installed to avoid creating ice dams in winter.</p>
+              </div>
+            </div>
+          `
+        },
+        {
+          id: 'step-5-emergency-supplies',
+          title: 'Step 5: Prepare Emergency Roof Repair Supplies',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">If your roof sustains damage during a hurricane, <strong>immediate temporary repairs</strong> prevent catastrophic interior flooding while you wait for professional help. Contractors are overwhelmed after major storms—be prepared to protect your home yourself initially.</p>
+            <h4 class="text-xl font-bold text-gray-900 mt-6 mb-4">Emergency Supply Kit (Store in a Waterproof Container):</h4>
+            <ul class="space-y-3 text-lg text-gray-700 mb-6">
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">📦</span>
+                <div><strong>Heavy-Duty Tarps (10x20 minimum)</strong> — Blue poly tarps rated for high winds</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">📦</span>
+                <div><strong>Roof Cement/Sealant</strong> — Tube of emergency roof repair caulk for small leaks</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">📦</span>
+                <div><strong>2x4 Lumber Boards</strong> — For securing tarps to roof edges</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">📦</span>
+                <div><strong>Nails and Hammer or Cordless Drill</strong> — Battery-powered drill recommended (power may be out)</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">📦</span>
+                <div><strong>Ladder (Safely Stored)</strong> — Secure ladder to prevent it from becoming a projectile during storms</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">📦</span>
+                <div><strong>Work Gloves and Safety Goggles</strong></div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-amber">📦</span>
+                <div><strong>Flashlight and Extra Batteries</strong> — Headlamp style preferred for hands-free work</div>
+              </li>
+            </ul>
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 my-6">
+              <p class="text-lg text-red-900"><strong>⚠️ SAFETY WARNING:</strong> NEVER attempt roof repairs during a hurricane or immediately after when conditions are dangerous. Wait until winds subside and it is safe to work. If you're uncomfortable working on your roof, call Weather Shield Roofing at <a href="tel:8438775539" class="text-weather-secondary font-bold hover:underline">(843) 877-5539</a> for 24/7 emergency service.</p>
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed"><strong>Pre-Store Contact Information:</strong> Save Weather Shield Roofing's emergency number in your phone NOW: <a href="tel:8438775539" class="text-weather-secondary font-bold hover:underline">(843) 877-5539</a>. After major storms, cell service may be intermittent—having contact info saved ensures you can reach us.</p>
+          `
+        },
+        {
+          id: 'step-6-insurance-documentation',
+          title: 'Step 6: Document Your Roof and Review Insurance Coverage',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">Insurance claims after hurricanes are <strong>significantly easier</strong> when you have pre-storm documentation proving your roof was in good condition. Many denied claims result from insurers arguing pre-existing damage caused the failure.</p>
+            <h4 class="text-xl font-bold text-gray-900 mt-6 mb-4">Documentation Checklist:</h4>
+            <ul class="space-y-3 text-lg text-gray-700 mb-6">
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold">✓</span>
+                <div><strong>Photograph Your Entire Roof:</strong> Take clear photos from all angles, including close-ups of shingles, flashing, and roof penetrations</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold">✓</span>
+                <div><strong>Document Maintenance Records:</strong> Keep receipts for all roof repairs, inspections, and maintenance</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold">✓</span>
+                <div><strong>Video Walkthrough:</strong> Record a video showing your roof and attic interior, date-stamped before hurricane season</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-weather-secondary font-bold">✓</span>
+                <div><strong>Store Digitally and Off-Site:</strong> Upload photos to cloud storage (Google Drive, Dropbox) so they survive if your home is damaged</div>
+              </li>
+            </ul>
+            <h4 class="text-xl font-bold text-gray-900 mt-6 mb-4">Insurance Policy Review:</h4>
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">Call your insurance agent TODAY and verify:</p>
+            <ul class="space-y-3 text-lg text-gray-700 mb-6">
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600">→</span>
+                <div><strong>Hurricane/Windstorm Coverage:</strong> Is it included or a separate policy?</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600">→</span>
+                <div><strong>Deductible Amount:</strong> Percentage-based deductibles can be $10,000+ on a $300,000 home</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600">→</span>
+                <div><strong>Replacement Cost vs. Actual Cash Value:</strong> Replacement cost pays to fully replace; ACV depreciates based on age</div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600">→</span>
+                <div><strong>Temporary Repairs Coverage:</strong> Does your policy cover emergency tarping and mitigation?</div>
+              </li>
+            </ul>
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 my-6">
+              <p class="text-lg text-blue-900"><strong>Pro Tip:</strong> Weather Shield Roofing works directly with insurance companies and handles the entire claims process for you—from inspection and documentation to negotiating with adjusters. We maximize your insurance payout and minimize your stress.</p>
+            </div>
+          `
+        },
+        {
+          id: 'why-act-now',
+          title: 'Why You Must Act NOW—Not After the Storm',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">Every hurricane season, we see the same pattern: homeowners wait until a storm is approaching to call for inspections and repairs. By then, it's too late.</p>
+            <div class="bg-gray-50 p-8 rounded-lg my-6 border-2 border-gray-200">
+              <h4 class="text-2xl font-bold text-gray-900 mb-6">The Reality After a Hurricane Warning:</h4>
+              <ul class="space-y-4 text-lg text-gray-700">
+                <li class="flex items-start gap-3">
+                  <span class="text-red-600 text-2xl">✗</span>
+                  <div><strong>Contractors are fully booked</strong> — Every roofing company in the region is overwhelmed</div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-red-600 text-2xl">✗</span>
+                  <div><strong>Materials become scarce</strong> — Supply stores run out of plywood, tarps, and emergency supplies</div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-red-600 text-2xl">✗</span>
+                  <div><strong>Prices skyrocket</strong> — Price gouging becomes rampant during emergencies</div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-red-600 text-2xl">✗</span>
+                  <div><strong>You're evacuating</strong> — No time for roof work when you need to leave town</div>
+                </li>
+              </ul>
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed mb-4"><strong>October is the perfect time to act:</strong> Hurricane season is still active, but we're not in the chaos of an approaching storm. Contractors are available, materials are in stock, and you have time to complete proper repairs.</p>
+            <p class="text-lg text-gray-700 leading-relaxed"><strong>Don't gamble with your home.</strong> The next major storm could form in days, giving you no time to prepare. Act now while you have the advantage.</p>
+          `
+        },
+        {
+          id: 'weather-shield-commitment',
+          title: 'Weather Shield Roofing: Your Hurricane Preparation Partner',
+          content: `
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">For over 15 years, Weather Shield Roofing has been Myrtle Beach's trusted partner in storm preparation and recovery. Our team has protected hundreds of homes from hurricane damage through proactive preparation and rapid emergency response.</p>
+            <div class="bg-weather-secondary text-white p-8 rounded-lg my-8">
+              <h4 class="text-2xl font-bold mb-6">🛡️ Our Hurricane Preparedness Services:</h4>
+              <ul class="space-y-3 text-lg">
+                <li class="flex items-start gap-3">
+                  <span class="text-weather-amber font-bold">✓</span>
+                  <div><strong>FREE 25-Point Hurricane Preparedness Inspection</strong></div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-weather-amber font-bold">✓</span>
+                  <div><strong>Emergency Roof Repairs (Pre-Storm)</strong></div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-weather-amber font-bold">✓</span>
+                  <div><strong>Hurricane Reinforcement (Straps, Clips, Wind-Rated Shingles)</strong></div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-weather-amber font-bold">✓</span>
+                  <div><strong>Gutter Cleaning and Drainage Optimization</strong></div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-weather-amber font-bold">✓</span>
+                  <div><strong>Insurance Documentation and Claims Assistance</strong></div>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-weather-amber font-bold">✓</span>
+                  <div><strong>24/7 Emergency Storm Response</strong></div>
+                </li>
+              </ul>
+            </div>
+            <div class="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white p-8 rounded-lg my-8 text-center">
+              <h4 class="text-3xl font-bold mb-4">Don't Wait for the Next Hurricane Warning</h4>
+              <p class="text-xl mb-6">Schedule your FREE hurricane preparedness inspection today. Our certified specialists will identify vulnerabilities and provide a detailed action plan to protect your home.</p>
+              <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="tel:8438775539" class="bg-white text-weather-secondary px-8 py-4 rounded-lg font-bold text-xl hover:bg-gray-100 transition-colors inline-block">
+                  📞 Call Now: (843) 877-5539
+                </a>
+                <a href="/free-inspection" class="bg-weather-secondary text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-weather-secondary-dark transition-colors inline-block">
+                  Schedule Free Inspection
+                </a>
+              </div>
+              <p class="text-sm mt-6 opacity-90">⚡ Available NOW while contractors aren't overwhelmed. Don't wait until it's too late.</p>
+            </div>
+          `
+        }
+      ],
+      faqs: [
+        {
+          question: 'When does the 2025 Atlantic hurricane season end?',
+          answer: 'The official Atlantic hurricane season ends on November 30, 2025. However, storms can form outside this window. October and November are historically peak months for intense hurricanes, so preparation should not be delayed.'
+        },
+        {
+          question: 'How much does a hurricane preparedness roof inspection cost?',
+          answer: 'Weather Shield Roofing provides FREE comprehensive hurricane preparedness inspections with no obligation. Our certified specialists will identify vulnerabilities, document your roof\'s condition for insurance purposes, and provide a detailed action plan—completely free.'
+        },
+        {
+          question: 'Can I inspect my own roof for hurricane readiness?',
+          answer: 'While you can check for obvious issues like missing shingles from the ground, a professional inspection is critical. Roofing experts have training and tools to identify subtle problems like compromised flashing, soft spots in the deck, and inadequate ventilation that are invisible from ground level but catastrophic during hurricanes.'
+        },
+        {
+          question: 'What are hurricane straps and do I need them?',
+          answer: 'Hurricane straps (also called roof clips) are metal connectors that anchor your roof structure to your home\'s walls, preventing uplift during extreme winds. Modern building codes require them, but older homes often lack proper reinforcement. If your Myrtle Beach home was built before 2000, you likely need hurricane straps installed.'
+        },
+        {
+          question: 'How far from my roof should I trim tree branches?',
+          answer: 'Trim ALL branches within 10 feet of your roof. Hurricane-force winds can whip branches 20+ feet from their resting position, turning them into battering rams that punch holes in roofs. Dead or diseased trees near your home should be removed entirely by certified arborists.'
+        },
+        {
+          question: 'Will my homeowners insurance cover hurricane roof damage?',
+          answer: 'Coverage varies significantly by policy. Many standard homeowners insurance policies include wind damage, but some require separate hurricane/windstorm policies. Contact your insurance agent NOW to verify your coverage, understand your deductible (often percentage-based for hurricanes), and confirm whether you have replacement cost or actual cash value coverage. Weather Shield Roofing works directly with insurance companies and handles claims for you.'
+        },
+        {
+          question: 'What should I do if my roof is damaged during a hurricane?',
+          answer: 'Safety first—never go on your roof during a storm or immediately after when conditions are dangerous. Once it\'s safe, document damage with photos and videos. If possible, place tarps over compromised areas to prevent further water damage. Then call Weather Shield Roofing at (843) 877-5539 for 24/7 emergency service. We prioritize storm damage calls and work with your insurance company.'
+        },
+        {
+          question: 'How long does it take to schedule a roof inspection?',
+          answer: 'Weather Shield Roofing typically schedules inspections within 24-48 hours during non-emergency periods. However, once a hurricane warning is issued, we become fully booked for weeks. Schedule your FREE inspection NOW while we have availability—don\'t wait until a storm is approaching.'
+        },
+        {
+          question: 'Are impact-resistant shingles worth the cost for hurricane protection?',
+          answer: 'Absolutely. Impact-resistant shingles rated for 110+ mph winds dramatically outperform standard shingles during hurricanes. They resist tearing, have enhanced adhesive to prevent wind uplift, and may qualify you for insurance discounts. For Myrtle Beach homes in high-risk hurricane zones, impact-resistant shingles are an excellent investment that pays for itself through avoided damage and lower insurance premiums.'
+        },
+        {
+          question: 'Can I still prepare my roof if a hurricane is already approaching?',
+          answer: 'Once a hurricane warning is issued (typically 36-48 hours before landfall), it\'s generally too late for professional preparation. Contractors are overwhelmed, materials are scarce, and evacuations may be ordered. This is why we emphasize acting NOW in October while hurricane season is still active but storms aren\'t imminent. Your window to prepare properly is right now.'
+        }
+      ]
+    }
+  },
   'hurricane-helene-anniversary-charleston-roof-preparation': {
     id: 7,
     title: 'Hurricane Helene Anniversary: Is Your Charleston Roof Ready for the 2025 Storm Season?',

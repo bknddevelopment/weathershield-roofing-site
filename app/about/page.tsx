@@ -6,6 +6,12 @@ import Image from 'next/image'
 import CTASection from '../components/CTASection'
 import { GAFCertificationSection } from '../components/GAFCertification'
 import LazyYouTubeEmbed from '../components/LazyYouTubeEmbed'
+import CertificationBar from '../components/CertificationBar'
+import TrustIndicators from '../components/TrustIndicators'
+import TestimonialsSection from '../components/TestimonialsSection'
+import FAQSection from '../components/FAQSection'
+import BlogsSection from '../components/BlogsSection'
+import StructuredData from '../components/StructuredData'
 import { 
   Shield, 
   Award, 
@@ -51,7 +57,7 @@ const trustBadges = [
   {
     name: 'Google Reviews',
     icon: <Star className="w-10 h-10" />,
-    description: '5.0 Stars • 500+ Reviews',
+    description: '5.0 Stars • 73 Reviews',
     color: 'from-green-500 to-green-600'
   },
   {
@@ -135,7 +141,9 @@ export default function AboutPage() {
   const heroOpacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   return (
-    <main className="min-h-screen bg-white overflow-hidden">
+    <>
+      <StructuredData type="about" />
+      <main className="min-h-screen bg-white overflow-hidden">
         {/* Hero Section with Parallax */}
         <section ref={heroRef} className="relative min-h-[70vh] bg-gradient-to-br from-weather-secondary via-weather-secondary to-weather-secondary-dark overflow-hidden">
           {/* Animated Background Pattern */}
@@ -256,6 +264,9 @@ export default function AboutPage() {
             </svg>
           </div>
         </section>
+
+        {/* Certification Bar */}
+        <CertificationBar />
 
         {/* Trust Badges Section */}
         <section className="py-16 bg-gray-50">
@@ -704,7 +715,7 @@ export default function AboutPage() {
                     </div>
                     <div className="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
                       <Award className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                      <span className="text-sm font-medium text-gray-800">Industry Leader Since 2008</span>
+                      <span className="text-sm font-medium text-gray-800">Industry Leader Since 1999</span>
                     </div>
                     <div className="flex items-center gap-3 p-3 bg-amber-50 rounded-lg">
                       <Star className="w-5 h-5 text-amber-600 flex-shrink-0" />
@@ -745,11 +756,11 @@ export default function AboutPage() {
                   </div>
                   <div className="flex items-center gap-4">
                     <a
-                      href="tel:843-493-4963"
+                      href="tel:8438775539"
                       className="bg-white text-weather-primary px-6 py-3 rounded-lg font-bold hover:shadow-lg transition-all duration-300 flex items-center gap-2"
                     >
                       <Phone className="w-5 h-5" />
-                      (843) 493-4963
+                      (843) 877-5539
                     </a>
                   </div>
                 </div>
@@ -906,11 +917,24 @@ export default function AboutPage() {
           </div>
         </motion.section>
 
+        {/* Trust Indicators */}
+        <TrustIndicators />
+
         {/* GAF Certification Section */}
         <GAFCertificationSection />
 
+        {/* Testimonials Section */}
+        <TestimonialsSection />
+
+        {/* FAQ Section */}
+        <FAQSection />
+
+        {/* Blog Section */}
+        <BlogsSection />
+
         {/* Main CTA Section */}
         <CTASection />
-    </main>
+      </main>
+    </>
   )
 }

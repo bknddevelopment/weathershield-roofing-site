@@ -17,6 +17,18 @@ import {
 
 const blogPosts = [
   {
+    id: 8,
+    title: 'Is Your Myrtle Beach Roof Ready for the Rest of Hurricane Season 2025? 6 Critical Steps',
+    excerpt: 'NOAA predicts 13-19 named storms this season. With peak hurricane months ahead, discover the 6 critical steps to protect your Myrtle Beach home before November 30th.',
+    author: 'David Karimi',
+    date: 'October 8, 2025',
+    readTime: '11 min read',
+    category: 'Storm Preparation',
+    image: '/images/background/residential-roofing-gutter-siding-services.jpg',
+    slug: 'myrtle-beach-roof-hurricane-season-2025-preparation',
+    featured: true
+  },
+  {
     id: 7,
     title: 'Hurricane Helene Anniversary: Is Your Charleston Roof Ready for the 2025 Storm Season?',
     excerpt: 'One year after Hurricane Helene devastated South Carolina, learn critical lessons to protect your Charleston roof from future storms. Free inspection available.',
@@ -26,7 +38,7 @@ const blogPosts = [
     category: 'Storm Preparation',
     image: '/images/background/residential-roofing-gutter-siding-services.jpg',
     slug: 'hurricane-helene-anniversary-charleston-roof-preparation',
-    featured: true
+    featured: false
   },
   {
     id: 1,

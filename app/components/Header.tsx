@@ -92,22 +92,22 @@ export default function Header() {
         aria-label="Main navigation"
         className={`transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-2xl border-b border-gray-200'
-          : 'bg-white shadow-sm'
+          ? 'bg-white/98 backdrop-blur-md shadow-lg border-b border-gray-100'
+          : 'bg-white shadow-md border-b border-gray-50'
       }`}>
         {/* Main Navigation */}
-        <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`} role="navigation" aria-label="Primary navigation">
+        <nav className={`bg-white transition-all duration-300 ${isScrolled ? 'py-3' : 'py-4'}`} role="navigation" aria-label="Primary navigation">
           <div className="relative w-full">
             {/* Logo - Positioned absolutely to break out of container constraints */}
             <Link
               href="/"
-              className="absolute left-2 sm:left-4 md:left-8 lg:left-12 xl:left-16 2xl:left-24 top-1/2 -translate-y-1/2 z-10 flex items-center"
+              className="absolute left-4 sm:left-6 md:left-8 lg:left-12 xl:left-16 top-1/2 -translate-y-1/2 z-10 flex items-center hover:opacity-90 transition-opacity"
               aria-label="Weather Shield Roofing - Top Roofing Companies Myrtle Beach | WeatherShield Home"
             >
               <div className={`relative transition-all duration-300 ${
                 isScrolled
-                  ? 'w-44 sm:w-56 md:w-64 lg:w-72 xl:w-80 2xl:w-96 h-14 sm:h-16 md:h-18 lg:h-20 xl:h-22 2xl:h-24'
-                  : 'w-48 sm:w-64 md:w-72 lg:w-80 xl:w-96 2xl:w-[26rem] h-16 sm:h-20 md:h-22 lg:h-24 xl:h-26 2xl:h-28'
+                  ? 'w-36 sm:w-44 md:w-52 lg:w-56 xl:w-60 h-12 sm:h-14 md:h-16 lg:h-16 xl:h-16'
+                  : 'w-40 sm:w-48 md:w-56 lg:w-60 xl:w-64 h-14 sm:h-16 md:h-18 lg:h-18 xl:h-20'
               }`}>
                 <StaticImage
                   src="/favicon.png"
@@ -121,17 +121,17 @@ export default function Header() {
             {/* Main container for nav and CTA - adjusted padding to account for absolute logo */}
             <div className="flex justify-between items-center max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
               {/* Desktop Navigation - add left spacing to avoid logo overlap */}
-              <div className="hidden lg:flex items-center space-x-2 xl:space-x-3 ml-[280px] xl:ml-[340px] 2xl:ml-[400px] flex-nowrap whitespace-nowrap">
+              <div className="hidden lg:flex items-center gap-1 xl:gap-2 ml-[240px] xl:ml-[280px] flex-nowrap whitespace-nowrap">
                 <Link
                   href="/"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-all duration-200 py-2 px-3 xl:px-4 font-medium text-sm xl:text-base rounded-md hover:bg-gray-50 focus-visible-ring"
                 >
                   Home
                 </Link>
 
                 <Link
                   href="/about"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-all duration-200 py-2 px-3 xl:px-4 font-medium text-sm xl:text-base rounded-md hover:bg-gray-50 focus-visible-ring"
                 >
                   About
                 </Link>
@@ -139,7 +139,7 @@ export default function Header() {
                 {/* Services Dropdown */}
                 <div className="relative dropdown-wrapper">
                   <button
-                    className="flex items-center text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
+                    className="flex items-center gap-1 text-gray-700 hover:text-weather-secondary transition-all duration-200 py-2 px-3 xl:px-4 font-medium text-sm xl:text-base rounded-md hover:bg-gray-50 focus-visible-ring"
                     aria-haspopup="true"
                     aria-expanded={isServicesOpen ? "true" : "false"}
                     aria-controls="services-dropdown"
@@ -151,7 +151,7 @@ export default function Header() {
                     }}
                   >
                     Services
-                    <ChevronDown className="ml-1 h-4 w-4 transition-transform dropdown-wrapper:hover:rotate-180" />
+                    <ChevronDown className="h-4 w-4 transition-transform dropdown-wrapper:hover:rotate-180" />
                   </button>
                   {/* Always render dropdown, CSS handles visibility */}
                   <div
@@ -204,52 +204,52 @@ export default function Header() {
 
                 <Link
                   href="/gallery"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-all duration-200 py-2 px-3 xl:px-4 font-medium text-sm xl:text-base rounded-md hover:bg-gray-50 focus-visible-ring"
                 >
                   Gallery
                 </Link>
 
                 <Link
                   href="/reviews"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-all duration-200 py-2 px-3 xl:px-4 font-medium text-sm xl:text-base rounded-md hover:bg-gray-50 focus-visible-ring"
                 >
                   Reviews
                 </Link>
 
                 <Link
                   href="/blog"
-                  className="text-gray-700 hover:text-weather-secondary transition-colors py-2 px-1 font-semibold text-sm xl:text-base focus-visible-ring"
+                  className="text-gray-700 hover:text-weather-secondary transition-all duration-200 py-2 px-3 xl:px-4 font-medium text-sm xl:text-base rounded-md hover:bg-gray-50 focus-visible-ring"
                 >
                   Blog
                 </Link>
               </div>
 
               {/* Desktop CTA Section */}
-              <div className="hidden lg:flex items-center gap-3 ml-4">
+              <div className="hidden lg:flex items-center gap-4 ml-6">
                 {/* GAF Certification Badge */}
-                <GAFBadge variant="compact" className="border-r border-gray-200 pr-3" />
+                <GAFBadge variant="compact" className="border-r border-gray-200 pr-4" />
 
                 {/* Phone Number CTA */}
                 <a
                   href="tel:+18438775539"
-                  className="flex items-center gap-2 text-weather-secondary font-semibold hover:text-weather-amber transition-colors whitespace-nowrap focus-visible-ring"
+                  className="flex items-center gap-2 text-gray-900 font-semibold hover:text-weather-secondary transition-colors whitespace-nowrap focus-visible-ring group"
                   aria-label="Call us at (843) 877-5539"
                 >
                   <div className="relative">
-                    <div className="absolute inset-0 bg-weather-amber/20 rounded-full animate-ping"></div>
-                    <div className="relative bg-weather-amber/10 p-1.5 rounded-full">
-                      <Phone className="w-4 h-4 text-weather-amber" />
+                    <div className="absolute inset-0 bg-weather-secondary/20 rounded-full animate-pulse"></div>
+                    <div className="relative bg-weather-secondary/10 p-2 rounded-full group-hover:bg-weather-secondary/20 transition-colors">
+                      <Phone className="w-4 h-4 text-weather-secondary" />
                     </div>
                   </div>
-                  <span className="text-sm">(843) 877-5539</span>
+                  <span className="text-sm xl:text-base">(843) 877-5539</span>
                 </a>
 
                 {/* Primary CTA Button */}
                 <a
                   {...getBookingLinkProps()}
-                  className="bg-gradient-to-r from-weather-amber to-weather-amber-dark text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group hover:-translate-y-0.5 whitespace-nowrap text-base"
+                  className="bg-gradient-to-r from-weather-secondary to-weather-secondary-dark text-white px-5 py-2.5 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-200 flex items-center gap-2 group hover:from-weather-secondary-dark hover:to-weather-secondary whitespace-nowrap text-sm xl:text-base"
                 >
-                  Request Quote
+                  Get Free Quote
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </div>

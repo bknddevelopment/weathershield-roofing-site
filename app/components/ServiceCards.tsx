@@ -41,7 +41,7 @@ const services = [
   {
     icon: CloudRain,
     title: "Storm Damage Repair",
-    description: "Rapid storm damage response for Charleston area. We handle insurance claims from start to finish",
+    description: "Rapid storm damage response for Myrtle Beach area. We handle insurance claims from start to finish",
     features: ["Emergency Tarping", "Insurance Specialists", "Full Restoration"],
     image: "/images/background/residential-roofing-gutter-siding-services.jpg",
     href: "/services/storm-damage",
@@ -68,7 +68,7 @@ const services = [
   {
     icon: Building2,
     title: "Commercial Roofing",
-    description: "Commercial roofing solutions for businesses throughout Charleston and the Lowcountry",
+    description: "Commercial roofing solutions for businesses throughout Myrtle Beach and the Carolina Coast",
     features: ["TPO & EPDM Systems", "Minimal Disruption", "Maintenance Programs"],
     image: "/images/background/home-exterior-improvement-services.jpg",
     href: "/services/commercial-roofing",
@@ -92,11 +92,11 @@ export default function ServiceCards() {
             <GAFBadge variant="inline" className="bg-weather-amber/10 rounded-full px-5 py-3" />
           </div>
           <h2 className="section-title text-weather-dark mb-6">
-            Professional Roofing Services for Charleston & the Lowcountry
+            Professional Roofing Services for Myrtle Beach & the Carolina Coast
           </h2>
           <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-normal leading-relaxed">
             From emergency repairs to complete roof replacements, Weather Shield Roofing provides expert solutions
-            for residential and commercial properties throughout Charleston, Mount Pleasant, Summerville, and beyond.
+            for residential and commercial properties throughout Myrtle Beach, North Myrtle Beach, Conway, Surfside Beach, and beyond.
           </p>
         </div>
 

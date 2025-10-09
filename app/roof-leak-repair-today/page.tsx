@@ -4,14 +4,14 @@ import { Droplets } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Urgent Roof Leak Repair Today | Same Day Service | WeatherShield',
-  description: 'Roof leak repair today - URGENT response available! Stop water damage NOW with same-day emergency repair service. Call (843) 293-8150 for immediate assistance!',
+  description: 'Roof leak repair today - URGENT response available! Stop water damage NOW with same-day emergency repair service. Call (843) 877-5539 for immediate assistance!',
   keywords: 'roof leak repair today, urgent roof leak repair, same day roof repair, emergency leak repair, immediate roof repair, roof leak fix today, water leak emergency, ceiling leak repair today',
   alternates: {
     canonical: 'https://weathershieldroofers.com/roof-leak-repair-today',
   },
   openGraph: {
     title: 'URGENT: Roof Leak Repair Today - Stop Water Damage NOW',
-    description: 'Active roof leak? We stop it TODAY! Same-day emergency repair service. Call NOW: (843) 293-8150',
+    description: 'Active roof leak? We stop it TODAY! Same-day emergency repair service. Call NOW: (843) 877-5539',
     url: 'https://weathershieldroofers.com/roof-leak-repair-today',
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '💧 URGENT: Roof Leak Repair TODAY',
-    description: 'Stop water damage NOW! Same-day emergency leak repair. Call: (843) 293-8150',
+    description: 'Stop water damage NOW! Same-day emergency leak repair. Call: (843) 877-5539',
     images: ['/images/roof-leak-repair.jpg'],
   },
   robots: {
@@ -167,11 +167,11 @@ export default function RoofLeakRepairTodayPage() {
                 Don't Let Water Damage Spread - We Stop Leaks in Under 2 Hours!
               </p>
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="inline-flex items-center gap-2 bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105"
               >
                 <Droplets className="w-6 h-6" />
-                Stop Your Leak NOW: (843) 293-8150
+                Stop Your Leak NOW: (843) 877-5539
               </a>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function RoofLeakRepairTodayPage() {
                     {location.urgency} PRIORITY
                   </span>
                   <a
-                    href="tel:+18432938150"
+                    href="tel:+18438775539"
                     className="text-blue-600 font-semibold hover:text-blue-800"
                   >
                     Fix Now →

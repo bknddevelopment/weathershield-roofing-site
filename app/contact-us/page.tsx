@@ -9,7 +9,7 @@ import { Phone, Calendar, Mail, MapPin, AlertCircle, Clock, CheckCircle } from '
 
 export const metadata: Metadata = {
   title: 'Contact Weather Shield Roofing | Myrtle Beach Roofing Companies',
-  description: 'Contact Weather Shield Roofing for free estimates. Leading roofing companies Myrtle Beach trust. Call (843) 293-8150 or submit form for weatherproof solutions.',
+  description: 'Contact Weather Shield Roofing for free estimates. Leading roofing companies Myrtle Beach trust. Call (843) 877-5539 or submit form for weatherproof solutions.',
   keywords: [
     'contact weather shield roofing',
     'roofing companies myrtle beach contact',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Contact Weather Shield Roofing | Myrtle Beach Roofing Companies',
-    description: 'Contact Weather Shield Roofing for free estimates. Leading roofing companies Myrtle Beach trust. Call (843) 293-8150 or submit form for weatherproof solutions.',
+    description: 'Contact Weather Shield Roofing for free estimates. Leading roofing companies Myrtle Beach trust. Call (843) 877-5539 or submit form for weatherproof solutions.',
     url: 'https://weathershieldroofers.com/contact-us',
     siteName: 'Weather Shield Roofing',
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Contact Weather Shield Roofing | Myrtle Beach Roofing Companies',
-    description: 'Contact Weather Shield Roofing for free estimates. Leading roofing companies Myrtle Beach trust. Call (843) 293-8150 or submit form.',
+    description: 'Contact Weather Shield Roofing for free estimates. Leading roofing companies Myrtle Beach trust. Call (843) 877-5539 or submit form.',
     images: ['https://weathershieldroofers.com/images/logo.png'],
   },
   alternates: {
@@ -138,11 +138,11 @@ export default function ContactUsPage() {
               {/* Two Large CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                 <a
-                  href="tel:+18432938150"
+                  href="tel:+18438775539"
                   className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-weather-teal to-weather-blue text-white px-10 py-5 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl min-h-[64px]"
                 >
                   <Phone className="w-6 h-6" />
-                  Call Now: (843) 293-8150
+                  Call Now: (843) 877-5539
                 </a>
                 <a
                   href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
@@ -208,10 +208,10 @@ export default function ContactUsPage() {
                     <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-weather-teal transition-colors">Call Us</h3>
                     <p className="text-gray-600 mb-6">Speak directly with our roofing experts</p>
                     <a
-                      href="tel:+18432938150"
+                      href="tel:+18438775539"
                       className="text-2xl font-bold text-weather-teal hover:underline mb-2"
                     >
-                      (843) 293-8150
+                      (843) 877-5539
                     </a>
                     <p className="text-sm text-gray-500">Available Mon-Sat</p>
                   </div>
@@ -377,11 +377,11 @@ export default function ContactUsPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="tel:+18432938150"
+                    href="tel:+18438775539"
                     className="inline-flex items-center justify-center gap-2 bg-white text-weather-teal px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
                   >
                     <Phone className="w-5 h-5" />
-                    (843) 293-8150
+                    (843) 877-5539
                   </a>
                   <a
                     href="https://weathershieldroofiing.app.n8n.cloud/form/roofing-estimate"
@@ -422,11 +422,11 @@ export default function ContactUsPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                 <a
-                  href="tel:+18432938150"
+                  href="tel:+18438775539"
                   className="inline-flex items-center justify-center gap-3 bg-white text-red-600 px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-2xl hover:scale-105 min-h-[64px]"
                 >
                   <Phone className="w-6 h-6" />
-                  Call Emergency Line: (843) 293-8150
+                  Call Emergency Line: (843) 877-5539
                 </a>
               </div>
 

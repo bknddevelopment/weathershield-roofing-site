@@ -71,7 +71,7 @@ const inspectionOfferSchema = {
   seller: {
     '@type': 'RoofingContractor',
     name: 'WeatherShield Roofing',
-    telephone: '+1-843-293-8150',
+    telephone: '+1-843-877-5539',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '123 Main St',
@@ -188,7 +188,7 @@ const faqSchema = {
       name: 'How soon can you schedule my free inspection?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We offer same-day and next-day inspections for most areas in Myrtle Beach. Emergency inspections are available 24/7. Call (843) 293-8150 to schedule your free inspection today.'
+        text: 'We offer same-day and next-day inspections for most areas in Myrtle Beach. Emergency inspections are available 24/7. Call (843) 877-5539 to schedule your free inspection today.'
       }
     }
   ]

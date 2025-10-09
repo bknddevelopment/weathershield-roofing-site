@@ -542,7 +542,7 @@ export default function InsuranceCalculator() {
                 <p className="text-gray-600 text-sm mb-4">
                   Our insurance specialists can guide you through the process
                 </p>
-                <div className="text-2xl font-bold text-blue-600">(843) 293-8150</div>
+                <div className="text-2xl font-bold text-blue-600">(843) 877-5539</div>
                 <div className="text-sm text-gray-600 mt-1">Available 24/7 for emergencies</div>
               </div>
             </>

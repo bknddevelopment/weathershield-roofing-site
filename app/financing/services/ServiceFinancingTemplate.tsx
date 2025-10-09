@@ -100,11 +100,11 @@ export default function ServiceFinancingTemplate({ data }: ServiceFinancingTempl
             </div>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="tel:8432938150"
+                href="tel:8438775539"
                 className="bg-white text-weather-teal px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors inline-flex items-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Call (843) 293-8150
+                Call (843) 877-5539
               </a>
               <a
                 href="tel:8438775539"
@@ -259,10 +259,10 @@ export default function ServiceFinancingTemplate({ data }: ServiceFinancingTempl
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-6">
             <a
-              href="tel:8432938150"
+              href="tel:8438775539"
               className="bg-white text-weather-teal px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
             >
-              Call (843) 293-8150
+              Call (843) 877-5539
             </a>
             <a
               href="tel:8438775539"

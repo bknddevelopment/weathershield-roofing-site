@@ -3,14 +3,14 @@ import EmergencyPageTemplate from '../components/emergency/EmergencyPageTemplate
 
 export const metadata: Metadata = {
   title: '24 Hour Roofing Service Near Me | Emergency Roofer | WeatherShield',
-  description: '24 hour roofing service near me - Available NOW! Round-the-clock emergency roof repair. Weekend & holiday service. Call (843) 293-8150 anytime, day or night!',
+  description: '24 hour roofing service near me - Available NOW! Round-the-clock emergency roof repair. Weekend & holiday service. Call (843) 877-5539 anytime, day or night!',
   keywords: '24 hour roofing service near me, 24 hour roof repair, 24/7 roofer, emergency roofer near me, all night roofing service, weekend roof repair, after hours roofing',
   alternates: {
     canonical: 'https://weathershieldroofers.com/24-hour-roofing',
   },
   openGraph: {
     title: '24 Hour Roofing Service Near Me - Always Available',
-    description: 'Need a roofer at 3am? We are here! 24 hour roofing service with immediate response. Call NOW: (843) 293-8150',
+    description: 'Need a roofer at 3am? We are here! 24 hour roofing service with immediate response. Call NOW: (843) 877-5539',
     url: 'https://weathershieldroofers.com/24-hour-roofing',
     type: 'website',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '🕐 24 Hour Roofing Service - Always Open',
-    description: 'Emergency roof repair available 24/7. Call anytime: (843) 293-8150',
+    description: 'Emergency roof repair available 24/7. Call anytime: (843) 877-5539',
     images: ['/images/24-hour-roofing-service.jpg'],
   },
   robots: {
@@ -99,7 +99,7 @@ const pageConfig = {
     },
     {
       question: 'How do I reach your 24 hour roofing service?',
-      answer: 'Simply call (843) 293-8150 anytime. Our emergency hotline is answered by a real person 24/7, never an answering service or voicemail. We dispatch crews immediately upon receiving your call.'
+      answer: 'Simply call (843) 877-5539 anytime. Our emergency hotline is answered by a real person 24/7, never an answering service or voicemail. We dispatch crews immediately upon receiving your call.'
     },
     {
       question: 'What areas does your 24 hour roofing service cover?',

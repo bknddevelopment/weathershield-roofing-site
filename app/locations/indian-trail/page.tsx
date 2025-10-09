@@ -74,7 +74,7 @@ export default function IndianTrailPage() {
         { value: '24/7', label: 'Response Time' },
         { value: '200+', label: 'Indian Trail Homes Protected' },
         { value: '10+ Years', label: 'Serving Indian Trail' },
-        { value: '4.8 Stars', label: 'Customer Rating' }
+        { value: '5.0 Stars', label: 'Customer Rating' }
       ]}
       nearbyAreas={[
         { name: 'Charlotte', distance: '15 miles', href: '/locations/charlotte-nc' },

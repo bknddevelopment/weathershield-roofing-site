@@ -62,12 +62,12 @@ export default function EmergencyCTA() {
             {/* Main Phone CTA */}
             <div>
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-300 hover:to-orange-300 text-black px-10 py-6 rounded-lg font-black text-2xl transition-all duration-300 transform hover:scale-110 shadow-2xl"
                 aria-label="Call emergency service immediately"
               >
                 <Phone className="w-8 h-8" />
-                CALL: (843) 293-8150
+                CALL: (843) 877-5539
               </a>
               <p className="text-white/70 text-sm mt-3">
                 Tap to call • Direct emergency line • Real person answers
@@ -141,7 +141,7 @@ export default function EmergencyCTA() {
         {/* Left Side CTA */}
         <div className="fixed left-4 top-1/2 -translate-y-1/2 z-40">
           <a
-            href="tel:+18432938150"
+            href="tel:+18438775539"
             className="flex flex-col items-center gap-2 bg-gradient-to-r from-red-600 to-orange-600 text-white p-4 rounded-lg shadow-2xl hover:scale-110 transition-transform"
             aria-label="Emergency hotline"
           >
@@ -153,7 +153,7 @@ export default function EmergencyCTA() {
         {/* Right Side CTA */}
         <div className="fixed right-4 top-1/2 -translate-y-1/2 z-40">
           <a
-            href="tel:+18432938150"
+            href="tel:+18438775539"
             className="flex flex-col items-center gap-2 bg-gradient-to-r from-red-600 to-orange-600 text-white p-4 rounded-lg shadow-2xl hover:scale-110 transition-transform"
             aria-label="24/7 hotline"
           >

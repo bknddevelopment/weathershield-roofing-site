@@ -104,12 +104,12 @@ export default function EmergencyHero() {
           <div className="space-y-4">
             <div className="inline-block">
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="inline-flex items-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-5 rounded-lg font-black text-xl md:text-2xl transition-all duration-300 transform hover:scale-110 shadow-2xl animate-pulse hover:animate-none"
                 aria-label="Call emergency roof repair service now"
               >
                 <Phone className="w-8 h-8 animate-bounce" />
-                CALL NOW: (843) 293-8150
+                CALL NOW: (843) 877-5539
               </a>
               <p className="text-white/90 text-sm mt-2">Tap to Call • Direct Emergency Line</p>
             </div>
@@ -151,7 +151,7 @@ export default function EmergencyHero() {
       {/* Mobile-optimized floating CTA */}
       <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-gradient-to-r from-red-600 to-orange-600 p-4 border-t-2 border-yellow-400 shadow-2xl">
         <a
-          href="tel:+18432938150"
+          href="tel:+18438775539"
           className="flex items-center justify-center gap-2 bg-yellow-400 text-black px-6 py-4 rounded-lg font-bold text-lg"
           aria-label="Call emergency service now"
         >

@@ -4,14 +4,14 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Emergency Roof Repair Myrtle Beach | 24/7 Service | WeatherShield',
-  description: 'Emergency roof repair Myrtle Beach - Available NOW! Rapid response guaranteed. Licensed & insured emergency roofers. Call (843) 293-8150 for immediate help!',
+  description: 'Emergency roof repair Myrtle Beach - Available NOW! Rapid response guaranteed. Licensed & insured emergency roofers. Call (843) 877-5539 for immediate help!',
   keywords: 'emergency roof repair myrtle beach, emergency roofer myrtle beach, 24 hour roof repair myrtle beach, urgent roof repair myrtle beach, emergency roofing contractor myrtle beach',
   alternates: {
     canonical: 'https://weathershieldroofers.com/emergency-roof-repair',
   },
   openGraph: {
     title: 'Emergency Roof Repair Myrtle Beach - 24/7 Response Available NOW',
-    description: 'Emergency roof leak? Storm damage? We respond quickly. Professional emergency roof repair in Myrtle Beach. Call NOW: (843) 293-8150',
+    description: 'Emergency roof leak? Storm damage? We respond quickly. Professional emergency roof repair in Myrtle Beach. Call NOW: (843) 877-5539',
     url: 'https://weathershieldroofers.com/emergency-roof-repair',
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '🚨 Emergency Roof Repair Myrtle Beach - 24/7 Service',
-    description: 'Immediate response for roof emergencies in Myrtle Beach. Call (843) 293-8150',
+    description: 'Immediate response for roof emergencies in Myrtle Beach. Call (843) 877-5539',
     images: ['/images/emergency-roof-repair.jpg'],
   },
   robots: {
@@ -169,11 +169,11 @@ export default function EmergencyRoofRepairPage() {
             </p>
             <div className="text-center">
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 <Phone className="w-6 h-6" />
-                Get Emergency Help Now: (843) 293-8150
+                Get Emergency Help Now: (843) 877-5539
               </a>
             </div>
           </div>

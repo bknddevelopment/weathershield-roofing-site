@@ -37,7 +37,7 @@ export default function EmergencyForm() {
         // Also trigger immediate phone call prompt for mobile users
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
           setTimeout(() => {
-            window.location.href = 'tel:+18432938150'
+            window.location.href = 'tel:+18438775539'
           }, 1000)
         }
       } else {
@@ -88,11 +88,11 @@ export default function EmergencyForm() {
               <div className="bg-white rounded-lg p-6 shadow-md">
                 <p className="text-gray-600 mb-4">Can't wait? Call us directly:</p>
                 <a
-                  href="tel:+18432938150"
+                  href="tel:+18438775539"
                   className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-green-700 transition-colors"
                 >
                   <Phone className="w-6 h-6" />
-                  (843) 293-8150
+                  (843) 877-5539
                 </a>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function EmergencyForm() {
             </p>
             <div className="mt-4 inline-flex items-center gap-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full">
               <AlertTriangle className="w-5 h-5" />
-              <span className="font-semibold">For fastest response, please call: (843) 293-8150</span>
+              <span className="font-semibold">For fastest response, please call: (843) 877-5539</span>
             </div>
           </div>
 
@@ -240,7 +240,7 @@ export default function EmergencyForm() {
                 {submitStatus === 'error' && (
                   <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg">
                     <p className="font-semibold">Unable to submit form.</p>
-                    <p className="text-sm">Please call us directly at (843) 293-8150</p>
+                    <p className="text-sm">Please call us directly at (843) 877-5539</p>
                   </div>
                 )}
               </form>
@@ -256,11 +256,11 @@ export default function EmergencyForm() {
                   Available 24/7 for all urgent roof repairs.
                 </p>
                 <a
-                  href="tel:+18432938150"
+                  href="tel:+18438775539"
                   className="inline-flex items-center gap-2 bg-white text-weather-teal px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (843) 293-8150
+                  Call Now: (843) 877-5539
                 </a>
                 <p className="mt-4 text-white/90 text-sm">
                   Average hold time: Less than 30 seconds

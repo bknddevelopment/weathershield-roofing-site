@@ -6,7 +6,7 @@ export default function ContactSchema() {
     "name": "Weather Shield Roofing",
     "image": "https://weathershieldroofers.com/images/logo.png",
     "url": "https://weathershieldroofers.com",
-    "telephone": "+1-843-293-8150",
+    "telephone": "+1-843-877-5539",
     "email": "roofing@weathershieldroofers.com",
     "address": {
       "@type": "PostalAddress",
@@ -37,7 +37,7 @@ export default function ContactSchema() {
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-843-293-8150",
+      "telephone": "+1-843-877-5539",
       "contactType": "customer service",
       "contactOption": "TollFree",
       "areaServed": ["US-SC", "Myrtle Beach", "North Myrtle Beach", "Conway"],
@@ -108,7 +108,7 @@ export default function ContactSchema() {
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-843-293-8150",
+      "telephone": "+1-843-877-5539",
       "contactType": "customer service",
       "email": "roofing@weathershieldroofers.com",
       "areaServed": "US-SC",

@@ -58,10 +58,10 @@ export default function LocationFAQs({ cityName, faqs }: LocationFAQsProps) {
               Our {cityName} financing specialists are ready to help you find the perfect payment plan
             </p>
             <a
-              href="tel:8432938150"
+              href="tel:8438775539"
               className="inline-block bg-white text-weather-teal px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
             >
-              Call (843) 293-8150
+              Call (843) 877-5539
             </a>
           </div>
         </div>

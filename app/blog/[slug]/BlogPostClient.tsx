@@ -260,7 +260,7 @@ export default function BlogPostClient({ post, relatedPosts, slug }: BlogPostCli
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t shadow-elevation-3 p-4">
         <div className="flex gap-3">
           <a
-            href="tel:8432938150"
+            href="tel:8438775539"
             className="flex-1 inline-flex items-center justify-center gap-2 bg-weather-primary text-white px-4 py-3 rounded-lg font-bold hover:bg-weather-primary-dark transition-colors min-h-[48px]"
           >
             <Phone className="w-5 h-5" />
@@ -512,9 +512,9 @@ export default function BlogPostClient({ post, relatedPosts, slug }: BlogPostCli
                     <p className="text-gray-700">Schedule your free roof inspection today. No obligations, just peace of mind.</p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <a href="tel:8432938150" className="inline-flex items-center justify-center gap-2 bg-weather-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-weather-primary-dark transition-colors min-h-[48px] shadow-elevation-2">
+                    <a href="tel:8438775539" className="inline-flex items-center justify-center gap-2 bg-weather-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-weather-primary-dark transition-colors min-h-[48px] shadow-elevation-2">
                       <Phone className="w-5 h-5" />
-                      Call (843) 293-8150
+                      Call (843) 877-5539
                     </a>
                     <Link href="/quote" className="inline-flex items-center justify-center gap-2 bg-white border-2 border-weather-primary text-weather-primary px-6 py-3 rounded-lg font-bold hover:bg-weather-primary hover:text-white transition-colors min-h-[48px] shadow-elevation-1">
                       Schedule Online
@@ -626,11 +626,11 @@ export default function BlogPostClient({ post, relatedPosts, slug }: BlogPostCli
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
-                      href="tel:8432938150"
+                      href="tel:8438775539"
                       className="inline-flex items-center justify-center gap-2 bg-white text-weather-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-50 transition-colors shadow-elevation-3"
                     >
                       <Phone className="w-6 h-6" />
-                      Call Now: (843) 293-8150
+                      Call Now: (843) 877-5539
                     </a>
                     <Link
                       href="/quote"
@@ -748,11 +748,11 @@ export default function BlogPostClient({ post, relatedPosts, slug }: BlogPostCli
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
-                      href="tel:8432938150"
+                      href="tel:8438775539"
                       className="inline-flex items-center justify-center gap-2 bg-weather-primary text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-weather-primary-dark transition-colors shadow-elevation-3"
                     >
                       <Phone className="w-6 h-6" />
-                      Call Now: (843) 293-8150
+                      Call Now: (843) 877-5539
                     </a>
                     <Link
                       href="/quote"

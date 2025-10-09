@@ -122,12 +122,12 @@ export default function EmergencyPageTemplate({ config, children }: EmergencyPag
             <div className="space-y-4">
               <div className="inline-block">
                 <a
-                  href="tel:+18432938150"
+                  href="tel:+18438775539"
                   className="inline-flex items-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-5 rounded-lg font-black text-xl md:text-2xl transition-all duration-300 transform hover:scale-110 shadow-2xl animate-pulse hover:animate-none"
                   aria-label={config.ctaText}
                 >
                   <Phone className="w-8 h-8 animate-bounce" />
-                  {config.ctaText}: (843) 293-8150
+                  {config.ctaText}: (843) 877-5539
                 </a>
                 <p className="text-white/90 text-sm mt-2">Tap to Call • Direct Emergency Line</p>
               </div>
@@ -258,7 +258,7 @@ export default function EmergencyPageTemplate({ config, children }: EmergencyPag
                 <AlertTriangle className="w-8 h-8 text-orange-600 mb-3" />
                 <h3 className="font-bold text-lg mb-2 text-gray-900">{service}</h3>
                 <a
-                  href="tel:+18432938150"
+                  href="tel:+18438775539"
                   className="text-weather-primary font-semibold hover:text-weather-primary-dark transition-colors"
                 >
                   Get Help Now →
@@ -299,12 +299,12 @@ export default function EmergencyPageTemplate({ config, children }: EmergencyPag
             Our expert team is standing by to help you NOW.
           </p>
           <a
-            href="tel:+18432938150"
+            href="tel:+18438775539"
             className="inline-flex items-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-5 rounded-lg font-black text-xl md:text-2xl transition-all duration-300 transform hover:scale-110 shadow-2xl"
             aria-label="Call emergency service immediately"
           >
             <Phone className="w-8 h-8" />
-            CALL EMERGENCY LINE: (843) 293-8150
+            CALL EMERGENCY LINE: (843) 877-5539
           </a>
           <p className="mt-4 text-white/80">
             {config.availabilityMessage}

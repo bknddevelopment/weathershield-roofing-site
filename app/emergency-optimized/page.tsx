@@ -41,14 +41,14 @@ const EmergencyContactBar = dynamic(() => import('../components/emergency/Emerge
 
 export const metadata: Metadata = {
   title: 'Emergency Roof Repair Today | 24 Hour Roofer Available Now | WeatherShield',
-  description: 'URGENT: Roof leak repair today in Myrtle Beach. 24/7 emergency roofer available now. Storm damage repair same day. Hurricane damage experts. Call (843) 293-8150 for immediate response!',
+  description: 'URGENT: Roof leak repair today in Myrtle Beach. 24/7 emergency roofer available now. Storm damage repair same day. Hurricane damage experts. Call (843) 877-5539 for immediate response!',
   keywords: 'roof leak repair today, emergency roofer available now, 24 hour roofing service near me, storm damage repair same day, emergency roof tarp service, urgent roof repair myrtle beach, hurricane damage roof repair myrtle beach, emergency roof repair myrtle beach, same day roof repair near me, weekend roofing service myrtle beach, immediate roof inspection after storm, storm damage roofing contractors myrtle beach sc, emergency roofing, immediate roof repair, 24/7 roofer, emergency leak repair',
   alternates: {
     canonical: 'https://weathershieldroofers.com/emergency',
   },
   openGraph: {
     title: 'EMERGENCY Roof Repair Available NOW | 24/7 WeatherShield Response',
-    description: 'Roof leak? Storm damage? We respond rapidly. 24/7 emergency roof repair in Myrtle Beach. Call NOW: (843) 293-8150',
+    description: 'Roof leak? Storm damage? We respond rapidly. 24/7 emergency roof repair in Myrtle Beach. Call NOW: (843) 877-5539',
     url: 'https://weathershieldroofers.com/emergency',
     type: 'website',
     images: [
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '🚨 EMERGENCY Roof Repair NOW - 24/7 Response',
-    description: 'Roof leak or storm damage? Immediate response guaranteed. Call (843) 293-8150',
+    description: 'Roof leak or storm damage? Immediate response guaranteed. Call (843) 877-5539',
     images: ['/images/emergency-roof-repair.jpg'],
   },
   robots: {

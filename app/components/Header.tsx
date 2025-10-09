@@ -156,44 +156,42 @@ export default function Header() {
                   {/* Always render dropdown, CSS handles visibility */}
                   <div
                     id="services-dropdown"
-                    className="dropdown-menu absolute left-0 top-full w-96 bg-white shadow-xl rounded-lg py-3 border border-gray-100"
+                    className="dropdown-menu absolute left-0 top-full w-80 bg-white shadow-xl rounded-lg py-2 border border-gray-100"
                     style={{
                       marginTop: '0px',
                       zIndex: 9999
                     }}
                     role="menu"
                   >
-                    <div className="px-4 pb-2 border-b border-gray-100">
+                    <div className="px-3 pb-2 border-b border-gray-100">
                       <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Our Services</p>
                     </div>
-                    {services.map((service) => (
-                      <Link
-                        key={service.href}
-                        href={service.href}
-                        className="flex items-start gap-3 px-4 py-3 hover:bg-gradient-to-r hover:from-weather-secondary/5 hover:to-weather-amber/5 transition-all group relative focus-visible-ring"
-                        role="menuitem"
-                      >
-                        {service.badge && (
-                          <span className="absolute top-2 right-4 text-xs font-medium text-weather-amber bg-weather-amber/10 px-2 py-1 rounded-full">
-                            {service.badge}
-                          </span>
-                        )}
-                        <div className="text-weather-secondary mt-1 group-hover:scale-110 transition-transform" aria-hidden="true">
-                          {service.icon}
-                        </div>
-                        <div className="flex-1">
-                          <h3 className="font-semibold text-weather-secondary group-hover:text-weather-secondary-dark transition-colors">
+                    <div className="grid grid-cols-2 gap-1 p-2">
+                      {services.map((service) => (
+                        <Link
+                          key={service.href}
+                          href={service.href}
+                          className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-weather-secondary/5 transition-all group relative focus-visible-ring"
+                          role="menuitem"
+                        >
+                          {service.badge && (
+                            <span className="absolute -top-1 -right-1 text-[10px] font-medium text-weather-amber bg-weather-amber/10 px-1.5 py-0.5 rounded-full">
+                              {service.badge}
+                            </span>
+                          )}
+                          <div className="text-weather-secondary group-hover:scale-110 transition-transform" aria-hidden="true">
+                            {service.icon}
+                          </div>
+                          <span className="text-sm font-medium text-gray-700 group-hover:text-weather-secondary transition-colors">
                             {service.title}
-                          </h3>
-                          <p className="text-sm text-gray-600 mt-0.5">{service.description}</p>
-                        </div>
-                        <ArrowRight className="w-4 h-4 text-weather-secondary/30 group-hover:text-weather-amber group-hover:translate-x-1 transition-all mt-1" aria-hidden="true" />
-                      </Link>
-                    ))}
-                    <div className="border-t border-gray-100 mt-2 pt-2 px-4">
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="border-t border-gray-100 mt-1 pt-2 px-3">
                       <Link
                         href="/services"
-                        className="text-weather-secondary text-sm font-semibold hover:text-weather-amber transition-colors flex items-center gap-2 focus-visible-ring"
+                        className="text-weather-secondary text-sm font-semibold hover:text-weather-amber transition-colors flex items-center justify-center gap-2 focus-visible-ring"
                       >
                         View All Services
                         <ArrowRight className="w-4 h-4" />

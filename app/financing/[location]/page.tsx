@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: { location: string 
     },
     openGraph: {
       title: `${cityName} Roof Financing | 0% APR | Zero Down | Bad Credit Welcome`,
-      description: `${cityName} roof financing with ${stats.approvalRate}% approval rate. Zero down payment, bad credit OK. ${stats.projectsCompleted}+ projects financed. Flexible payment plans available. Call (843) 293-8150.`,
+      description: `${cityName} roof financing with ${stats.approvalRate}% approval rate. Zero down payment, bad credit OK. ${stats.projectsCompleted}+ projects financed. Flexible payment plans available. Call (843) 877-5539.`,
       url: `https://weathershieldroofers.com/financing/${params.location}`,
       type: 'website',
       siteName: 'WeatherShield Roofing',
@@ -80,7 +80,7 @@ export default function LocationFinancingPage({ params }: { params: { location: 
       '@type': 'LocalBusiness',
       '@id': 'https://weathershieldroofers.com/#organization',
       name: 'WeatherShield Roofing',
-      telephone: '(843) 293-8150',
+      telephone: '(843) 877-5539',
       address: {
         '@type': 'PostalAddress',
         addressLocality: cityName,
@@ -180,10 +180,10 @@ export default function LocationFinancingPage({ params }: { params: { location: 
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="tel:8432938150"
+                href="tel:8438775539"
                 className="bg-white text-weather-teal px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
               >
-                Call (843) 293-8150
+                Call (843) 877-5539
               </a>
               <a
                 href="tel:8438775539"

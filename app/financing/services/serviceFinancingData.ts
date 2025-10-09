@@ -34,7 +34,7 @@ const serviceFinancingData: ServiceFinancingData[] = [
       },
       {
         question: 'Do you offer zero down payment financing for metal roofs?',
-        answer: 'Absolutely! We offer 100% financing with zero down payment for qualified applicants on all metal roofing systems including standing seam, metal shingles, and corrugated panels. This means you can get your premium metal roof installed without paying anything upfront. Contact us at (843) 293-8150 to see if you qualify for our $0 down metal roofing financing programs.'
+        answer: 'Absolutely! We offer 100% financing with zero down payment for qualified applicants on all metal roofing systems including standing seam, metal shingles, and corrugated panels. This means you can get your premium metal roof installed without paying anything upfront. Contact us at (843) 877-5539 to see if you qualify for our $0 down metal roofing financing programs.'
       },
       {
         question: 'How long are the payment terms for metal roof financing?',
@@ -82,7 +82,7 @@ const serviceFinancingData: ServiceFinancingData[] = [
     faqs: [
       {
         question: 'How much can I finance for a complete roof replacement in Myrtle Beach?',
-        answer: 'Financing amounts vary based on your roof size, material choice, and creditworthiness. We provide financing for projects ranging from smaller homes to large estates. Our financing covers the complete replacement including tear-off, deck repairs, underlayment, new roofing material, ventilation upgrades, and all labor. Most residential roof replacements qualify for our financing programs. Contact us at (843) 293-8150 for a free estimate and financing options specific to your roof replacement project.'
+        answer: 'Financing amounts vary based on your roof size, material choice, and creditworthiness. We provide financing for projects ranging from smaller homes to large estates. Our financing covers the complete replacement including tear-off, deck repairs, underlayment, new roofing material, ventilation upgrades, and all labor. Most residential roof replacements qualify for our financing programs. Contact us at (843) 877-5539 for a free estimate and financing options specific to your roof replacement project.'
       },
       {
         question: 'Can I get approved for roof replacement financing with bad credit?',
@@ -190,7 +190,7 @@ const serviceFinancingData: ServiceFinancingData[] = [
       },
       {
         question: 'Is there a minimum amount required to finance roof repairs?',
-        answer: 'Financing minimums vary by lender but typically start around modest amounts for basic repairs. We work with lenders who understand that roof repairs - even smaller ones - are critical home maintenance needs. Whether you need minor shingle repairs or more extensive damage restoration, we can find financing options that work. Contact us at (843) 293-8150 to discuss financing for your specific roof repair needs.'
+        answer: 'Financing minimums vary by lender but typically start around modest amounts for basic repairs. We work with lenders who understand that roof repairs - even smaller ones - are critical home maintenance needs. Whether you need minor shingle repairs or more extensive damage restoration, we can find financing options that work. Contact us at (843) 877-5539 to discuss financing for your specific roof repair needs.'
       },
       {
         question: 'Can I get same-day approval for emergency roof repair financing?',

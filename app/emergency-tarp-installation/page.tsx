@@ -4,14 +4,14 @@ import { Shield, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Emergency Tarp Installation Myrtle Beach | Same Day Service | WeatherShield',
-  description: 'Emergency tarp installation Myrtle Beach - Immediate roof protection! Professional-grade tarping to prevent water damage. Available 24/7. Call (843) 293-8150 now!',
+  description: 'Emergency tarp installation Myrtle Beach - Immediate roof protection! Professional-grade tarping to prevent water damage. Available 24/7. Call (843) 877-5539 now!',
   keywords: 'emergency tarp installation myrtle beach, emergency roof tarping, roof tarp service, temporary roof repair, emergency weatherproofing, storm tarp installation',
   alternates: {
     canonical: 'https://weathershieldroofers.com/emergency-tarp-installation',
   },
   openGraph: {
     title: 'Emergency Tarp Installation Myrtle Beach - Immediate Protection',
-    description: 'Professional emergency roof tarping to stop leaks and prevent damage. Same-day service. Call: (843) 293-8150',
+    description: 'Professional emergency roof tarping to stop leaks and prevent damage. Same-day service. Call: (843) 877-5539',
     url: 'https://weathershieldroofers.com/emergency-tarp-installation',
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '🛡️ Emergency Tarp Installation - Immediate Protection',
-    description: 'Professional roof tarping service. Stop leaks now! Call: (843) 293-8150',
+    description: 'Professional roof tarping service. Stop leaks now! Call: (843) 877-5539',
     images: ['/images/emergency-tarp-installation.jpg'],
   },
   robots: {
@@ -178,11 +178,11 @@ export default function EmergencyTarpInstallationPage() {
                 Every minute counts when preventing water damage!
               </p>
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="inline-flex items-center gap-2 bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105"
               >
                 <Shield className="w-6 h-6" />
-                Get Protected Now: (843) 293-8150
+                Get Protected Now: (843) 877-5539
               </a>
             </div>
           </div>

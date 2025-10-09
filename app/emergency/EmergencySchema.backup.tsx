@@ -11,7 +11,7 @@ export default function EmergencySchema() {
           '@type': 'RoofingContractor',
           '@id': 'https://weathershieldroofers.com/#organization',
           name: 'WeatherShield Roofing',
-          telephone: '+18432938150',
+          telephone: '+18438775539',
           url: 'https://weathershieldroofers.com',
           address: {
             '@type': 'PostalAddress',
@@ -70,7 +70,7 @@ export default function EmergencySchema() {
         availableChannel: {
           '@type': 'ServiceChannel',
           serviceType: 'Emergency',
-          servicePhone: '+18432938150',
+          servicePhone: '+18438775539',
           serviceUrl: 'https://weathershieldroofers.com/emergency',
           availableLanguage: ['en', 'es']
         },
@@ -172,7 +172,7 @@ export default function EmergencySchema() {
         '@id': 'https://weathershieldroofers.com/#emergency-business',
         name: 'WeatherShield Emergency Roofing',
         image: 'https://weathershieldroofers.com/images/emergency-roof-repair.jpg',
-        telephone: '+18432938150',
+        telephone: '+18438775539',
         url: 'https://weathershieldroofers.com/emergency',
         address: {
           '@type': 'PostalAddress',

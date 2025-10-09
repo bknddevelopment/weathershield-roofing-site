@@ -47,7 +47,7 @@ export default function RoofReplacementFinancingPage() {
       '@type': 'LocalBusiness',
       '@id': 'https://weathershieldroofers.com/#organization',
       name: 'WeatherShield Roofing',
-      telephone: '(843) 293-8150',
+      telephone: '(843) 877-5539',
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Myrtle Beach',

@@ -55,10 +55,10 @@ export default function EmergencyContactBar() {
                 <div className="text-white">
                   <p className="text-xs uppercase tracking-wide font-semibold">24/7 Emergency Line</p>
                   <a
-                    href="tel:+18432938150"
+                    href="tel:+18438775539"
                     className="text-2xl font-black hover:text-yellow-300 transition-colors"
                   >
-                    (843) 293-8150
+                    (843) 877-5539
                   </a>
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function EmergencyContactBar() {
               {/* Quick Actions */}
               <div className="mt-3 pt-3 border-t border-white/20 flex gap-3">
                 <a
-                  href="tel:+18432938150"
+                  href="tel:+18438775539"
                   className="flex-1 bg-yellow-400 hover:bg-yellow-300 text-black px-3 py-2 rounded font-bold text-sm text-center transition-colors"
                 >
                   Call Now
@@ -99,20 +99,20 @@ export default function EmergencyContactBar() {
               <Phone className="w-6 h-6 text-yellow-300 animate-pulse" />
               <div>
                 <p className="text-xs text-white/90 uppercase tracking-wide">Emergency</p>
-                <p className="text-white font-black text-lg">(843) 293-8150</p>
+                <p className="text-white font-black text-lg">(843) 877-5539</p>
               </div>
             </div>
 
             <div className="flex gap-2">
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="bg-yellow-400 text-black px-4 py-2 rounded-lg font-bold text-sm animate-pulse"
                 aria-label="Call emergency service"
               >
                 TAP TO CALL
               </a>
               <a
-                href="sms:+18432938150"
+                href="sms:+18438775539"
                 className="bg-white/20 text-white p-2 rounded-lg"
                 aria-label="Text emergency service"
               >

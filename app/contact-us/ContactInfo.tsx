@@ -29,11 +29,11 @@ export default function ContactInfo() {
             <h3 className="text-xl font-bold mb-3">Call Us Today</h3>
             <div className="space-y-2">
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="block text-2xl font-bold hover:underline hover:text-white/90 transition-colors"
-                aria-label="Call primary phone number (843) 293-8150"
+                aria-label="Call primary phone number (843) 877-5539"
               >
-                (843) 293-8150
+                (843) 877-5539
               </a>
               <p className="text-sm text-white/90">Primary Line</p>
             </div>
@@ -141,11 +141,11 @@ export default function ContactInfo() {
                 <div>
                   <p className="font-bold">24/7 Emergency Service Available</p>
                   <a
-                    href="tel:+18432938150"
+                    href="tel:+18438775539"
                     className="text-sm hover:underline mt-1 inline-block"
                     aria-label="Call 24/7 emergency line"
                   >
-                    Call (843) 293-8150 anytime
+                    Call (843) 877-5539 anytime
                   </a>
                 </div>
               </div>

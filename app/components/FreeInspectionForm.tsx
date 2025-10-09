@@ -203,13 +203,13 @@ export default function FreeInspectionForm() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                 <Clock className="w-8 h-8 mx-auto mb-2 text-blue-400" />
-                <div className="font-bold">Same Day</div>
-                <div className="text-sm text-white/80">Available</div>
+                <div className="font-bold">Fast Response</div>
+                <div className="text-sm text-white/80">24/7 Available</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                 <Star className="w-8 h-8 mx-auto mb-2 text-yellow-400" />
-                <div className="font-bold">4.8★</div>
-                <div className="text-sm text-white/80">543 Reviews</div>
+                <div className="font-bold">5.0★</div>
+                <div className="text-sm text-white/80">73 Reviews</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                 <Award className="w-8 h-8 mx-auto mb-2 text-purple-400" />
@@ -227,11 +227,11 @@ export default function FreeInspectionForm() {
                 Schedule Free Inspection →
               </a>
               <a
-                href="tel:8432938150"
+                href="tel:8438775539"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"
               >
                 <Phone className="inline-block w-5 h-5 mr-2" />
-                (843) 293-8150
+                (843) 877-5539
               </a>
             </div>
           </div>
@@ -359,7 +359,7 @@ export default function FreeInspectionForm() {
                   Schedule Your Free Inspection
                 </h2>
                 <p className="text-gray-600">
-                  Fill out the form below or call us at (843) 293-8150
+                  Fill out the form below or call us at (843) 877-5539
                 </p>
               </div>
 
@@ -541,11 +541,11 @@ export default function FreeInspectionForm() {
 
             <div className="mt-10">
               <a
-                href="tel:8432938150"
+                href="tel:8438775539"
                 className="inline-flex items-center gap-3 bg-white text-weather-slate px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl"
               >
                 <Phone className="w-5 h-5" />
-                Call Now: (843) 293-8150
+                Call Now: (843) 877-5539
               </a>
             </div>
           </div>

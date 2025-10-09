@@ -44,7 +44,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Myrtle Beach?',
-        answer: 'Yes! We offer 100% financing with zero down payment for qualified Myrtle Beach homeowners. This means you can get your roof replaced or repaired without paying anything upfront. Our $0 down payment programs are available for applicants with good to excellent credit. We\'ve helped over 800 Myrtle Beach families finance their roofing projects. Contact us at (843) 293-8150 to see if you qualify for no money down financing in Myrtle Beach.'
+        answer: 'Yes! We offer 100% financing with zero down payment for qualified Myrtle Beach homeowners. This means you can get your roof replaced or repaired without paying anything upfront. Our $0 down payment programs are available for applicants with good to excellent credit. We\'ve helped over 800 Myrtle Beach families finance their roofing projects. Contact us at (843) 877-5539 to see if you qualify for no money down financing in Myrtle Beach.'
       },
       {
         question: 'Can I get approved for roof financing with bad credit in Myrtle Beach?',
@@ -63,7 +63,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Yes! Myrtle Beach seniors (65+) qualify for our senior discount program - 10% off the total project cost. This discount applies to both labor and materials and can be combined with our flexible financing options. We\'ve helped hundreds of Myrtle Beach senior citizens afford essential roof repairs and replacements with dignity and respect. Show your ID and start saving today!'
       }
     ],
-    metaDescription: 'Roof financing in Myrtle Beach SC with 0% APR, zero down payment options, and bad credit welcome. Quick approval in 45 minutes. Over 800 projects financed. Payment plans from $125/month. Call (843) 293-8150.'
+    metaDescription: 'Roof financing in Myrtle Beach SC with 0% APR, zero down payment options, and bad credit welcome. Quick approval in 45 minutes. Over 800 projects financed. Payment plans from $125/month. Call (843) 877-5539.'
   },
   {
     slug: 'north-myrtle-beach',
@@ -83,7 +83,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in North Myrtle Beach?',
-        answer: 'Yes! We offer 100% financing with zero down payment for qualified North Myrtle Beach homeowners. No upfront costs required - we\'ve financed over 500 roofing projects in North Myrtle Beach with $0 down. Our programs are available for applicants with good to excellent credit in Barefoot Resort, Ocean Drive, Cherry Grove, and all North Myrtle Beach areas. Call (843) 293-8150 to see if you qualify.'
+        answer: 'Yes! We offer 100% financing with zero down payment for qualified North Myrtle Beach homeowners. No upfront costs required - we\'ve financed over 500 roofing projects in North Myrtle Beach with $0 down. Our programs are available for applicants with good to excellent credit in Barefoot Resort, Ocean Drive, Cherry Grove, and all North Myrtle Beach areas. Call (843) 877-5539 to see if you qualify.'
       },
       {
         question: 'Can I get financing with bad credit in North Myrtle Beach?',
@@ -102,7 +102,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'North Myrtle Beach\'s coastal location means roofs face harsher conditions from salt air and wind. We factor this into our financing by offering extended warranties and premium material options at competitive rates. Many North Myrtle Beach customers choose metal roofing (50-year lifespan) with financing, which often costs less per year than repeatedly replacing cheaper materials.'
       }
     ],
-    metaDescription: 'North Myrtle Beach SC roof financing with 0% APR available. Zero down payment, bad credit OK. 92% approval rate. Financing for beach homes and rental properties. From $220/month. Call (843) 293-8150.'
+    metaDescription: 'North Myrtle Beach SC roof financing with 0% APR available. Zero down payment, bad credit OK. 92% approval rate. Financing for beach homes and rental properties. From $220/month. Call (843) 877-5539.'
   },
   {
     slug: 'conway',
@@ -122,7 +122,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Conway SC?',
-        answer: 'Yes! We offer 100% financing with $0 down for qualified Conway homeowners. We\'ve helped over 600 Conway families finance their roofs with no upfront payment required. Our Conway approval rate is 96% - the highest in the region. Whether you live in Conway Historic District, Waccamaw, Red Hill, or Rivertown, you can get approved with zero money down. Call (843) 293-8150 today.'
+        answer: 'Yes! We offer 100% financing with $0 down for qualified Conway homeowners. We\'ve helped over 600 Conway families finance their roofs with no upfront payment required. Our Conway approval rate is 96% - the highest in the region. Whether you live in Conway Historic District, Waccamaw, Red Hill, or Rivertown, you can get approved with zero money down. Call (843) 877-5539 today.'
       },
       {
         question: 'Can I get approved for roof financing with bad credit in Conway?',
@@ -141,7 +141,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Good question! If your Conway home is in the Historic District, you may need special materials or approval for roof replacement. We\'re experienced with Conway historic guidelines and can help navigate the process. Our financing covers the additional costs of historic-appropriate materials, and we work directly with the Conway Historic Preservation Commission to ensure compliance while keeping your project affordable.'
       }
     ],
-    metaDescription: 'Conway SC roof financing with 96% approval rate - highest in the region. Zero down payment, bad credit welcome. Approved in 30 minutes. From $196/month. Historic district expertise. Call (843) 293-8150.'
+    metaDescription: 'Conway SC roof financing with 96% approval rate - highest in the region. Zero down payment, bad credit welcome. Approved in 30 minutes. From $196/month. Historic district expertise. Call (843) 877-5539.'
   },
   {
     slug: 'surfside-beach',
@@ -161,7 +161,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Surfside Beach?',
-        answer: 'Yes! Surfside Beach homeowners can qualify for 100% financing with $0 down payment. We\'ve financed nearly 300 roofing projects in Surfside Beach, Garden City Beach, and surrounding areas without requiring upfront costs. Our zero down programs are perfect for Surfside Beach residents with good to excellent credit. Protect your coastal home today with no money down - call (843) 293-8150.'
+        answer: 'Yes! Surfside Beach homeowners can qualify for 100% financing with $0 down payment. We\'ve financed nearly 300 roofing projects in Surfside Beach, Garden City Beach, and surrounding areas without requiring upfront costs. Our zero down programs are perfect for Surfside Beach residents with good to excellent credit. Protect your coastal home today with no money down - call (843) 877-5539.'
       },
       {
         question: 'Can I get roof financing with bad credit in Surfside Beach?',
@@ -180,7 +180,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Surfside Beach homes in flood zones can still qualify for full financing! While flood zones affect home insurance, they don\'t impact your roof financing eligibility. In fact, financing a new roof often reduces homeowner\'s insurance premiums by 10-20%, which can offset your monthly payment. We\'ve helped hundreds of Surfside Beach flood-zone homeowners finance roof upgrades that improved both safety and insurance rates.'
       }
     ],
-    metaDescription: 'Surfside Beach SC roof financing for coastal homes. Zero down payment, bad credit approved. Hurricane-resistant roofing financed. 93% approval rate. From $215/month. Call (843) 293-8150.'
+    metaDescription: 'Surfside Beach SC roof financing for coastal homes. Zero down payment, bad credit approved. Hurricane-resistant roofing financed. 93% approval rate. From $215/month. Call (843) 877-5539.'
   },
   {
     slug: 'carolina-forest',
@@ -200,7 +200,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Carolina Forest?',
-        answer: 'Yes! Carolina Forest homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 400 roofing projects in Carolina Forest, River Oaks, Plantation Lakes, and Waterway Palms with $0 upfront costs. Our Carolina Forest approval rate is 95%, and most residents qualify for no money down financing. Call (843) 293-8150 to get pre-approved today.'
+        answer: 'Yes! Carolina Forest homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 400 roofing projects in Carolina Forest, River Oaks, Plantation Lakes, and Waterway Palms with $0 upfront costs. Our Carolina Forest approval rate is 95%, and most residents qualify for no money down financing. Call (843) 877-5539 to get pre-approved today.'
       },
       {
         question: 'Can I get approved with bad credit in Carolina Forest?',
@@ -219,7 +219,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Carolina Forest residents typically receive approval in 45 minutes or less. Our strong relationships with local lenders and understanding of Carolina Forest property values means faster processing. Most Carolina Forest applications are approved same-day, and we can often begin work within 48 hours of approval for urgent roofing needs.'
       }
     ],
-    metaDescription: 'Carolina Forest SC roof financing with 95% approval rate. Zero down payment, bad credit welcome. HOA-compliant materials financed. From $225/month. Approved in 45 minutes. Call (843) 293-8150.'
+    metaDescription: 'Carolina Forest SC roof financing with 95% approval rate. Zero down payment, bad credit welcome. HOA-compliant materials financed. From $225/month. Approved in 45 minutes. Call (843) 877-5539.'
   },
   {
     slug: 'murrells-inlet',
@@ -239,7 +239,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Murrells Inlet?',
-        answer: 'Yes! Murrells Inlet homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 250 roofing projects in Murrells Inlet, including waterfront properties, Wachesaw Plantation, and Prince Creek communities with $0 upfront. Our Murrells Inlet programs are designed for both primary residences and vacation properties. Call (843) 293-8150 for instant pre-approval.'
+        answer: 'Yes! Murrells Inlet homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 250 roofing projects in Murrells Inlet, including waterfront properties, Wachesaw Plantation, and Prince Creek communities with $0 upfront. Our Murrells Inlet programs are designed for both primary residences and vacation properties. Call (843) 877-5539 for instant pre-approval.'
       },
       {
         question: 'Can I get financing with bad credit in Murrells Inlet?',
@@ -258,7 +258,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Murrells Inlet\'s prestigious golf course communities like Wachesaw Plantation and Prince Creek have specific architectural standards for roofing. We\'re approved contractors for all Murrells Inlet HOAs and can navigate their requirements. Our financing covers premium materials required by these communities, and we handle all architectural review board submissions at no extra cost. Your monthly payment includes compliance assistance.'
       }
     ],
-    metaDescription: 'Murrells Inlet SC roof financing for waterfront and golf course homes. Zero down payment, bad credit OK. Premium materials financed. 91% approval. From $237/month. Call (843) 293-8150.'
+    metaDescription: 'Murrells Inlet SC roof financing for waterfront and golf course homes. Zero down payment, bad credit OK. Premium materials financed. 91% approval. From $237/month. Call (843) 877-5539.'
   },
   {
     slug: 'little-river',
@@ -278,7 +278,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Little River?',
-        answer: 'Yes! Little River homeowners can qualify for 100% financing with $0 down payment. We\'ve financed nearly 200 roofing projects in Little River, North Litchfield, and Calabash areas with zero upfront costs. Our Little River approval rate is 94%, and we specialize in financing for waterfront properties and retirement community homes. Call (843) 293-8150 for instant approval.'
+        answer: 'Yes! Little River homeowners can qualify for 100% financing with $0 down payment. We\'ve financed nearly 200 roofing projects in Little River, North Litchfield, and Calabash areas with zero upfront costs. Our Little River approval rate is 94%, and we specialize in financing for waterfront properties and retirement community homes. Call (843) 877-5539 for instant approval.'
       },
       {
         question: 'Can I get approved for roof financing with bad credit in Little River?',
@@ -297,7 +297,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Yes! We specialize in financing for Little River waterfront properties along the Intracoastal Waterway and Little River inlet. These homes require salt-resistant materials like standing seam metal or premium architectural shingles with enhanced corrosion protection. Our Little River waterfront financing includes coverage for these specialized materials, and extended terms keep payments affordable despite higher material costs.'
       }
     ],
-    metaDescription: 'Little River SC roof financing with 94% approval. Zero down payment, senior discounts, bad credit welcome. Waterfront property specialists. From $202/month. Call (843) 293-8150.'
+    metaDescription: 'Little River SC roof financing with 94% approval. Zero down payment, senior discounts, bad credit welcome. Waterfront property specialists. From $202/month. Call (843) 877-5539.'
   },
   {
     slug: 'socastee',
@@ -317,7 +317,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Socastee?',
-        answer: 'Yes! Socastee homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 350 roofing projects in Socastee, Forestbrook, and Market Common areas with $0 upfront costs. Our Socastee approval rate is 97% - the highest in Horry County! Whether you\'re near Socastee High School or Forestbrook Middle, you can get approved with no money down. Call (843) 293-8150 today.'
+        answer: 'Yes! Socastee homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 350 roofing projects in Socastee, Forestbrook, and Market Common areas with $0 upfront costs. Our Socastee approval rate is 97% - the highest in Horry County! Whether you\'re near Socastee High School or Forestbrook Middle, you can get approved with no money down. Call (843) 877-5539 today.'
       },
       {
         question: 'Can I get approved with bad credit in Socastee SC?',
@@ -336,7 +336,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Yes! We offer specialized financing for Socastee manufactured and mobile homes. These homes have unique roofing requirements, and we\'re experts in both the technical work and financing options. Socastee has many manufactured home communities, and we\'ve developed financing programs specifically for them with terms up to 60 months and approval rates over 90% for manufactured home owners.'
       }
     ],
-    metaDescription: 'Socastee SC roof financing with 97% approval - highest in Horry County. Zero down payment, bad credit welcome. Manufactured home financing. From $192/month. Call (843) 293-8150.'
+    metaDescription: 'Socastee SC roof financing with 97% approval - highest in Horry County. Zero down payment, bad credit welcome. Manufactured home financing. From $192/month. Call (843) 877-5539.'
   },
   {
     slug: 'pawleys-island',
@@ -356,7 +356,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Pawleys Island?',
-        answer: 'Yes! Pawleys Island homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 140 roofing projects on Pawleys Island, including beach homes, Litchfield Beach properties, and luxury estates with $0 upfront. Our Pawleys Island programs accommodate both primary residences and vacation rental properties. Call (843) 293-8150 to discuss your Pawleys Island financing options.'
+        answer: 'Yes! Pawleys Island homeowners can qualify for 100% financing with zero down payment. We\'ve financed over 140 roofing projects on Pawleys Island, including beach homes, Litchfield Beach properties, and luxury estates with $0 upfront. Our Pawleys Island programs accommodate both primary residences and vacation rental properties. Call (843) 877-5539 to discuss your Pawleys Island financing options.'
       },
       {
         question: 'Can I get financing with bad credit for my Pawleys Island property?',
@@ -375,7 +375,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Yes! We offer specialized financing for Pawleys Island vacation rental and investment properties. Whether you own a beachfront cottage or a luxury estate on DeBordieu, we can structure financing to preserve your rental income. Our investment property programs include extended terms up to 84 months, seasonal payment options, and coverage for commercial-grade materials required for rental properties. Many Pawleys Island rental owners finance roof upgrades that increase nightly rental rates and property values.'
       }
     ],
-    metaDescription: 'Pawleys Island SC luxury roof financing. Hurricane-resistant materials. Zero down payment, vacation rental financing. 89% approval. From $263/month. Beach home specialists. Call (843) 293-8150.'
+    metaDescription: 'Pawleys Island SC luxury roof financing. Hurricane-resistant materials. Zero down payment, vacation rental financing. 89% approval. From $263/month. Beach home specialists. Call (843) 877-5539.'
   },
   {
     slug: 'garden-city',
@@ -395,7 +395,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
     faqs: [
       {
         question: 'Do you offer zero down payment roof financing in Garden City?',
-        answer: 'Yes! Garden City homeowners can qualify for 100% financing with $0 down payment. We\'ve financed nearly 200 roofing projects in Garden City Beach, Inlet Harbour, and Sea Winds areas with zero upfront costs. Our Garden City programs cover both permanent residences and beach rental properties. With a 92% approval rate, most Garden City applicants qualify for no money down. Call (843) 293-8150 today.'
+        answer: 'Yes! Garden City homeowners can qualify for 100% financing with $0 down payment. We\'ve financed nearly 200 roofing projects in Garden City Beach, Inlet Harbour, and Sea Winds areas with zero upfront costs. Our Garden City programs cover both permanent residences and beach rental properties. With a 92% approval rate, most Garden City applicants qualify for no money down. Call (843) 877-5539 today.'
       },
       {
         question: 'Can I get approved with bad credit in Garden City SC?',
@@ -414,7 +414,7 @@ export const FINANCING_LOCATIONS: LocationData[] = [
         answer: 'Garden City homes in flood zones (most beachfront properties) can still qualify for full financing! Flood zone status affects home insurance but not roof financing eligibility. In fact, financing a new wind-resistant roof often reduces homeowner\'s insurance premiums by 15-25% due to improved storm protection. We\'ve helped hundreds of Garden City flood-zone homeowners finance roof upgrades that improved both safety and insurance costs.'
       }
     ],
-    metaDescription: 'Garden City SC beach roof financing. Zero down payment, rental property specialists, bad credit OK. 92% approval rate. From $207/month. Flood zone financing. Call (843) 293-8150.'
+    metaDescription: 'Garden City SC beach roof financing. Zero down payment, rental property specialists, bad credit OK. 92% approval rate. From $207/month. Flood zone financing. Call (843) 877-5539.'
   }
 ];
 

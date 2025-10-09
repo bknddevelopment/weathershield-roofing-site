@@ -4,14 +4,14 @@ import { CloudRain } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Storm Damage Roofing Contractors Myrtle Beach | Hurricane Repair | WeatherShield',
-  description: 'Storm damage roofing contractors Myrtle Beach SC - Hurricane & tropical storm damage repair experts. Same-day emergency response. Insurance specialists. Call (843) 293-8150!',
+  description: 'Storm damage roofing contractors Myrtle Beach SC - Hurricane & tropical storm damage repair experts. Same-day emergency response. Insurance specialists. Call (843) 877-5539!',
   keywords: 'storm damage roofing contractors myrtle beach sc, hurricane damage roof repair, tropical storm damage, wind damage repair, hail damage roofing, storm damage repair same day',
   alternates: {
     canonical: 'https://weathershieldroofers.com/storm-damage-repair',
   },
   openGraph: {
     title: 'Storm Damage Roofing Contractors Myrtle Beach - Emergency Response',
-    description: 'Hurricane or storm damage? Expert roofing contractors ready NOW. Insurance approved repairs. Call: (843) 293-8150',
+    description: 'Hurricane or storm damage? Expert roofing contractors ready NOW. Insurance approved repairs. Call: (843) 877-5539',
     url: 'https://weathershieldroofers.com/storm-damage-repair',
     type: 'website',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '🌪️ Storm Damage Roofing Contractors - Myrtle Beach',
-    description: 'Hurricane & storm damage experts. Insurance approved. Call: (843) 293-8150',
+    description: 'Hurricane & storm damage experts. Insurance approved. Call: (843) 877-5539',
     images: ['/images/storm-damage-repair.jpg'],
   },
   robots: {
@@ -251,11 +251,11 @@ export default function StormDamageRepairPage() {
                 We work with all major insurance companies
               </p>
               <a
-                href="tel:+18432938150"
+                href="tel:+18438775539"
                 className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105"
               >
                 <CloudRain className="w-6 h-6" />
-                Start Your Claim: (843) 293-8150
+                Start Your Claim: (843) 877-5539
               </a>
             </div>
           </div>

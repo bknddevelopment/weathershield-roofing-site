@@ -126,7 +126,7 @@ function ServiceCard({ service, index }: { service: typeof emergencyServices[0],
 
         {/* CTA Button */}
         <a
-          href="tel:+18432938150"
+          href="tel:+18438775539"
           className={`flex items-center justify-center gap-2 bg-gradient-to-r ${service.color} text-white px-4 py-3 rounded-lg font-bold hover:shadow-lg transition-all duration-300 group-hover:scale-105`}
           aria-label={`Call for ${service.title}`}
         >
@@ -193,12 +193,12 @@ export default function OptimizedEmergencyServices() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+18432938150"
+              href="tel:+18438775539"
               className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
               aria-label="Call emergency hotline"
             >
               <Phone className="w-6 h-6" />
-              EMERGENCY HOTLINE: (843) 293-8150
+              EMERGENCY HOTLINE: (843) 877-5539
             </a>
           </div>
           <p className="mt-4 text-white/90">

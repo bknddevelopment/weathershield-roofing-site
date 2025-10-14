@@ -101,6 +101,103 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- NEW: Service-Location Hybrid Pages - Highest Priority for "roofing [city]" keywords -->
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/myrtle-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Myrtle Beach SC - Weather Shield Roofing - 5.0 star rated contractor</image:caption>
+      <image:title>Myrtle Beach's #1 Rated Roofing Contractor - 5.0★ Google Rating</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/north-myrtle-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in North Myrtle Beach SC - Weather Shield Roofing - 5.0 star rated contractor</image:caption>
+      <image:title>North Myrtle Beach's #1 Rated Roofing Contractor - 5.0★ Google Rating</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/conway</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Conway SC - Horry County seat - 15 miles from Myrtle Beach</image:caption>
+      <image:title>Conway's Trusted Roofing Experts - 5.0★ Google Rating - No Salt Air Advantage</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/surfside-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Surfside Beach SC - The Family Beach - Marine-grade materials</image:caption>
+      <image:title>Surfside Beach Roofing Specialists - 5.0★ Google Rating - Coastal Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/garden-city</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Garden City SC - Oceanfront community near Murrells Inlet</image:caption>
+      <image:title>Garden City Roofing Specialists - 5.0★ Google Rating - Oceanfront Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/charleston</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Charleston SC - Historic preservation specialists</image:caption>
+      <image:title>Charleston's Premier Roofing Contractor - 5.0★ Google Rating - Historic Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/mount-pleasant</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Mount Pleasant SC - Luxury waterfront specialists</image:caption>
+      <image:title>Mount Pleasant Roofing Experts - 5.0★ Google Rating - Waterfront Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/summerville</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Summerville SC - Flowertown in the Pines - No salt air advantage</image:caption>
+      <image:title>Summerville Roofing Specialists - 5.0★ Google Rating - Inland Advantage</image:title>
+    </image:image>
+  </url>
+
   <!-- High-Value Blog Content for SEO -->
   <url>
     <loc>https://weathershieldroofers.com/blog/myrtle-beach-roof-hurricane-season-2025-preparation</loc>

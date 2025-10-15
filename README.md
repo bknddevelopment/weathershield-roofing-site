@@ -1,6 +1,5 @@
 # WeatherShield Roofing Website
 
-[![Deploy to GitHub Pages](https://github.com/charwinvanryckdegroot/weathershield-roofing-site/actions/workflows/deploy.yml/badge.svg)](https://github.com/charwinvanryckdegroot/weathershield-roofing-site/actions/workflows/deploy.yml)
 [![WCAG 2.1 AA Compliant](https://img.shields.io/badge/WCAG%202.1-AA%20Compliant-green)](./ACCESSIBILITY_REPORT.md)
 [![Lighthouse Score](https://img.shields.io/badge/Lighthouse-95%2B-brightgreen)](./PERFORMANCE_OPTIMIZATIONS.md)
 
@@ -10,8 +9,8 @@ Professional, production-ready roofing company website for WeatherShield in Myrt
 
 **Version:** 1.0.0
 **Status:** Production Ready
-**Live URL:** [https://charwinvanryckdegroot.github.io/weathershield-roofing-site/](https://charwinvanryckdegroot.github.io/weathershield-roofing-site/)
-**Last Updated:** September 2025
+**Repository:** [https://github.com/BKND-Development/WeatherShieldRoofing](https://github.com/BKND-Development/WeatherShieldRoofing)
+**Last Updated:** October 2025
 
 ## ✨ Features
 
@@ -82,8 +81,8 @@ Professional, production-ready roofing company website for WeatherShield in Myrt
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/charwinvanryckdegroot/weathershield-roofing-site.git
-cd weathershield-roofing-site
+git clone git@github.com:BKND-Development/WeatherShieldRoofing.git
+cd WeatherShieldRoofing
 ```
 
 2. **Install dependencies**
@@ -108,24 +107,18 @@ npm run build
 
 # Test production build locally
 npx serve out -l 3000
-# Visit: http://localhost:3000/weathershield-roofing-site/
 ```
 
-### GitHub Pages Deployment
+### Deployment
 
-The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch.
+The site can be deployed to any static hosting provider.
 
 ```bash
 # Deploy to production
 git add .
 git commit -m "Your commit message"
 git push origin main
-
-# Monitor deployment
-gh run watch  # Requires GitHub CLI
 ```
-
-Deployment URL: [https://charwinvanryckdegroot.github.io/weathershield-roofing-site/](https://charwinvanryckdegroot.github.io/weathershield-roofing-site/)
 
 ### Manual Deployment
 
@@ -350,6 +343,6 @@ npm run build
 
 ## 📄 License
 
-© 2024 WeatherShield Roofing. All rights reserved.
+© 2025 WeatherShield Roofing. All rights reserved.
 
 This is proprietary software. Unauthorized copying, modification, or distribution is prohibited.

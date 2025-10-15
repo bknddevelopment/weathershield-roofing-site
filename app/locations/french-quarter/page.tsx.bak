@@ -1,0 +1,95 @@
+import { Metadata } from 'next'
+import LocationPageTemplate from '@/app/components/LocationPageTemplate'
+
+export const metadata: Metadata = {
+  title: 'French Quarter Charleston Roofing | Historic District Experts | WeatherShield',
+  description: 'French Quarter Charleston roofing specialists for historic homes and buildings. BAR-approved materials, preservation roofing, hurricane protection. Licensed, insured. Call (843) 877-5539.',
+  keywords: 'French Quarter roofing Charleston, historic district roofing, BAR approved roofing, Charleston preservation roofing, downtown Charleston roofing',
+  openGraph: {
+    title: 'French Quarter Charleston Roofing Contractor | WeatherShield Roofing',
+    description: 'Expert roofing for French Quarter historic properties. Preservation specialists, architectural accuracy, modern protection.',
+    url: 'https://weathershieldroofers.com/locations/french-quarter',
+    type: 'website',
+  },
+}
+
+export default function FrenchQuarterPage() {
+  return (
+    <LocationPageTemplate
+      city="French Quarter"
+      state="SC"
+      zipCodes={['29401']}
+      population="1,500+"
+      description="In Charleston\'s historic French Quarter, where 18th-century architecture, cobblestone streets, and National Historic Landmark status demand exceptional preservation expertise, WeatherShield Roofing delivers historically accurate roofing solutions approved by the Board of Architectural Review. Our craftsmen combine authentic materials with modern engineering to protect the Quarter\'s irreplaceable buildings."
+
+      neighborhoods={[
+        'Church Street',
+        'Queen Street',
+        'State Street',
+        'Chalmers Street',
+        'Elliott Street',
+        'Lodge Alley',
+        'Philadelphia Alley',
+        'Longitude Lane'
+      ]}
+
+      weatherChallenges={[
+        {
+          title: 'Board of Architectural Review Compliance',
+          description: 'Every French Quarter roofing project requires BAR approval with strict material and color requirements. We expertly navigate the review process, providing historically accurate proposals for slate, tile, copper, and period shingles that receive approval while delivering modern performance.'
+        },
+        {
+          title: '18th & 19th Century Architecture',
+          description: 'French Quarter buildings feature unique historic construction including steep pitches, dormers, parapets, and original framing. Our preservation craftsmen understand these structures intimately, restoring and protecting architectural details while maintaining structural integrity.'
+        },
+        {
+          title: 'Urban Historic District Constraints',
+          description: 'Narrow streets, adjacent buildings, and tourism traffic require careful project management. We coordinate deliveries, scaffolding, and work schedules to minimize disruption while protecting neighboring historic properties during installation.'
+        },
+        {
+          title: 'Hurricane & Salt Air Exposure',
+          description: 'The Quarter\'s proximity to Charleston Harbor creates severe weather and corrosion challenges. We install preservation-approved materials engineered for coastal conditions including marine-grade copper, authentic slate, and specialized waterproofing systems.'
+        }
+      ]}
+
+      localStats={[
+        { value: 'BAR', label: 'Certified Experts' },
+        { value: '200+ Years', label: 'Building Experience' },
+        { value: 'Historic', label: 'Preservation Specialists' },
+        { value: 'Authentic', label: 'Materials Only' }
+      ]}
+
+      nearbyAreas={[
+        { name: 'South of Broad', distance: '0.5 miles' },
+        { name: 'Ansonborough', distance: '0.5 miles' },
+        { name: 'Harleston Village', distance: '1 mile' },
+        { name: 'Downtown Charleston', distance: '0.3 miles' },
+        { name: 'Waterfront Park Area', distance: '0.2 miles' }
+      ]}
+
+      localTestimonials={[
+        {
+          name: 'Thomas & Catherine S.',
+          location: 'Church Street',
+          review: 'Our French Quarter single house needed copper gutter replacement and slate roof restoration with BAR approval. WeatherShield handled the entire process professionally and delivered breathtaking craftsmanship. They\'re true preservation experts.',
+          rating: 5,
+          date: '2024-09-19'
+        },
+        {
+          name: 'Patricia M.',
+          location: 'Queen Street',
+          review: 'After owning our 1760s townhouse for 15 years, WeatherShield completed our first major roof restoration. They used reclaimed slate, authentic copper work, and period techniques. The result is historically accurate and will last another century.',
+          rating: 5,
+          date: '2024-08-12'
+        },
+        {
+          name: 'Dr. James & Elizabeth R.',
+          location: 'Chalmers Street',
+          review: 'Hurricane damage to our French Quarter property required immediate response and preservation-quality restoration. WeatherShield provided emergency protection and completed a beautiful slate roof replacement that received BAR praise. Outstanding work!',
+          rating: 5,
+          date: '2024-07-24'
+        }
+      ]}
+    />
+  )
+}

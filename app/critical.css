@@ -1,0 +1,174 @@
+/* Critical CSS for above-fold content */
+/* Inlined to prevent render blocking */
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-montserrat: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --weather-teal: #14b8a6;
+  --weather-blue: #3b82f6;
+  --weather-dark: #1e293b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-inter);
+  line-height: 1.6;
+  color: #1f2937;
+  background: #fff;
+  min-height: 100vh;
+}
+
+/* Prevent layout shift */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Critical typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4.5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+/* Critical layout */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header placeholder to prevent CLS */
+header {
+  height: 80px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 64px;
+  }
+}
+
+/* Emergency hero critical styles */
+.emergency-hero {
+  min-height: 600px;
+  background: linear-gradient(135deg, #dc2626 0%, #ea580c 50%, #dc2626 100%);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .emergency-hero {
+    min-height: 700px;
+  }
+}
+
+/* Critical button styles */
+.btn-emergency {
+  background: #fbbf24;
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  font-size: 1.25rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: transform 0.3s;
+}
+
+.btn-emergency:hover {
+  transform: scale(1.1);
+  background: #fcd34d;
+}
+
+/* Loading states */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f3f4f6 0%,
+    #e5e7eb 50%,
+    #f3f4f6 100%
+  );
+  background-size: 200% 100%;
+  animation: skeleton 1.5s ease-in-out infinite;
+}
+
+@keyframes skeleton {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Utility classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.text-center { text-align: center; }
+.font-bold { font-weight: 700; }
+.text-white { color: #fff; }
+.bg-white { background-color: #fff; }
+
+/* Animations - optimized */
+@media (prefers-reduced-motion: no-preference) {
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+}
+
+/* Mobile-first grid */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .lg\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
+}

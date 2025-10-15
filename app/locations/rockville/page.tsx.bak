@@ -1,0 +1,95 @@
+import { Metadata } from 'next'
+import LocationPageTemplate from '@/app/components/LocationPageTemplate'
+
+export const metadata: Metadata = {
+  title: 'Rockville SC Roofing Contractor | Coastal Island Roofing | WeatherShield',
+  description: 'Rockville SC roofing specialists for Wadmalaw Island homes. Hurricane protection, salt air resistance, rural property roofing. Licensed, insured. Call (843) 877-5539 for service.',
+  keywords: 'Rockville roofing, Wadmalaw Island roofing, coastal roofing SC, rural roofing Charleston, salt air roofing protection',
+  openGraph: {
+    title: 'Rockville SC Roofing Contractor | WeatherShield Roofing',
+    description: 'Expert roofing for Rockville and Wadmalaw Island. Coastal protection, hurricane resistance, rural property specialists.',
+    url: 'https://weathershieldroofers.com/locations/rockville',
+    type: 'website',
+  },
+}
+
+export default function RockvillePage() {
+  return (
+    <LocationPageTemplate
+      city="Rockville"
+      state="SC"
+      zipCodes={['29470']}
+      population="150+"
+      description="In the remote coastal community of Rockville on Wadmalaw Island, where rural charm, waterfront properties, and Atlantic exposure create unique roofing challenges, WeatherShield Roofing delivers durable coastal solutions. Our experience with island properties, salt air conditions, and hurricane protection makes us the trusted contractor for Rockville and Wadmalaw homeowners."
+
+      neighborhoods={[
+        'Rockville Historic District',
+        'Wadmalaw Island',
+        'Church Creek',
+        'Bohicket Peninsula',
+        'Bear Island Area',
+        'Maybank Highway Corridor',
+        'Deep Water Vineyard Area',
+        'Rural Wadmalaw'
+      ]}
+
+      weatherChallenges={[
+        {
+          title: 'Coastal Hurricane Exposure',
+          description: 'Rockville\'s barrier island location creates severe hurricane vulnerability. We install wind-rated roofing systems engineered for 130+ mph winds with advanced hurricane strapping, impact-resistant materials, and comprehensive waterproofing designed for direct Atlantic storm exposure.'
+        },
+        {
+          title: 'Extreme Salt Air Corrosion',
+          description: 'Proximity to tidal creeks and the Atlantic accelerates material degradation. Our coastal roofing packages feature marine-grade fasteners, corrosion-resistant flashing, stainless steel components, and protective coatings engineered for harsh saltwater environments.'
+        },
+        {
+          title: 'Rural Island Access',
+          description: 'Wadmalaw Island\'s remote location requires contractors who can work independently. We bring complete equipment and materials for efficient installations, and provide emergency services when island properties need immediate assistance after storms.'
+        },
+        {
+          title: 'Waterfront & Marsh Conditions',
+          description: 'Many Rockville properties overlook tidal marshes creating unique moisture challenges. We install advanced ventilation systems and moisture barriers that handle humid Lowcountry conditions while protecting against water intrusion and mold.'
+        }
+      ]}
+
+      localStats={[
+        { value: '130+ MPH', label: 'Wind Rating' },
+        { value: 'Island', label: 'Service Specialists' },
+        { value: 'Marine', label: 'Grade Materials' },
+        { value: '24/7', label: 'Emergency Response' }
+      ]}
+
+      nearbyAreas={[
+        { name: 'Johns Island', distance: '8 miles' },
+        { name: 'Seabrook Island', distance: '12 miles' },
+        { name: 'Kiawah Island', distance: '15 miles' },
+        { name: 'Charleston (Downtown)', distance: '28 miles' },
+        { name: 'Edisto Island', distance: '18 miles' }
+      ]}
+
+      localTestimonials={[
+        {
+          name: 'William & Carol T.',
+          location: 'Rockville Historic District',
+          review: 'Our waterfront Rockville home needed a roof that could handle hurricanes and constant salt spray. WeatherShield installed marine-grade materials with advanced coastal protection. Three years later, the roof still looks perfect. Excellent work on the island!',
+          rating: 5,
+          date: '2024-09-06'
+        },
+        {
+          name: 'David R.',
+          location: 'Wadmalaw Island',
+          review: 'Finding reliable contractors on Wadmalaw can be challenging. WeatherShield came highly recommended and delivered exceptional quality. They installed a durable metal roof on our home and barn that will last for decades. True coastal roofing experts.',
+          rating: 5,
+          date: '2024-08-17'
+        },
+        {
+          name: 'Susan & Mark L.',
+          location: 'Church Creek',
+          review: 'After hurricane damage, WeatherShield responded quickly despite our remote location. They provided emergency tarping and completed a beautiful roof replacement with materials designed for our harsh coastal environment. Highly recommend for island properties!',
+          rating: 5,
+          date: '2024-07-08'
+        }
+      ]}
+    />
+  )
+}

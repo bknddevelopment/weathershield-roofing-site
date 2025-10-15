@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Primary Emergency Pages -->
+  <url>
+    <loc>https://weathershieldroofers.com/emergency</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-optimized</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Emergency Services - Highest Priority for 24/7 Services -->
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-repair</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/storm-damage</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Emergency Landing Pages by Keyword - Phase I Implementation -->
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-roof-repair</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/24-hour-roofing</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roof-leak-repair-today</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/storm-damage-repair</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-tarp-installation</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <mobile:mobile/>
+  </url>
+
+</urlset>

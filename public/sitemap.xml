@@ -1,0 +1,1728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Main Pages - High Priority -->
+  <url>
+    <loc>https://weathershieldroofers.com/</loc>
+    <lastmod>2024-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/about</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/quote</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/contact-us</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/gallery</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/reviews</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/financing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- High-Value SEO Pages - Phase II -->
+  <url>
+    <loc>https://weathershieldroofers.com/pricing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/free-inspection</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/insurance-deductible</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roof-cost-comparison</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/faq</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/blog</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- NEW: Service-Location Hybrid Pages - Highest Priority for "roofing [city]" keywords -->
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/myrtle-beach</loc>
+    <lastmod>2024-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Myrtle Beach SC - Weather Shield Roofing - 5.0 star rated contractor</image:caption>
+      <image:title>Myrtle Beach's #1 Rated Roofing Contractor - 5.0★ Google Rating</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/north-myrtle-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in North Myrtle Beach SC - Weather Shield Roofing - 5.0 star rated contractor</image:caption>
+      <image:title>North Myrtle Beach's #1 Rated Roofing Contractor - 5.0★ Google Rating</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/conway</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Conway SC - Horry County seat - 15 miles from Myrtle Beach</image:caption>
+      <image:title>Conway's Trusted Roofing Experts - 5.0★ Google Rating - No Salt Air Advantage</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/surfside-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Surfside Beach SC - The Family Beach - Marine-grade materials</image:caption>
+      <image:title>Surfside Beach Roofing Specialists - 5.0★ Google Rating - Coastal Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/garden-city</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Garden City SC - Oceanfront community near Murrells Inlet</image:caption>
+      <image:title>Garden City Roofing Specialists - 5.0★ Google Rating - Oceanfront Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/charleston</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Charleston SC - Historic preservation specialists</image:caption>
+      <image:title>Charleston's Premier Roofing Contractor - 5.0★ Google Rating - Historic Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/mount-pleasant</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Mount Pleasant SC - Luxury waterfront specialists</image:caption>
+      <image:title>Mount Pleasant Roofing Experts - 5.0★ Google Rating - Waterfront Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/summerville</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Summerville SC - Flowertown in the Pines - No salt air advantage</image:caption>
+      <image:title>Summerville Roofing Specialists - 5.0★ Google Rating - Inland Advantage</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/georgetown</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Georgetown SC - Historic preservation specialists - Coastal roofing experts</image:caption>
+      <image:title>Georgetown's Trusted Roofing Experts - 5.0★ Google Rating - Historic Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/pawleys-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Pawleys Island SC - Arrogantly Shabby charm meets coastal excellence</image:caption>
+      <image:title>Pawleys Island Oceanfront Roofing Specialists - 5.0★ Google Rating - Barrier Island Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/litchfield-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Litchfield Beach SC - Luxury oceanfront community specialists</image:caption>
+      <image:title>Litchfield Beach Oceanfront Roofing Experts - 5.0★ Google Rating - Luxury Coastal Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/north-charleston</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in North Charleston SC - Industrial &amp; residential specialists - 115K residents</image:caption>
+      <image:title>North Charleston Industrial &amp; Residential Roofing - 5.0★ Google Rating - SC's 3rd Largest City</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/carolina-forest</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Carolina Forest SC - Master-planned community specialists - HOA approved</image:caption>
+      <image:title>Carolina Forest Planned Community Roofing - 5.0★ Google Rating - HOA Compliance Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/socastee</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Socastee SC - Conway area specialists - 19K residents</image:caption>
+      <image:title>Socastee Conway Area Roofing Specialists - 5.0★ Google Rating - Inland Advantage</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/johns-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Johns Island SC - Sea Islands specialists - Lowcountry experts</image:caption>
+      <image:title>Johns Island Sea Islands Roofing - 5.0★ Google Rating - Coastal Island Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/goose-creek</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Goose Creek SC - Military community specialists - 43K residents</image:caption>
+      <image:title>Goose Creek Military Community Roofing - 5.0★ Google Rating - Berkeley County Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/kiawah-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Kiawah Island SC - Ultra-luxury oceanfront specialists - $2M+ homes</image:caption>
+      <image:title>Kiawah Island Ultra-Luxury Roofing - 5.0★ Google Rating - World-Class Resort Properties</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/isle-of-palms</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Isle of Palms SC - Luxury beach community specialists - $800K+ homes</image:caption>
+      <image:title>Isle of Palms Luxury Beach Roofing - 5.0★ Google Rating - Oceanfront Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/sullivans-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Sullivan's Island SC - Historic luxury island specialists - $1.5M+ homes</image:caption>
+      <image:title>Sullivan's Island Historic Luxury Roofing - 5.0★ Google Rating - Preservation Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/daniel-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Daniel Island SC - Master-planned community specialists - $600K+ homes</image:caption>
+      <image:title>Daniel Island Planned Community Roofing - 5.0★ Google Rating - HOA Approved Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/seabrook-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Seabrook Island SC - Private island resort specialists - Gated community</image:caption>
+      <image:title>Seabrook Island Private Resort Roofing - 5.0★ Google Rating - Exclusive Gated Community</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/west-ashley</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in West Ashley SC - Charleston's largest neighborhood - 90K residents</image:caption>
+      <image:title>West Ashley Charleston's Largest Neighborhood Roofing - 5.0★ Google Rating - High-Volume Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/hanahan</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Hanahan SC - Charleston suburban specialists - 25K residents</image:caption>
+      <image:title>Hanahan Charleston Suburban Roofing - 5.0★ Google Rating - Family Community Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/ladson</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Ladson SC - Growing Charleston suburb - New construction specialists</image:caption>
+      <image:title>Ladson Growing Suburb Roofing - 5.0★ Google Rating - Growth Market Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/james-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in James Island SC - Affluent island community specialists - Waterfront properties</image:caption>
+      <image:title>James Island Affluent Community Roofing - 5.0★ Google Rating - Upscale Island Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/murrells-inlet</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Murrells Inlet SC - Seafood capital specialists - Coastal fishing village</image:caption>
+      <image:title>Murrells Inlet Seafood Capital Roofing - 5.0★ Google Rating - Waterfront Village Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/little-river</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Little River SC - North Grand Strand gateway - SC-NC border community</image:caption>
+      <image:title>Little River North Grand Strand Roofing - 5.0★ Google Rating - Border Community Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/folly-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Folly Beach SC - Edge of America specialists - Charleston surf town</image:caption>
+      <image:title>Folly Beach Edge of America Roofing - 5.0★ Google Rating - Bohemian Beach Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/edisto-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Edisto Beach SC - Quiet family beach destination - Sea Islands vacation homes</image:caption>
+      <image:title>Edisto Beach Family Destination Roofing - 5.0★ Google Rating - Sea Islands Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/cherry-grove</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Cherry Grove SC - North Myrtle Beach family destination - Famous fishing pier</image:caption>
+      <image:title>Cherry Grove Family Beach Roofing - 5.0★ Google Rating - North Grand Strand Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/crescent-beach</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Crescent Beach SC - Quiet family beach community - North Myrtle Beach section</image:caption>
+      <image:title>Crescent Beach Quiet Family Beach Roofing - 5.0★ Google Rating - Peaceful Coastal Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/atlantic-beach-sc</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Atlantic Beach SC - Historic African-American beach community - The Black Pearl</image:caption>
+      <image:title>Atlantic Beach Historic Community Roofing - 5.0★ Google Rating - Cultural Heritage Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/longs</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Longs SC - Growing inland Horry County community - 9K residents</image:caption>
+      <image:title>Longs Inland Community Roofing - 5.0★ Google Rating - Growing Market Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/loris</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Loris SC - Rural Horry County town - Buggy Capital of the South</image:caption>
+      <image:title>Loris Small Town Roofing - 5.0★ Google Rating - Agricultural Community Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/aynor</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Aynor SC - Rural Horry County agricultural community - Small town values</image:caption>
+      <image:title>Aynor Rural Town Roofing - 5.0★ Google Rating - Agricultural Heritage Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/hemingway</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Hemingway SC - Williamsburg County rural town - Pee Dee region</image:caption>
+      <image:title>Hemingway Rural Community Roofing - 5.0★ Google Rating - Small Town Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/dunes-cove</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Dunes Cove SC - Luxury gated oceanfront community - North Myrtle Beach exclusive</image:caption>
+      <image:title>Dunes Cove Luxury Gated Community Roofing - 5.0★ Google Rating - Premium Oceanfront Specialists</image:title>
+    </image:image>
+  </url>
+
+  <!-- Tier 4: Major SC Cities - High SEO Volume -->
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/columbia</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Columbia SC - State capital specialists - 136K residents - Midlands climate experts</image:caption>
+      <image:title>Columbia's Premier Roofing Contractor - 5.0★ Google Rating - SC State Capital</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/greenville</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Greenville SC - Upstate economic hub - 931K metro - Piedmont climate specialists</image:caption>
+      <image:title>Greenville's Trusted Roofing Contractor - 5.0★ Google Rating - Upstate SC Leader</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/rock-hill</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Rock Hill SC - Charlotte metro specialists - 75K residents - I-77 corridor</image:caption>
+      <image:title>Rock Hill Charlotte Metro Roofing - 5.0★ Google Rating - York County Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/spartanburg</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Spartanburg SC - Upstate manufacturing hub - 327K metro - BMW plant area</image:caption>
+      <image:title>Spartanburg Upstate Manufacturing Roofing - 5.0★ Google Rating - Piedmont Foothills</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/florence</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Florence SC - Pee Dee region hub - I-95 corridor - 206K metro area</image:caption>
+      <image:title>Florence Pee Dee Region Roofing - 5.0★ Google Rating - Medical Center Hub</image:title>
+    </image:image>
+  </url>
+
+  <!-- Tier 5: Regional Centers - Mid-sized SC Cities -->
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/anderson</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Anderson SC - Electric City specialists - 203K metro - I-85 corridor - Upstate SC</image:caption>
+      <image:title>Anderson Electric City Roofing - 5.0★ Google Rating - Upstate SC Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/hilton-head-island</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Hilton Head Island SC - Luxury coastal resort specialists - 38K residents - Year-round tourism</image:caption>
+      <image:title>Hilton Head Island Luxury Resort Roofing - 5.0★ Google Rating - Coastal Excellence</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/sumter</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Sumter SC - Shaw Air Force Base area - 40K residents - Military community specialists</image:caption>
+      <image:title>Sumter Shaw AFB Roofing - 5.0★ Google Rating - Military Family Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/aiken</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Aiken SC - Horse capital specialists - Augusta metro - 32K residents - Equestrian community</image:caption>
+      <image:title>Aiken Horse Capital Roofing - 5.0★ Google Rating - Augusta Metro Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/beaufort</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Beaufort SC - Historic Lowcountry specialists - 187K metro - Marine Corps presence - Coastal living</image:caption>
+      <image:title>Beaufort Historic Lowcountry Roofing - 5.0★ Google Rating - Marine Community Experts</image:title>
+    </image:image>
+  </url>
+
+  <!-- Tier 7: Upstate Growth Cities - Greenville Metro Expansion -->
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/greer</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Greer SC - GSP Airport area specialists - 35K residents - BMW supplier corridor - I-85 Upstate</image:caption>
+      <image:title>Greer GSP Airport Area Roofing - 5.0★ Google Rating - Greenville-Spartanburg Metro</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/simpsonville</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Simpsonville SC - Fastest-growing Greenville suburb - 25K residents - Five Forks area - Family community</image:caption>
+      <image:title>Simpsonville Greenville Suburb Roofing - 5.0★ Google Rating - Rapid Growth Market</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/easley</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Easley SC - Western Upstate gateway - 22K residents - Pickens County - Doodle Trail community</image:caption>
+      <image:title>Easley Upstate Gateway Roofing - 5.0★ Google Rating - Pickens County Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/clemson</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Clemson SC - Blue Ridge foothills - 17K residents - Clemson University - Lake Hartwell lakefront properties</image:caption>
+      <image:title>Clemson Tiger Town Roofing - 5.0★ Google Rating - University Community Specialists</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing/mauldin</loc>
+    <lastmod>2025-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Expert roofing services in Mauldin SC - Greenville southern suburb - 25K residents - I-385 corridor - Golden Strip area - Tech industry</image:caption>
+      <image:title>Mauldin Greenville Metro Roofing - 5.0★ Google Rating - I-385 Corridor Specialists</image:title>
+    </image:image>
+  </url>
+
+  <!-- High-Value Blog Content for SEO -->
+  <url>
+    <loc>https://weathershieldroofers.com/blog/myrtle-beach-roof-hurricane-season-2025-preparation</loc>
+    <lastmod>2024-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>2025 Hurricane Season Preparation Guide - NOAA forecasts 13-19 storms - Myrtle Beach roofing protection</image:caption>
+      <image:title>Is Your Myrtle Beach Roof Ready for the Rest of Hurricane Season 2025? 6 Critical Steps</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/blog/hurricane-helene-anniversary-charleston-roof-preparation</loc>
+    <lastmod>2024-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Hurricane Helene anniversary - Storm preparation guide for Charleston homeowners</image:caption>
+      <image:title>Hurricane Helene Anniversary: Is Your Charleston Roof Ready for the 2025 Storm Season?</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/blog/importance-regular-roof-maintenance</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/roof-replacement-services.jpg</image:loc>
+      <image:caption>Professional roof maintenance guide for Myrtle Beach homeowners</image:caption>
+      <image:title>Save Thousands: Why Your Roof Maintenance Can't Wait Another Day</image:title>
+    </image:image>
+  </url>
+
+  <!-- Emergency Services Pages - Phase I - Highest Priority -->
+  <url>
+    <loc>https://weathershieldroofers.com/emergency</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-optimized</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-roof-repair</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/24-hour-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roof-leak-repair-today</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/storm-damage-repair</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-tarp-installation</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Critical Service Pages - Very High Priority -->
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-replacement</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/commercial-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/residential-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-repair</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/storm-damage</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-inspections</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-maintenance</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/gutter-services</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/siding-installation</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/weather-protection</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/storm-shield-protection</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/energy-efficient-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Phase IV Material Service Pages - High SEO Value -->
+  <url>
+    <loc>https://weathershieldroofers.com/services/metal-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/solar-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/flat-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/tile-roofing</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Phase V Educational Roofing Guides -->
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/shingle-types</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/roof-components</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/choosing-shingle-colors</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/roof-comparison</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/roof-ventilation</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-guide/flat-roof-materials</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Primary Location Pages - Critical for Local SEO -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/myrtle-beach</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/north-myrtle-beach</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/conway</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/georgetown</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/florence</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/socastee</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/aynor</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/loris</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/hemingway</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Phase III Hyperlocal Expansion - New Neighborhood Pages -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations/surfside-beach</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/garden-city</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/pawleys-island</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/murrells-inlet</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/little-river</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/carolina-forest</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/market-common</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/grande-dunes</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/barefoot-resort</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/wild-wing-plantation</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/litchfield-beach</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/cherry-grove</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/briarcliffe-acres</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/windy-hill</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/longs</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/calabash-nc</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/red-hill</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/atlantic-beach-sc</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/crescent-beach</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/forestbrook</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- State & Regional Pages -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations/south-carolina</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/north-carolina</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/charleston-sc</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/summerville</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/mount-pleasant</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/goose-creek</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/hanahan</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/moncks-corner</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/charlotte-nc</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Charlotte Metro Area - Phase 1 Expansion -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations/concord</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/gastonia</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/huntersville</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/indian-trail</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/rock-hill</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/fort-mill</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- North Carolina Major Cities - Phase 1 Expansion -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations/raleigh</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/greensboro</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/asheville</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/wilmington</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- South Carolina Major Cities - Phase 1 Expansion -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations/greenville</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/columbia</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Phase II Charleston Premium Neighborhoods - High SEO Value -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations/folly-beach</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/isle-of-palms</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/sullivans-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/kiawah-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/seabrook-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/edisto-beach</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/daniel-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/james-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/johns-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/west-ashley</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/ladson</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/ravenel</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/south-of-broad</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/french-quarter</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/ansonborough</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/harleston-village</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/north-charleston</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/rockville</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/park-west</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/carolina-park</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Phase II Service-Location Combo Pages - Highest SEO Value -->
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-folly-beach</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-isle-of-palms</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-sullivans-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-kiawah-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-daniel-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-mount-pleasant</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-replacement-isle-of-palms</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-replacement-kiawah-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-replacement-daniel-island</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/roof-replacement-mount-pleasant</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/storm-damage-repair-charleston</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/commercial-roofing-charleston</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Phase III-A: Luxury Community Location Pages - High Revenue Potential -->
+  <url>
+    <loc>https://weathershieldroofers.com/locations/prince-creek</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.98</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/wachesaw-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.98</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/debordieu-colony</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/the-dunes-club</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.98</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/dunes-cove</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.97</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/north-beach-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.97</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/tidewater-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.97</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/ocean-creek-resort</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.97</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/pine-lakes</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.97</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/locations/waterway-palms-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.97</priority>
+  </url>
+
+  <!-- Phase III-A: Luxury Community Emergency Service Combo Pages - Highest Revenue Potential -->
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-prince-creek</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-wachesaw-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-debordieu-colony</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-the-dunes-club</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-dunes-cove</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-north-beach-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-tidewater-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-ocean-creek-resort</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-pine-lakes</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/services/emergency-roofing-waterway-palms-plantation</loc>
+    <lastmod>2025-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Spanish Language Page -->
+  <url>
+    <loc>https://weathershieldroofers.com/es</loc>
+    <lastmod>2025-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

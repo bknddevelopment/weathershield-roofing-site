@@ -1,0 +1,95 @@
+import { Metadata } from 'next'
+import LocationPageTemplate from '@/app/components/LocationPageTemplate'
+
+export const metadata: Metadata = {
+  title: 'Kiawah Island Roofing Contractor | Luxury Resort Roofing | WeatherShield',
+  description: 'Kiawah Island SC roofing specialists for luxury estates and resort properties. Hurricane-resistant systems, premium materials, architectural excellence. Licensed, insured. Call (843) 877-5539.',
+  keywords: 'Kiawah Island roofing, luxury estate roofing SC, resort property roofing, hurricane resistant roofing Kiawah, coastal roofing Charleston',
+  openGraph: {
+    title: 'Kiawah Island Roofing Contractor | WeatherShield Roofing',
+    description: 'Premium roofing services for Kiawah Island luxury estates. Hurricane protection, architectural beauty, resort-quality craftsmanship.',
+    url: 'https://weathershieldroofers.com/locations/kiawah-island',
+    type: 'website',
+  },
+}
+
+export default function KiawahIslandPage() {
+  return (
+    <LocationPageTemplate
+      city="Kiawah Island"
+      state="SC"
+      zipCodes={['29455']}
+      population="2,000+"
+      description="In the world-renowned luxury resort community of Kiawah Island, where multi-million dollar estates and championship golf courses demand perfection, WeatherShield Roofing delivers elite coastal roofing solutions. Our expertise in high-end construction, hurricane engineering, and architectural design makes us the preferred contractor for Kiawah\'s most discerning property owners."
+
+      neighborhoods={[
+        'Ocean Course Area',
+        'Turtle Point',
+        'Osprey Point',
+        'Cougar Point',
+        'Oak Point',
+        'Kiawah Island Golf Resort',
+        'East Beach Village',
+        'West Beach Village'
+      ]}
+
+      weatherChallenges={[
+        {
+          title: 'Atlantic Hurricane Exposure',
+          description: 'As a barrier island directly facing the Atlantic, Kiawah experiences severe hurricane conditions. We engineer custom roofing systems rated for 160+ mph winds using advanced structural reinforcement, impact-resistant materials, and sealed construction methods that protect multi-million dollar investments.'
+        },
+        {
+          title: 'Luxury Architectural Requirements',
+          description: 'Kiawah\'s prestigious homes demand roofing that enhances property values. We install designer shingles, custom copper work, slate alternatives, and premium architectural details that complement estate-level construction while meeting strict resort community standards.'
+        },
+        {
+          title: 'Salt Air & Marine Environment',
+          description: 'Oceanfront estates face extreme salt corrosion. Our marine-grade installations feature stainless steel fasteners, custom copper flashing, corrosion-resistant underlayment, and protective coatings engineered specifically for harsh saltwater conditions.'
+        },
+        {
+          title: 'Resort Community Standards',
+          description: 'Kiawah Island maintains rigorous architectural review processes. Our team navigates ARB requirements, secures all necessary approvals, and delivers installations that exceed community expectations for quality and aesthetics.'
+        }
+      ]}
+
+      localStats={[
+        { value: '160+ MPH', label: 'Wind Rating' },
+        { value: 'Estate-Grade', label: 'Quality Standard' },
+        { value: 'Lifetime', label: 'Premium Warranties' },
+        { value: '24/7', label: 'Concierge Service' }
+      ]}
+
+      nearbyAreas={[
+        { name: 'Seabrook Island', distance: '4 miles' },
+        { name: 'Johns Island', distance: '8 miles' },
+        { name: 'Charleston (Downtown)', distance: '21 miles' },
+        { name: 'James Island', distance: '15 miles' },
+        { name: 'Edisto Beach', distance: '25 miles' }
+      ]}
+
+      localTestimonials={[
+        {
+          name: 'William & Catherine P.',
+          location: 'Ocean Course Area',
+          review: 'Our oceanfront estate required a roof worthy of the property\'s value and location. WeatherShield installed a masterpiece - custom copper valleys, designer shingles, and hurricane engineering that survived last season\'s storms without a single issue. True luxury craftsmanship.',
+          rating: 5,
+          date: '2024-09-30'
+        },
+        {
+          name: 'Richard T.',
+          location: 'Turtle Point',
+          review: 'Managing vacation properties on Kiawah demands contractors who understand luxury standards. WeatherShield has re-roofed three of our rental homes with beautiful, durable installations that satisfy both ARB requirements and our quality expectations.',
+          rating: 5,
+          date: '2024-08-18'
+        },
+        {
+          name: 'Margaret L.',
+          location: 'East Beach Village',
+          review: 'After interviewing five contractors, WeatherShield stood out for their expertise in coastal construction and high-end materials. They installed a stunning slate alternative roof that looks authentic but will outlast the original. Flawless execution from start to finish.',
+          rating: 5,
+          date: '2024-07-22'
+        }
+      ]}
+    />
+  )
+}

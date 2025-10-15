@@ -1,0 +1,75 @@
+import { Metadata } from 'next'
+import LocationPageTemplate from '@/app/components/LocationPageTemplate'
+
+export const metadata: Metadata = {
+  title: 'West Ashley Roofing Contractor | Residential Roofing Experts | WeatherShield',
+  description: 'West Ashley SC roofing specialists for neighborhoods and communities. Storm damage repair, roof replacement, insurance claims assistance. Licensed, insured, A+ rated. Call (843) 877-5539 today.',
+  keywords: 'West Ashley roofing, residential roofing Charleston, storm damage repair West Ashley, roof replacement SC, neighborhood roofing contractor',
+  openGraph: {
+    title: 'West Ashley Roofing Contractor | WeatherShield Roofing',
+    description: 'Expert roofing for West Ashley homes. Storm protection, quality installations, rapid response throughout Charleston.',
+    url: 'https://weathershieldroofers.com/locations/west-ashley',
+    type: 'website',
+  },
+}
+
+export default function WestAshleyPage() {
+  return (
+    <LocationPageTemplate
+      city="West Ashley"
+      state="SC"
+      zipCodes={['29407', '29414']}
+      population="75,000+"
+      description="In Charleston\'s vibrant West Ashley community, where established neighborhoods, growing developments, and diverse home styles create varied roofing needs, WeatherShield Roofing serves as your local roofing expert. Our deep knowledge of West Ashley\'s communities, rapid response times, and commitment to quality make us the area\'s most trusted roofing contractor."
+
+      neighborhoods={[
+        'Avondale',
+        'Shadowmoss',
+        'Woodlands',
+        'Ashley Forest',
+        'The Crescent',
+        'South Windermere',
+        'Charleston Oaks',
+        'Village Green'
+      ]}
+
+      weatherChallenges={[
+        {
+          icon: null,
+          title: 'Severe Thunderstorms & Wind Damage',
+          description: 'West Ashley experiences intense spring and summer thunderstorms with damaging winds and hail. We install wind-rated shingles with Class 4 impact resistance and enhanced fastening systems that protect homes through Charleston\'s severe weather seasons.'
+        },
+        {
+          icon: null,
+          title: 'Hurricane Preparedness',
+          description: 'Located just inland from Charleston Harbor, West Ashley faces hurricane threats annually. Our hurricane-rated roofing systems include advanced wind protection up to 130 mph, sealed construction methods, and impact-resistant materials engineered for Atlantic storm conditions.'
+        },
+        {
+          icon: null,
+          title: 'Lowcountry Heat & Humidity',
+          description: 'Charleston\'s intense heat and moisture accelerate roof aging and algae growth. We install energy-efficient shingles with algae-resistant granules, advanced ventilation systems, and moisture barriers that extend roof life and reduce cooling costs.'
+        },
+        {
+          icon: null,
+          title: 'Mature Tree Canopy',
+          description: 'Many West Ashley neighborhoods feature beautiful mature trees that shed debris and branches. Our durable installations include impact-resistant shingles and regular maintenance plans to handle tree-related wear while preserving your home\'s character.'
+        }
+      ]}
+
+      localStats={[
+        { value: '130+ MPH', label: 'Wind Rating' },
+        { value: '24/7', label: 'Emergency Service' },
+        { value: 'Class 4', label: 'Impact Resistant' },
+        { value: '100%', label: 'Satisfaction Rate' }
+      ]}
+
+      nearbyAreas={[
+        { name: 'Charleston (Downtown)', distance: '6 miles', href: '/locations/charleston-downtown' },
+        { name: 'James Island', distance: '4 miles', href: '/locations/james-island' },
+        { name: 'Johns Island', distance: '8 miles', href: '/locations/johns-island' },
+        { name: 'North Charleston', distance: '5 miles', href: '/locations/north-charleston' },
+        { name: 'Folly Beach', distance: '10 miles', href: '/locations/folly-beach' }
+      ]}
+    />
+  )
+}

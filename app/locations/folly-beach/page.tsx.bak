@@ -1,0 +1,95 @@
+import { Metadata } from 'next'
+import LocationPageTemplate from '@/app/components/LocationPageTemplate'
+
+export const metadata: Metadata = {
+  title: 'Folly Beach Roofing Contractor | Hurricane-Resistant Roofs | WeatherShield',
+  description: 'Folly Beach SC roofing experts specializing in hurricane-resistant roofs, salt air protection, and coastal weatherproofing. Licensed, insured, 5-star rated. Call (843) 877-5539 for free inspection.',
+  keywords: 'Folly Beach roofing, hurricane resistant roofing Folly Beach, coastal roofing SC, salt air roofing protection, barrier island roofing',
+  openGraph: {
+    title: 'Folly Beach Roofing Contractor | WeatherShield Roofing',
+    description: 'Expert coastal roofing services for Folly Beach homes. Hurricane-resistant materials, salt air protection, 24/7 emergency service.',
+    url: 'https://weathershieldroofers.com/locations/folly-beach',
+    type: 'website',
+  },
+}
+
+export default function FollyBeachPage() {
+  return (
+    <LocationPageTemplate
+      city="Folly Beach"
+      state="SC"
+      zipCodes={['29439']}
+      population="2,600+"
+      description="In the vibrant beach community of Folly Beach, where salt air, hurricane winds, and intense coastal sun challenge every roof, WeatherShield Roofing delivers specialized barrier island roofing solutions. Our hurricane-resistant installations and salt air protection systems keep your beach home safe year-round."
+
+      neighborhoods={[
+        'West Ashley Avenue',
+        'East Ashley Avenue',
+        'Center Street District',
+        'Folly Beach Shores',
+        'East Cooper Avenue',
+        'Folly River Park Area',
+        'West Hudson Avenue',
+        'East Hudson Avenue'
+      ]}
+
+      weatherChallenges={[
+        {
+          title: 'Hurricane & Tropical Storm Threats',
+          description: 'As a barrier island, Folly Beach faces direct exposure to Atlantic hurricanes and tropical storms. We install wind-rated roofing systems engineered to withstand 140+ mph winds with advanced fastening and hurricane strapping.'
+        },
+        {
+          title: 'Salt Air Corrosion',
+          description: 'Constant ocean spray accelerates metal corrosion and material degradation. Our coastal roofing packages include corrosion-resistant materials, stainless steel fasteners, and protective coatings designed specifically for saltwater environments.'
+        },
+        {
+          title: 'Extreme UV & Heat Exposure',
+          description: 'Intense coastal sunlight and heat cause rapid shingle deterioration. We use high-albedo roofing materials with advanced UV protection to extend roof life and reduce cooling costs in beach homes.'
+        },
+        {
+          title: 'Storm Surge & Flooding',
+          description: 'Low elevation puts Folly Beach homes at risk during storm surge events. Our waterproofing systems include enhanced underlayment and drainage solutions to protect against water intrusion.'
+        }
+      ]}
+
+      localStats={[
+        { value: '140+ MPH', label: 'Wind Rating' },
+        { value: '24/7', label: 'Storm Response' },
+        { value: '15+ Years', label: 'Coastal Experience' },
+        { value: '100%', label: 'Satisfaction Rate' }
+      ]}
+
+      nearbyAreas={[
+        { name: 'James Island', distance: '3 miles' },
+        { name: 'Charleston (Downtown)', distance: '12 miles' },
+        { name: 'West Ashley', distance: '8 miles' },
+        { name: 'Johns Island', distance: '10 miles' },
+        { name: 'Kiawah Island', distance: '15 miles' }
+      ]}
+
+      localTestimonials={[
+        {
+          name: 'Michael R.',
+          location: 'East Ashley Avenue',
+          review: 'After Hurricane Ian damaged our beach house roof, WeatherShield responded within hours. They installed a new hurricane-rated roof with salt air protection that has performed flawlessly. Best roofing contractor on Folly Beach.',
+          rating: 5,
+          date: '2024-09-15'
+        },
+        {
+          name: 'Jennifer L.',
+          location: 'Center Street District',
+          review: 'Our oceanfront rental property needed a roof that could handle the harsh coastal environment. WeatherShield delivered a beautiful, durable roof with corrosion-resistant materials. No more rust stains or leaks!',
+          rating: 5,
+          date: '2024-08-02'
+        },
+        {
+          name: 'David K.',
+          location: 'Folly Beach Shores',
+          review: 'Living on a barrier island means dealing with serious weather. WeatherShield installed hurricane strapping and impact-resistant shingles that survived multiple storms this season. Worth every penny.',
+          rating: 5,
+          date: '2024-07-20'
+        }
+      ]}
+    />
+  )
+}

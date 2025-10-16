@@ -888,6 +888,74 @@
     </image:image>
   </url>
 
+  <!-- Phase 3: Authority & Seasonal Content - EDUCATIONAL RESOURCES -->
+  <url>
+    <loc>https://weathershieldroofers.com/roof-maintenance-tips</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/roof-inspection-checklist</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/hurricane-season-roof-prep</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/winter-roof-care-myrtle-beach</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/signs-you-need-new-roof</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/roof-lifespan-guide</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/choosing-roofing-contractor</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-terminology-glossary</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/roof-ventilation-importance</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/energy-efficient-roofing-options</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://weathershieldroofers.com/roof-color-selection-guide</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Phase 1: Issue/Problem Pages - High-Intent SEO -->
   <url>
     <loc>https://weathershieldroofers.com/roof-leaks</loc>

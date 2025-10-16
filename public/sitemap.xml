@@ -766,6 +766,67 @@
     </image:image>
   </url>
 
+  <!-- Phase 3: Location & Emergency Landing Pages - PRIMARY LOCAL SEO -->
+  <url>
+    <loc>https://weathershieldroofers.com/roofing-contractor-myrtle-beach</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Top-rated roofing contractor in Myrtle Beach, SC with 5.0-star Google rating - Expert roof replacement, repair, and emergency services</image:caption>
+      <image:title>Myrtle Beach's #1 Rated Roofing Contractor - 5.0★ Perfect Rating</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/emergency-roof-repair-myrtle-beach</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/roof-replacement-services.jpg</image:loc>
+      <image:caption>24/7 emergency roof repair in Myrtle Beach, SC - Storm damage, severe leaks, rapid response - Licensed & insured roofing contractor</image:caption>
+      <image:title>24/7 Emergency Roof Repair Myrtle Beach SC - Call (843) 877-5539</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/roof-replacement-myrtle-beach</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/roof-replacement-services.jpg</image:loc>
+      <image:caption>Expert roof replacement in Myrtle Beach, SC - All materials: asphalt shingles, metal, tile, flat roofs - Lifetime warranties available</image:caption>
+      <image:title>Roof Replacement Myrtle Beach SC - 5.0★ Rated - Free Estimates</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/residential-roofing-myrtle-beach</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:caption>Residential roofing services for Myrtle Beach homes - New roofs, repairs, replacements - 5.0★ Google rating</image:caption>
+      <image:title>Residential Roofing Myrtle Beach SC - Home Roofing Experts</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/commercial-roofing-myrtle-beach</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/commercial-roofing-services.jpg</image:loc>
+      <image:caption>Commercial roofing services for Myrtle Beach businesses - Flat roofs, TPO, EPDM, metal roofing - Licensed contractor</image:caption>
+      <image:title>Commercial Roofing Myrtle Beach SC - Business Roofing Experts</image:title>
+    </image:image>
+  </url>
+
   <!-- Phase 1: Issue/Problem Pages - High-Intent SEO -->
   <url>
     <loc>https://weathershieldroofers.com/roof-leaks</loc>

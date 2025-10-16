@@ -106,8 +106,8 @@ export default function Header() {
             >
               <div className={`relative transition-all duration-300 ${
                 isScrolled
-                  ? 'w-36 sm:w-44 md:w-52 lg:w-56 xl:w-60 h-12 sm:h-14 md:h-16 lg:h-16 xl:h-16'
-                  : 'w-40 sm:w-48 md:w-56 lg:w-60 xl:w-64 h-14 sm:h-16 md:h-18 lg:h-18 xl:h-20'
+                  ? 'w-44 sm:w-52 md:w-64 lg:w-72 xl:w-80 h-16 sm:h-18 md:h-20 lg:h-20 xl:h-22'
+                  : 'w-52 sm:w-60 md:w-72 lg:w-80 xl:w-88 h-18 sm:h-20 md:h-24 lg:h-24 xl:h-28'
               }`}>
                 <StaticImage
                   src="/favicon.png"
@@ -121,7 +121,7 @@ export default function Header() {
             {/* Main container for nav and CTA - adjusted padding to account for absolute logo */}
             <div className="flex justify-between items-center max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
               {/* Desktop Navigation - add left spacing to avoid logo overlap */}
-              <div className="hidden lg:flex items-center gap-1 xl:gap-2 ml-[240px] xl:ml-[280px] flex-nowrap whitespace-nowrap">
+              <div className="hidden lg:flex items-center gap-1 xl:gap-2 ml-[320px] xl:ml-[360px] flex-nowrap whitespace-nowrap">
                 <Link
                   href="/"
                   className="text-gray-700 hover:text-weather-secondary transition-all duration-200 py-2 px-3 xl:px-4 font-medium text-sm xl:text-base rounded-md hover:bg-gray-50 focus-visible-ring"

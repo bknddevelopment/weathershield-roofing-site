@@ -17,6 +17,18 @@ import {
 
 const blogPosts = [
   {
+    id: 9,
+    title: 'How Salt Air Destroys Coastal Roofs in Myrtle Beach (And 7 Ways to Fight Back)',
+    excerpt: 'Oceanfront roofs in Myrtle Beach face invisible salt corrosion that cuts roof life by 60%. Discover 7 proven defenses against coastal salt damage to protect your investment.',
+    author: 'David Karimi',
+    date: 'October 18, 2025',
+    readTime: '12 min read',
+    category: 'Coastal Roofing',
+    image: '/images/background/residential-roofing-gutter-siding-services.jpg',
+    slug: 'coastal-salt-damage-myrtle-beach-roofs-protection',
+    featured: true
+  },
+  {
     id: 8,
     title: 'Is Your Myrtle Beach Roof Ready for the Rest of Hurricane Season 2025? 6 Critical Steps',
     excerpt: 'NOAA predicts 13-19 named storms this season. With peak hurricane months ahead, discover the 6 critical steps to protect your Myrtle Beach home before November 30th.',
@@ -26,7 +38,7 @@ const blogPosts = [
     category: 'Storm Preparation',
     image: '/images/background/residential-roofing-gutter-siding-services.jpg',
     slug: 'myrtle-beach-roof-hurricane-season-2025-preparation',
-    featured: true
+    featured: false
   },
   {
     id: 7,
@@ -111,6 +123,7 @@ const blogPosts = [
 
 const categories = [
   { name: 'All Posts', count: blogPosts.length },
+  { name: 'Coastal Roofing', count: 1 },
   { name: 'Storm Preparation', count: 3 },
   { name: 'Roof Maintenance', count: 3 },
   { name: 'Warranties', count: 1 },

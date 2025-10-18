@@ -1801,4 +1801,41 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- PHASE 2: Lead Magnet Pages (High-Engagement Tools) -->
+  <url>
+    <loc>https://weathershieldroofers.com/roof-cost-calculator</loc>
+    <lastmod>2025-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:title>Free Roof Replacement Cost Calculator Myrtle Beach</image:title>
+      <image:caption>Interactive cost calculator for instant roof replacement estimates</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/free-storm-damage-assessment</loc>
+    <lastmod>2025-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:title>Free Storm Damage Assessment Myrtle Beach</image:title>
+      <image:caption>Expert hurricane and storm damage roof inspection with insurance claim assistance</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://weathershieldroofers.com/free-roof-health-report</loc>
+    <lastmod>2025-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://weathershieldroofers.com/images/background/residential-roofing-gutter-siding-services.jpg</image:loc>
+      <image:title>Free Comprehensive Roof Health Report Myrtle Beach</image:title>
+      <image:caption>Detailed roof condition analysis with lifespan estimate and maintenance roadmap</image:caption>
+    </image:image>
+  </url>
 </urlset>
